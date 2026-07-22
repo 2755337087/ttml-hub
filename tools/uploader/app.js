@@ -235,10 +235,12 @@ async function addFiles(fileList) {
   const candidates = selected.filter((file) => file.name.toLowerCase().endsWith(".ttml"));
   const known = new Set(items.map((item) => item.key));
   const fresh = candidates.filter((file) => !known.has(itemKey(file)));
+  const freshItems = [];
 
   for (const file of fresh) {
     const item = { key: itemKey(file), file, state: "queued", detail: "", inspection: null, content: "", fields: null, card: null };
     items.push(item);
+    freshItems.push(item);
     renderItem(item);
   }
   updateCount();
@@ -250,10 +252,10 @@ async function addFiles(fileList) {
 
   busy = true;
   updateCount();
-  for (let index = 0; index < fresh.length; index += 1) {
-    const item = fresh[index];
-    setState(item, "reading", `正在解析 ${index + 1}/${fresh.length}`);
-    message(`正在解析 ${index + 1}/${fresh.length}：${item.file.name}`);
+  for (let index = 0; index < freshItems.length; index += 1) {
+    const item = freshItems[index];
+    setState(item, "reading", `正在解析 ${index + 1}/${freshItems.length}`);
+    message(`正在解析 ${index + 1}/${freshItems.length}：${item.file.name}`);
     try {
       item.content = await item.file.text();
       item.inspection = await request("/api/inspect", { content: item.content });
@@ -273,7 +275,7 @@ async function addFiles(fileList) {
   }
   busy = false;
   updateCount();
-  const invalidCount = fresh.filter((item) => item.state === "invalid").length;
+  const invalidCount = freshItems.filter((item) => item.state === "invalid").length;
   message(
     invalidCount ? `解析完成，其中 ${invalidCount} 个文件无法读取，请检查标红项目。` : `已解析 ${fresh.length} 个文件，请检查后批量写入。`,
     invalidCount ? "error" : "success",
