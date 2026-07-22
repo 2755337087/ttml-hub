@@ -53,18 +53,22 @@ class TtmlHubClient(context: Context) {
     /** 使用已经缓存到手机的索引搜索，不会发起网络请求。 */
     fun search(query: String, limit: Int = 20): List<TtmlHubSong> {
         val songs = loadCachedSongs()
-        val needle = normalize(query)
-        if (needle.isEmpty()) return songs.take(limit)
+        val terms = query.trim()
+            .split(Regex("\\s+"))
+            .map(::normalize)
+            .filter(String::isNotEmpty)
+        if (terms.isEmpty()) return songs.take(limit)
 
         return songs.asSequence()
             .filter { song ->
-                (
+                val fields = (
                     sequenceOf(song.title) +
                         song.artists.asSequence() +
                         song.aliases.asSequence() +
                         song.albums.asSequence() +
                         listOfNotNull(song.album).asSequence()
-                    ).any { normalize(it).contains(needle) }
+                    ).map(::normalize).toList()
+                terms.all { term -> fields.any { field -> field.contains(term) } }
             }
             .take(limit)
             .toList()

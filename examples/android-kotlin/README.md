@@ -67,6 +67,13 @@ fun refreshAndSearch(keyword: String) = viewModelScope.launch {
 
 搜索本身不会联网。
 
+多个关键词会分别匹配不同字段，顺序不限。例如下面两种写法都会找到同一首歌：
+
+```text
+死ぬのがいいわ 藤井风
+藤井风 死ぬのがいいわ
+```
+
 例如可以按语言和附加内容筛选：
 
 ```kotlin

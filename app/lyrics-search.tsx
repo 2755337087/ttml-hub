@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
+import { searchSongs } from "./search-utils";
 
 type Song = {
   id: string;
@@ -22,10 +23,6 @@ type SongIndex = {
 };
 
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
-
-function normalize(value: string) {
-  return value.normalize("NFKC").toLocaleLowerCase().replace(/[\s·・._-]+/g, "");
-}
 
 export function LyricsSearch() {
   const [songs, setSongs] = useState<Song[]>([]);
@@ -59,14 +56,8 @@ export function LyricsSearch() {
   }, []);
 
   const results = useMemo(() => {
-    const needle = normalize(query);
-    if (!needle) return songs.slice(0, 8);
-    return songs.filter((song) => {
-      const haystack = [song.title, ...song.artists, ...(song.aliases ?? []), ...(song.albums ?? (song.album ? [song.album] : []))]
-        .map(normalize)
-        .join(" ");
-      return haystack.includes(needle);
-    }).slice(0, 20);
+    if (!query.trim()) return songs.slice(0, 8);
+    return searchSongs(songs, query, 20);
   }, [query, songs]);
 
   return (
