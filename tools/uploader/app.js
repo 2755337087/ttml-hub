@@ -46,6 +46,14 @@ const languageNames = {
   und: "未指定语言",
 };
 
+const sourceIdNames = {
+  appleMusicId: "Apple Music ID",
+  qqMusicId: "QQ 音乐 ID",
+  ncmMusicId: "网易云音乐 ID",
+  isrc: "ISRC",
+  ttmlHubId: "TTML Hub ID",
+};
+
 function message(text, type = "") {
   notice.textContent = text;
   notice.className = type;
@@ -183,8 +191,13 @@ function renderItem(item) {
 
   const identity = element("div", "item-identity");
   const idLabel = element("span", "", "平台 ID");
-  const ids = Object.entries(item.inspection.sourceIds).map(([key, value]) => `${key}: ${value}`).join(" · ");
-  identity.append(idLabel, element("code", "", ids || "未检测到，将生成随机稳定 ID"));
+  const ids = Object.entries(item.inspection.sourceIds)
+    .map(([key, value]) => `${sourceIdNames[key] || key}: ${value}`)
+    .join(" · ");
+  identity.append(idLabel, element("code", "", ids));
+  if (item.inspection.generatedHubId) {
+    identity.append(element("span", "", "ID 说明"), element("code", "", "未检测到平台 ID，保存时会把上述永久 TTML Hub ID 写入歌词文件。"));
+  }
   details.append(identity);
 
   let overwrite = null;
@@ -193,7 +206,10 @@ function renderItem(item) {
     overwrite = document.createElement("input");
     overwrite.type = "checkbox";
     const existing = item.inspection.existing;
-    duplicate.append(overwrite, element("span", "", `覆盖已有歌词：${existing.title}（${existing.path}）`));
+    const matchedIds = existing.matchedIds
+      .map(({ key, value }) => `${sourceIdNames[key] || key}: ${value}`)
+      .join("、");
+    duplicate.append(overwrite, element("span", "", `ID 相同（${matchedIds}），视为同一首歌曲：${existing.title}（${existing.path}）`));
     overwrite.addEventListener("change", () => {
       const next = item.inspection.missing.length ? "warning" : (overwrite.checked ? "ready" : "duplicate");
       setState(item, next, overwrite.checked ? "已允许覆盖这个文件。" : "默认不会覆盖；勾选后才会写入。 ");
@@ -318,6 +334,7 @@ async function saveAll() {
       const result = await request("/api/save", {
         filename: item.file.name,
         content: item.content,
+        id: item.inspection.id,
         title,
         artists,
         albums: splitLines(item.fields.albums.value),

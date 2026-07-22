@@ -29,7 +29,7 @@ lyrics/<ID前2位>/<16位稳定ID>.ttml
 lyrics/<ID前2位>/<16位稳定ID>.meta.json
 ```
 
-例如：`lyrics/7c/7c9f0a4e32b6d118.ttml`。路径与艺术家无关，适合合唱、feat. 和不同演出版。平台 ID 用于稳定命名和重复检测；全部可搜索信息保存在元数据及生成的索引中。
+例如：`lyrics/7c/7c9f0a4e32b6d118.ttml`。路径与艺术家无关，适合合唱、feat. 和不同演出版。Apple Music、QQ 音乐、网易云音乐任意一个同类型 ID 相同，就绝对视为同一首歌曲；歌名不参与判重。没有平台 ID 时，上传器会生成永久 `ttmlHubId` 并写回 TTML 与元数据。
 
 ## 客户端接入
 

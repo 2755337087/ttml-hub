@@ -14,6 +14,7 @@
     "start": "WRANGLER_LOG_PATH=.wrangler/wrangler.log vinext start",
     "test": "node scripts/build-index.mjs && node --test tests/*.test.mjs",
     "lyrics:check": "node scripts/build-index.mjs",
+    "lyrics:backfill-ids": "node scripts/backfill-hub-ids.mjs",
     "lyric:add": "node scripts/add-lyric.mjs",
     "lyric:new": "node scripts/new-lyric.mjs",
     "upload": "node scripts/upload-server.mjs",

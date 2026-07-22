@@ -4,7 +4,7 @@ import { createServer } from "node:http";
 import { extname, join, relative, resolve, sep } from "node:path";
 import { fileURLToPath } from "node:url";
 import { promisify } from "node:util";
-import { parseTtmlMetadata, stableSongId } from "./ttml-metadata.mjs";
+import { createTtmlHubId, insertTtmlHubId, matchingSourceIds, parseTtmlMetadata, stableSongId } from "./ttml-metadata.mjs";
 
 const exec = promisify(execFile);
 const root = fileURLToPath(new URL("../", import.meta.url));
@@ -60,48 +60,75 @@ async function walkMeta(directory) {
 }
 
 async function existingSong(sourceIds) {
-  const pairs = Object.entries(sourceIds);
-  if (!pairs.length) return null;
+  if (!Object.keys(sourceIds).length) return null;
+  const matches = [];
   for (const path of await walkMeta(lyricsRoot)) {
     try {
       const meta = JSON.parse(await readFile(path, "utf8"));
-      if (pairs.some(([key, value]) => meta.sourceIds?.[key] === value)) {
-        return { id: meta.id ?? path.split(sep).at(-1).replace(".meta.json", ""), metaPath: path, meta };
-      }
+      const matchedIds = matchingSourceIds(sourceIds, meta.sourceIds);
+      if (matchedIds.length) matches.push({ id: meta.id ?? path.split(sep).at(-1).replace(".meta.json", ""), metaPath: path, meta, matchedIds });
     } catch {
       // The catalog validator reports malformed sidecars with a clearer path.
     }
   }
-  return null;
+  if (matches.length > 1) {
+    const titles = matches.map((match) => match.meta.title ?? match.id).join("、");
+    const error = new Error(`平台 ID 分别命中了多首已有歌曲：${titles}，请先修复仓库中的 ID 冲突`);
+    error.status = 409;
+    throw error;
+  }
+  return matches[0] ?? null;
+}
+
+function identity(sourceIds, requestedHubId) {
+  if (Object.keys(sourceIds).length) return { sourceIds, generatedHubId: false };
+  const hubId = requestedHubId === undefined ? createTtmlHubId() : String(requestedHubId).trim();
+  if (!/^[a-f0-9]{16}$/iu.test(hubId)) throw new Error("自动生成的 ttmlHubId 无效，请重新选择文件");
+  return { sourceIds: { ttmlHubId: hubId.toLowerCase() }, generatedHubId: true };
+}
+
+function publicExisting(existing) {
+  return existing ? {
+    id: existing.id,
+    title: existing.meta.title,
+    path: slash(relative(root, existing.metaPath)).replace(".meta.json", ".ttml"),
+    matchedIds: existing.matchedIds,
+  } : null;
 }
 
 async function inspect(content) {
   const parsed = parseTtmlMetadata(content);
-  const existing = await existingSong(parsed.sourceIds);
-  const id = existing?.id ?? stableSongId(parsed.sourceIds);
+  const assigned = identity(parsed.sourceIds);
+  const existing = await existingSong(assigned.sourceIds);
+  const id = existing?.id ?? stableSongId(assigned.sourceIds);
   return {
     ...parsed,
+    sourceIds: assigned.sourceIds,
+    generatedHubId: assigned.generatedHubId,
     id,
     suggestedPath: `lyrics/${id.slice(0, 2)}/${id}.ttml`,
-    existing: existing ? { id: existing.id, title: existing.meta.title, path: slash(relative(root, existing.metaPath)).replace(".meta.json", ".ttml") } : null,
+    existing: publicExisting(existing),
   };
 }
 
 async function saveSong(body) {
   const parsed = parseTtmlMetadata(body.content);
   const fields = validateOverride(body, parsed);
-  const existing = await existingSong(parsed.sourceIds);
+  const assigned = identity(parsed.sourceIds, body.id);
+  const existing = await existingSong(assigned.sourceIds);
   if (existing && !body.overwrite) {
-    const error = new Error(`这首歌已经存在：${existing.meta.title ?? existing.id}`);
+    const ids = existing.matchedIds.map(({ key, value }) => `${key}: ${value}`).join("、");
+    const error = new Error(`ID 已存在（${ids}）：${existing.meta.title ?? existing.id}`);
     error.status = 409;
-    error.existing = existing;
+    error.existing = publicExisting(existing);
     throw error;
   }
 
-  const id = existing?.id ?? stableSongId(parsed.sourceIds);
+  const id = existing?.id ?? stableSongId(assigned.sourceIds);
   const directory = join(lyricsRoot, id.slice(0, 2));
   const ttmlPath = join(directory, `${id}.ttml`);
   const metaPath = join(directory, `${id}.meta.json`);
+  const storedContent = assigned.generatedHubId ? insertTtmlHubId(body.content, assigned.sourceIds.ttmlHubId) : body.content;
   const meta = {
     id,
     title: fields.title,
@@ -112,14 +139,14 @@ async function saveSong(body) {
     hasTranslation: parsed.hasTranslation,
     hasTransliteration: parsed.hasTransliteration,
     aliases: [],
-    sourceIds: parsed.sourceIds,
+    sourceIds: assigned.sourceIds,
     author: parsed.author,
     license: String(body.license ?? "").trim(),
     sourceUrl: String(body.sourceUrl ?? "").trim(),
   };
 
   await mkdir(directory, { recursive: true });
-  await writeFile(ttmlPath, body.content, existing ? undefined : { flag: "wx" });
+  await writeFile(ttmlPath, storedContent, existing ? undefined : { flag: "wx" });
   await writeFile(metaPath, `${JSON.stringify(meta, null, 2)}\n`, existing ? undefined : { flag: "wx" });
   await exec(process.execPath, [join(root, "scripts", "build-index.mjs")], { cwd: root });
 

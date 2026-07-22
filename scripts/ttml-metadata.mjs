@@ -88,5 +88,25 @@ export function stableSongId(sourceIds = {}) {
   const priority = ["ttmlHubId", "isrc", "appleMusicId", "qqMusicId", "ncmMusicId"];
   const key = priority.find((candidate) => sourceIds[candidate]) ?? Object.keys(sourceIds).sort()[0];
   if (!key) return randomBytes(8).toString("hex");
+  if (key === "ttmlHubId" && /^[a-f0-9]{16}$/iu.test(sourceIds[key])) return sourceIds[key].toLowerCase();
   return createHash("sha256").update(`ttml-hub:${key}:${sourceIds[key]}`).digest("hex").slice(0, 16);
+}
+
+export function createTtmlHubId() {
+  return randomBytes(8).toString("hex");
+}
+
+export function matchingSourceIds(left = {}, right = {}) {
+  const priority = ["appleMusicId", "qqMusicId", "ncmMusicId", "isrc", "ttmlHubId"];
+  const keys = [...new Set([...priority, ...Object.keys(left).sort(), ...Object.keys(right).sort()])];
+  return keys
+    .filter((key) => left[key] && right[key] && left[key] === right[key])
+    .map((key) => ({ key, value: left[key] }));
+}
+
+export function insertTtmlHubId(xml, id) {
+  if (!/^[a-f0-9]{16}$/iu.test(id)) throw new Error("ttmlHubId 必须是 16 位十六进制 ID");
+  if (parseTtmlMetadata(xml).sourceIds.ttmlHubId) return xml;
+  if (!/<metadata\b[^>]*>/iu.test(xml)) throw new Error("TTML 头部缺少 <metadata>，无法写入 ttmlHubId");
+  return xml.replace(/<metadata\b[^>]*>/iu, (tag) => `${tag}<amll:meta key="ttmlHubId" value="${id.toLowerCase()}"/>`);
 }
