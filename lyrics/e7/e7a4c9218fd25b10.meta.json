@@ -1,9 +1,0 @@
-{
-  "title": "星河回声",
-  "artists": ["示例歌手甲", "示例歌手乙"],
-  "album": "开放样例",
-  "language": "zh-Hans",
-  "aliases": ["Echoes of the Stars"],
-  "license": "CC0-1.0",
-  "sourceUrl": "https://example.com/original-sample"
-}

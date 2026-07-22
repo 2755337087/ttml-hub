@@ -23,6 +23,11 @@ function unique(values) {
   return [...new Set(values.map((value) => value.trim()).filter(Boolean))];
 }
 
+function hasElement(xml, localName) {
+  const withoutComments = xml.replace(/<!--[\s\S]*?-->/gu, "");
+  return new RegExp(`<(?:[\\w.-]+:)?${localName}\\b`, "iu").test(withoutComments);
+}
+
 export function parseTtmlMetadata(xml) {
   if (typeof xml !== "string" || !xml.includes("<tt") || !xml.includes("</tt>")) {
     throw new Error("文件不是完整的 TTML 文档");
@@ -45,6 +50,8 @@ export function parseTtmlMetadata(xml) {
   const albums = unique(values.get("album") ?? []);
   const rootTag = xml.match(/<tt\b([^>]*)>/iu)?.[1] ?? "";
   const language = attributes(rootTag)["xml:lang"] || "und";
+  const hasTranslation = hasElement(xml, "translations");
+  const hasTransliteration = hasElement(xml, "transliterations");
   const sourceIds = {};
 
   for (const [key, entries] of values) {
@@ -68,6 +75,8 @@ export function parseTtmlMetadata(xml) {
     artists,
     albums,
     language,
+    hasTranslation,
+    hasTransliteration,
     sourceIds,
     author,
     missing,

@@ -9,15 +9,18 @@ npm install
 npm run upload
 ```
 
-打开终端显示的本机地址，把 TTML 文件拖入网页。上传页会读取 AMLL 头部中的：
+打开终端显示的本机地址，把一批 TTML 文件同时拖入网页（也可以点击后多选）。上传页会逐个读取 AMLL 头部中的：
 
 - `musicName`：歌曲名称
 - 所有 `artists`：全部艺术家，不区分主次
 - 所有 `album`：多个专辑别名
+- `xml:lang`：歌词语言代码，例如 `zh-Hans`、`en`、`ja`
+- `<translations>`：是否包含翻译
+- `<transliterations>`：是否包含注音或罗马音
 - `qqMusicId`、`ncmMusicId`、`appleMusicId` 等平台 ID
 - TTML 作者与语言
 
-确认后点击“写入本地歌词库”，再点击“提交并推送 GitHub”。本地服务只绑定 `127.0.0.1`，不会向局域网或互联网开放。
+页面会列出每首歌词的目标路径和重复状态。重复歌词默认跳过，只有单独勾选后才会覆盖。确认后点击“全部写入歌词库”，再点击“提交并推送 GitHub”；整批歌词只生成一次 Git 提交。本地服务只绑定 `127.0.0.1`，不会向局域网或互联网开放。
 
 ## 存储规则
 
@@ -35,6 +38,18 @@ lyrics/<ID前2位>/<16位稳定ID>.meta.json
 - `/lyrics/.../*.ttml`：原始歌词文件。
 
 推荐每 6 小时请求一次 manifest 并使用 `If-None-Match`。收到 `304` 或 revision 未变化时停止；revision 变化时再刷新 songs.json。结果中的 `path` 是 TTML 下载地址，`sha256` 用于校验缓存。
+
+每首歌曲同时提供 `language`、`hasTranslation` 和 `hasTransliteration`，客户端可以按语言、翻译和注音状态筛选。
+
+```json
+{
+  "language": "ja",
+  "hasTranslation": true,
+  "hasTransliteration": true
+}
+```
+
+常用语言代码包括：`zh-Hans` 简体中文、`zh-Hant` 繁体中文、`en` 英语、`ja` 日语、`ko` 韩语、`ru` 俄语、`tr` 土耳其语、`id` 印度尼西亚语、`vi` 越南语、`th` 泰语、`es` 西班牙语、`hi` 印地语、`pt` 葡萄牙语、`fr` 法语和 `de` 德语。其他合法的 `xml:lang` 代码也会原样保留。
 
 ## 发布到 GitHub Pages
 

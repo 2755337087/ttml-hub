@@ -10,6 +10,8 @@ type Song = {
   albums?: string[];
   language?: string;
   aliases?: string[];
+  hasTranslation: boolean;
+  hasTransliteration: boolean;
   path: string;
   sha256: string;
 };

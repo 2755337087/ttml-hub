@@ -22,6 +22,9 @@ test("every indexed song has a stable id and downloadable path", async () => {
     assert.match(song.id, /^[a-f0-9]{16}$/);
     assert.ok(song.title);
     assert.ok(song.artists.length);
+    assert.ok(song.language);
+    assert.equal(typeof song.hasTranslation, "boolean");
+    assert.equal(typeof song.hasTransliteration, "boolean");
     assert.match(song.sha256, /^[a-f0-9]{64}$/);
     await readFile(new URL(`../public/${song.path}`, import.meta.url));
   }

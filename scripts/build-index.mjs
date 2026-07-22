@@ -2,6 +2,7 @@ import { createHash } from "node:crypto";
 import { cp, mkdir, readFile, readdir, rm, writeFile } from "node:fs/promises";
 import { basename, extname, join, relative, sep } from "node:path";
 import { fileURLToPath } from "node:url";
+import { parseTtmlMetadata } from "./ttml-metadata.mjs";
 
 const lyricsRoot = new URL("../lyrics/", import.meta.url);
 const publicRoot = new URL("../public/", import.meta.url);
@@ -51,6 +52,7 @@ async function buildSong(path, seenIds, seenSourceIds) {
   const xml = content.toString("utf8");
   assert(xml.includes("<tt") && xml.includes("</tt>"), `${relativePath}: 不是完整的 TTML 文档`);
   assert(xml.includes("<body") && xml.includes("</body>"), `${relativePath}: 缺少 TTML body`);
+  const detected = parseTtmlMetadata(xml);
 
   const metaPath = path.slice(0, -extname(path).length) + ".meta.json";
   let meta;
@@ -68,6 +70,8 @@ async function buildSong(path, seenIds, seenSourceIds) {
   if (meta.aliases !== undefined) assert(Array.isArray(meta.aliases), `${relativePath}: aliases 必须是数组`);
   if (meta.id !== undefined) assert(meta.id === id, `${relativePath}: 元数据 id 必须与文件名一致`);
   if (meta.albums !== undefined) assert(Array.isArray(meta.albums), `${relativePath}: albums 必须是数组`);
+  if (meta.hasTranslation !== undefined) assert(typeof meta.hasTranslation === "boolean", `${relativePath}: hasTranslation 必须是布尔值`);
+  if (meta.hasTransliteration !== undefined) assert(typeof meta.hasTransliteration === "boolean", `${relativePath}: hasTransliteration 必须是布尔值`);
   if (meta.sourceIds !== undefined) assert(meta.sourceIds && typeof meta.sourceIds === "object" && !Array.isArray(meta.sourceIds), `${relativePath}: sourceIds 必须是对象`);
   for (const [key, value] of Object.entries(meta.sourceIds ?? {})) {
     validText(value, `sourceIds.${key}`, relativePath);
@@ -82,7 +86,9 @@ async function buildSong(path, seenIds, seenSourceIds) {
     title,
     artists,
     ...(albums.length ? { album: albums[0], albums } : {}),
-    ...(meta.language ? { language: validText(meta.language, "language", relativePath) } : {}),
+    language: detected.language,
+    hasTranslation: detected.hasTranslation,
+    hasTransliteration: detected.hasTransliteration,
     ...(meta.aliases?.length ? { aliases: meta.aliases.map(String) } : {}),
     ...(meta.isrc ? { isrc: validText(meta.isrc, "isrc", relativePath) } : {}),
     ...(meta.license ? { license: validText(meta.license, "license", relativePath) } : {}),

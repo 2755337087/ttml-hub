@@ -1,6 +1,7 @@
 import { copyFile, mkdir, readFile, writeFile } from "node:fs/promises";
 import { extname } from "node:path";
 import { createIdentity, createMetadata, parseArgs, required } from "./lyric-utils.mjs";
+import { parseTtmlMetadata } from "./ttml-metadata.mjs";
 
 async function main() {
   const args = parseArgs();
@@ -11,7 +12,13 @@ async function main() {
   if (!content.includes("<tt") || !content.includes("</tt>")) throw new Error("所选文件不是完整的 TTML 文档");
 
   const identity = createIdentity();
-  const meta = createMetadata(args);
+  const detected = parseTtmlMetadata(content);
+  const meta = {
+    ...createMetadata(args),
+    language: detected.language,
+    hasTranslation: detected.hasTranslation,
+    hasTransliteration: detected.hasTransliteration,
+  };
   await mkdir(identity.directory, { recursive: true });
   await copyFile(sourceFile, identity.ttmlPath);
   await writeFile(identity.metaPath, `${JSON.stringify(meta, null, 2)}\n`, { flag: "wx" });
