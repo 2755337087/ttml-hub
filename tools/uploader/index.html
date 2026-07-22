@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TTML 本地入库台</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="brand"><i>T</i><span>TTML HUB</span></div>
+        <div class="local"><b></b> LOCAL ONLY · 仅本机可写</div>
+      </header>
+
+      <section class="intro">
+        <p class="kicker">LOCAL INGEST CONSOLE / 01</p>
+        <h1>拖进来，<br /><em>自动入库。</em></h1>
+        <p>读取 TTML 头部中的歌名、全部艺术家、专辑与平台 ID，自动去重并生成稳定路径。写入前，你始终可以检查和修改。</p>
+      </section>
+
+      <section class="workspace">
+        <label class="drop" id="drop-zone">
+          <input id="file-input" type="file" accept=".ttml,application/xml,text/xml" />
+          <span class="drop-icon">↓</span>
+          <strong>将 TTML 文件拖到这里</strong>
+          <small>或点击选择文件 · 最大 20 MB</small>
+        </label>
+
+        <form id="editor" hidden>
+          <div class="file-strip"><span id="file-name"></span><button type="button" id="change-file">更换文件</button></div>
+          <div class="fields">
+            <label><span>歌曲名称</span><input id="title" required /></label>
+            <label class="wide"><span>艺术家 <small>每行一位</small></span><textarea id="artists" required></textarea></label>
+            <label class="wide"><span>专辑 <small>每行一个</small></span><textarea id="albums"></textarea></label>
+            <label><span>语言</span><input id="language" /></label>
+            <label><span>授权</span><input id="license" placeholder="例如 CC BY 4.0" /></label>
+            <label class="wide"><span>来源网址</span><input id="source-url" type="url" placeholder="https://…" /></label>
+          </div>
+
+          <div class="identity">
+            <div><span>目标路径</span><code id="target-path"></code></div>
+            <div><span>检测到的平台 ID</span><code id="source-ids"></code></div>
+          </div>
+          <div class="duplicate" id="duplicate" hidden></div>
+          <div class="actions">
+            <button type="submit" class="primary" id="save-button">写入本地歌词库</button>
+            <button type="button" class="publish" id="publish-button" disabled>提交并推送 GitHub</button>
+          </div>
+        </form>
+      </section>
+
+      <aside id="notice" aria-live="polite">等待选择 TTML 文件</aside>
+      <footer><span>保存路径与艺术家无关</span><span>稳定 ID · 自动分片 · 重复检测</span></footer>
+    </main>
+    <script src="/app.js"></script>
+  </body>
+</html>

@@ -7,7 +7,7 @@ const lyricsRoot = new URL("../lyrics/", import.meta.url);
 const publicRoot = new URL("../public/", import.meta.url);
 const apiRoot = new URL("../public/api/v1/", import.meta.url);
 const publicLyricsRoot = new URL("../public/lyrics/", import.meta.url);
-const idPattern = /^(?<title>.+) \[(?<id>[a-f0-9]{8})\]\.ttml$/iu;
+const idPattern = /^(?<id>[a-f0-9]{16})\.ttml$/iu;
 
 function slash(path) {
   return path.split(sep).join("/");
@@ -35,14 +35,15 @@ function validText(value, key, path) {
   return value.trim();
 }
 
-async function buildSong(path, seenIds) {
+async function buildSong(path, seenIds, seenSourceIds) {
   const relativePath = slash(relative(fileURLToPath(lyricsRoot), path));
   const parts = relativePath.split("/");
-  assert(parts.length >= 2, `${relativePath}: 歌词必须放在艺术家目录中`);
+  assert(parts.length === 2, `${relativePath}: 路径必须是 lyrics/<ID前2位>/<ID>.ttml`);
   const match = basename(path).match(idPattern);
-  assert(match?.groups, `${relativePath}: 文件名必须是“歌名 [8位十六进制ID].ttml”`);
+  assert(match?.groups, `${relativePath}: 文件名必须是 16 位十六进制稳定 ID`);
 
   const id = match.groups.id.toLowerCase();
+  assert(parts[0].toLowerCase() === id.slice(0, 2), `${relativePath}: 分片目录必须是 ID 的前两位`);
   assert(!seenIds.has(id), `${relativePath}: ID ${id} 与其他歌词重复`);
   seenIds.add(id);
 
@@ -51,31 +52,42 @@ async function buildSong(path, seenIds) {
   assert(xml.includes("<tt") && xml.includes("</tt>"), `${relativePath}: 不是完整的 TTML 文档`);
   assert(xml.includes("<body") && xml.includes("</body>"), `${relativePath}: 缺少 TTML body`);
 
-  const artistFromPath = parts.slice(0, -1).join(" / ");
   const metaPath = path.slice(0, -extname(path).length) + ".meta.json";
-  let meta = {};
+  let meta;
   try {
     meta = JSON.parse(await readFile(metaPath, "utf8"));
   } catch (error) {
-    if (error?.code !== "ENOENT") throw new Error(`${relativePath}: 元数据 JSON 无法解析`);
+    if (error?.code === "ENOENT") throw new Error(`${relativePath}: 缺少同名 .meta.json`);
+    throw new Error(`${relativePath}: 元数据 JSON 无法解析`);
   }
 
-  const title = meta.title ? validText(meta.title, "title", relativePath) : match.groups.title.trim();
-  const artists = meta.artists ?? [artistFromPath];
+  const title = validText(meta.title, "title", relativePath);
+  const artists = meta.artists;
   assert(Array.isArray(artists) && artists.length > 0, `${relativePath}: artists 必须是非空数组`);
   artists.forEach((artist) => validText(artist, "artists[]", relativePath));
   if (meta.aliases !== undefined) assert(Array.isArray(meta.aliases), `${relativePath}: aliases 必须是数组`);
+  if (meta.id !== undefined) assert(meta.id === id, `${relativePath}: 元数据 id 必须与文件名一致`);
+  if (meta.albums !== undefined) assert(Array.isArray(meta.albums), `${relativePath}: albums 必须是数组`);
+  if (meta.sourceIds !== undefined) assert(meta.sourceIds && typeof meta.sourceIds === "object" && !Array.isArray(meta.sourceIds), `${relativePath}: sourceIds 必须是对象`);
+  for (const [key, value] of Object.entries(meta.sourceIds ?? {})) {
+    validText(value, `sourceIds.${key}`, relativePath);
+    const sourceKey = `${key}:${value}`;
+    assert(!seenSourceIds.has(sourceKey), `${relativePath}: 平台 ID ${sourceKey} 与 ${seenSourceIds.get(sourceKey)} 重复`);
+    seenSourceIds.set(sourceKey, relativePath);
+  }
+  const albums = meta.albums?.length ? meta.albums.map((album) => validText(album, "albums[]", relativePath)) : meta.album ? [validText(meta.album, "album", relativePath)] : [];
 
   return {
     id,
     title,
     artists,
-    ...(meta.album ? { album: validText(meta.album, "album", relativePath) } : {}),
+    ...(albums.length ? { album: albums[0], albums } : {}),
     ...(meta.language ? { language: validText(meta.language, "language", relativePath) } : {}),
     ...(meta.aliases?.length ? { aliases: meta.aliases.map(String) } : {}),
     ...(meta.isrc ? { isrc: validText(meta.isrc, "isrc", relativePath) } : {}),
     ...(meta.license ? { license: validText(meta.license, "license", relativePath) } : {}),
     ...(meta.sourceUrl ? { sourceUrl: validText(meta.sourceUrl, "sourceUrl", relativePath) } : {}),
+    ...(Object.keys(meta.sourceIds ?? {}).length ? { sourceIds: meta.sourceIds } : {}),
     path: `lyrics/${relativePath}`,
     sha256: sha256(content),
   };
@@ -87,7 +99,8 @@ async function main() {
   assert(lyricFiles.length > 0, "lyrics 目录中至少需要一个 .ttml 文件");
 
   const seenIds = new Set();
-  const songs = await Promise.all(lyricFiles.map((path) => buildSong(path, seenIds)));
+  const seenSourceIds = new Map();
+  const songs = await Promise.all(lyricFiles.map((path) => buildSong(path, seenIds, seenSourceIds)));
   songs.sort((a, b) => a.title.localeCompare(b.title, "zh-CN") || a.id.localeCompare(b.id));
 
   const revision = sha256(JSON.stringify(songs)).slice(0, 20);

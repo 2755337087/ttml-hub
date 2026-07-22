@@ -1,8 +1,8 @@
 # 贡献指南
 
 1. Fork 仓库并新建分支。
-2. 使用 `npm run lyric:new -- --title "歌名" --artist "艺术家"` 创建文件。
-3. 编辑 TTML，补全同名 `.meta.json` 中的语言、授权和来源。
+2. 运行 `npm run upload`，在本地网页中拖入 TTML 文件。
+3. 确认自动读取的歌名、全部艺术家、专辑、语言、授权和来源。
 4. 运行 `npm run lyrics:check`。
 5. 提交 Pull Request。自动检查通过并合并后，搜索索引和网站会自动更新。
 

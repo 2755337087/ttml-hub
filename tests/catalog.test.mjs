@@ -19,7 +19,7 @@ test("manifest and index share a revision", async () => {
 test("every indexed song has a stable id and downloadable path", async () => {
   const index = JSON.parse(await readFile(indexUrl, "utf8"));
   for (const song of index.songs) {
-    assert.match(song.id, /^[a-f0-9]{8}$/);
+    assert.match(song.id, /^[a-f0-9]{16}$/);
     assert.ok(song.title);
     assert.ok(song.artists.length);
     assert.match(song.sha256, /^[a-f0-9]{64}$/);
