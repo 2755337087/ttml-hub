@@ -1,0 +1,26 @@
+{
+  "id": "b6d065a67dcb59df",
+  "title": "爱错 (Live)",
+  "artists": [
+    "王铮亮",
+    "黄子弘凡"
+  ],
+  "album": "天赐的声音第七季 第6期",
+  "albums": [
+    "天赐的声音第七季 第6期"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "001yWNY04ExQJf",
+    "ncmMusicId": "3407803502"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

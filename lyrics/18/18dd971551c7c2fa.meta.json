@@ -1,0 +1,26 @@
+{
+  "id": "18dd971551c7c2fa",
+  "title": "可",
+  "artists": [
+    "薛之谦",
+    "张靓颖"
+  ],
+  "album": "无数",
+  "albums": [
+    "无数"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "ncmMusicId": "1954420092",
+    "appleMusicId": "1787448341"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

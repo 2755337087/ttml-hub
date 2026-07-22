@@ -1,0 +1,30 @@
+{
+  "id": "a9eeebc962d643d9",
+  "title": "一点 (Live)",
+  "artists": [
+    "小鬼",
+    "王睿卓",
+    "Ghost (王琳凯)"
+  ],
+  "album": "音你而来第二季 第6期 (Live)",
+  "albums": [
+    "音你而来第二季 第6期 (Live)",
+    "音你而来第二季 第6期",
+    "音你而来2 第6期"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "001aYuPZ0RxbiM",
+    "ncmMusicId": "2701932053",
+    "appleMusicId": "1813826436"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

@@ -1,0 +1,26 @@
+{
+  "id": "ef4279727aed8e4e",
+  "title": "没有了",
+  "artists": [
+    "门尼"
+  ],
+  "album": "门尼",
+  "albums": [
+    "门尼",
+    "门尼 (MONEY)"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "004OuC7B2RwVSs",
+    "ncmMusicId": "2082329068"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

@@ -1,0 +1,28 @@
+{
+  "id": "d10f20fa00dc3565",
+  "title": "桃花诺 (Live)",
+  "artists": [
+    "罗云熙",
+    "黄霄雲",
+    "黄霄云"
+  ],
+  "album": "天赐的声音第七季 第4期",
+  "albums": [
+    "天赐的声音第七季 第4期",
+    "天赐的声音第七季 第4期 (Live)"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "0049rJdY2hoYOr",
+    "appleMusicId": "6787895617"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}
