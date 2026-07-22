@@ -1,9 +1,9 @@
 {
-  "id": "da49a3f80f41896b",
-  "title": "小半 (Live)",
+  "id": "e03f2ebe2a54b877",
+  "title": "锁 (Live)",
   "artists": [
-    "王铮亮",
-    "谭松韵"
+    "张靓颖",
+    "曾舜晞"
   ],
   "album": "天赐的声音第七季 第2期",
   "albums": [
@@ -11,11 +11,11 @@
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
-  "hasTransliteration": true,
+  "hasTransliteration": false,
   "aliases": [],
   "sourceIds": {
-    "qqMusicId": "003MoA7q4DOuG4",
-    "ncmMusicId": "3395165423"
+    "qqMusicId": "001X6UNl32DogT",
+    "ncmMusicId": "3395167002"
   },
   "author": {
     "githubId": "76586484",

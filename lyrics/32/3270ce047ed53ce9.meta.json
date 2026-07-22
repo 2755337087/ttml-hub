@@ -1,0 +1,25 @@
+{
+  "id": "3270ce047ed53ce9",
+  "title": "这样一来我算什么 (Live)",
+  "artists": [
+    "薛之谦",
+    "陈卓璇"
+  ],
+  "album": "音乐缘计划2 第4期",
+  "albums": [
+    "音乐缘计划2 第4期"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "ncmMusicId": "3317989736"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

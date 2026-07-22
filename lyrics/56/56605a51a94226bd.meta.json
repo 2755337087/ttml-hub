@@ -1,0 +1,27 @@
+{
+  "id": "56605a51a94226bd",
+  "title": "是你想成为的大人吗（live）",
+  "artists": [
+    "尤长靖"
+  ],
+  "album": "歌手2026 第1期",
+  "albums": [
+    "歌手2026 第1期",
+    "歌手2026 第1期 (Live)"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "0039H2Ct1dCNiN",
+    "ncmMusicId": "3384933701",
+    "appleMusicId": "6774127622"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

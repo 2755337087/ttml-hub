@@ -1,0 +1,26 @@
+{
+  "id": "1212abc436c28ba1",
+  "title": "阳光下的星星 (Live)",
+  "artists": [
+    "王铮亮",
+    "欧阳娜娜"
+  ],
+  "album": "天赐的声音第七季 第3期",
+  "albums": [
+    "天赐的声音第七季 第3期"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "003MUx7A426yLT",
+    "ncmMusicId": "3398252084"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

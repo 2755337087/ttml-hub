@@ -1,0 +1,28 @@
+{
+  "id": "1d6387fc15cc81fd",
+  "title": "借过一下 (live │ 典藏)",
+  "artists": [
+    "胡彦斌",
+    "Jony J"
+  ],
+  "album": "歌手2026 第3期",
+  "albums": [
+    "歌手2026 第3期",
+    "歌手2026 第3期 (Live)"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "004QWa4H3Xm9JH",
+    "ncmMusicId": "3390085647",
+    "appleMusicId": "6779140282"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

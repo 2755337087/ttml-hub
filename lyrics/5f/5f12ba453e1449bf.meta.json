@@ -1,9 +1,9 @@
 {
-  "id": "da49a3f80f41896b",
-  "title": "小半 (Live)",
+  "id": "5f12ba453e1449bf",
+  "title": "一个人想着一个人 (Live)",
   "artists": [
-    "王铮亮",
-    "谭松韵"
+    "姚晓棠",
+    "王栎鑫"
   ],
   "album": "天赐的声音第七季 第2期",
   "albums": [
@@ -11,11 +11,11 @@
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
-  "hasTransliteration": true,
+  "hasTransliteration": false,
   "aliases": [],
   "sourceIds": {
-    "qqMusicId": "003MoA7q4DOuG4",
-    "ncmMusicId": "3395165423"
+    "qqMusicId": "000slmdt1Vm0AH",
+    "ncmMusicId": "3395165485"
   },
   "author": {
     "githubId": "76586484",

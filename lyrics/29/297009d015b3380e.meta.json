@@ -1,21 +1,20 @@
 {
-  "id": "da49a3f80f41896b",
-  "title": "小半 (Live)",
+  "id": "297009d015b3380e",
+  "title": "Dear D (亲爱的告诉你) (Live)",
   "artists": [
-    "王铮亮",
+    "黄子弘凡",
     "谭松韵"
   ],
-  "album": "天赐的声音第七季 第2期",
+  "album": "天赐的声音第七季 第1期",
   "albums": [
-    "天赐的声音第七季 第2期"
+    "天赐的声音第七季 第1期"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
-  "hasTransliteration": true,
+  "hasTransliteration": false,
   "aliases": [],
   "sourceIds": {
-    "qqMusicId": "003MoA7q4DOuG4",
-    "ncmMusicId": "3395165423"
+    "qqMusicId": "687147162"
   },
   "author": {
     "githubId": "76586484",

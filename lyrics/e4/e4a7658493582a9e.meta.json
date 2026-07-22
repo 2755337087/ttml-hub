@@ -1,0 +1,28 @@
+{
+  "id": "e4a7658493582a9e",
+  "title": "阿刁 (Live)",
+  "artists": [
+    "张韶涵"
+  ],
+  "album": "歌手2018 第2期",
+  "albums": [
+    "歌手2018 第2期",
+    "歌手第二季 第2期",
+    "歌手2018 (第二期 Live)"
+  ],
+  "language": "und",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "001KxARP2Ij3hH",
+    "ncmMusicId": "531786028",
+    "appleMusicId": "1709689970"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

@@ -1,0 +1,28 @@
+{
+  "id": "150d1059085ac138",
+  "title": "狂恋",
+  "artists": [
+    "GALI",
+    "万妮达"
+  ],
+  "album": "黑怕盲盒Vol.1示爱系列",
+  "albums": [
+    "黑怕盲盒Vol.1示爱系列",
+    "黑怕盲盒Vol.1示爱系列 - EP"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "000hCGmR2OFhsI",
+    "ncmMusicId": "1983464993",
+    "appleMusicId": "1654094799"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

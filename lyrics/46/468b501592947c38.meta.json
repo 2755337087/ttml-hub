@@ -1,0 +1,28 @@
+{
+  "id": "468b501592947c38",
+  "title": "100",
+  "artists": [
+    "TizzyT",
+    "Tizzy T"
+  ],
+  "album": "黑怕盲盒Vol.1示爱系列",
+  "albums": [
+    "黑怕盲盒Vol.1示爱系列",
+    "黑怕盲盒Vol.1示爱系列 - EP"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "001moUqw3UB8Z0",
+    "ncmMusicId": "1983456716",
+    "appleMusicId": "1654094792"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

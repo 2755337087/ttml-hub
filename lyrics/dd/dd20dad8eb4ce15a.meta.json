@@ -1,0 +1,24 @@
+{
+  "id": "dd20dad8eb4ce15a",
+  "title": "未完成",
+  "artists": [
+    "陈芳语"
+  ],
+  "album": "未完成 - Single",
+  "albums": [
+    "未完成 - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "appleMusicId": "1814698163"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

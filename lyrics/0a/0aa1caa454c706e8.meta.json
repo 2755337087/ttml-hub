@@ -1,0 +1,24 @@
+{
+  "id": "0aa1caa454c706e8",
+  "title": "爱你",
+  "artists": [
+    "陈芳语"
+  ],
+  "album": "Kimberley首张同名专辑",
+  "albums": [
+    "Kimberley首张同名专辑"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "appleMusicId": "520208666"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": "9273de958ed798bf",
+  "title": "哀人",
+  "artists": [
+    "门尼"
+  ],
+  "album": "门尼",
+  "albums": [
+    "门尼",
+    "门尼 (MONEY)"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "000rUVoS3uzVSj",
+    "ncmMusicId": "2082326624",
+    "appleMusicId": "1706801066"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}
