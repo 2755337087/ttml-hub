@@ -1,0 +1,29 @@
+{
+  "id": "46a4809ce1c8dc68",
+  "title": "小半 (Live)",
+  "artists": [
+    "张碧晨",
+    "张震岳"
+  ],
+  "album": "音你而来第二季 第12期 (Live)",
+  "albums": [
+    "音你而来第二季 第12期 (Live)",
+    "音你而来2 第12期",
+    "音你而来第二季 第12期"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "001JbcUS2Z9iux",
+    "ncmMusicId": "2716800023",
+    "appleMusicId": "1867430260"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}
