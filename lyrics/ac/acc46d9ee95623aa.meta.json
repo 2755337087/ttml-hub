@@ -1,0 +1,28 @@
+{
+  "id": "acc46d9ee95623aa",
+  "title": "在你的身边 (Live)",
+  "artists": [
+    "刘宇宁",
+    "张含韵"
+  ],
+  "album": "天赐的声音第六季 第5期",
+  "albums": [
+    "天赐的声音第六季 第5期",
+    "天赐的声音第六季 第5期 (Live)"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "0029AQ1f37mI54",
+    "ncmMusicId": "2704605274",
+    "appleMusicId": "1816775855"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

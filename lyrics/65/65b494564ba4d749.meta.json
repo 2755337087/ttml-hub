@@ -1,27 +1,24 @@
 {
-  "id": "e1a6a5c83cf7f06a",
-  "title": "他不爱我 (Live)",
+  "id": "65b494564ba4d749",
+  "title": "行走的鱼 (二公 Live)",
   "artists": [
     "李玖哲",
     "陈楚生",
     "董宝石",
-    "王栎鑫",
     "宝石Gem"
   ],
-  "album": "《披荆斩棘3》 (五公 live) - EP",
+  "album": "《披荆斩棘3》 (二公 live)",
   "albums": [
-    "《披荆斩棘3》 (五公 live) - EP",
-    "披荆斩棘第三季 第10期",
-    "披荆斩棘3 第10期"
+    "《披荆斩棘3》 (二公 live)",
+    "披荆斩棘第三季 第4期"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
   "aliases": [],
   "sourceIds": {
-    "qqMusicId": "004OFqbK0QgfkF",
-    "ncmMusicId": "2094467344",
-    "appleMusicId": "1733587646"
+    "qqMusicId": "0012s6MH0hEGp6",
+    "appleMusicId": "1732634715"
   },
   "author": {
     "githubId": "76586484",

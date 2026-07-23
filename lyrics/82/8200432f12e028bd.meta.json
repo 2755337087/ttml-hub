@@ -1,0 +1,28 @@
+{
+  "id": "8200432f12e028bd",
+  "title": "飞鸟和蝉 (Live)",
+  "artists": [
+    "王源",
+    "房东的猫"
+  ],
+  "album": "天赐的声音第六季 第6期",
+  "albums": [
+    "天赐的声音第六季 第6期",
+    "天赐的声音第六季 第6期 (Live)"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "000amTV61gZ2VF",
+    "ncmMusicId": "2706932994",
+    "appleMusicId": "1816877515"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

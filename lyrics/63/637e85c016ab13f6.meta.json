@@ -1,0 +1,28 @@
+{
+  "id": "637e85c016ab13f6",
+  "title": "有些 (Live)",
+  "artists": [
+    "张靓颖",
+    "颜人中"
+  ],
+  "album": "天赐的声音第六季 第2期 (Live)",
+  "albums": [
+    "天赐的声音第六季 第2期 (Live)",
+    "天赐的声音第六季 第2期"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "000Ay2s84Zg6aO",
+    "ncmMusicId": "2697937440",
+    "appleMusicId": "1813102201"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

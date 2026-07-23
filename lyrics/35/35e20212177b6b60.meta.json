@@ -1,0 +1,28 @@
+{
+  "id": "35e20212177b6b60",
+  "title": "座位 (Live)",
+  "artists": [
+    "刘宇宁",
+    "姚晓棠"
+  ],
+  "album": "天赐的声音第六季 第2期 (Live)",
+  "albums": [
+    "天赐的声音第六季 第2期 (Live)",
+    "天赐的声音第六季 第2期"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "002Lv5dQ1rtNGL",
+    "ncmMusicId": "2697937406",
+    "appleMusicId": "1813101879"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

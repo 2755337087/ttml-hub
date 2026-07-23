@@ -1,0 +1,26 @@
+{
+  "id": "4504ef5144bafb90",
+  "title": "第57次取消发送 (Live)",
+  "artists": [
+    "姚晓棠",
+    "张新成"
+  ],
+  "album": "天赐的声音第六季 第6期",
+  "albums": [
+    "天赐的声音第六季 第6期"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "000jHEuu1qpgQ2",
+    "ncmMusicId": "2706933026"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

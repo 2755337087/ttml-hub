@@ -1,0 +1,28 @@
+{
+  "id": "2db87f1874282625",
+  "title": "别让爱凋落 (Live)",
+  "artists": [
+    "王赫野",
+    "喻言"
+  ],
+  "album": "天赐的声音第六季 第5期",
+  "albums": [
+    "天赐的声音第六季 第5期",
+    "天赐的声音第六季 第5期 (Live)"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": true,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "001eNuyG35jW7p",
+    "ncmMusicId": "2704605090",
+    "appleMusicId": "1816775844"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

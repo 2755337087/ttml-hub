@@ -1,0 +1,28 @@
+{
+  "id": "eb3bc753b34bd75b",
+  "title": "下一个天亮 (Live)",
+  "artists": [
+    "王源",
+    "姚晓棠"
+  ],
+  "album": "天赐的声音第六季 第1期",
+  "albums": [
+    "天赐的声音第六季 第1期",
+    "天赐的声音第六季 第1期 (Live)"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "003KuHYH0EcLAE",
+    "ncmMusicId": "2695944957",
+    "appleMusicId": "1813099443"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

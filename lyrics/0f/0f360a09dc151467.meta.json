@@ -1,0 +1,28 @@
+{
+  "id": "0f360a09dc151467",
+  "title": "七月七日晴 (Live)",
+  "artists": [
+    "姚晓棠",
+    "肖俊"
+  ],
+  "album": "天赐的声音第六季 第3期",
+  "albums": [
+    "天赐的声音第六季 第3期",
+    "天赐的声音第六季 第3期 (Live)"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "0024RMcr3mbiBX",
+    "ncmMusicId": "2699874325",
+    "appleMusicId": "1813100678"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

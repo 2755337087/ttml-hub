@@ -1,0 +1,28 @@
+{
+  "id": "b9a9640236877e30",
+  "title": "那个女孩",
+  "artists": [
+    "宝石Gem",
+    "董宝石"
+  ],
+  "album": "那个女孩",
+  "albums": [
+    "那个女孩",
+    "那个女孩 - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "004K7oow2eTehC",
+    "ncmMusicId": "2651118655",
+    "appleMusicId": "1782233116"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

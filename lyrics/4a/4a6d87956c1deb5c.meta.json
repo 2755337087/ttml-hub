@@ -1,0 +1,27 @@
+{
+  "id": "4a6d87956c1deb5c",
+  "title": "专属味道",
+  "artists": [
+    "汪苏泷",
+    "林希儿"
+  ],
+  "album": "慢慢懂",
+  "albums": [
+    "慢慢懂"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "001pyCFt3c4bzT",
+    "ncmMusicId": "165375",
+    "appleMusicId": "6774683136"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

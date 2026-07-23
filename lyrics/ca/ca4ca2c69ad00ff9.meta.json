@@ -1,0 +1,28 @@
+{
+  "id": "ca4ca2c69ad00ff9",
+  "title": "九万字 (Live)",
+  "artists": [
+    "张靓颖",
+    "刘宇宁"
+  ],
+  "album": "天赐的声音第六季 第4期",
+  "albums": [
+    "天赐的声音第六季 第4期",
+    "天赐的声音第六季 第4期 (Live)"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "004MXTv31M0kr7",
+    "ncmMusicId": "2702711897",
+    "appleMusicId": "1813692074"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

@@ -1,0 +1,28 @@
+{
+  "id": "edd8a6963d39c127",
+  "title": "少一点天份 (Live)",
+  "artists": [
+    "张碧晨",
+    "刘宇宁"
+  ],
+  "album": "天赐的声音第六季 第1期",
+  "albums": [
+    "天赐的声音第六季 第1期",
+    "天赐的声音第六季 第1期 (Live)"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "002ZzyRG0kcnXo",
+    "ncmMusicId": "2695948472",
+    "appleMusicId": "1813099431"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

@@ -1,0 +1,28 @@
+{
+  "id": "bdc8ea2e8abb7bf1",
+  "title": "跳楼机 (Live)",
+  "artists": [
+    "张靓颖",
+    "王以太"
+  ],
+  "album": "天赐的声音第六季 第1期",
+  "albums": [
+    "天赐的声音第六季 第1期",
+    "天赐的声音第六季 第1期 (Live)"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "0000VYqo2oVxH9",
+    "ncmMusicId": "2695944873",
+    "appleMusicId": "1813099188"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}
