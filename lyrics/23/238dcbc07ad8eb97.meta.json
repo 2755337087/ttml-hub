@@ -1,0 +1,27 @@
+{
+  "id": "238dcbc07ad8eb97",
+  "title": "我会等 (Live)",
+  "artists": [
+    "黄子弘凡",
+    "张远",
+    "路滨琪"
+  ],
+  "album": "天赐的声音第六季 第8期",
+  "albums": [
+    "天赐的声音第六季 第8期"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "002L3yhE0peHif",
+    "ncmMusicId": "2711879181"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

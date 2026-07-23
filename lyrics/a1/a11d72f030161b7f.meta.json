@@ -1,0 +1,28 @@
+{
+  "id": "a11d72f030161b7f",
+  "title": "追光者 (Live)",
+  "artists": [
+    "张碧晨",
+    "黄子弘凡"
+  ],
+  "album": "天赐的声音第六季 第9期",
+  "albums": [
+    "天赐的声音第六季 第9期",
+    "天赐的声音第六季 第9期 (Live)"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "000EGGzX4QZaam",
+    "ncmMusicId": "2714740963",
+    "appleMusicId": "1824717449"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

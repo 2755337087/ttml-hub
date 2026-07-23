@@ -1,0 +1,26 @@
+{
+  "id": "dc515f853c2e19a3",
+  "title": "心之火 (Live)",
+  "artists": [
+    "王铮亮",
+    "李嘉格"
+  ],
+  "album": "天赐的声音第六季 第11期",
+  "albums": [
+    "天赐的声音第六季 第11期"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": true,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "000yMhp13vsCKs",
+    "ncmMusicId": "2719649033"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

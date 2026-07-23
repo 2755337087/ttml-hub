@@ -1,0 +1,28 @@
+{
+  "id": "185c8055022070a1",
+  "title": "感谢你曾来过 (Live)",
+  "artists": [
+    "陈冰",
+    "张远"
+  ],
+  "album": "天赐的声音第六季 第8期",
+  "albums": [
+    "天赐的声音第六季 第8期",
+    "天赐的声音第六季 第8期 (Live)"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "001ZMtxw11fKjp",
+    "ncmMusicId": "2711879249",
+    "appleMusicId": "1819219299"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

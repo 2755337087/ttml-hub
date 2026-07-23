@@ -1,0 +1,26 @@
+{
+  "id": "5dadf9083941f016",
+  "title": "天另一侧 (Live)",
+  "artists": [
+    "张碧晨",
+    "黄子弘凡"
+  ],
+  "album": "天赐的声音第六季 第10期",
+  "albums": [
+    "天赐的声音第六季 第10期"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "00131CGV29a5wc",
+    "ncmMusicId": "2717168806"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

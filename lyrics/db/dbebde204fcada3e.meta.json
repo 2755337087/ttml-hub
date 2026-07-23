@@ -1,0 +1,26 @@
+{
+  "id": "dbebde204fcada3e",
+  "title": "从前说 (Live)",
+  "artists": [
+    "姚晓棠",
+    "白小白"
+  ],
+  "album": "天赐的声音第六季 第11期",
+  "albums": [
+    "天赐的声音第六季 第11期"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "0011F8VB2ogq3J",
+    "ncmMusicId": "2719649047"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}
