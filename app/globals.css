@@ -360,6 +360,44 @@ kbd {
 .song-action { display: flex; align-items: center; gap: 14px; color: var(--muted); font: 700 10px "SFMono-Regular", Consolas, monospace; }
 .song-action b { color: var(--blue); font-size: 17px; }
 .empty-state { padding: 46px 4px; color: var(--muted); text-align: center; font-size: 13px; }
+.pagination {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 20px;
+  min-height: 86px;
+  border-bottom: 1px solid var(--line);
+}
+.pagination button {
+  width: max-content;
+  padding: 9px 0;
+  border: 0;
+  background: transparent;
+  color: var(--blue);
+  font-size: 12px;
+  font-weight: 800;
+  cursor: pointer;
+}
+.pagination button:last-child { justify-self: end; }
+.pagination button:hover:not(:disabled),
+.pagination button:focus-visible:not(:disabled) {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  outline: none;
+}
+.pagination button:disabled {
+  color: #b5b5b0;
+  cursor: default;
+}
+.page-status {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 8px;
+  color: var(--muted);
+  font: 750 11px "SFMono-Regular", Consolas, monospace;
+}
+.page-status b { color: var(--ink); font-size: 18px; }
+.page-status span { color: var(--line); }
 
 @media (max-width: 620px) {
   .search-page { padding-bottom: 40px; }
@@ -388,6 +426,8 @@ kbd {
   .search-box input { font-size: 19px; }
   .song-row { min-height: 108px; gap: 12px; }
   .song-action span { display: none; }
+  .pagination { min-height: 76px; gap: 10px; }
+  .pagination button { font-size: 11px; }
   .download-modal { padding: 24px 18px; box-shadow: 7px 7px 0 var(--blue); }
   .download-option { grid-template-columns: minmax(0, 1fr) auto; }
   .download-option-tag { display: none; }

@@ -23,6 +23,7 @@ type SongIndex = {
 };
 
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+const PAGE_SIZE = 10;
 
 const LANGUAGE_NAMES: Record<string, string> = {
   "zh-Hans": "简体中文",
@@ -51,9 +52,11 @@ function languageName(language?: string) {
 export function LyricsSearch() {
   const [songs, setSongs] = useState<Song[]>([]);
   const [query, setQuery] = useState("");
+  const [page, setPage] = useState(1);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
+  const resultsRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     let active = true;
@@ -80,9 +83,20 @@ export function LyricsSearch() {
   }, []);
 
   const results = useMemo(() => {
-    if (!query.trim()) return songs.slice(0, 8);
-    return searchSongs(songs, query, 20);
+    if (!query.trim()) return songs;
+    return searchSongs(songs, query, songs.length);
   }, [query, songs]);
+
+  const totalPages = Math.max(1, Math.ceil(results.length / PAGE_SIZE));
+  const currentPage = Math.min(page, totalPages);
+  const pageResults = results.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE);
+
+  const changePage = (nextPage: number) => {
+    setPage(nextPage);
+    requestAnimationFrame(() => {
+      resultsRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  };
 
   return (
     <div className="search-shell">
@@ -91,19 +105,33 @@ export function LyricsSearch() {
         <input
           ref={inputRef}
           value={query}
-          onChange={(event) => setQuery(event.target.value)}
+          onChange={(event) => {
+            setQuery(event.target.value);
+            setPage(1);
+          }}
           placeholder="搜索歌名或艺术家…"
           aria-label="搜索歌名或艺术家"
           autoFocus
         />
-        {query ? <button type="button" onClick={() => setQuery("")} aria-label="清空搜索">清除</button> : <kbd>⌘ K</kbd>}
+        {query ? (
+          <button
+            type="button"
+            onClick={() => {
+              setQuery("");
+              setPage(1);
+            }}
+            aria-label="清空搜索"
+          >
+            清除
+          </button>
+        ) : <kbd>⌘ K</kbd>}
       </label>
       <div className="search-meta">
         <span>{loading ? "正在读取歌词库…" : error ? "歌词库暂时不可用" : `${songs.length} 首歌词`}</span>
-        {query && !loading && !error && <span>{results.length} 个结果</span>}
+        {!loading && !error && <span>{results.length} 个结果</span>}
       </div>
-      <div className="results" aria-live="polite">
-        {!loading && !error && results.map((song) => (
+      <div className="results" ref={resultsRef} aria-live="polite">
+        {!loading && !error && pageResults.map((song) => (
           <a className="song-row" href={`${basePath}/${song.path}`} key={song.id} download>
             <span className="song-main">
               <b>{song.title}</b>
@@ -125,6 +153,29 @@ export function LyricsSearch() {
           <div className="empty-state">没有找到匹配的歌词</div>
         )}
       </div>
+      {!loading && !error && results.length > PAGE_SIZE && (
+        <nav className="pagination" aria-label="歌词搜索结果分页">
+          <button
+            type="button"
+            onClick={() => changePage(currentPage - 1)}
+            disabled={currentPage === 1}
+          >
+            ← 上一页
+          </button>
+          <span className="page-status" aria-label={`第 ${currentPage} 页，共 ${totalPages} 页`}>
+            <b>{currentPage}</b>
+            <span>/</span>
+            {totalPages}
+          </span>
+          <button
+            type="button"
+            onClick={() => changePage(currentPage + 1)}
+            disabled={currentPage === totalPages}
+          >
+            下一页 →
+          </button>
+        </nav>
+      )}
     </div>
   );
 }
