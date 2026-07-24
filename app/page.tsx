@@ -21,7 +21,18 @@ export default function Home() {
       <section className="search-content">
         <LunaBeatDownload />
         <div className="search-intro">
-          <h1>搜索歌词</h1>
+          <div className="search-intro-head">
+            <h1>搜索歌词</h1>
+            <a
+              className="feedback-link"
+              href="https://wj.qq.com/s2/27400666/8fd9/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              反馈歌词错误
+              <span aria-hidden="true">↗</span>
+            </a>
+          </div>
           <p>输入歌曲名称、任意一位艺术家或专辑名称。</p>
         </div>
         <LyricsSearch />
