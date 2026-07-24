@@ -1,0 +1,28 @@
+{
+  "id": "c442dad59d16625c",
+  "title": "Cappuccino (live)",
+  "artists": [
+    "颜人中",
+    "孟慧圆"
+  ],
+  "album": "声生不息·华流季 第3期",
+  "albums": [
+    "声生不息·华流季 第3期",
+    "声生不息·华流季 (第3期 Live) - EP"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "004Mx4xl32TU0k",
+    "ncmMusicId": "3324815239",
+    "appleMusicId": "1858895423"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

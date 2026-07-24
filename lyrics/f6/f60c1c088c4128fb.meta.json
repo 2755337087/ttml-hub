@@ -1,0 +1,28 @@
+{
+  "id": "f60c1c088c4128fb",
+  "title": "桃花诺 (Live)",
+  "artists": [
+    "周深",
+    "宋亚轩"
+  ],
+  "album": "声生不息·家年华 第3期",
+  "albums": [
+    "声生不息·家年华 第3期",
+    "声生不息.家年华 (第三期 live)"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "002RrEFL49B5ae",
+    "ncmMusicId": "2108828148",
+    "appleMusicId": "1800743432"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

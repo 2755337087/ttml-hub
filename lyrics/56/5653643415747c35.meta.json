@@ -1,0 +1,25 @@
+{
+  "id": "5653643415747c35",
+  "title": "该死的温柔",
+  "artists": [
+    "马天宇"
+  ],
+  "album": "宇光十色",
+  "albums": [
+    "宇光十色"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "ncmMusicId": "135394",
+    "appleMusicId": "483972765"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

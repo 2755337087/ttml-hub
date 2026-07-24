@@ -1,0 +1,29 @@
+{
+  "id": "f93596e7c552ec6e",
+  "title": "离开我的依赖 (Live)",
+  "artists": [
+    "王赫野",
+    "黄霄雲",
+    "黄霄云"
+  ],
+  "album": "声生不息·华流季 第11期",
+  "albums": [
+    "声生不息·华流季 第11期",
+    "声生不息·华流季 (第11期 Live)"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "001tgrFN31mNq7",
+    "ncmMusicId": "3344662442",
+    "appleMusicId": "1874217223"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

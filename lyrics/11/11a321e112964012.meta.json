@@ -1,0 +1,27 @@
+{
+  "id": "11a321e112964012",
+  "title": "仅剩的自由",
+  "artists": [
+    "承桓"
+  ],
+  "album": "仅剩的自由",
+  "albums": [
+    "仅剩的自由",
+    "仅剩的自由 - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "004GN39X1k4GdD",
+    "ncmMusicId": "3389791864",
+    "appleMusicId": "6776551775"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

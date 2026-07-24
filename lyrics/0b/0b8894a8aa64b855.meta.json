@@ -1,0 +1,26 @@
+{
+  "id": "0b8894a8aa64b855",
+  "title": "明智之举",
+  "artists": [
+    "许嵩"
+  ],
+  "album": "明智之举 - Single",
+  "albums": [
+    "明智之举 - Single",
+    "明智之举"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "ncmMusicId": "1954909357",
+    "appleMusicId": "1401183128"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

@@ -1,0 +1,29 @@
+{
+  "id": "264969dddb0e75fa",
+  "title": "爱错 (live)",
+  "artists": [
+    "黄丽玲",
+    "王赫野",
+    "A-Lin"
+  ],
+  "album": "声生不息·华流季 第2期",
+  "albums": [
+    "声生不息·华流季 第2期",
+    "声生不息·华流季 (第2期 Live) - EP"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "001w6NXY4BPcSe",
+    "ncmMusicId": "3322655244",
+    "appleMusicId": "1856820575"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

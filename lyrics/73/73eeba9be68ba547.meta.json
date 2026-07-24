@@ -1,0 +1,28 @@
+{
+  "id": "73eeba9be68ba547",
+  "title": "我想念 (Live)",
+  "artists": [
+    "汪苏泷",
+    "王赫野"
+  ],
+  "album": "天赐的声音第四季 (第10期Live) - EP",
+  "albums": [
+    "天赐的声音第四季 (第10期Live) - EP",
+    "天赐的声音第四季 第10期"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "003xAmNN0H28Sv",
+    "ncmMusicId": "2059814165",
+    "appleMusicId": "1747851526"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

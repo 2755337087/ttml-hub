@@ -1,0 +1,21 @@
+{
+  "id": "8f1bb1de8fd1ac04",
+  "title": "HandClap",
+  "artists": [
+    "Fitz and The Tantrums"
+  ],
+  "album": "Fitz & The Tantrums",
+  "albums": [
+    "Fitz & The Tantrums"
+  ],
+  "language": "en",
+  "hasTranslation": true,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "appleMusicId": "1094696191"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

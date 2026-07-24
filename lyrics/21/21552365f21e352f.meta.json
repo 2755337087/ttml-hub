@@ -1,0 +1,27 @@
+{
+  "id": "21552365f21e352f",
+  "title": "风中的人",
+  "artists": [
+    "王安宇"
+  ],
+  "album": "如果/如何",
+  "albums": [
+    "如果/如何",
+    "如果/如何 - EP"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "0027VIw00Eguar",
+    "ncmMusicId": "2759487118",
+    "appleMusicId": "6773638263"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

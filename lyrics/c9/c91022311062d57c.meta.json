@@ -1,0 +1,23 @@
+{
+  "id": "c91022311062d57c",
+  "title": "有我呢",
+  "artists": [
+    "郭一凡"
+  ],
+  "album": "重返地球",
+  "albums": [
+    "重返地球"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "0002N65N3iBcJK",
+    "ncmMusicId": "1400259397",
+    "appleMusicId": "1700839220"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

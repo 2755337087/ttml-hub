@@ -1,0 +1,28 @@
+{
+  "id": "59ee62feca26cf60",
+  "title": "我们的明天 (Live)",
+  "artists": [
+    "张靓颖",
+    "张新成"
+  ],
+  "album": "天赐的声音第六季 第5期 (Live)",
+  "albums": [
+    "天赐的声音第六季 第5期 (Live)",
+    "天赐的声音第六季 第5期"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "004GPr0L2B35ky",
+    "ncmMusicId": "2704605359",
+    "appleMusicId": "1816775840"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

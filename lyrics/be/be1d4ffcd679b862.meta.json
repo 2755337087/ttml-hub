@@ -1,0 +1,27 @@
+{
+  "id": "be1d4ffcd679b862",
+  "title": "连名带姓 (Live)",
+  "artists": [
+    "A-Lin",
+    "张碧晨"
+  ],
+  "album": "天赐的声音第五季 第8期 (Live)",
+  "albums": [
+    "天赐的声音第五季 第8期 (Live)",
+    "天赐的声音第五季 第8期"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "002dtfti4UvF2k",
+    "appleMusicId": "1757406099"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

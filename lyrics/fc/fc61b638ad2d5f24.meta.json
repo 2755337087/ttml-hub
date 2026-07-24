@@ -1,0 +1,26 @@
+{
+  "id": "fc61b638ad2d5f24",
+  "title": "篇章",
+  "artists": [
+    "张韶涵",
+    "王赫野"
+  ],
+  "album": "篇章",
+  "albums": [
+    "篇章"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "003NbMHZ0nu9eI",
+    "ncmMusicId": "1943043408"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

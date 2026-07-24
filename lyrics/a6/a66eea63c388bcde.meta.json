@@ -1,0 +1,29 @@
+{
+  "id": "a66eea63c388bcde",
+  "title": "苦咖啡·唯一",
+  "artists": [
+    "那奇沃夫",
+    "KKECHO"
+  ],
+  "album": "「想念你」音乐特别企划",
+  "albums": [
+    "「想念你」音乐特别企划",
+    "苦咖啡·唯一 - Single",
+    "「想念你」音乐特别企划 - EP"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "000f4tEK2nPjSG",
+    "ncmMusicId": "2023954033",
+    "appleMusicId": "1677535393"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

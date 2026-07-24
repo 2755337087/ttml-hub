@@ -1,0 +1,26 @@
+{
+  "id": "4e2c93b920101162",
+  "title": "无想",
+  "artists": [
+    "黄子弘凡"
+  ],
+  "album": "晚一点绿灯 - EP",
+  "albums": [
+    "晚一点绿灯 - EP",
+    "晚一点绿灯"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "ncmMusicId": "3325104197",
+    "appleMusicId": "1858772854"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

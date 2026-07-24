@@ -1,0 +1,24 @@
+{
+  "id": "d22f31c8dd7d90f1",
+  "title": "Six Degrees",
+  "artists": [
+    "派伟俊",
+    "周杰伦"
+  ],
+  "album": "Six Degrees",
+  "albums": [
+    "Six Degrees",
+    "Six Degrees - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "001FFffS0hAS0A",
+    "appleMusicId": "1788865584"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

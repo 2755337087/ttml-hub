@@ -1,0 +1,28 @@
+{
+  "id": "ea3ef88acb20e40e",
+  "title": "南山南 (Live)",
+  "artists": [
+    "陈楚生",
+    "张碧晨"
+  ],
+  "album": "声生不息.家年华 (第十期 live)",
+  "albums": [
+    "声生不息.家年华 (第十期 live)",
+    "声生不息·家年华 第10期"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "004KzVmW43dDzb",
+    "ncmMusicId": "2123195337",
+    "appleMusicId": "1762651528"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}
