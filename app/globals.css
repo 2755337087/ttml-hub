@@ -19,6 +19,7 @@ body {
 }
 a { color: inherit; text-decoration: none; }
 button, input { font: inherit; }
+button { color: inherit; }
 
 .search-page {
   min-height: 100vh;
@@ -61,7 +62,188 @@ button, input { font: inherit; }
   letter-spacing: .13em;
 }
 
-.search-content { padding-top: clamp(70px, 12vh, 130px); }
+.search-content { padding-top: clamp(38px, 7vh, 70px); }
+.lunabeat-promo {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: end;
+  gap: 32px;
+  margin-bottom: clamp(66px, 10vh, 110px);
+  padding: clamp(24px, 4vw, 38px);
+  border: 1px solid var(--ink);
+  background: var(--acid);
+  box-shadow: 8px 8px 0 var(--ink);
+}
+.lunabeat-info {
+  min-width: 0;
+  display: flex;
+  align-items: flex-start;
+  gap: clamp(18px, 3vw, 28px);
+}
+.lunabeat-logo-wrap {
+  flex: 0 0 auto;
+  display: grid;
+  place-items: center;
+  width: clamp(58px, 7vw, 76px);
+  height: clamp(58px, 7vw, 76px);
+  border: 1px solid var(--ink);
+  border-radius: 18px;
+  background: var(--white);
+}
+.lunabeat-logo {
+  width: 72%;
+  height: 72%;
+}
+.lunabeat-copy { max-width: 670px; }
+.lunabeat-kicker,
+.download-modal-kicker {
+  display: block;
+  margin-bottom: 10px;
+  font: 800 10px "SFMono-Regular", Consolas, monospace;
+  letter-spacing: .11em;
+  text-transform: uppercase;
+}
+.lunabeat-copy h2 {
+  margin: 0;
+  font: 400 clamp(28px, 4vw, 43px)/1.06 Georgia, "Songti SC", serif;
+  letter-spacing: -.04em;
+}
+.lunabeat-copy p {
+  max-width: 590px;
+  margin: 14px 0 0;
+  font-size: 13px;
+  line-height: 1.7;
+}
+.lunabeat-trigger {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+  min-width: 178px;
+  min-height: 54px;
+  padding: 0 18px;
+  border: 2px solid var(--ink);
+  background: var(--white);
+  font-size: 12px;
+  font-weight: 850;
+  cursor: pointer;
+  transition: transform .16s ease, box-shadow .16s ease;
+}
+.lunabeat-trigger span { color: var(--blue); font-size: 18px; }
+.lunabeat-trigger:hover,
+.lunabeat-trigger:focus-visible {
+  transform: translate(-3px, -3px);
+  box-shadow: 5px 5px 0 var(--blue);
+  outline: none;
+}
+
+.download-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+  background: rgb(17 20 22 / 72%);
+  backdrop-filter: blur(5px);
+}
+.download-modal {
+  width: min(100%, 600px);
+  max-height: calc(100vh - 40px);
+  overflow-y: auto;
+  padding: clamp(24px, 5vw, 40px);
+  border: 2px solid var(--ink);
+  background: var(--paper);
+  box-shadow: 10px 10px 0 var(--blue);
+}
+.download-modal-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 24px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid var(--line);
+}
+.download-modal-head h2 {
+  margin: 0;
+  font: 400 clamp(34px, 7vw, 52px)/1 Georgia, "Songti SC", serif;
+  letter-spacing: -.05em;
+}
+.download-modal-title-group {
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+.download-modal-logo {
+  flex: 0 0 auto;
+  width: 48px;
+  height: 48px;
+}
+.download-modal-close {
+  flex: 0 0 auto;
+  width: 42px;
+  height: 42px;
+  padding: 0 0 3px;
+  border: 1px solid var(--ink);
+  border-radius: 50%;
+  background: transparent;
+  font-size: 28px;
+  line-height: 1;
+  cursor: pointer;
+}
+.download-modal-close:hover,
+.download-modal-close:focus-visible {
+  background: var(--ink);
+  color: var(--white);
+  outline: none;
+}
+.download-options {
+  display: grid;
+  gap: 10px;
+  padding: 22px 0;
+}
+.download-option {
+  display: grid;
+  grid-template-columns: 68px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 16px;
+  min-height: 82px;
+  padding: 13px 16px;
+  border: 1px solid var(--line);
+  background: var(--white);
+  transition: border-color .16s ease, transform .16s ease;
+}
+.download-option:hover,
+.download-option:focus-visible {
+  border-color: var(--ink);
+  transform: translateX(5px);
+  outline: none;
+}
+.download-option-tag {
+  color: var(--muted);
+  font: 800 9px "SFMono-Regular", Consolas, monospace;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+.download-option-copy {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.download-option-copy b { font-size: 14px; }
+.download-option-copy small { color: var(--muted); font-size: 11px; }
+.download-option-arrow { color: var(--blue); font-size: 19px; }
+.download-modal-note {
+  margin: 0;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 12px;
+}
+.download-modal-note strong { color: var(--ink); letter-spacing: .08em; }
+
 .search-intro h1 {
   margin: 0;
   font: 400 clamp(52px, 8vw, 88px)/1 Georgia, "Songti SC", serif;
@@ -140,7 +322,7 @@ kbd {
 
 .results { border-top: 1px solid var(--line); }
 .song-row {
-  min-height: 84px;
+  min-height: 112px;
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
   align-items: center;
@@ -150,9 +332,31 @@ kbd {
   transition: padding .16s ease, background .16s ease;
 }
 .song-row:hover { padding-left: 16px; padding-right: 16px; background: var(--white); }
-.song-main { min-width: 0; display: flex; flex-direction: column; gap: 7px; }
+.song-main { min-width: 0; display: flex; flex-direction: column; align-items: flex-start; gap: 7px; }
 .song-main b { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 17px; }
-.song-main small { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--muted); font-size: 12px; }
+.song-credit { max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--muted); font-size: 12px; }
+.song-features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 3px;
+}
+.song-feature {
+  padding: 4px 7px;
+  border: 1px solid var(--line);
+  color: #999a95;
+  font: 750 9px/1 "SFMono-Regular", Consolas, monospace;
+  letter-spacing: .02em;
+}
+.song-feature[data-active="true"] {
+  border-color: color-mix(in srgb, var(--blue) 35%, var(--line));
+  background: color-mix(in srgb, var(--blue) 7%, var(--white));
+  color: var(--blue);
+}
+.song-language {
+  border-color: var(--ink);
+  color: var(--ink);
+}
 .song-action { display: flex; align-items: center; gap: 14px; color: var(--muted); font: 700 10px "SFMono-Regular", Consolas, monospace; }
 .song-action b { color: var(--blue); font-size: 17px; }
 .empty-state { padding: 46px 4px; color: var(--muted); text-align: center; font-size: 13px; }
@@ -161,13 +365,32 @@ kbd {
   .search-page { padding-bottom: 40px; }
   .search-header { height: 70px; }
   .catalog-label, kbd { display: none; }
-  .search-content { padding-top: 64px; }
+  .search-content { padding-top: 28px; }
+  .lunabeat-promo {
+    grid-template-columns: 1fr;
+    align-items: stretch;
+    gap: 22px;
+    margin-bottom: 62px;
+    padding: 24px 20px;
+    box-shadow: 6px 6px 0 var(--ink);
+  }
+  .lunabeat-info { gap: 14px; }
+  .lunabeat-logo-wrap {
+    width: 50px;
+    height: 50px;
+    border-radius: 13px;
+  }
+  .lunabeat-copy h2 { font-size: 30px; }
+  .lunabeat-trigger { width: 100%; }
   .search-intro h1 { font-size: 54px; }
   .search-shell { margin-top: 34px; }
   .search-box { min-height: 68px; padding: 0 18px; box-shadow: 6px 6px 0 var(--blue); }
   .search-box input { font-size: 19px; }
-  .song-row { min-height: 78px; }
+  .song-row { min-height: 108px; gap: 12px; }
   .song-action span { display: none; }
+  .download-modal { padding: 24px 18px; box-shadow: 7px 7px 0 var(--blue); }
+  .download-option { grid-template-columns: minmax(0, 1fr) auto; }
+  .download-option-tag { display: none; }
 }
 
 @media (prefers-reduced-motion: reduce) {

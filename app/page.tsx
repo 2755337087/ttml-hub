@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { LunaBeatDownload } from "./lunabeat-download";
 import { LyricsSearch } from "./lyrics-search";
 
 export const metadata: Metadata = {
@@ -18,6 +19,7 @@ export default function Home() {
       </header>
 
       <section className="search-content">
+        <LunaBeatDownload />
         <div className="search-intro">
           <h1>搜索歌词</h1>
           <p>输入歌曲名称、任意一位艺术家或专辑名称。</p>

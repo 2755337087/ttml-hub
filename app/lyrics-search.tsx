@@ -24,6 +24,30 @@ type SongIndex = {
 
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 
+const LANGUAGE_NAMES: Record<string, string> = {
+  "zh-Hans": "简体中文",
+  "zh-Hant": "繁体中文",
+  en: "英语",
+  ja: "日语",
+  ko: "韩语",
+  ru: "俄语",
+  tr: "土耳其语",
+  id: "印尼语",
+  vi: "越南语",
+  th: "泰语",
+  es: "西班牙语",
+  hi: "印地语",
+  pt: "葡萄牙语",
+  fr: "法语",
+  de: "德语",
+  und: "语言未知",
+};
+
+function languageName(language?: string) {
+  if (!language) return "语言未知";
+  return LANGUAGE_NAMES[language] ?? language;
+}
+
 export function LyricsSearch() {
   const [songs, setSongs] = useState<Song[]>([]);
   const [query, setQuery] = useState("");
@@ -83,7 +107,16 @@ export function LyricsSearch() {
           <a className="song-row" href={`${basePath}/${song.path}`} key={song.id} download>
             <span className="song-main">
               <b>{song.title}</b>
-              <small>{song.artists.join(" / ")}{song.album ? ` · ${song.album}` : ""}</small>
+              <small className="song-credit">{song.artists.join(" / ")}{song.album ? ` · ${song.album}` : ""}</small>
+              <span className="song-features" aria-label="歌词信息">
+                <span className="song-feature song-language">{languageName(song.language)}</span>
+                <span className="song-feature" data-active={song.hasTranslation}>
+                  {song.hasTranslation ? "有翻译" : "无翻译"}
+                </span>
+                <span className="song-feature" data-active={song.hasTransliteration}>
+                  {song.hasTransliteration ? "有注音" : "无注音"}
+                </span>
+              </span>
             </span>
             <span className="song-action"><span>TTML</span><b aria-hidden="true">↓</b></span>
           </a>
