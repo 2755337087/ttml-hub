@@ -1,0 +1,28 @@
+{
+  "id": "7dd406f17b626333",
+  "title": "孤单心事",
+  "artists": [
+    "颜人中"
+  ],
+  "album": "孤单心事 (青春重置计划 1)",
+  "albums": [
+    "孤单心事 (青春重置计划 1)",
+    "孤单心事",
+    "孤单心事 - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "001C6s7N03kFvq",
+    "ncmMusicId": "1361988914",
+    "appleMusicId": "1821576270"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

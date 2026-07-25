@@ -1,0 +1,24 @@
+{
+  "id": "91feb5fe6764bb30",
+  "title": "你想要的",
+  "artists": [
+    "颜人中"
+  ],
+  "album": "你想要的",
+  "albums": [
+    "你想要的",
+    "你想要的 - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "00396S5A06G6sB",
+    "ncmMusicId": "1434309927",
+    "appleMusicId": "1862288718"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": "32170fdceb8bad64",
+  "title": "假装没变过",
+  "artists": [
+    "颜人中"
+  ],
+  "album": "失眠症候群",
+  "albums": [
+    "失眠症候群",
+    "失眠症候群 - EP"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "000LQCcn32QmWP",
+    "ncmMusicId": "1406648891",
+    "appleMusicId": "1861117577"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

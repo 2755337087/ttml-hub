@@ -1,0 +1,27 @@
+{
+  "id": "2604867f3a74954d",
+  "title": "偷走你的心",
+  "artists": [
+    "颜人中"
+  ],
+  "album": "失眠症候群 - EP",
+  "albums": [
+    "失眠症候群 - EP",
+    "失眠症候群"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "001s4NKw3X0w0z",
+    "ncmMusicId": "1406648894",
+    "appleMusicId": "1861245882"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

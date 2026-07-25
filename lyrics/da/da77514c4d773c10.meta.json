@@ -1,0 +1,26 @@
+{
+  "id": "da77514c4d773c10",
+  "title": "我只能离开",
+  "artists": [
+    "颜人中"
+  ],
+  "album": "初恋那件小事 电视剧原声带",
+  "albums": [
+    "初恋那件小事 电视剧原声带",
+    "我只能离开"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "ncmMusicId": "1398283847",
+    "appleMusicId": "1799023385"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

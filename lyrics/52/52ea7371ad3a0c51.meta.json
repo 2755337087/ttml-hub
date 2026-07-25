@@ -1,0 +1,26 @@
+{
+  "id": "52ea7371ad3a0c51",
+  "title": "下一个天亮",
+  "artists": [
+    "颜人中"
+  ],
+  "album": "月光、背影与海",
+  "albums": [
+    "月光、背影与海"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "003LwhdC3b7SgP",
+    "ncmMusicId": "1958150862",
+    "appleMusicId": "1651445384"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

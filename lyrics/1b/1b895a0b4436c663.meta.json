@@ -1,0 +1,28 @@
+{
+  "id": "1b895a0b4436c663",
+  "title": "遇到",
+  "artists": [
+    "颜人中"
+  ],
+  "album": "遇到 (青春重置计划 3 剧好听)",
+  "albums": [
+    "遇到 (青春重置计划 3 剧好听)",
+    "遇到 - Single",
+    "遇到"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "002SDcc53GUkGH",
+    "ncmMusicId": "1449794966",
+    "appleMusicId": "1821099713"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

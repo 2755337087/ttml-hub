@@ -1,0 +1,27 @@
+{
+  "id": "3adcbd5d5919f85b",
+  "title": "一种原谅",
+  "artists": [
+    "颜人中"
+  ],
+  "album": "失眠症候群",
+  "albums": [
+    "失眠症候群",
+    "失眠症候群 - EP"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "001IlcOw2HlWTV",
+    "ncmMusicId": "1406648887",
+    "appleMusicId": "1861245874"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}
