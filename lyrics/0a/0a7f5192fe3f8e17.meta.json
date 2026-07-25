@@ -1,0 +1,29 @@
+{
+  "id": "0a7f5192fe3f8e17",
+  "title": "野心家 (Live)",
+  "artists": [
+    "杨丞琳",
+    "黄霄雲",
+    "黄霄云"
+  ],
+  "album": "天赐的声音第七季 第7期",
+  "albums": [
+    "天赐的声音第七季 第7期",
+    "天赐的声音第七季 第7期 (Live)"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "000h856j4boYlf",
+    "ncmMusicId": "3410661564",
+    "appleMusicId": "6794415402"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

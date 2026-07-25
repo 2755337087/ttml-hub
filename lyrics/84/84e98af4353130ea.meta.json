@@ -1,0 +1,26 @@
+{
+  "id": "84e98af4353130ea",
+  "title": "一半一半",
+  "artists": [
+    "Top Barry",
+    "INDE company",
+    "INDEcompany"
+  ],
+  "album": "一半一半 - Single",
+  "albums": [
+    "一半一半 - Single",
+    "一半一半"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "002rsrz24eIVdX",
+    "ncmMusicId": "3333988321",
+    "appleMusicId": "1864847118"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}
