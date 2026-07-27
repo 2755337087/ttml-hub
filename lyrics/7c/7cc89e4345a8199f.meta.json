@@ -1,0 +1,29 @@
+{
+  "id": "7cc89e4345a8199f",
+  "title": "不要忘记我爱你",
+  "artists": [
+    "张碧晨"
+  ],
+  "album": "神犬小七 电视剧原声带",
+  "albums": [
+    "神犬小七 电视剧原声带",
+    "不要忘记我爱你(电视剧《神犬小七》) - Single",
+    "电视剧《神犬小七第一季》原声带",
+    "神犬小七 电视原声带"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "000WBOXF0UMPjy",
+    "ncmMusicId": "33887243",
+    "appleMusicId": "1594657681"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

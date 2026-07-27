@@ -1,0 +1,26 @@
+{
+  "id": "0cfa0da3cccdf9e1",
+  "title": "背对背拥抱",
+  "artists": [
+    "林俊杰"
+  ],
+  "album": "100天",
+  "albums": [
+    "100天",
+    "背对背拥抱 - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "002E8ebM3TFWmA",
+    "appleMusicId": "1071517710"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

@@ -1,0 +1,26 @@
+{
+  "id": "905b386d41957b15",
+  "title": "不再见",
+  "artists": [
+    "陈学冬"
+  ],
+  "album": "小时代3：刺金时代 电影原声带",
+  "albums": [
+    "小时代3：刺金时代 电影原声带",
+    "不再见"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "001Wt8jA3jSXyi",
+    "ncmMusicId": "28798921"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

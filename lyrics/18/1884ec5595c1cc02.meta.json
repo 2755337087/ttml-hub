@@ -1,0 +1,25 @@
+{
+  "id": "1884ec5595c1cc02",
+  "title": "奢香夫人",
+  "artists": [
+    "凤凰传奇"
+  ],
+  "album": "最炫民族风",
+  "albums": [
+    "最炫民族风"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "ncmMusicId": "354750",
+    "appleMusicId": "1704597116"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

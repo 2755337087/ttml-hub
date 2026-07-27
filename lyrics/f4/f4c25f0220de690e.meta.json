@@ -1,0 +1,22 @@
+{
+  "id": "f4c25f0220de690e",
+  "title": "像我这样的人",
+  "artists": [
+    "毛不易"
+  ],
+  "album": "平凡的一天",
+  "albums": [
+    "平凡的一天"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "ncmMusicId": "569213220",
+    "appleMusicId": "1718657007"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

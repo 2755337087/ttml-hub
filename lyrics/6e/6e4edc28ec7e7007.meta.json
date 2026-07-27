@@ -1,0 +1,31 @@
+{
+  "id": "6e4edc28ec7e7007",
+  "title": "海边探戈",
+  "artists": [
+    "王齐铭",
+    "王鹤棣",
+    "朴鲨",
+    "王齐铭WatchMe",
+    "朴鲨VPS"
+  ],
+  "album": "海边探戈 - Single",
+  "albums": [
+    "海边探戈 - Single",
+    "海边探戈"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "004GbZo92U0Ws2",
+    "ncmMusicId": "2066657734",
+    "appleMusicId": "1862234720"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

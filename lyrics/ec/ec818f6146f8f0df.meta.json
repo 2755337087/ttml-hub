@@ -1,0 +1,28 @@
+{
+  "id": "ec818f6146f8f0df",
+  "title": "是你 (Live)",
+  "artists": [
+    "张靓颖",
+    "王赫野"
+  ],
+  "album": "天赐的声音第四季 第5期",
+  "albums": [
+    "天赐的声音第四季 第5期",
+    "天赐的声音第四季 (第5期Live) - EP"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "001QATK24gASW1",
+    "ncmMusicId": "2050391293",
+    "appleMusicId": "1747845210"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

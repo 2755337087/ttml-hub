@@ -1,0 +1,27 @@
+{
+  "id": "c57cecb68d59f740",
+  "title": "如愿",
+  "artists": [
+    "王菲"
+  ],
+  "album": "如愿 - Single",
+  "albums": [
+    "如愿 - Single",
+    "如愿"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "001ufyHx10iWpg",
+    "ncmMusicId": "1888381008",
+    "appleMusicId": "1591180619"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

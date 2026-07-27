@@ -1,0 +1,25 @@
+{
+  "id": "a1a34e7a0f4929ca",
+  "title": "乌梅子酱",
+  "artists": [
+    "李荣浩"
+  ],
+  "album": "纵横四海",
+  "albums": [
+    "纵横四海"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "ncmMusicId": "1997438791",
+    "appleMusicId": "1655821629"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

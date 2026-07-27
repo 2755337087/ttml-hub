@@ -1,0 +1,29 @@
+{
+  "id": "f26c093833ca5daf",
+  "title": "下雨天",
+  "artists": [
+    "en (王翊恩)",
+    "en（王翊恩）",
+    "en"
+  ],
+  "album": "下雨天",
+  "albums": [
+    "下雨天",
+    "下雨天 - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "002h2lUo1WsKrt",
+    "ncmMusicId": "2166067707",
+    "appleMusicId": "1776284217"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

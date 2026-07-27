@@ -1,0 +1,26 @@
+{
+  "id": "4f1003b4198d36f7",
+  "title": "爱情而已",
+  "artists": [
+    "杨丞琳"
+  ],
+  "album": "爱情而已 - Single",
+  "albums": [
+    "爱情而已 - Single",
+    "爱情而已 电视剧原声带"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "002p36ow0CIwHX",
+    "appleMusicId": "1679040068"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

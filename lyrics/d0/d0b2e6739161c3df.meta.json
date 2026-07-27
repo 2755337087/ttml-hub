@@ -1,0 +1,27 @@
+{
+  "id": "d0b2e6739161c3df",
+  "title": "我走后",
+  "artists": [
+    "小咪"
+  ],
+  "album": "我走后",
+  "albums": [
+    "我走后",
+    "我走后 (发行版) - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "001s4kFx2S46Cr",
+    "ncmMusicId": "1370047789",
+    "appleMusicId": "1486159047"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}
