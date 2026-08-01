@@ -1,0 +1,26 @@
+{
+  "id": "3663437748e3f601",
+  "title": "trust me (Live版)",
+  "artists": [
+    "姚晓棠",
+    "Top Barry"
+  ],
+  "album": "天赐的声音第七季 第8期",
+  "albums": [
+    "天赐的声音第七季 第8期"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": true,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "002oEKRP0CeVWX",
+    "ncmMusicId": "3414335339"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

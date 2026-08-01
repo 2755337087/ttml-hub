@@ -1,0 +1,26 @@
+{
+  "id": "3c2df2c817a061c9",
+  "title": "We Don’t Talk Anymore (feat. Selena Gomez)",
+  "artists": [
+    "Charlie Puth",
+    "Selena Gomez"
+  ],
+  "album": "Nine Track Mind",
+  "albums": [
+    "Nine Track Mind"
+  ],
+  "language": "en",
+  "hasTranslation": true,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "ncmMusicId": "401249910",
+    "appleMusicId": "1041127302"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}
