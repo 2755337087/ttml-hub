@@ -45,7 +45,8 @@ export function parseTtmlMetadata(xml) {
     values.set(attrs.key, list);
   }
 
-  const title = values.get("musicName")?.find(Boolean)?.trim() ?? "";
+  const musicNames = unique(values.get("musicName") ?? []);
+  const title = musicNames[0] ?? "";
   const artists = unique(values.get("artists") ?? []);
   const albums = unique(values.get("album") ?? []);
   const rootTag = xml.match(/<tt\b([^>]*)>/iu)?.[1] ?? "";
@@ -72,6 +73,7 @@ export function parseTtmlMetadata(xml) {
 
   return {
     title,
+    musicNames,
     artists,
     albums,
     language,

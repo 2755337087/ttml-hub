@@ -7,6 +7,7 @@ const fixture = `<?xml version="1.0"?><tt xmlns="http://www.w3.org/ns/ttml" xmln
 test("parses AMLL title, every artist, album and platform id", () => {
   const meta = parseTtmlMetadata(fixture);
   assert.equal(meta.title, "一点 (Live)");
+  assert.deepEqual(meta.musicNames, ["一点 (Live)"]);
   assert.deepEqual(meta.artists, ["小鬼", "王睿卓", "Ghost (王琳凯)"]);
   assert.deepEqual(meta.albums, ["音你而来第二季 第6期 (Live)"]);
   assert.equal(meta.language, "zh-Hans");
@@ -14,6 +15,16 @@ test("parses AMLL title, every artist, album and platform id", () => {
   assert.equal(meta.hasTransliteration, false);
   assert.deepEqual(meta.sourceIds, { qqMusicId: "001aYuPZ0RxbiM", ncmMusicId: "2701932053", appleMusicId: "1813826436" });
   assert.match(stableSongId(meta.sourceIds), /^[a-f0-9]{16}$/);
+});
+
+test("keeps every musicName as a searchable title", () => {
+  const xml = fixture.replace(
+    '<amll:meta key="musicName" value="一点 (Live)"/>',
+    '<amll:meta key="musicName" value="一点 (Live)"/><amll:meta key="musicName" value="一点 (Live版)"/><amll:meta key="musicName" value="一点"/>',
+  );
+  const meta = parseTtmlMetadata(xml);
+  assert.equal(meta.title, "一点 (Live)");
+  assert.deepEqual(meta.musicNames, ["一点 (Live)", "一点 (Live版)", "一点"]);
 });
 
 test("detects language, translations and transliterations", () => {

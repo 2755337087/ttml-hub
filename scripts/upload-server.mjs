@@ -138,7 +138,7 @@ async function saveSong(body) {
     language: parsed.language,
     hasTranslation: parsed.hasTranslation,
     hasTransliteration: parsed.hasTransliteration,
-    aliases: [],
+    aliases: (parsed.musicNames ?? []).filter((name) => name !== fields.title),
     sourceIds: assigned.sourceIds,
     author: parsed.author,
     license: String(body.license ?? "").trim(),

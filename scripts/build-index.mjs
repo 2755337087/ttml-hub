@@ -36,6 +36,10 @@ function validText(value, key, path) {
   return value.trim();
 }
 
+function uniqueText(values) {
+  return [...new Set(values.map((value) => String(value).trim()).filter(Boolean))];
+}
+
 async function buildSong(path, seenIds, seenSourceIds) {
   const relativePath = slash(relative(fileURLToPath(lyricsRoot), path));
   const parts = relativePath.split("/");
@@ -80,6 +84,10 @@ async function buildSong(path, seenIds, seenSourceIds) {
     seenSourceIds.set(sourceKey, relativePath);
   }
   const albums = meta.albums?.length ? meta.albums.map((album) => validText(album, "albums[]", relativePath)) : meta.album ? [validText(meta.album, "album", relativePath)] : [];
+  const aliases = uniqueText([
+    ...(detected.musicNames ?? []).slice(1),
+    ...(meta.aliases ?? []),
+  ]).filter((alias) => alias !== title);
 
   return {
     id,
@@ -89,7 +97,7 @@ async function buildSong(path, seenIds, seenSourceIds) {
     language: detected.language,
     hasTranslation: detected.hasTranslation,
     hasTransliteration: detected.hasTransliteration,
-    ...(meta.aliases?.length ? { aliases: meta.aliases.map(String) } : {}),
+    ...(aliases.length ? { aliases } : {}),
     ...(meta.isrc ? { isrc: validText(meta.isrc, "isrc", relativePath) } : {}),
     ...(meta.license ? { license: validText(meta.license, "license", relativePath) } : {}),
     ...(meta.sourceUrl ? { sourceUrl: validText(meta.sourceUrl, "sourceUrl", relativePath) } : {}),

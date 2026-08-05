@@ -26,6 +26,11 @@ test("matches multiple English words across title and artists", () => {
   assert.deepEqual(searchSongs(songs, "See Again Wiz Khalifa").map((song) => song.id), ["e1e9065bb489dd74"]);
 });
 
+test("matches alternate musicName values stored as aliases", () => {
+  const alternateTitle = { ...songs[0], aliases: ["死ぬのがいいわ"] };
+  assert.deepEqual(searchSongs([alternateTitle], "死ぬのがいいわ").map((song) => song.id), ["7bac9ee6f4368388"]);
+});
+
 test("requires every search term to match", () => {
   assert.deepEqual(searchSongs(songs, "死ぬのがいいわ Charlie Puth"), []);
 });
