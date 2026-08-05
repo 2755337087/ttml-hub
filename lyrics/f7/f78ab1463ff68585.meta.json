@@ -1,0 +1,28 @@
+{
+  "id": "f78ab1463ff68585",
+  "title": "我只喜欢你",
+  "artists": [
+    "胡夏"
+  ],
+  "album": "我只喜欢你 影视原声带",
+  "albums": [
+    "我只喜欢你 影视原声带",
+    "电视剧《我只喜欢你》原声带"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "我只喜欢你 (电视剧《我只喜欢你》主题曲)"
+  ],
+  "sourceIds": {
+    "qqMusicId": "001LWYyL4NM5Is",
+    "appleMusicId": "1648653665"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

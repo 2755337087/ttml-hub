@@ -1,0 +1,29 @@
+{
+  "id": "be85d538c1ec24f4",
+  "title": "炊烟 (Live)",
+  "artists": [
+    "汪苏泷",
+    "队长",
+    "Dobi"
+  ],
+  "album": "有歌2024 第4期",
+  "albums": [
+    "有歌2024 第4期"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "炊烟 (Live版)"
+  ],
+  "sourceIds": {
+    "qqMusicId": "002FeY1j31BOzx",
+    "ncmMusicId": "2642164637"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}
