@@ -1,0 +1,26 @@
+{
+  "id": "b38baea24c0a927e",
+  "title": "PLANET",
+  "artists": [
+    "ラムジ"
+  ],
+  "album": "3ラムジ",
+  "albums": [
+    "3ラムジ",
+    "3 Lambsey - EP"
+  ],
+  "language": "ja",
+  "hasTranslation": true,
+  "hasTransliteration": true,
+  "aliases": [],
+  "sourceIds": {
+    "ncmMusicId": "812400",
+    "appleMusicId": "157176659"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

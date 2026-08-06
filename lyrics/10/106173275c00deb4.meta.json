@@ -1,0 +1,26 @@
+{
+  "id": "106173275c00deb4",
+  "title": "其实都没有",
+  "artists": [
+    "杨宗纬"
+  ],
+  "album": "初。爱",
+  "albums": [
+    "初。爱",
+    "初 . 爱"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "004DRMhq3IZGL1",
+    "appleMusicId": "1726104180"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}
