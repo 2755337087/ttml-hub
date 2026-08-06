@@ -1,0 +1,28 @@
+{
+  "id": "e824e6893285fd63",
+  "title": "Saddle of My Heart",
+  "artists": [
+    "Teloupe"
+  ],
+  "album": "去有风的地方 电视剧影视原声带",
+  "albums": [
+    "去有风的地方 电视剧影视原声带",
+    "《去有风的地方》影视原声带"
+  ],
+  "language": "en",
+  "hasTranslation": true,
+  "hasTransliteration": false,
+  "aliases": [
+    "Saddle of My Heart (电视剧《去有风的地方》插曲)"
+  ],
+  "sourceIds": {
+    "qqMusicId": "001lbV4V3cSb6u",
+    "appleMusicId": "6769336633"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

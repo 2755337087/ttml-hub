@@ -1,0 +1,23 @@
+{
+  "id": "33a7e04fdda76d47",
+  "title": "麻雀",
+  "artists": [
+    "李荣浩"
+  ],
+  "album": "麻雀",
+  "albums": [
+    "麻雀"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "000lv3Zi13dSVA",
+    "ncmMusicId": "1407551413",
+    "appleMusicId": "1828890954"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

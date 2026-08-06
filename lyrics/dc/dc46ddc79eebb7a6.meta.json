@@ -1,0 +1,24 @@
+{
+  "id": "dc46ddc79eebb7a6",
+  "title": "从前说",
+  "artists": [
+    "小阿七"
+  ],
+  "album": "从前说",
+  "albums": [
+    "从前说",
+    "从前说 - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "003yLGL81rAVzJ",
+    "ncmMusicId": "1915291185",
+    "appleMusicId": "1667021066"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

@@ -1,0 +1,30 @@
+{
+  "id": "8ee2e85a753d2ef7",
+  "title": "感官先生 (Live)",
+  "artists": [
+    "杨坤",
+    "杨宗纬"
+  ],
+  "album": "天赐的声音第五季 第6期",
+  "albums": [
+    "天赐的声音第五季 第6期",
+    "天赐的声音第五季 第6期 (Live) - EP"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "感官先生 (Live版)"
+  ],
+  "sourceIds": {
+    "qqMusicId": "002U9Luf0Fu30z",
+    "ncmMusicId": "2161527938",
+    "appleMusicId": "1753000611"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

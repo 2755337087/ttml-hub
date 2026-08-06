@@ -1,0 +1,27 @@
+{
+  "id": "fb8750c94cc940b7",
+  "title": "说走就走",
+  "artists": [
+    "陶喆"
+  ],
+  "album": "I'm OK",
+  "albums": [
+    "I'm OK",
+    "I'm O.K."
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "004CGNqD46f4uS",
+    "ncmMusicId": "150627",
+    "appleMusicId": "905206482"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

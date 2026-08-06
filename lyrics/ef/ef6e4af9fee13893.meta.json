@@ -1,0 +1,31 @@
+{
+  "id": "ef6e4af9fee13893",
+  "title": "诺言 (Live)",
+  "artists": [
+    "GAI周延",
+    "陈冰",
+    "GAI"
+  ],
+  "album": "天赐的声音第五季 第9期",
+  "albums": [
+    "天赐的声音第五季 第9期",
+    "天赐的声音第五季 第9期 (Live)"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "诺言 (Live版)"
+  ],
+  "sourceIds": {
+    "qqMusicId": "000IbRpF1VQRgn",
+    "ncmMusicId": "2600433756",
+    "appleMusicId": "1753645328"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}
