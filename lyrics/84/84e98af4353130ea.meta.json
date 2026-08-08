@@ -20,7 +20,10 @@
     "ncmMusicId": "3333988321",
     "appleMusicId": "1864847118"
   },
-  "author": {},
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
   "license": "",
   "sourceUrl": ""
 }

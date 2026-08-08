@@ -1,0 +1,32 @@
+{
+  "id": "01507e857ea1b92d",
+  "title": "房间 (Live)",
+  "artists": [
+    "Eric周兴哲",
+    "黄霄雲",
+    "周兴哲",
+    "黄霄云"
+  ],
+  "album": "声生不息·华流季 第8期",
+  "albums": [
+    "声生不息·华流季 第8期",
+    "声生不息·华流季 (第8期 Live)"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "房间 (live)"
+  ],
+  "sourceIds": {
+    "qqMusicId": "002vcwhp3G88wi",
+    "ncmMusicId": "3337505305",
+    "appleMusicId": "1875173200"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

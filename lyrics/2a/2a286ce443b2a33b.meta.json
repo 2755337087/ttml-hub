@@ -1,0 +1,23 @@
+{
+  "id": "2a286ce443b2a33b",
+  "title": "我的纸飞机",
+  "artists": [
+    "GooGoo",
+    "王之睿"
+  ],
+  "album": "我的纸飞机",
+  "albums": [
+    "我的纸飞机"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "001PnQRU3zLNK3",
+    "appleMusicId": "1715854704"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}
