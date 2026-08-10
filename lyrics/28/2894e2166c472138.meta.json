@@ -1,0 +1,27 @@
+{
+  "id": "2894e2166c472138",
+  "title": "年轮",
+  "artists": [
+    "不是花火呀"
+  ],
+  "album": "年轮",
+  "albums": [
+    "年轮",
+    "年轮 - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "000jn5Vd2JEZ9P",
+    "ncmMusicId": "1830448879",
+    "appleMusicId": "1707330837"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

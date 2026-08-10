@@ -1,0 +1,30 @@
+{
+  "id": "0570aa549662fddd",
+  "title": "我会好好的 (Live)",
+  "artists": [
+    "杨宗纬",
+    "姚晓棠"
+  ],
+  "album": "天赐的声音第五季 第2期",
+  "albums": [
+    "天赐的声音第五季 第2期",
+    "天赐的声音第五季 第2期 (Live)"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "我会好好的 (Live版)"
+  ],
+  "sourceIds": {
+    "qqMusicId": "000Vsz6x4YhS2r",
+    "ncmMusicId": "2151853884",
+    "appleMusicId": "1753006848"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

@@ -1,0 +1,28 @@
+{
+  "id": "5027d32c146de85a",
+  "title": "时间的玩笑",
+  "artists": [
+    "王天阳"
+  ],
+  "album": "《三人行》影视原声带",
+  "albums": [
+    "《三人行》影视原声带",
+    "三人行 影视原声带",
+    "三人行 影视原声带 - EP"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "001Pj9SY3K71Y1",
+    "ncmMusicId": "3313877438",
+    "appleMusicId": "1850116425"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

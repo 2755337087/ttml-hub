@@ -1,0 +1,27 @@
+{
+  "id": "39da97edce6e3927",
+  "title": "特别邀请",
+  "artists": [
+    "橘子妹"
+  ],
+  "album": "特别邀请 - Single",
+  "albums": [
+    "特别邀请 - Single",
+    "特别邀请"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "0025zpYc4cwL0K",
+    "ncmMusicId": "2738475576",
+    "appleMusicId": "1666783372"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

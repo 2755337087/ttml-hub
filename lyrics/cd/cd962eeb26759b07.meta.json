@@ -1,0 +1,26 @@
+{
+  "id": "cd962eeb26759b07",
+  "title": "喜欢你",
+  "artists": [
+    "G.E.M.邓紫棋",
+    "G.E.M. 邓紫棋",
+    "邓紫棋"
+  ],
+  "album": "喜欢你",
+  "albums": [
+    "喜欢你",
+    "喜欢你 - Single"
+  ],
+  "language": "zh-Hant",
+  "hasTranslation": false,
+  "hasTransliteration": true,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "002G0sJY2wThyx",
+    "ncmMusicId": "28949444",
+    "appleMusicId": "908972123"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

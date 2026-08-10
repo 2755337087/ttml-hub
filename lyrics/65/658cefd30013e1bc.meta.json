@@ -1,0 +1,29 @@
+{
+  "id": "658cefd30013e1bc",
+  "title": "Sleep Alone (From",
+  "artists": [
+    "陈奕迅"
+  ],
+  "album": "Sleep Alone (From",
+  "albums": [
+    "Sleep Alone (From",
+    "Sleep Alone"
+  ],
+  "language": "en",
+  "hasTranslation": true,
+  "hasTransliteration": false,
+  "aliases": [
+    "Sleep Alone"
+  ],
+  "sourceIds": {
+    "qqMusicId": "0036tNSh39TvVB",
+    "ncmMusicId": "36539010",
+    "appleMusicId": "1444408232"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

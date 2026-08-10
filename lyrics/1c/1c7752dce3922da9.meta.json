@@ -1,0 +1,41 @@
+{
+  "id": "1c7752dce3922da9",
+  "title": "我爱你中国 (live)",
+  "artists": [
+    "孙楠",
+    "韩红",
+    "黄绮珊",
+    "古巨基",
+    "陈楚生",
+    "王心凌",
+    "谭维维",
+    "胡彦斌",
+    "郁可唯",
+    "汪苏泷",
+    "周深",
+    "宋亚轩",
+    "杨坤",
+    "单依纯",
+    "何炅",
+    "李莎旻子"
+  ],
+  "album": "声生不息·家年华 第12期",
+  "albums": [
+    "声生不息·家年华 第12期",
+    "声生不息·家年华(第十二期live)"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "ncmMusicId": "2124385847",
+    "appleMusicId": "1731761458"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

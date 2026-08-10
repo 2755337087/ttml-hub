@@ -1,0 +1,28 @@
+{
+  "id": "c96c36399da9388d",
+  "title": "南风北巷",
+  "artists": [
+    "邵帅ShaoShuai",
+    "邵帅"
+  ],
+  "album": "南风北巷 - Single",
+  "albums": [
+    "南风北巷 - Single",
+    "南风北巷"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "000Ojw1T37cIeY",
+    "ncmMusicId": "1471039968",
+    "appleMusicId": "1697502085"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

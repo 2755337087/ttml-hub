@@ -1,0 +1,29 @@
+{
+  "id": "efb547504c5beb31",
+  "title": "以朋友的身份",
+  "artists": [
+    "王铮亮",
+    "于冬然"
+  ],
+  "album": "以朋友的身份（《有歌第二季第2期》）",
+  "albums": [
+    "以朋友的身份（《有歌第二季第2期》）",
+    "以朋友的身份 (《有歌》第二季第2期) (Live) - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "以朋友的身份 (《有歌》第二季第2期) [Live]"
+  ],
+  "sourceIds": {
+    "qqMusicId": "001WATOI0PQzCp",
+    "appleMusicId": "1885506096"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

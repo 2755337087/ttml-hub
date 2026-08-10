@@ -1,0 +1,28 @@
+{
+  "id": "a20fe52b4e3b9bcb",
+  "title": "电梯战神",
+  "artists": [
+    "宝石Gem",
+    "董宝石"
+  ],
+  "album": "电梯战神",
+  "albums": [
+    "电梯战神",
+    "电梯战神 - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "001Usnsd0SjsYl",
+    "ncmMusicId": "2048786994",
+    "appleMusicId": "1688656911"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

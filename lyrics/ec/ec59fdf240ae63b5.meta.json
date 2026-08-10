@@ -1,0 +1,24 @@
+{
+  "id": "ec59fdf240ae63b5",
+  "title": "演员",
+  "artists": [
+    "薛之谦"
+  ],
+  "album": "绅士 - Single",
+  "albums": [
+    "绅士 - Single",
+    "绅士"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "001Qu4I30eVFYb",
+    "ncmMusicId": "32507038",
+    "appleMusicId": "1787929825"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}
