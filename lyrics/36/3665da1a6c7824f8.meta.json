@@ -1,0 +1,27 @@
+{
+  "id": "3665da1a6c7824f8",
+  "title": "再见 (live)",
+  "artists": [
+    "万妮达Vinida Weng"
+  ],
+  "album": "歌手2026 第12期",
+  "albums": [
+    "歌手2026 第12期"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "再见 (Live)"
+  ],
+  "sourceIds": {
+    "qqMusicId": "001bT1xX36nQLP",
+    "ncmMusicId": "3417798345"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}
