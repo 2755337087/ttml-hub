@@ -1,0 +1,23 @@
+{
+  "id": "26e1bdda82cddbf7",
+  "title": "我记得",
+  "artists": [
+    "赵雷"
+  ],
+  "album": "署前街少年",
+  "albums": [
+    "署前街少年"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "002dw4gv1ZmiGt",
+    "ncmMusicId": "1974443814",
+    "appleMusicId": "1722409792"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

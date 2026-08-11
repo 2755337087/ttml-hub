@@ -1,0 +1,28 @@
+{
+  "id": "11058682bedc95b5",
+  "title": "纸短情长",
+  "artists": [
+    "烟把儿",
+    "烟把儿乐队"
+  ],
+  "album": "纸短情长",
+  "albums": [
+    "纸短情长",
+    "纸短情长 - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "001I7w9k3BE4gq",
+    "ncmMusicId": "516076896",
+    "appleMusicId": "1549529466"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

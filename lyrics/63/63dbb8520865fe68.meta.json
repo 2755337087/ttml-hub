@@ -1,0 +1,27 @@
+{
+  "id": "63dbb8520865fe68",
+  "title": "失约的夏天",
+  "artists": [
+    "王铮亮"
+  ],
+  "album": "失约的夏天",
+  "albums": [
+    "失约的夏天",
+    "失约的夏天 - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "004FTNFm1cefqs",
+    "ncmMusicId": "2739255187",
+    "appleMusicId": "1835354218"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

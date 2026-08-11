@@ -1,0 +1,26 @@
+{
+  "id": "57713d3f87d61b14",
+  "title": "好像",
+  "artists": [
+    "郭静"
+  ],
+  "album": "好像",
+  "albums": [
+    "好像",
+    "好像 - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "002vIR190Oqs4Q",
+    "appleMusicId": "1848321402"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

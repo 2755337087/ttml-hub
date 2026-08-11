@@ -1,0 +1,27 @@
+{
+  "id": "bdd319f5ba1ea434",
+  "title": "月光",
+  "artists": [
+    "徐良",
+    "阿悄"
+  ],
+  "album": "犯贱",
+  "albums": [
+    "犯贱"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "003OTVXl3LeVF9",
+    "ncmMusicId": "174966",
+    "appleMusicId": "6798611767"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}
