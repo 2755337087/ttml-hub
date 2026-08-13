@@ -1,0 +1,30 @@
+{
+  "id": "235ab28d2fbd18d3",
+  "title": "他不懂 (Live)",
+  "artists": [
+    "杨宗纬",
+    "张碧晨"
+  ],
+  "album": "天赐的声音第五季 第1期",
+  "albums": [
+    "天赐的声音第五季 第1期",
+    "天赐的声音第五季 第1期 (Live) - EP"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "他不懂 (Live版)"
+  ],
+  "sourceIds": {
+    "qqMusicId": "000MFyBr1zFYYN",
+    "ncmMusicId": "2149816865",
+    "appleMusicId": "1757783122"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

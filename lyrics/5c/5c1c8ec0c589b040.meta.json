@@ -1,0 +1,27 @@
+{
+  "id": "5c1c8ec0c589b040",
+  "title": "世界上所有的黎明",
+  "artists": [
+    "胡夏"
+  ],
+  "album": "世界上所有的黎明",
+  "albums": [
+    "世界上所有的黎明",
+    "世界上所有的黎明 - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "001B700T1TVVnk",
+    "ncmMusicId": "1994782390",
+    "appleMusicId": "1681470015"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

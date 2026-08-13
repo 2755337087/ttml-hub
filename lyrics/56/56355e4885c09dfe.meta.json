@@ -1,0 +1,30 @@
+{
+  "id": "56355e4885c09dfe",
+  "title": "夏至未至",
+  "artists": [
+    "胡夏"
+  ],
+  "album": "夏至未至 影视原声带",
+  "albums": [
+    "夏至未至 影视原声带",
+    "夏至未至 电视剧原声带",
+    "电视剧《夏至未至》原声带"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "夏至未至 (电视剧《夏至未至》同名主题曲)"
+  ],
+  "sourceIds": {
+    "qqMusicId": "0021pZYn28C3e9",
+    "ncmMusicId": "482999696",
+    "appleMusicId": "1504856647"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

@@ -1,23 +1,24 @@
 {
-  "id": "e03f2ebe2a54b877",
-  "title": "锁 (Live)",
+  "id": "c72dfa9bd10a782c",
+  "title": "今天你要嫁给我",
   "artists": [
-    "张靓颖",
-    "曾舜晞"
+    "蔡依林",
+    "陶喆"
   ],
-  "album": "天赐的声音第七季 第2期",
+  "album": "太美丽",
   "albums": [
-    "天赐的声音第七季 第2期"
+    "太美丽"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
   "aliases": [
-    "锁 (Live版)"
+    "今天你要嫁给我 (feat. 蔡依林)"
   ],
   "sourceIds": {
-    "qqMusicId": "001X6UNl32DogT",
-    "ncmMusicId": "3395167002"
+    "qqMusicId": "0008aOkA3v4X0Q",
+    "ncmMusicId": "150422",
+    "appleMusicId": "905198184"
   },
   "author": {
     "githubId": "76586484",

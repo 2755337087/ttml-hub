@@ -1,0 +1,23 @@
+{
+  "id": "6ecc6b8f6c0489a6",
+  "title": "我们的时光",
+  "artists": [
+    "赵雷"
+  ],
+  "album": "吉姆餐厅",
+  "albums": [
+    "吉姆餐厅"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "003ITzMw2CRNZX",
+    "ncmMusicId": "29567193",
+    "appleMusicId": "1722411237"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

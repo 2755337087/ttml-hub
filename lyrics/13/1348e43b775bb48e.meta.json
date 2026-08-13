@@ -1,0 +1,25 @@
+{
+  "id": "1348e43b775bb48e",
+  "title": "七月的极光",
+  "artists": [
+    "周杰伦"
+  ],
+  "album": "太阳之子",
+  "albums": [
+    "太阳之子"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "003wwuRJ3OmrGc",
+    "appleMusicId": "1887230882"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

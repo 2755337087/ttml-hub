@@ -1,0 +1,29 @@
+{
+  "id": "5c9c10deb8fe4e70",
+  "title": "玫瑰少年 (Live)",
+  "artists": [
+    "周深",
+    "GAI周延",
+    "GAI"
+  ],
+  "album": "天赐的声音第三季 第3期",
+  "albums": [
+    "天赐的声音第三季 第3期",
+    "天赐的声音第三季 第3期 (Live) - EP"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "000hBf9000XCGz",
+    "ncmMusicId": "1945878289",
+    "appleMusicId": "1783982549"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

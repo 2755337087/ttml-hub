@@ -1,0 +1,26 @@
+{
+  "id": "65da2c6499037c1e",
+  "title": "阿刁",
+  "artists": [
+    "赵雷"
+  ],
+  "album": "无法长大",
+  "albums": [
+    "无法长大"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "003fV3uf1b2Lba",
+    "ncmMusicId": "447925059",
+    "appleMusicId": "1722409910"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

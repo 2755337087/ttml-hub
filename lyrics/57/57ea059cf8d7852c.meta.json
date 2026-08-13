@@ -1,0 +1,30 @@
+{
+  "id": "57ea059cf8d7852c",
+  "title": "最初的记忆 (Live)",
+  "artists": [
+    "张新成",
+    "姚晓棠"
+  ],
+  "album": "天赐的声音第五季 第12期",
+  "albums": [
+    "天赐的声音第五季 第12期",
+    "天赐的声音第五季 第12期 (Live) - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "最初的记忆 (Live版)"
+  ],
+  "sourceIds": {
+    "qqMusicId": "000fH7fe1LttoM",
+    "ncmMusicId": "2607240241",
+    "appleMusicId": "1757406844"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

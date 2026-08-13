@@ -12,7 +12,9 @@
   "language": "zh-Hans",
   "hasTranslation": true,
   "hasTransliteration": false,
-  "aliases": [],
+  "aliases": [
+    "trust me (Live)"
+  ],
   "sourceIds": {
     "qqMusicId": "002oEKRP0CeVWX",
     "ncmMusicId": "3414335339"
