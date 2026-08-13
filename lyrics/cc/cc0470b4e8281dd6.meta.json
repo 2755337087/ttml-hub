@@ -1,0 +1,26 @@
+{
+  "id": "cc0470b4e8281dd6",
+  "title": "小孩",
+  "artists": [
+    "罗森涛"
+  ],
+  "album": "为何离开",
+  "albums": [
+    "为何离开"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "003u3Q983PqpqA",
+    "ncmMusicId": "2166584564",
+    "appleMusicId": "1766209404"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

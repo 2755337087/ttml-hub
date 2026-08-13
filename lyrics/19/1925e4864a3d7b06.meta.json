@@ -1,0 +1,24 @@
+{
+  "id": "1925e4864a3d7b06",
+  "title": "离开我的依赖",
+  "artists": [
+    "王艳薇"
+  ],
+  "album": "离开我的依赖",
+  "albums": [
+    "离开我的依赖",
+    "离开我的依赖 - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "001GOlCd2HImcY",
+    "ncmMusicId": "1420706073",
+    "appleMusicId": "1497822969"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}
