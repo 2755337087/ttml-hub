@@ -1,0 +1,26 @@
+{
+  "id": "9487c0e6e99ea721",
+  "title": "我们的明天",
+  "artists": [
+    "en (王翊恩)",
+    "en（王翊恩）",
+    "en"
+  ],
+  "album": "我们的明天",
+  "albums": [
+    "我们的明天",
+    "我们的明天 - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "000YLIBg4QgBGQ",
+    "ncmMusicId": "2613734527",
+    "appleMusicId": "1777458290"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

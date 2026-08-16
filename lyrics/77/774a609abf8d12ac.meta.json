@@ -1,0 +1,28 @@
+{
+  "id": "774a609abf8d12ac",
+  "title": "A Beautiful Smile",
+  "artists": [
+    "金玟岐"
+  ],
+  "album": "去有风的地方 电视剧影视原声带",
+  "albums": [
+    "去有风的地方 电视剧影视原声带",
+    "《去有风的地方》影视原声带"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "A Beautiful Smile (电视剧《去有风的地方》插曲)"
+  ],
+  "sourceIds": {
+    "qqMusicId": "00102AAe4A1uPG",
+    "appleMusicId": "6769336669"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

@@ -1,0 +1,26 @@
+{
+  "id": "0a5888217c3397a8",
+  "title": "星夜",
+  "artists": [
+    "王铮亮"
+  ],
+  "album": "慢人理论",
+  "albums": [
+    "慢人理论"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "003jqCFb2MsR37",
+    "ncmMusicId": "2046210014",
+    "appleMusicId": "1757660927"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

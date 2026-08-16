@@ -1,0 +1,23 @@
+{
+  "id": "3b06055190fdfe9d",
+  "title": "大鱼",
+  "artists": [
+    "周深"
+  ],
+  "album": "大鱼",
+  "albums": [
+    "大鱼",
+    "深的深"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "004OQ5Mt0EmEzv",
+    "appleMusicId": "1320755350"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

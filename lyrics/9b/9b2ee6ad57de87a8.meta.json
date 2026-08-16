@@ -1,0 +1,30 @@
+{
+  "id": "9b2ee6ad57de87a8",
+  "title": "虹之间 (Live版)",
+  "artists": [
+    "王赫野",
+    "姚晓棠"
+  ],
+  "album": "天赐的声音第五季 第4期",
+  "albums": [
+    "天赐的声音第五季 第4期",
+    "天赐的声音第五季 第4期 (Live)"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "虹之间 (Live)"
+  ],
+  "sourceIds": {
+    "qqMusicId": "000HoSGd4VQah3",
+    "ncmMusicId": "2156439313",
+    "appleMusicId": "1757535881"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}
