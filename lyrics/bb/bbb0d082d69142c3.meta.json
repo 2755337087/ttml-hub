@@ -1,0 +1,24 @@
+{
+  "id": "bbb0d082d69142c3",
+  "title": "江南",
+  "artists": [
+    "林俊杰"
+  ],
+  "album": "第二天堂",
+  "albums": [
+    "第二天堂",
+    "第二天堂(江南)"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "004TXEXY2G2c7C",
+    "ncmMusicId": "108914",
+    "appleMusicId": "1071753628"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

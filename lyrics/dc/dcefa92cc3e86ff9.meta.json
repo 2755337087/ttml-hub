@@ -1,21 +1,25 @@
 {
-  "id": "79ba139eb9dd56a4",
-  "title": "夏天",
+  "id": "dcefa92cc3e86ff9",
+  "title": "妥协",
   "artists": [
-    "李玖哲"
+    "en (王翊恩)",
+    "en",
+    "en（王翊恩）",
+    "王翊恩"
   ],
-  "album": "好玖",
+  "album": "妥协",
   "albums": [
-    "好玖"
+    "妥协",
+    "妥协 - Single"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
   "aliases": [],
   "sourceIds": {
-    "qqMusicId": "000pOCic0ArcYA",
-    "ncmMusicId": "109125",
-    "appleMusicId": "1646769334"
+    "qqMusicId": "003m4srh1VtE2U",
+    "ncmMusicId": "2149832297",
+    "appleMusicId": "1767527690"
   },
   "author": {
     "githubId": "76586484",

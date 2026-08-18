@@ -1,0 +1,28 @@
+{
+  "id": "ba15f0128f4e3a8b",
+  "title": "经过 (Live)",
+  "artists": [
+    "陈冰",
+    "赵磊"
+  ],
+  "album": "天赐的声音第六季 第12期",
+  "albums": [
+    "天赐的声音第六季 第12期"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "经过 (Live版)"
+  ],
+  "sourceIds": {
+    "qqMusicId": "004bjIeJ2zSLsF",
+    "ncmMusicId": "2721755501"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

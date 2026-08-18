@@ -1,0 +1,31 @@
+{
+  "id": "30c772d44f3903e1",
+  "title": "情歌",
+  "artists": [
+    "en (王翊恩)",
+    "en",
+    "en（王翊恩）",
+    "王翊恩"
+  ],
+  "album": "情歌",
+  "albums": [
+    "情歌",
+    "情歌 - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "0013RHBk09tb8B",
+    "ncmMusicId": "2613025821",
+    "appleMusicId": "1777457957",
+    "isrc": "QNSM12401030"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2a8494ae1306ec76",
+  "title": "Cappuccino",
+  "artists": [
+    "萧亚轩"
+  ],
+  "album": "萧亚轩 同名专辑",
+  "albums": [
+    "萧亚轩 同名专辑",
+    "萧亚轩"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "002e4iUs0VJ0Cg",
+    "ncmMusicId": "307677",
+    "appleMusicId": "905208305",
+    "isrc": "TWC159903002"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

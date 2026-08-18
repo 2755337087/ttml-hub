@@ -1,0 +1,30 @@
+{
+  "id": "7b731e3f40e4eb43",
+  "title": "慢冷 (Live)",
+  "artists": [
+    "张碧晨",
+    "希林娜依高"
+  ],
+  "album": "天赐的声音第四季 第1期",
+  "albums": [
+    "天赐的声音第四季 第1期",
+    "天赐的声音第四季 第一期 (Live) - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "慢冷 (Live版)"
+  ],
+  "sourceIds": {
+    "qqMusicId": "002kYksn00tMvm",
+    "ncmMusicId": "2043126974",
+    "appleMusicId": "1763191654"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

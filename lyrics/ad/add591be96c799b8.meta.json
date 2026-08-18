@@ -1,21 +1,22 @@
 {
-  "id": "79ba139eb9dd56a4",
-  "title": "夏天",
+  "id": "add591be96c799b8",
+  "title": "月亮照山川",
   "artists": [
-    "李玖哲"
+    "王铮亮"
   ],
-  "album": "好玖",
+  "album": "月亮照山川",
   "albums": [
-    "好玖"
+    "月亮照山川",
+    "月亮照山川 - Single"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
   "aliases": [],
   "sourceIds": {
-    "qqMusicId": "000pOCic0ArcYA",
-    "ncmMusicId": "109125",
-    "appleMusicId": "1646769334"
+    "qqMusicId": "003QDnvP3ygUkH",
+    "appleMusicId": "1828351076",
+    "isrc": "HKD012520352"
   },
   "author": {
     "githubId": "76586484",
