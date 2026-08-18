@@ -4,7 +4,8 @@
   "artists": [
     "en (王翊恩)",
     "en（王翊恩）",
-    "en"
+    "en",
+    "王翊恩"
   ],
   "album": "我们的明天",
   "albums": [
@@ -20,7 +21,10 @@
     "ncmMusicId": "2613734527",
     "appleMusicId": "1777458290"
   },
-  "author": {},
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
   "license": "",
   "sourceUrl": ""
 }
