@@ -1,0 +1,31 @@
+{
+  "id": "221b6d2de056a2e5",
+  "title": "摇篮谣",
+  "artists": [
+    "斯斯与帆"
+  ],
+  "album": "摇篮谣",
+  "albums": [
+    "摇篮谣",
+    "去有风的地方 电视剧影视原声带",
+    "《去有风的地方》影视原声带"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "摇篮谣 (电视剧《去有风的地方》插曲)"
+  ],
+  "sourceIds": {
+    "qqMusicId": "002cDk2v1xyhDh",
+    "ncmMusicId": "2011844484",
+    "appleMusicId": "6769335767",
+    "isrc": "FRX202604007"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

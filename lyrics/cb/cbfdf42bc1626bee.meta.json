@@ -1,0 +1,28 @@
+{
+  "id": "cbfdf42bc1626bee",
+  "title": "他没有骗你",
+  "artists": [
+    "张碧晨"
+  ],
+  "album": "他没有骗你",
+  "albums": [
+    "他没有骗你",
+    "他没有骗你 - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "004XUkSB0mm7cK",
+    "ncmMusicId": "2637484485",
+    "appleMusicId": "1774606863",
+    "isrc": "HKG732480989"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

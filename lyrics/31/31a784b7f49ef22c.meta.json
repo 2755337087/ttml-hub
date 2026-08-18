@@ -1,0 +1,24 @@
+{
+  "id": "31a784b7f49ef22c",
+  "title": "Love Yourself",
+  "artists": [
+    "Justin Bieber"
+  ],
+  "album": "Purpose",
+  "albums": [
+    "Purpose"
+  ],
+  "language": "en",
+  "hasTranslation": true,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "001tcKlc0yHWkc",
+    "ncmMusicId": "1319395226",
+    "appleMusicId": "1440826328",
+    "isrc": "USUM71516761"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

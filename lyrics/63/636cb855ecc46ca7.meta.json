@@ -1,0 +1,25 @@
+{
+  "id": "636cb855ecc46ca7",
+  "title": "漠河舞厅",
+  "artists": [
+    "柳爽"
+  ],
+  "album": "1st.星球",
+  "albums": [
+    "1st.星球",
+    "1st.星球 - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "0043nSjv1TtpMv",
+    "ncmMusicId": "1430319727",
+    "appleMusicId": "1741746420",
+    "isrc": "CNA792004986"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

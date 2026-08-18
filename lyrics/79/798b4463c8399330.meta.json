@@ -1,0 +1,27 @@
+{
+  "id": "798b4463c8399330",
+  "title": "从前那个女孩",
+  "artists": [
+    "王赫野"
+  ],
+  "album": "从前那个女孩",
+  "albums": [
+    "从前那个女孩",
+    "从前那个女孩 - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "003Zn9vX1X9pkb",
+    "appleMusicId": "1802565815",
+    "isrc": "FR59R2581385"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

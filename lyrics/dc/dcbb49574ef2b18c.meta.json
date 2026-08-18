@@ -1,0 +1,23 @@
+{
+  "id": "dcbb49574ef2b18c",
+  "title": "青花瓷",
+  "artists": [
+    "周杰伦"
+  ],
+  "album": "我很忙",
+  "albums": [
+    "我很忙"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "002qU5aY3Qu24y",
+    "appleMusicId": "1721455873",
+    "isrc": "TWK970701303"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

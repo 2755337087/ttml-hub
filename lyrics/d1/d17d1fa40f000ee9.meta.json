@@ -1,0 +1,27 @@
+{
+  "id": "d17d1fa40f000ee9",
+  "title": "把回忆拼好给你",
+  "artists": [
+    "cici_"
+  ],
+  "album": "把回忆拼好给你 (新版)",
+  "albums": [
+    "把回忆拼好给你 (新版)",
+    "把回忆拼好给你 - EP"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "001dnUhx480S1Y",
+    "appleMusicId": "1689466955",
+    "isrc": "FRX762394065"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

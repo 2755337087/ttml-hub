@@ -1,0 +1,26 @@
+{
+  "id": "e65a17d649655846",
+  "title": "戒烟",
+  "artists": [
+    "李荣浩"
+  ],
+  "album": "戒烟",
+  "albums": [
+    "戒烟",
+    "嗯",
+    "戒烟 - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "004MvQot3V0O8P",
+    "ncmMusicId": "518686034",
+    "appleMusicId": "1308479650",
+    "isrc": "TWA531702334"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}
