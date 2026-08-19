@@ -1,4 +1,4 @@
-<tt xmlns="http://www.w3.org/ns/ttml" xmlns:itunes="http://music.apple.com/lyric-ttml-internal" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" itunes:timing="Word" xml:lang="zh-Hans" xmlns:amll="http://www.example.com/ns/amll"><head><metadata><ttm:agent type="person" xml:id="v1"/><iTunesMetadata xmlns="http://music.apple.com/lyric-ttml-internal"><translations/><songwriters><songwriter>周杰伦</songwriter><songwriter>方文山</songwriter></songwriters><transliterations></transliterations></iTunesMetadata>
+<tt xmlns="http://www.w3.org/ns/ttml" xmlns:itunes="http://music.apple.com/lyric-ttml-internal" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" itunes:timing="Word" xml:lang="zh-Hans" xmlns:amll="http://www.example.com/ns/amll"><head><metadata><ttm:agent type="person" xml:id="v1"/><iTunesMetadata xmlns="http://music.apple.com/lyric-ttml-internal"><songwriters><songwriter>周杰伦</songwriter><songwriter>方文山</songwriter></songwriters></iTunesMetadata>
 <amll:meta key="musicName" value="湘女多情"/>
 <amll:meta key="artists" value="周杰伦"/>
 <amll:meta key="album" value="太阳之子"/>

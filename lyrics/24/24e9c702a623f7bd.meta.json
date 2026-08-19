@@ -9,8 +9,8 @@
     "太阳之子"
   ],
   "language": "zh-Hans",
-  "hasTranslation": true,
-  "hasTransliteration": true,
+  "hasTranslation": false,
+  "hasTransliteration": false,
   "aliases": [],
   "sourceIds": {
     "appleMusicId": "1887230880"
