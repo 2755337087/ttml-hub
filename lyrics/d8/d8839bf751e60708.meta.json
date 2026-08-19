@@ -1,0 +1,23 @@
+{
+  "id": "d8839bf751e60708",
+  "title": "比较大的大提琴",
+  "artists": [
+    "周杰伦",
+    "Lara梁心颐",
+    "杨瑞代"
+  ],
+  "album": "十二新作",
+  "albums": [
+    "十二新作"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "appleMusicId": "1721467259"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}
