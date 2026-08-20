@@ -1,0 +1,26 @@
+{
+  "id": "647fa5fca82dc2ac",
+  "title": "坏同学",
+  "artists": [
+    "颜人中"
+  ],
+  "album": "这是一张情歌专辑",
+  "albums": [
+    "这是一张情歌专辑"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "004Z7j560u5agm",
+    "ncmMusicId": "2606096106",
+    "appleMusicId": "1840835983"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

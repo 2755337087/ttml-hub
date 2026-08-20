@@ -1,0 +1,22 @@
+{
+  "id": "e1489a56782aefe6",
+  "title": "我的秘密",
+  "artists": [
+    "邓紫棋"
+  ],
+  "album": "我的秘密",
+  "albums": [
+    "我的秘密",
+    "我的秘密 - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "appleMusicId": "6775737092"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

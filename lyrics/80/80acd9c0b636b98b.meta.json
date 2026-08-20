@@ -1,0 +1,26 @@
+{
+  "id": "80acd9c0b636b98b",
+  "title": "Destiny",
+  "artists": [
+    "颜人中"
+  ],
+  "album": "这是一张情歌专辑",
+  "albums": [
+    "这是一张情歌专辑"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "000nk3sl1C4GvB",
+    "ncmMusicId": "2606096104",
+    "appleMusicId": "1840835968"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

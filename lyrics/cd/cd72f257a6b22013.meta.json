@@ -1,0 +1,26 @@
+{
+  "id": "cd72f257a6b22013",
+  "title": "各说各话",
+  "artists": [
+    "颜人中"
+  ],
+  "album": "这是一张情歌专辑",
+  "albums": [
+    "这是一张情歌专辑"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": "002Rnpz10HhTTz",
+    "ncmMusicId": "2606098700",
+    "appleMusicId": "1840835976"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

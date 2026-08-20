@@ -1,0 +1,28 @@
+{
+  "id": "d9bf5ed96c81db7f",
+  "title": "有一天,你会回来",
+  "artists": [
+    "颜人中"
+  ],
+  "album": "这是一张情歌专辑",
+  "albums": [
+    "这是一张情歌专辑"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "有一天，你会回来"
+  ],
+  "sourceIds": {
+    "qqMusicId": "000qKcOg1Q1iDf",
+    "ncmMusicId": "2747893990",
+    "appleMusicId": "1840835989"
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}
