@@ -1,0 +1,21 @@
+{
+  "id": "78963d62125b2094",
+  "title": "我要快乐",
+  "artists": [
+    "张惠妹"
+  ],
+  "album": "我要快乐?",
+  "albums": [
+    "我要快乐?"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "appleMusicId": "201550139"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

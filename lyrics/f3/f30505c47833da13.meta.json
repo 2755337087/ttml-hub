@@ -1,0 +1,22 @@
+{
+  "id": "f30505c47833da13",
+  "title": "玻璃 demo",
+  "artists": [
+    "Gareth.T"
+  ],
+  "album": "玻璃 demo - Single",
+  "albums": [
+    "玻璃 demo - Single",
+    "玻璃 demo"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "appleMusicId": "6779309760"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

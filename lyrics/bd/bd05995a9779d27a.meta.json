@@ -1,0 +1,22 @@
+{
+  "id": "bd05995a9779d27a",
+  "title": "照片",
+  "artists": [
+    "单依纯"
+  ],
+  "album": "照片 - Single",
+  "albums": [
+    "照片 - Single",
+    "照片"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "appleMusicId": "1843079941"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

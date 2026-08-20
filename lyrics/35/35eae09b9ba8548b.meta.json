@@ -4,17 +4,16 @@
   "artists": [
     "颜人中"
   ],
-  "album": "慢慢",
+  "album": "慢慢 - Single",
   "albums": [
-    "慢慢",
-    "慢慢 - Single"
+    "慢慢 - Single",
+    "慢慢"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
   "aliases": [],
   "sourceIds": {
-    "qqMusicId": "0022oe6z3b3oGD",
     "appleMusicId": "6790829825"
   },
   "author": {},

@@ -1,0 +1,21 @@
+{
+  "id": "a7ff9a7acd5ac5b1",
+  "title": "Cappuccino",
+  "artists": [
+    "萧亚轩"
+  ],
+  "album": "Elva First",
+  "albums": [
+    "Elva First"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "appleMusicId": "908317981"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

@@ -4,9 +4,8 @@
   "artists": [
     "林俊杰"
   ],
-  "album": "第二天堂",
+  "album": "第二天堂(江南)",
   "albums": [
-    "第二天堂",
     "第二天堂(江南)"
   ],
   "language": "zh-Hans",
@@ -14,8 +13,6 @@
   "hasTransliteration": false,
   "aliases": [],
   "sourceIds": {
-    "qqMusicId": "004TXEXY2G2c7C",
-    "ncmMusicId": "108914",
     "appleMusicId": "1071753628"
   },
   "author": {},

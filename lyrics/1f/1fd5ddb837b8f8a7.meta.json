@@ -1,0 +1,21 @@
+{
+  "id": "1fd5ddb837b8f8a7",
+  "title": "安妮",
+  "artists": [
+    "王杰"
+  ],
+  "album": "一场游戏一场梦",
+  "albums": [
+    "一场游戏一场梦"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "appleMusicId": "263500502"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

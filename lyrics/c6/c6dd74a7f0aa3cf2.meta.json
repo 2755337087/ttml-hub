@@ -4,9 +4,8 @@
   "artists": [
     "陈奕迅"
   ],
-  "album": "黑白灰",
+  "album": "黑.白.灰",
   "albums": [
-    "黑白灰",
     "黑.白.灰"
   ],
   "language": "zh-Hans",
@@ -14,8 +13,6 @@
   "hasTransliteration": false,
   "aliases": [],
   "sourceIds": {
-    "qqMusicId": "001OyHbk2MSIi4",
-    "ncmMusicId": "66842",
     "appleMusicId": "542923776"
   },
   "author": {},

@@ -4,18 +4,16 @@
   "artists": [
     "队长"
   ],
-  "album": "哪里都是你",
+  "album": "哪里都是你 - Single",
   "albums": [
-    "哪里都是你",
-    "哪里都是你 - Single"
+    "哪里都是你 - Single",
+    "哪里都是你"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
   "aliases": [],
   "sourceIds": {
-    "qqMusicId": "000DwlYJ09mLoO",
-    "ncmMusicId": "488249475",
     "appleMusicId": "1855424065"
   },
   "author": {},

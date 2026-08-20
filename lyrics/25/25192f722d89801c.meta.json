@@ -1,0 +1,22 @@
+{
+  "id": "25192f722d89801c",
+  "title": "花火",
+  "artists": [
+    "丁当",
+    "五月天 阿信"
+  ],
+  "album": "夜猫",
+  "albums": [
+    "夜猫"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "appleMusicId": "1085515007"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

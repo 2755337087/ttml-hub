@@ -1,0 +1,23 @@
+{
+  "id": "41d6a5179dfc9e57",
+  "title": "甲乙丙丁",
+  "artists": [
+    "郑中基",
+    "张学友",
+    "许志安"
+  ],
+  "album": "敌人",
+  "albums": [
+    "敌人"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "appleMusicId": "910057526"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

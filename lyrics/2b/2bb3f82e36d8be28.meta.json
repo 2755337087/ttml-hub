@@ -1,0 +1,21 @@
+{
+  "id": "2bb3f82e36d8be28",
+  "title": "1234567",
+  "artists": [
+    "陈绮贞"
+  ],
+  "album": "吉他手",
+  "albums": [
+    "吉他手"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "appleMusicId": "152198022"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

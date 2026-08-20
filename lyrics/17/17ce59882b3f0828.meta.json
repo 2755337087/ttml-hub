@@ -1,0 +1,21 @@
+{
+  "id": "17ce59882b3f0828",
+  "title": "咖啡",
+  "artists": [
+    "张学友"
+  ],
+  "album": "他在那里",
+  "albums": [
+    "他在那里"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "appleMusicId": "1442703148"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

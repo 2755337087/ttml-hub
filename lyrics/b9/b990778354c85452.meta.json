@@ -1,0 +1,23 @@
+{
+  "id": "b990778354c85452",
+  "title": "甲乙丙丁",
+  "artists": [
+    "张学友",
+    "郑中基",
+    "许志安"
+  ],
+  "album": "不后悔",
+  "albums": [
+    "不后悔"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "appleMusicId": "1442805127"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

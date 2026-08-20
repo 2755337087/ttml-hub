@@ -1,9 +1,9 @@
 {
   "id": "0253ad4a4eb470cf",
-  "title": "有点甜",
+  "title": "有点甜 (《萌三国》网游主题曲|《微微一笑很倾城》电视剧插曲)",
   "artists": [
     "汪苏泷",
-    "BY2"
+    "By2"
   ],
   "album": "万有引力",
   "albums": [
@@ -12,12 +12,8 @@
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
-  "aliases": [
-    "有点甜 (《萌三国》网游主题曲《微微一笑很倾城》电视剧插曲)"
-  ],
+  "aliases": [],
   "sourceIds": {
-    "qqMusicId": "001bdYk41BCfRi",
-    "ncmMusicId": "165340",
     "appleMusicId": "6774677706"
   },
   "author": {},

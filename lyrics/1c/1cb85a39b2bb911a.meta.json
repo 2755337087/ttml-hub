@@ -6,16 +6,13 @@
   ],
   "album": "陶喆同名专辑",
   "albums": [
-    "陶喆同名专辑",
-    "David Tao"
+    "陶喆同名专辑"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
   "aliases": [],
   "sourceIds": {
-    "qqMusicId": "001yZ7Tf0kudte",
-    "ncmMusicId": "150654",
     "appleMusicId": "1416149931"
   },
   "author": {},

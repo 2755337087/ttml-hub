@@ -4,18 +4,16 @@
   "artists": [
     "李荣浩"
   ],
-  "album": "黑马",
+  "album": "Wander - Single",
   "albums": [
-    "黑马",
-    "走走 - Single"
+    "Wander - Single",
+    "Wander"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
   "aliases": [],
   "sourceIds": {
-    "qqMusicId": "0017wc9t3bkNwo",
-    "ncmMusicId": "2608448649",
     "appleMusicId": "1756692100"
   },
   "author": {},

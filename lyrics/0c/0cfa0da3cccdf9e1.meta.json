@@ -6,21 +6,16 @@
   ],
   "album": "100天",
   "albums": [
-    "100天",
-    "背对背拥抱 - Single"
+    "100天"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
   "aliases": [],
   "sourceIds": {
-    "qqMusicId": "002E8ebM3TFWmA",
     "appleMusicId": "1071517710"
   },
-  "author": {
-    "githubId": "76586484",
-    "githubLogin": "2755337087"
-  },
+  "author": {},
   "license": "",
   "sourceUrl": ""
 }

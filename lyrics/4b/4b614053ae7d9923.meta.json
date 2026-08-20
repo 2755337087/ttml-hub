@@ -1,6 +1,6 @@
 {
   "id": "4b614053ae7d9923",
-  "title": "不将就",
+  "title": "不将就 (电影《何以笙箫默》片尾曲)",
   "artists": [
     "李荣浩"
   ],
@@ -11,12 +11,8 @@
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
-  "aliases": [
-    "不将就 (电影《何以笙箫默》片尾曲)"
-  ],
+  "aliases": [],
   "sourceIds": {
-    "qqMusicId": "000edAg12jLBrN",
-    "ncmMusicId": "31654343",
     "appleMusicId": "1072339996"
   },
   "author": {},

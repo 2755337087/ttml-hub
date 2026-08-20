@@ -1,0 +1,22 @@
+{
+  "id": "8fe5a07ce0ac179f",
+  "title": "一天",
+  "artists": [
+    "队长",
+    "鹿晗"
+  ],
+  "album": "I AM WHAT I AM",
+  "albums": [
+    "I AM WHAT I AM"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "appleMusicId": "6771188378"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

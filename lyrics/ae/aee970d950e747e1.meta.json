@@ -1,0 +1,21 @@
+{
+  "id": "aee970d950e747e1",
+  "title": "台北某个地方",
+  "artists": [
+    "陈绮贞"
+  ],
+  "album": "沙发海",
+  "albums": [
+    "沙发海"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "appleMusicId": "1444602076"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

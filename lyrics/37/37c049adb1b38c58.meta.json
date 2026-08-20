@@ -4,18 +4,16 @@
   "artists": [
     "颜人中"
   ],
-  "album": "失眠症候群",
+  "album": "失眠症候群 - EP",
   "albums": [
-    "失眠症候群",
-    "失眠症候群 - EP"
+    "失眠症候群 - EP",
+    "失眠症候群"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
   "aliases": [],
   "sourceIds": {
-    "qqMusicId": "000uTF4U00xS1z",
-    "ncmMusicId": "1406649619",
     "appleMusicId": "1861117581"
   },
   "author": {},

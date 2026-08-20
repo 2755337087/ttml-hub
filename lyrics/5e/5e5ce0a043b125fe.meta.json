@@ -4,9 +4,8 @@
   "artists": [
     "徐佳莹"
   ],
-  "album": "LaLa首张创作专辑",
+  "album": "徐佳莹LaLa首张创作专辑",
   "albums": [
-    "LaLa首张创作专辑",
     "徐佳莹LaLa首张创作专辑"
   ],
   "language": "zh-Hans",
@@ -14,10 +13,7 @@
   "hasTransliteration": false,
   "aliases": [],
   "sourceIds": {
-    "qqMusicId": "001KyJTt1kbkfP",
-    "ncmMusicId": "306665",
-    "appleMusicId": "672648897",
-    "isrc": "TWJ010900407"
+    "appleMusicId": "672648897"
   },
   "author": {},
   "license": "",

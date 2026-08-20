@@ -4,16 +4,15 @@
   "artists": [
     "李荣浩"
   ],
-  "album": "模特",
+  "album": "Model",
   "albums": [
-    "模特"
+    "Model"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
   "aliases": [],
   "sourceIds": {
-    "ncmMusicId": "27678655",
     "appleMusicId": "1743353792"
   },
   "author": {},

@@ -1,0 +1,22 @@
+{
+  "id": "2c90fa75b0084bfe",
+  "title": "黑马",
+  "artists": [
+    "李荣浩"
+  ],
+  "album": "Black Horse - Single",
+  "albums": [
+    "Black Horse - Single",
+    "Black Horse"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "appleMusicId": "1741965409"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

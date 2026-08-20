@@ -1,23 +1,19 @@
 {
   "id": "a2318595a9af7080",
-  "title": "欠父亲的话",
+  "title": "欠父亲的话 (电影《我爸没说的那件事》主题曲)",
   "artists": [
     "赵雷"
   ],
-  "album": "欠父亲的话",
+  "album": "欠父亲的话 (电影《我爸没说的那件事》主题曲) - Single",
   "albums": [
-    "欠父亲的话",
-    "欠父亲的话 (电影《我爸没说的那件事》主题曲) - Single"
+    "欠父亲的话 (电影《我爸没说的那件事》主题曲) - Single",
+    "欠父亲的话 (电影《我爸没说的那件事》主题曲)"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
-  "aliases": [
-    "欠父亲的话 (电影《我爸没说的那件事》主题曲)"
-  ],
+  "aliases": [],
   "sourceIds": {
-    "qqMusicId": "0011OUFq15cvAu",
-    "ncmMusicId": "2090583673",
     "appleMusicId": "1711719923"
   },
   "author": {},

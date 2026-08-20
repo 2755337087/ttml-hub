@@ -1,0 +1,21 @@
+{
+  "id": "5bdc2377f3b8c782",
+  "title": "名字",
+  "artists": [
+    "李荣浩"
+  ],
+  "album": "The Dark Horse",
+  "albums": [
+    "The Dark Horse"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "appleMusicId": "1773340387"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

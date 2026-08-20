@@ -1,0 +1,21 @@
+{
+  "id": "a3d0feddf66bc2bf",
+  "title": "洋葱",
+  "artists": [
+    "杨宗纬"
+  ],
+  "album": "鸽子",
+  "albums": [
+    "鸽子"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "appleMusicId": "1445132452"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

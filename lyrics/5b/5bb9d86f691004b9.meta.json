@@ -1,0 +1,22 @@
+{
+  "id": "5bb9d86f691004b9",
+  "title": "某年某月某天",
+  "artists": [
+    "颜人中"
+  ],
+  "album": "某年某月某天 - Single",
+  "albums": [
+    "某年某月某天 - Single",
+    "某年某月某天"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "appleMusicId": "1860203370"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

@@ -4,9 +4,8 @@
   "artists": [
     "林俊杰"
   ],
-  "album": "因你而在",
+  "album": "因你 而在",
   "albums": [
-    "因你而在",
     "因你 而在"
   ],
   "language": "zh-Hans",
@@ -14,8 +13,6 @@
   "hasTransliteration": false,
   "aliases": [],
   "sourceIds": {
-    "qqMusicId": "002CxSLT41D5tD",
-    "ncmMusicId": "25727803",
     "appleMusicId": "1694849138"
   },
   "author": {},

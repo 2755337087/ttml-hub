@@ -1,0 +1,21 @@
+{
+  "id": "9295a4320be44675",
+  "title": "K歌之王",
+  "artists": [
+    "陈奕迅"
+  ],
+  "album": "陈奕迅 国语精选",
+  "albums": [
+    "陈奕迅 国语精选"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "appleMusicId": "651456035"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

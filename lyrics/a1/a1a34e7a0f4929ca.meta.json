@@ -13,13 +13,9 @@
   "hasTransliteration": false,
   "aliases": [],
   "sourceIds": {
-    "ncmMusicId": "1997438791",
     "appleMusicId": "1655821629"
   },
-  "author": {
-    "githubId": "76586484",
-    "githubLogin": "2755337087"
-  },
+  "author": {},
   "license": "",
   "sourceUrl": ""
 }

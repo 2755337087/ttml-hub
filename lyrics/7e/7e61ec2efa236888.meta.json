@@ -1,0 +1,22 @@
+{
+  "id": "7e61ec2efa236888",
+  "title": "下雨天",
+  "artists": [
+    "林忆莲",
+    "Blue Jeans"
+  ],
+  "album": "Are You Ready",
+  "albums": [
+    "Are You Ready"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": true,
+  "aliases": [],
+  "sourceIds": {
+    "appleMusicId": "439460130"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

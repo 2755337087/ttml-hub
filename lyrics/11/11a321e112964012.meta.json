@@ -4,18 +4,16 @@
   "artists": [
     "承桓"
   ],
-  "album": "仅剩的自由",
+  "album": "仅剩的自由 - Single",
   "albums": [
-    "仅剩的自由",
-    "仅剩的自由 - Single"
+    "仅剩的自由 - Single",
+    "仅剩的自由"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
   "aliases": [],
   "sourceIds": {
-    "qqMusicId": "004GN39X1k4GdD",
-    "ncmMusicId": "3389791864",
     "appleMusicId": "6776551775"
   },
   "author": {},
