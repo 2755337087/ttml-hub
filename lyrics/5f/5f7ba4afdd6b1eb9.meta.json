@@ -1,0 +1,22 @@
+{
+  "id": "5f7ba4afdd6b1eb9",
+  "title": "哑巴",
+  "artists": [
+    "薛之谦"
+  ],
+  "album": "哑巴",
+  "albums": [
+    "哑巴",
+    "哑巴 - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "appleMusicId": "1787448422"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

@@ -1,0 +1,22 @@
+{
+  "id": "ed1658ef81bbdde2",
+  "title": "Jasmine",
+  "artists": [
+    "蔡徐坤"
+  ],
+  "album": "Jasmine",
+  "albums": [
+    "Jasmine",
+    "Jasmine - Single"
+  ],
+  "language": "en",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "appleMusicId": "1861571917"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

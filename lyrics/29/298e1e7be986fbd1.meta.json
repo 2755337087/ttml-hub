@@ -1,0 +1,22 @@
+{
+  "id": "298e1e7be986fbd1",
+  "title": "今日",
+  "artists": [
+    "陈奕迅"
+  ],
+  "album": "今日",
+  "albums": [
+    "今日",
+    "今日 - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": true,
+  "aliases": [],
+  "sourceIds": {
+    "appleMusicId": "892822895"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

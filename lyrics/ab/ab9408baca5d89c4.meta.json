@@ -1,0 +1,22 @@
+{
+  "id": "ab9408baca5d89c4",
+  "title": "我的爱",
+  "artists": [
+    "孙燕姿"
+  ],
+  "album": "我的爱",
+  "albums": [
+    "我的爱",
+    "我的爱 - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "appleMusicId": "280912004"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

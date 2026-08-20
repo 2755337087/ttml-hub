@@ -1,0 +1,22 @@
+{
+  "id": "71be0243edc31a10",
+  "title": "我喜欢",
+  "artists": [
+    "梁静茹"
+  ],
+  "album": "我喜欢",
+  "albums": [
+    "我喜欢",
+    "我喜欢 - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "appleMusicId": "153707743"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

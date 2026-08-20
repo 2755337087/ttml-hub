@@ -1,0 +1,22 @@
+{
+  "id": "1730a4794a3f5cec",
+  "title": "玩具",
+  "artists": [
+    "张韶涵"
+  ],
+  "album": "玩具",
+  "albums": [
+    "玩具",
+    "玩具 - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "appleMusicId": "1855633492"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

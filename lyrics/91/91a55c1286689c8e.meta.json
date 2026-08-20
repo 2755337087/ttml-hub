@@ -1,0 +1,22 @@
+{
+  "id": "91a55c1286689c8e",
+  "title": "单车",
+  "artists": [
+    "陈奕迅"
+  ],
+  "album": "单车",
+  "albums": [
+    "单车",
+    "单车 - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": true,
+  "aliases": [],
+  "sourceIds": {
+    "appleMusicId": "651449685"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

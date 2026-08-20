@@ -1,0 +1,22 @@
+{
+  "id": "35b62f3e58cc6ee1",
+  "title": "男二号",
+  "artists": [
+    "薛之谦"
+  ],
+  "album": "男二号",
+  "albums": [
+    "男二号",
+    "男二号 - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "appleMusicId": "1787448342"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

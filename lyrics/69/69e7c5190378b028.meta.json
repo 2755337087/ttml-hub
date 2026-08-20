@@ -1,0 +1,22 @@
+{
+  "id": "69e7c5190378b028",
+  "title": "K歌之王",
+  "artists": [
+    "陈奕迅"
+  ],
+  "album": "K歌之王",
+  "albums": [
+    "K歌之王",
+    "K歌之王 - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "appleMusicId": "542922096"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

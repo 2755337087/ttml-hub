@@ -1,0 +1,22 @@
+{
+  "id": "29425a1a44c8e297",
+  "title": "主角",
+  "artists": [
+    "王菲"
+  ],
+  "album": "主角",
+  "albums": [
+    "主角",
+    "主角 - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "appleMusicId": "6764870467"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

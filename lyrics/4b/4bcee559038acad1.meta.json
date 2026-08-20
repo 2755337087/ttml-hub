@@ -1,0 +1,22 @@
+{
+  "id": "4bcee559038acad1",
+  "title": "Stupid Pop Song",
+  "artists": [
+    "陶喆"
+  ],
+  "album": "Stupid Pop Song",
+  "albums": [
+    "Stupid Pop Song",
+    "Stupid Pop Song - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "appleMusicId": "1807733205"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

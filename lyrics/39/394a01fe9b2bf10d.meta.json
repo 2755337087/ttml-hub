@@ -1,0 +1,22 @@
+{
+  "id": "394a01fe9b2bf10d",
+  "title": "想听",
+  "artists": [
+    "陈奕迅"
+  ],
+  "album": "想听",
+  "albums": [
+    "想听",
+    "想听 - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": true,
+  "aliases": [],
+  "sourceIds": {
+    "appleMusicId": "1442913418"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

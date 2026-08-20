@@ -1,0 +1,22 @@
+{
+  "id": "1fec1d225d1414a4",
+  "title": "红豆",
+  "artists": [
+    "方大同"
+  ],
+  "album": "红豆",
+  "albums": [
+    "红豆",
+    "红豆 - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "appleMusicId": "747590813"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

@@ -1,0 +1,22 @@
+{
+  "id": "56dea3f9f582c518",
+  "title": "Melody",
+  "artists": [
+    "陶喆"
+  ],
+  "album": "Melody",
+  "albums": [
+    "Melody",
+    "Melody - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "appleMusicId": "1372032067"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

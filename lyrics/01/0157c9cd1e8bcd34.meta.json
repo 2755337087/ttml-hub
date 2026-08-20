@@ -1,0 +1,22 @@
+{
+  "id": "0157c9cd1e8bcd34",
+  "title": "我们的歌",
+  "artists": [
+    "王力宏"
+  ],
+  "album": "我们的歌",
+  "albums": [
+    "我们的歌",
+    "我们的歌 - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "appleMusicId": "1691044822"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

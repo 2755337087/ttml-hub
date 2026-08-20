@@ -1,0 +1,22 @@
+{
+  "id": "5c5536b44ff2d5ca",
+  "title": "我爱你",
+  "artists": [
+    "卢广仲"
+  ],
+  "album": "我爱你",
+  "albums": [
+    "我爱你",
+    "我爱你 - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "appleMusicId": "799184031"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

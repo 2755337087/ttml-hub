@@ -1,0 +1,22 @@
+{
+  "id": "bea65c2dfb14d7a2",
+  "title": "为你写的歌",
+  "artists": [
+    "方大同"
+  ],
+  "album": "为你写的歌",
+  "albums": [
+    "为你写的歌",
+    "为你写的歌 - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "appleMusicId": "313404879"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

@@ -1,0 +1,22 @@
+{
+  "id": "a39e7d226d3af405",
+  "title": "电台情歌",
+  "artists": [
+    "莫文蔚"
+  ],
+  "album": "电台情歌",
+  "albums": [
+    "电台情歌",
+    "电台情歌 - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "appleMusicId": "1075792543"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

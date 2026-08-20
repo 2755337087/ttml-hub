@@ -1,0 +1,22 @@
+{
+  "id": "4f596d53dd7b7da9",
+  "title": "阿牛",
+  "artists": [
+    "陈奕迅"
+  ],
+  "album": "阿牛",
+  "albums": [
+    "阿牛",
+    "阿牛 - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": true,
+  "aliases": [],
+  "sourceIds": {
+    "appleMusicId": "1443375157"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

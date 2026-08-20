@@ -1,0 +1,22 @@
+{
+  "id": "7c497706f6fced14",
+  "title": "情歌",
+  "artists": [
+    "梁静茹"
+  ],
+  "album": "情歌",
+  "albums": [
+    "情歌",
+    "情歌 - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "appleMusicId": "1095630246"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

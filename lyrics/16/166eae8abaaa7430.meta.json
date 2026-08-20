@@ -1,0 +1,22 @@
+{
+  "id": "166eae8abaaa7430",
+  "title": "沙龙",
+  "artists": [
+    "陈奕迅"
+  ],
+  "album": "沙龙",
+  "albums": [
+    "沙龙",
+    "沙龙 - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": true,
+  "aliases": [],
+  "sourceIds": {
+    "appleMusicId": "1490822213"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

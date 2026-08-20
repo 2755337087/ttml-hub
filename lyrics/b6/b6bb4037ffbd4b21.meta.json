@@ -1,0 +1,22 @@
+{
+  "id": "b6bb4037ffbd4b21",
+  "title": "1234567",
+  "artists": [
+    "方大同"
+  ],
+  "album": "1234567",
+  "albums": [
+    "1234567",
+    "1234567 - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "appleMusicId": "313404806"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

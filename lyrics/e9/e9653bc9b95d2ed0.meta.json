@@ -1,0 +1,22 @@
+{
+  "id": "e9653bc9b95d2ed0",
+  "title": "我的快乐时代",
+  "artists": [
+    "陈奕迅"
+  ],
+  "album": "我的快乐时代",
+  "albums": [
+    "我的快乐时代",
+    "我的快乐时代 - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": true,
+  "aliases": [],
+  "sourceIds": {
+    "appleMusicId": "892745294"
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}
