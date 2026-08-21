@@ -7,3 +7,5 @@
 5. 提交 Pull Request。自动检查通过并合并后，搜索索引和网站会自动更新。
 
 请勿提交无权公开传播的歌词、个人隐私信息或与歌词无关的文件。
+
+同一份歌词可在 TTML 的 `<metadata>` 中重复添加 `appleMusicId`，以关联多个 Apple Music 曲目。每个 Apple Music ID 在整个歌词库中只能归属一份歌词。

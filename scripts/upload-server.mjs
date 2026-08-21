@@ -4,7 +4,7 @@ import { createServer } from "node:http";
 import { extname, join, relative, resolve, sep } from "node:path";
 import { fileURLToPath } from "node:url";
 import { promisify } from "node:util";
-import { createTtmlHubId, insertTtmlHubId, matchingSourceIds, parseTtmlMetadata, stableSongId } from "./ttml-metadata.mjs";
+import { createTtmlHubId, insertTtmlHubId, matchingSourceIds, parseTtmlMetadata, sourceIdValues, stableSongId } from "./ttml-metadata.mjs";
 
 const exec = promisify(execFile);
 const root = fileURLToPath(new URL("../", import.meta.url));
@@ -84,7 +84,7 @@ function identity(sourceIds, requestedHubId) {
   if (Object.keys(sourceIds).length) return { sourceIds, generatedHubId: false };
   const hubId = requestedHubId === undefined ? createTtmlHubId() : String(requestedHubId).trim();
   if (!/^[a-f0-9]{16}$/iu.test(hubId)) throw new Error("自动生成的 ttmlHubId 无效，请重新选择文件");
-  return { sourceIds: { ttmlHubId: hubId.toLowerCase() }, generatedHubId: true };
+  return { sourceIds: { ttmlHubId: [hubId.toLowerCase()] }, generatedHubId: true };
 }
 
 function publicExisting(existing) {
@@ -128,7 +128,7 @@ async function saveSong(body) {
   const directory = join(lyricsRoot, id.slice(0, 2));
   const ttmlPath = join(directory, `${id}.ttml`);
   const metaPath = join(directory, `${id}.meta.json`);
-  const storedContent = assigned.generatedHubId ? insertTtmlHubId(body.content, assigned.sourceIds.ttmlHubId) : body.content;
+  const storedContent = assigned.generatedHubId ? insertTtmlHubId(body.content, sourceIdValues(assigned.sourceIds.ttmlHubId)[0]) : body.content;
   const meta = {
     id,
     title: fields.title,

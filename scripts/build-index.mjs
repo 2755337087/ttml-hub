@@ -40,6 +40,24 @@ function uniqueText(values) {
   return [...new Set(values.map((value) => String(value).trim()).filter(Boolean))];
 }
 
+function normalizeSourceIds(sources, path) {
+  const merged = new Map();
+  for (const sourceIds of sources) {
+    if (sourceIds === undefined) continue;
+    assert(sourceIds && typeof sourceIds === "object" && !Array.isArray(sourceIds), `${path}: sourceIds 必须是对象`);
+    for (const [key, value] of Object.entries(sourceIds)) {
+      const values = Array.isArray(value) ? value : [value];
+      assert(values.length > 0, `${path}: sourceIds.${key} 必须是非空字符串或非空数组`);
+      const current = merged.get(key) ?? [];
+      merged.set(key, [...current, ...values]);
+    }
+  }
+  return Object.fromEntries([...merged].map(([key, values]) => {
+    values.forEach((entry) => validText(entry, `sourceIds.${key}`, path));
+    return [key, uniqueText(values)];
+  }));
+}
+
 async function buildSong(path, seenIds, seenSourceIds) {
   const relativePath = slash(relative(fileURLToPath(lyricsRoot), path));
   const parts = relativePath.split("/");
@@ -76,12 +94,14 @@ async function buildSong(path, seenIds, seenSourceIds) {
   if (meta.albums !== undefined) assert(Array.isArray(meta.albums), `${relativePath}: albums 必须是数组`);
   if (meta.hasTranslation !== undefined) assert(typeof meta.hasTranslation === "boolean", `${relativePath}: hasTranslation 必须是布尔值`);
   if (meta.hasTransliteration !== undefined) assert(typeof meta.hasTransliteration === "boolean", `${relativePath}: hasTransliteration 必须是布尔值`);
-  if (meta.sourceIds !== undefined) assert(meta.sourceIds && typeof meta.sourceIds === "object" && !Array.isArray(meta.sourceIds), `${relativePath}: sourceIds 必须是对象`);
-  for (const [key, value] of Object.entries(meta.sourceIds ?? {})) {
-    validText(value, `sourceIds.${key}`, relativePath);
-    const sourceKey = `${key}:${value}`;
-    assert(!seenSourceIds.has(sourceKey), `${relativePath}: 平台 ID ${sourceKey} 与 ${seenSourceIds.get(sourceKey)} 重复`);
-    seenSourceIds.set(sourceKey, relativePath);
+  // The sidecar is the canonical catalog record. The uploader copies all TTML IDs into it.
+  const sourceIds = normalizeSourceIds([meta.sourceIds], relativePath);
+  for (const [key, values] of Object.entries(sourceIds)) {
+    for (const value of values) {
+      const sourceKey = `${key}:${value}`;
+      assert(!seenSourceIds.has(sourceKey), `${relativePath}: 平台 ID ${sourceKey} 与 ${seenSourceIds.get(sourceKey)} 重复`);
+      seenSourceIds.set(sourceKey, relativePath);
+    }
   }
   const albums = meta.albums?.length ? meta.albums.map((album) => validText(album, "albums[]", relativePath)) : meta.album ? [validText(meta.album, "album", relativePath)] : [];
   const aliases = uniqueText([
@@ -101,7 +121,7 @@ async function buildSong(path, seenIds, seenSourceIds) {
     ...(meta.isrc ? { isrc: validText(meta.isrc, "isrc", relativePath) } : {}),
     ...(meta.license ? { license: validText(meta.license, "license", relativePath) } : {}),
     ...(meta.sourceUrl ? { sourceUrl: validText(meta.sourceUrl, "sourceUrl", relativePath) } : {}),
-    ...(Object.keys(meta.sourceIds ?? {}).length ? { sourceIds: meta.sourceIds } : {}),
+    ...(Object.keys(sourceIds).length ? { sourceIds } : {}),
     path: `lyrics/${relativePath}`,
     sha256: sha256(content),
   };
@@ -122,9 +142,9 @@ async function main() {
   const generatedAt = sourceDate
     ? new Date(/^\d+$/.test(sourceDate) ? Number(sourceDate) * 1000 : sourceDate).toISOString()
     : new Date().toISOString();
-  const index = { schemaVersion: 1, revision, generatedAt, songs };
+  const index = { schemaVersion: 2, revision, generatedAt, songs };
   const manifest = {
-    schemaVersion: 1,
+    schemaVersion: 2,
     revision,
     generatedAt,
     songCount: songs.length,

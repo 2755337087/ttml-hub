@@ -24,6 +24,7 @@ data class TtmlHubSong(
     val language: String?,
     val hasTranslation: Boolean,
     val hasTransliteration: Boolean,
+    val sourceIds: Map<String, List<String>>,
     val path: String,
     val sha256: String,
 )
@@ -88,6 +89,11 @@ class TtmlHubClient(context: Context) {
     }
 
     fun cachedSongCount(): Int = loadCachedSongs().size
+
+    /** 按 Apple Music 曲目 ID 精确查找歌词，不依赖标题或艺术家匹配。 */
+    fun findByAppleMusicId(appleMusicId: String): TtmlHubSong? = loadCachedSongs().firstOrNull { song ->
+        song.sourceIds["appleMusicId"].orEmpty().any { it == appleMusicId }
+    }
 
     @Synchronized
     private fun syncBlocking(force: Boolean): Boolean {
@@ -172,6 +178,7 @@ class TtmlHubClient(context: Context) {
                 language = item.optNullableString("language"),
                 hasTranslation = item.optBoolean("hasTranslation", false),
                 hasTransliteration = item.optBoolean("hasTransliteration", false),
+                sourceIds = item.optJSONObject("sourceIds")?.toStringListMap().orEmpty(),
                 path = item.getString("path"),
                 sha256 = item.getString("sha256"),
             )
@@ -228,6 +235,15 @@ private fun JSONArray.toStringList(): List<String> =
 
 private fun JSONObject.optNullableString(key: String): String? =
     if (has(key) && !isNull(key)) getString(key) else null
+
+private fun JSONObject.toStringListMap(): Map<String, List<String>> =
+    keys().asSequence().associateWith { key ->
+        val value = get(key)
+        when (value) {
+            is JSONArray -> value.toStringList()
+            else -> listOf(value.toString())
+        }
+    }
 
 private fun sha256(bytes: ByteArray): String = MessageDigest
     .getInstance("SHA-256")

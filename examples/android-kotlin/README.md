@@ -55,6 +55,14 @@ fun refreshAndSearch(keyword: String) = viewModelScope.launch {
 }
 ```
 
+如果播放器已有 Apple Music ID，直接精确查找，不需要比较歌名、艺术家或专辑：
+
+```kotlin
+val song = ttmlHub.findByAppleMusicId(appleMusicId)
+```
+
+一份歌词的 `sourceIds["appleMusicId"]` 可能包含多个 ID；客户端会把它们都映射到同一个 `TtmlHubSong`。
+
 `search()` 会匹配：
 
 - 歌曲名称 `title`

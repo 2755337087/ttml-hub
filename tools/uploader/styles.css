@@ -27,7 +27,9 @@ h1 em { color:var(--blue); font-weight:400; }
 .batch-head { display:flex; align-items:end; justify-content:space-between; gap:20px; padding:24px 0 18px; border-bottom:1px solid var(--line); }
 .batch-head p { margin:0 0 7px; color:var(--blue); font:800 10px monospace; letter-spacing:.12em; }
 .batch-head strong { font-family:Georgia,"Songti SC",serif; font-size:24px; font-weight:400; }
+.batch-head-actions { display:flex; flex:0 0 auto; align-items:center; gap:16px; }
 .batch-head button,.remove { border:0; background:none; color:var(--blue); font-size:12px; font-weight:800; cursor:pointer; }
+.batch-head button:disabled { color:var(--muted); cursor:default; }
 .batch-list { display:grid; gap:12px; padding:18px 0 4px; }
 .lyric-item { border:1px solid var(--line); background:#fbfbf8; }
 .lyric-item[data-state="saved"],.lyric-item[data-state="published"] { border-color:#82bd98; }
@@ -74,4 +76,4 @@ h1 em { color:var(--blue); font-weight:400; }
 #notice.error { border-color:#c63f3f; background:#ffe8e5; color:#8b2424; }
 #notice.success { border-color:#24985b; background:#e3f7ea; color:#17663c; }
 footer { display:flex; justify-content:space-between; padding:24px 0 0; color:var(--muted); font:700 10px monospace; letter-spacing:.08em; }
-@media(max-width:760px){.intro{grid-template-columns:1fr}.intro .kicker{grid-column:auto}.drop.compact{flex-direction:column}.batch{padding:4px 18px 24px}.batch-head{align-items:flex-start}.item-top{align-items:flex-start}.item-controls{flex-direction:column;align-items:flex-end;gap:7px}.item-fields{grid-template-columns:1fr}.wide{grid-column:auto}.actions{flex-direction:column}.actions button{width:100%}.local{font-size:0}.local b{margin:0}footer{flex-direction:column;gap:8px}}
+@media(max-width:760px){.intro{grid-template-columns:1fr}.intro .kicker{grid-column:auto}.drop.compact{flex-direction:column}.batch{padding:4px 18px 24px}.batch-head{align-items:flex-start;flex-direction:column}.batch-head-actions{width:100%;justify-content:space-between;gap:12px}.item-top{align-items:flex-start}.item-controls{flex-direction:column;align-items:flex-end;gap:7px}.item-fields{grid-template-columns:1fr}.wide{grid-column:auto}.actions{flex-direction:column}.actions button{width:100%}.local{font-size:0}.local b{margin:0}footer{flex-direction:column;gap:8px}}

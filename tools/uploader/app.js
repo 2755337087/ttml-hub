@@ -5,6 +5,7 @@ const list = document.querySelector("#batch-list");
 const count = document.querySelector("#batch-count");
 const notice = document.querySelector("#notice");
 const addFilesButton = document.querySelector("#add-files");
+const selectDuplicatesButton = document.querySelector("#select-duplicates");
 const saveButton = document.querySelector("#save-button");
 const publishButton = document.querySelector("#publish-button");
 
@@ -70,6 +71,10 @@ function splitLines(value) {
   return value.split("\n").map((line) => line.trim()).filter(Boolean);
 }
 
+function displaySourceId(value) {
+  return (Array.isArray(value) ? value : [value]).join(", ");
+}
+
 function itemKey(file) {
   return `${file.name}:${file.size}:${file.lastModified}`;
 }
@@ -82,6 +87,23 @@ function updateCount() {
   drop.classList.toggle("compact", items.length > 0);
   saveButton.disabled = busy || !items.some((item) => item.inspection && !["saved", "published", "saving"].includes(item.state));
   publishButton.disabled = busy || !items.some((item) => item.state === "saved");
+  updateDuplicateSelectionButton();
+}
+
+function duplicateOverwrites() {
+  return items
+    .filter((item) => item.inspection?.existing && item.fields?.overwrite)
+    .map((item) => item.fields.overwrite);
+}
+
+function updateDuplicateSelectionButton() {
+  const overwrites = duplicateOverwrites();
+  const unchecked = overwrites.filter((overwrite) => !overwrite.checked);
+  selectDuplicatesButton.hidden = overwrites.length === 0;
+  selectDuplicatesButton.disabled = busy || unchecked.length === 0;
+  selectDuplicatesButton.textContent = unchecked.length
+    ? `确认全部重复项（${unchecked.length}）`
+    : "全部重复项已确认";
 }
 
 function setState(item, state, detail = "") {
@@ -192,7 +214,7 @@ function renderItem(item) {
   const identity = element("div", "item-identity");
   const idLabel = element("span", "", "平台 ID");
   const ids = Object.entries(item.inspection.sourceIds)
-    .map(([key, value]) => `${sourceIdNames[key] || key}: ${value}`)
+    .map(([key, value]) => `${sourceIdNames[key] || key}: ${displaySourceId(value)}`)
     .join(" · ");
   identity.append(idLabel, element("code", "", ids));
   if (item.inspection.generatedHubId) {
@@ -366,6 +388,15 @@ input.addEventListener("change", () => {
 });
 
 addFilesButton.addEventListener("click", () => input.click());
+selectDuplicatesButton.addEventListener("click", () => {
+  const unchecked = duplicateOverwrites().filter((overwrite) => !overwrite.checked);
+  for (const overwrite of unchecked) {
+    overwrite.checked = true;
+    overwrite.dispatchEvent(new Event("change", { bubbles: true }));
+  }
+  message(unchecked.length ? `已允许覆盖 ${unchecked.length} 个重复文件。` : "所有重复文件均已确认覆盖。", "success");
+  updateDuplicateSelectionButton();
+});
 saveButton.addEventListener("click", () => void saveAll());
 
 for (const event of ["dragenter", "dragover"]) {

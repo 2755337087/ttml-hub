@@ -16,7 +16,10 @@
   "sourceIds": {
     "qqMusicId": "004DXFlC0nsTCZ",
     "ncmMusicId": "1293886117",
-    "appleMusicId": "1411387590"
+    "appleMusicId": [
+      "1411387590",
+      "1438536444"
+    ]
   },
   "author": {},
   "license": "",
