@@ -1,4 +1,5 @@
 import assert from "node:assert/strict";
+import { createHash } from "node:crypto";
 import { readFile } from "node:fs/promises";
 import test from "node:test";
 
@@ -14,6 +15,15 @@ test("manifest and index share a revision", async () => {
   assert.equal(index.schemaVersion, 2);
   assert.equal(manifest.revision, index.revision);
   assert.equal(manifest.songCount, index.songs.length);
+});
+
+test("manifest hashes the exact published index bytes", async () => {
+  const [manifest, indexText] = await Promise.all([
+    readFile(manifestUrl, "utf8").then(JSON.parse),
+    readFile(indexUrl, "utf8"),
+  ]);
+  const actualHash = createHash("sha256").update(indexText).digest("hex");
+  assert.equal(manifest.indexSha256, actualHash);
 });
 
 test("every indexed song has a stable id and downloadable path", async () => {

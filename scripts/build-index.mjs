@@ -143,13 +143,14 @@ async function main() {
     ? new Date(/^\d+$/.test(sourceDate) ? Number(sourceDate) * 1000 : sourceDate).toISOString()
     : new Date().toISOString();
   const index = { schemaVersion: 2, revision, generatedAt, songs };
+  const indexText = `${JSON.stringify(index, null, 2)}\n`;
   const manifest = {
     schemaVersion: 2,
     revision,
     generatedAt,
     songCount: songs.length,
     index: "songs.json",
-    indexSha256: sha256(JSON.stringify(index)),
+    indexSha256: sha256(indexText),
   };
 
   await rm(apiRoot, { recursive: true, force: true });
@@ -157,7 +158,7 @@ async function main() {
   await mkdir(apiRoot, { recursive: true });
   await mkdir(publicRoot, { recursive: true });
   await cp(lyricsRoot, publicLyricsRoot, { recursive: true, filter: (source) => !source.endsWith(".meta.json") && !source.endsWith(".md") });
-  await writeFile(new URL("songs.json", apiRoot), `${JSON.stringify(index, null, 2)}\n`);
+  await writeFile(new URL("songs.json", apiRoot), indexText);
   await writeFile(new URL("manifest.json", apiRoot), `${JSON.stringify(manifest, null, 2)}\n`);
   console.log(`已索引 ${songs.length} 首歌词，revision ${revision}`);
 }
