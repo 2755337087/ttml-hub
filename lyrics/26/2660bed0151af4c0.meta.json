@@ -2,7 +2,8 @@
   "id": "2660bed0151af4c0",
   "title": "11 (feat. 黄礼格)",
   "artists": [
-    "队长"
+    "队长",
+    "黄礼格"
   ],
   "album": "11 - Single",
   "albums": [
@@ -12,9 +13,19 @@
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
-  "aliases": [],
+  "aliases": [
+    "11"
+  ],
   "sourceIds": {
-    "appleMusicId": "1604377833"
+    "qqMusicId": [
+      "0012g3Et1iFQCC"
+    ],
+    "ncmMusicId": [
+      "1907766514"
+    ],
+    "appleMusicId": [
+      "1604377833"
+    ]
   },
   "author": {},
   "license": "",

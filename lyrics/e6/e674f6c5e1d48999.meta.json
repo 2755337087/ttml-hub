@@ -1,0 +1,35 @@
+{
+  "id": "e674f6c5e1d48999",
+  "title": "死不了",
+  "artists": [
+    "任贤齐"
+  ],
+  "album": "为爱走天涯",
+  "albums": [
+    "为爱走天涯"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": [
+      "000Nvui23TY8Xj"
+    ],
+    "ncmMusicId": [
+      "144378"
+    ],
+    "appleMusicId": [
+      "1484449905"
+    ],
+    "isrc": [
+      "TWA450063811"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

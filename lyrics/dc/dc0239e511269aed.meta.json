@@ -1,0 +1,35 @@
+{
+  "id": "dc0239e511269aed",
+  "title": "穿上你的爱",
+  "artists": [
+    "派伟俊"
+  ],
+  "album": "BAD IDEA",
+  "albums": [
+    "BAD IDEA"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": [
+      "0028SXl91F7oi7"
+    ],
+    "ncmMusicId": [
+      "3413209723"
+    ],
+    "appleMusicId": [
+      "6791041794"
+    ],
+    "isrc": [
+      "TWL252607505"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

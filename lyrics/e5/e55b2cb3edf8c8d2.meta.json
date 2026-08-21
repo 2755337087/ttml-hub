@@ -1,0 +1,35 @@
+{
+  "id": "e55b2cb3edf8c8d2",
+  "title": "去年下的那场雪",
+  "artists": [
+    "派伟俊"
+  ],
+  "album": "BAD IDEA",
+  "albums": [
+    "BAD IDEA"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": [
+      "003eomG21wonwL"
+    ],
+    "ncmMusicId": [
+      "3413209732"
+    ],
+    "appleMusicId": [
+      "6791041803"
+    ],
+    "isrc": [
+      "TWL252607508"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

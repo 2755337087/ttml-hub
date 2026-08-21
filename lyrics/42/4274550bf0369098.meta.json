@@ -7,14 +7,27 @@
   "album": "Deadman",
   "albums": [
     "Deadman",
-    "Deadman - Single"
+    "Deadman - Single",
+    "KUN"
   ],
   "language": "en",
-  "hasTranslation": false,
+  "hasTranslation": true,
   "hasTransliteration": false,
   "aliases": [],
   "sourceIds": {
-    "appleMusicId": "1861571914"
+    "qqMusicId": [
+      "000e5ren4ZiL3U"
+    ],
+    "ncmMusicId": [
+      "2708984802"
+    ],
+    "appleMusicId": [
+      "1812117271",
+      "1861571914"
+    ],
+    "isrc": [
+      "QM6P42575146"
+    ]
   },
   "author": {},
   "license": "",

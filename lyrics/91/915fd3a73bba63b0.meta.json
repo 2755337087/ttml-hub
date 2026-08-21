@@ -4,8 +4,10 @@
   "artists": [
     "周杰伦"
   ],
-  "album": "太阳之子",
+  "album": "圣诞星 (feat. 杨瑞代)",
   "albums": [
+    "圣诞星 (feat. 杨瑞代)",
+    "圣诞星 (feat. 杨瑞代) - Single",
     "太阳之子"
   ],
   "language": "zh-Hans",
@@ -13,7 +15,16 @@
   "hasTransliteration": false,
   "aliases": [],
   "sourceIds": {
-    "appleMusicId": "1887230892"
+    "qqMusicId": [
+      "0016aXcd24qSC8"
+    ],
+    "appleMusicId": [
+      "1722042212",
+      "1887230892"
+    ],
+    "isrc": [
+      "TWK972301101"
+    ]
   },
   "author": {},
   "license": "",

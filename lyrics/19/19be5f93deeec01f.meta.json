@@ -1,0 +1,36 @@
+{
+  "id": "19be5f93deeec01f",
+  "title": "橘子香水",
+  "artists": [
+    "任贤齐"
+  ],
+  "album": "为爱走天涯",
+  "albums": [
+    "为爱走天涯"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": [
+      "003H4mfC4Wy2YY"
+    ],
+    "ncmMusicId": [
+      "144362"
+    ],
+    "appleMusicId": [
+      "1484449897",
+      "1071373883"
+    ],
+    "isrc": [
+      "TWA450063803"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

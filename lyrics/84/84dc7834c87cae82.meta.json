@@ -1,0 +1,33 @@
+{
+  "id": "84dc7834c87cae82",
+  "title": "那些喊给天空的 (Live)",
+  "artists": [
+    "黄子弘凡"
+  ],
+  "album": "天赐的声音第六季 第4期",
+  "albums": [
+    "天赐的声音第六季 第4期",
+    "天赐的声音第六季 第4期 (Live)"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": [
+      "001Ly2kP36UfFa"
+    ],
+    "appleMusicId": [
+      "1813692068"
+    ],
+    "isrc": [
+      "HKD012489875"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

@@ -1,20 +1,35 @@
 {
   "id": "5d0172a0172b804f",
-  "title": "光年之外 (电影《Passengers》中国区主题曲)",
+  "title": "光年之外",
   "artists": [
+    "G.E.M.邓紫棋",
+    "G.E.M. 邓紫棋",
     "邓紫棋"
   ],
-  "album": "光年之外 (电影《Passengers》中国区主题曲)",
+  "album": "光年之外",
   "albums": [
-    "光年之外 (电影《Passengers》中国区主题曲)",
+    "光年之外",
     "光年之外 (电影《Passengers》中国区主题曲) - Single"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
-  "aliases": [],
+  "aliases": [
+    "光年之外 (电影《Passengers》中国区主题曲)"
+  ],
   "sourceIds": {
-    "appleMusicId": "1190070744"
+    "qqMusicId": [
+      "002E3MtF0IAMMY"
+    ],
+    "ncmMusicId": [
+      "449818741"
+    ],
+    "appleMusicId": [
+      "1190070744"
+    ],
+    "isrc": [
+      "HKI111700001"
+    ]
   },
   "author": {},
   "license": "",

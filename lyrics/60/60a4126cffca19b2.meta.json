@@ -1,0 +1,35 @@
+{
+  "id": "60a4126cffca19b2",
+  "title": "虫生",
+  "artists": [
+    "派伟俊"
+  ],
+  "album": "BAD IDEA",
+  "albums": [
+    "BAD IDEA"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": [
+      "001J9PLt2c0rrE"
+    ],
+    "ncmMusicId": [
+      "3413209718"
+    ],
+    "appleMusicId": [
+      "6791041799"
+    ],
+    "isrc": [
+      "TWL252607507"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

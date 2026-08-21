@@ -1,0 +1,34 @@
+{
+  "id": "d2190f442771a125",
+  "title": "剩下的盛夏",
+  "artists": [
+    "TFBOYS",
+    "嘻游记"
+  ],
+  "album": "大梦想家",
+  "albums": [
+    "大梦想家",
+    "大梦想家 - EP"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": [
+      "003JxfgA21kaiK"
+    ],
+    "appleMusicId": [
+      "1549120866"
+    ],
+    "isrc": [
+      "HKI322111058"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

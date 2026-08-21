@@ -1,0 +1,36 @@
+{
+  "id": "d4d5fea3a9c80a9c",
+  "title": "沧海一声笑",
+  "artists": [
+    "任贤齐"
+  ],
+  "album": "为爱走天涯",
+  "albums": [
+    "为爱走天涯"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": [
+      "004CchsR0fwGpu"
+    ],
+    "ncmMusicId": [
+      "144382"
+    ],
+    "appleMusicId": [
+      "1484449907",
+      "1071373892"
+    ],
+    "isrc": [
+      "TWA450063813"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

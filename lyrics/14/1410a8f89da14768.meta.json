@@ -13,7 +13,15 @@
   "hasTransliteration": false,
   "aliases": [],
   "sourceIds": {
-    "appleMusicId": "1721460917"
+    "qqMusicId": [
+      "0042QMDR1VzSsx"
+    ],
+    "appleMusicId": [
+      "1721460917"
+    ],
+    "isrc": [
+      "TWK970801506"
+    ]
   },
   "author": {},
   "license": "",

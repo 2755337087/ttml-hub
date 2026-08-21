@@ -1,0 +1,35 @@
+{
+  "id": "8ac9304504ad772d",
+  "title": "专属天使",
+  "artists": [
+    "Tank",
+    "TANK 吕建忠",
+    "吕建忠"
+  ],
+  "album": "花样少年少女 电视剧原声带",
+  "albums": [
+    "花样少年少女 电视剧原声带",
+    "延长比赛 Keep Fighting",
+    "花样少年少女 (电视原声带)",
+    "延长比赛"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": [
+      "003qEkg70QpcY4"
+    ],
+    "appleMusicId": [
+      "550974701",
+      "594396564"
+    ],
+    "isrc": [
+      "TWD950627102"
+    ]
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

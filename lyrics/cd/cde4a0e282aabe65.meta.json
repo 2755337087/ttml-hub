@@ -1,0 +1,38 @@
+{
+  "id": "cde4a0e282aabe65",
+  "title": "Don't Give Up!",
+  "artists": [
+    "派伟俊"
+  ],
+  "album": "BAD IDEA",
+  "albums": [
+    "BAD IDEA"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "Don’t Give Up!"
+  ],
+  "sourceIds": {
+    "qqMusicId": [
+      "000WCsUO2bqZM1"
+    ],
+    "ncmMusicId": [
+      "3413209727"
+    ],
+    "appleMusicId": [
+      "6791041810",
+      "6791618547"
+    ],
+    "isrc": [
+      "TWL252607511"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

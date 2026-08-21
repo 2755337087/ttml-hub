@@ -1,0 +1,37 @@
+{
+  "id": "c1cb9185c57e7a4d",
+  "title": "活着",
+  "artists": [
+    "任贤齐",
+    "莫文蔚"
+  ],
+  "album": "为爱走天涯",
+  "albums": [
+    "为爱走天涯"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": [
+      "001X2kZv3PNDWD"
+    ],
+    "ncmMusicId": [
+      "144372"
+    ],
+    "appleMusicId": [
+      "1484449902",
+      "1071373888"
+    ],
+    "isrc": [
+      "TWA450063808"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

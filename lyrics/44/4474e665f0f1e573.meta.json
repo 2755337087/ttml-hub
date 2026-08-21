@@ -6,14 +6,23 @@
   ],
   "album": "终极一班2 (电视原声带)",
   "albums": [
-    "终极一班2 (电视原声带)"
+    "终极一班2 (电视原声带)",
+    "终极一班2 电视剧原声带"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
   "aliases": [],
   "sourceIds": {
-    "appleMusicId": "597217626"
+    "qqMusicId": [
+      "000rbvem3t8eDE"
+    ],
+    "ncmMusicId": [
+      "25714102"
+    ],
+    "appleMusicId": [
+      "597217626"
+    ]
   },
   "author": {},
   "license": "",

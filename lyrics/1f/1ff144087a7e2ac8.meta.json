@@ -4,8 +4,9 @@
   "artists": [
     "李荣浩"
   ],
-  "album": "2022中国好声音 第1期 (Live)",
+  "album": "2022中国好声音 第1期",
   "albums": [
+    "2022中国好声音 第1期",
     "2022中国好声音 第1期 (Live)"
   ],
   "language": "zh-Hans",
@@ -13,7 +14,15 @@
   "hasTransliteration": false,
   "aliases": [],
   "sourceIds": {
-    "appleMusicId": "1652705352"
+    "qqMusicId": [
+      "002e6xLQ1JqQtK"
+    ],
+    "ncmMusicId": [
+      "1969822728"
+    ],
+    "appleMusicId": [
+      "1652705352"
+    ]
   },
   "author": {},
   "license": "",

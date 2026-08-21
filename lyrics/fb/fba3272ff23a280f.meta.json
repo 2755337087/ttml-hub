@@ -1,0 +1,32 @@
+{
+  "id": "fba3272ff23a280f",
+  "title": "春天花会开",
+  "artists": [
+    "任贤齐"
+  ],
+  "album": "为爱走天涯",
+  "albums": [
+    "为爱走天涯"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": [
+      "003ngEDK3WFMIH"
+    ],
+    "ncmMusicId": [
+      "144359"
+    ],
+    "appleMusicId": [
+      "1484449501"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

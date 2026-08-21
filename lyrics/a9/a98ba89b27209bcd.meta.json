@@ -1,0 +1,33 @@
+{
+  "id": "a98ba89b27209bcd",
+  "title": "你没等我去的旧金山",
+  "artists": [
+    "派伟俊",
+    "陈华"
+  ],
+  "album": "BAD IDEA",
+  "albums": [
+    "BAD IDEA"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "ncmMusicId": [
+      "3413209730"
+    ],
+    "appleMusicId": [
+      "6791041804"
+    ],
+    "isrc": [
+      "TWL252507801"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

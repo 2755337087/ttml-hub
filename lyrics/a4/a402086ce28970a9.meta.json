@@ -1,0 +1,35 @@
+{
+  "id": "a402086ce28970a9",
+  "title": "第57次取消发送",
+  "artists": [
+    "菲菲公主（陆绮菲）",
+    "菲菲公主",
+    "陆绮菲"
+  ],
+  "album": "第57次取消发送",
+  "albums": [
+    "第57次取消发送",
+    "第57次取消发送 - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": [
+      "001P6YOB0eXLlj"
+    ],
+    "ncmMusicId": [
+      "2692390754"
+    ],
+    "appleMusicId": [
+      "1800420410"
+    ],
+    "isrc": [
+      "FR59R2502214"
+    ]
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

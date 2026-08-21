@@ -14,10 +14,18 @@
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
-  "aliases": [],
+  "aliases": [
+    "歌曲:上春山 (Live)",
+    "上春山",
+    "上春山（Live）"
+  ],
   "sourceIds": {
-    "qqMusicId": "0019jsDN12HdYe",
-    "appleMusicId": "1797172829"
+    "qqMusicId": [
+      "0019jsDN12HdYe"
+    ],
+    "appleMusicId": [
+      "1797172829"
+    ]
   },
   "author": {
     "githubId": "76586484",

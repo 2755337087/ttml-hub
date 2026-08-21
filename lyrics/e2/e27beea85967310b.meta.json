@@ -1,0 +1,32 @@
+{
+  "id": "e27beea85967310b",
+  "title": "呢喃",
+  "artists": [
+    "任贤齐"
+  ],
+  "album": "为爱走天涯",
+  "albums": [
+    "为爱走天涯"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": [
+      "0027pRRL0zGqgF"
+    ],
+    "ncmMusicId": [
+      "144366"
+    ],
+    "appleMusicId": [
+      "1484449899"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

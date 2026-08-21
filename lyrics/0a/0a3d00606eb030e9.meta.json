@@ -1,0 +1,32 @@
+{
+  "id": "0a3d00606eb030e9",
+  "title": "流着泪的你的脸",
+  "artists": [
+    "任贤齐"
+  ],
+  "album": "为爱走天涯",
+  "albums": [
+    "为爱走天涯"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": [
+      "003raPiu1L5Waa"
+    ],
+    "appleMusicId": [
+      "1484449896"
+    ],
+    "isrc": [
+      "TWA450063802"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

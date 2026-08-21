@@ -1,0 +1,29 @@
+{
+  "id": "414d0691b089adb3",
+  "title": "想自由",
+  "artists": [
+    "林宥嘉"
+  ],
+  "album": "美妙生活",
+  "albums": [
+    "美妙生活"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": [
+      "0008y2Nk0IEH0p"
+    ],
+    "appleMusicId": [
+      "545229971"
+    ],
+    "isrc": [
+      "TWD951134103"
+    ]
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

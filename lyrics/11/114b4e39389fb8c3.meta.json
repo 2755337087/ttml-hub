@@ -2,19 +2,26 @@
   "id": "114b4e39389fb8c3",
   "title": "嚣张",
   "artists": [
-    "en"
+    "en (王翊恩)",
+    "en",
+    "王翊恩"
   ],
-  "album": "嚣张 - Single",
+  "album": "嚣张",
   "albums": [
-    "嚣张 - Single",
-    "嚣张"
+    "嚣张",
+    "嚣张 - Single"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
   "aliases": [],
   "sourceIds": {
-    "appleMusicId": "1666781664"
+    "qqMusicId": [
+      "001Hp44V3pCQ53"
+    ],
+    "appleMusicId": [
+      "1666781664"
+    ]
   },
   "author": {},
   "license": "",
