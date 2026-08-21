@@ -19,10 +19,21 @@
     "左转灯"
   ],
   "sourceIds": {
-    "qqMusicId": "001kbGUi3hwzq5",
-    "ncmMusicId": "2755710644",
-    "appleMusicId": "1846299337",
-    "isrc": "CN2DY2506152"
+    "qqMusicId": [
+      "001kbGUi3hwzq5",
+      "0034i9N23YKMOB"
+    ],
+    "ncmMusicId": [
+      "2755710644"
+    ],
+    "appleMusicId": [
+      "1846299337",
+      "6791618545"
+    ],
+    "isrc": [
+      "CN2DY2506152",
+      "TWL252507601"
+    ]
   },
   "author": {},
   "license": "",
