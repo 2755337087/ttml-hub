@@ -4,11 +4,15 @@
   "artists": [
     "万妮达Vinida Weng",
     "吴碧霞",
-    "万妮达"
+    "万妮达",
+    "Vinida Weng",
+    "吳碧霞"
   ],
   "album": "歌手2026 第12期",
   "albums": [
-    "歌手2026 第12期"
+    "歌手2026 第12期",
+    "歌手2026 第12期 (Live)",
+    "歌手2026 (第12期 Live)"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
@@ -17,8 +21,20 @@
     "花田错 (live)"
   ],
   "sourceIds": {
-    "qqMusicId": "004YrVHE44F5kD",
-    "ncmMusicId": "3417798101"
+    "qqMusicId": [
+      "004YrVHE44F5kD"
+    ],
+    "ncmMusicId": [
+      "3417798101"
+    ],
+    "appleMusicId": [
+      "6801286184",
+      "6800233063"
+    ],
+    "isrc": [
+      "HKD012940149",
+      "FRX452658178"
+    ]
   },
   "author": {
     "githubId": "76586484",

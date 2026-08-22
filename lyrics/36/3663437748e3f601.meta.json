@@ -7,7 +7,8 @@
   ],
   "album": "天赐的声音第七季 第8期",
   "albums": [
-    "天赐的声音第七季 第8期"
+    "天赐的声音第七季 第8期",
+    "天赐的声音第七季 第8期 (Live)"
   ],
   "language": "zh-Hans",
   "hasTranslation": true,
@@ -16,8 +17,18 @@
     "trust me (Live)"
   ],
   "sourceIds": {
-    "qqMusicId": "002oEKRP0CeVWX",
-    "ncmMusicId": "3414335339"
+    "qqMusicId": [
+      "002oEKRP0CeVWX"
+    ],
+    "ncmMusicId": [
+      "3414335339"
+    ],
+    "appleMusicId": [
+      "6797086362"
+    ],
+    "isrc": [
+      "HKD012920974"
+    ]
   },
   "author": {
     "githubId": "76586484",

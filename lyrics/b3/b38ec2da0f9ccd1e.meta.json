@@ -2,12 +2,14 @@
   "id": "b38ec2da0f9ccd1e",
   "title": "别怕我伤心 (live)",
   "artists": [
-    "张远"
+    "张远",
+    "Zhang Yuan"
   ],
   "album": "歌手2026 第11期",
   "albums": [
     "歌手2026 第11期",
-    "歌手2026 第11期 (Live)"
+    "歌手2026 第11期 (Live)",
+    "歌手2026 (第11期 Live)"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
@@ -16,8 +18,18 @@
     "别怕我伤心 (Live)"
   ],
   "sourceIds": {
-    "ncmMusicId": "3414340156",
-    "appleMusicId": "6797084306"
+    "ncmMusicId": [
+      "3414340156"
+    ],
+    "appleMusicId": [
+      "6797084306",
+      "6797404098",
+      "6798571279"
+    ],
+    "isrc": [
+      "HKD012920970",
+      "FRX452634167"
+    ]
   },
   "author": {
     "githubId": "76586484",

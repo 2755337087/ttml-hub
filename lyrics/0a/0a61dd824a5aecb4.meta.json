@@ -2,21 +2,37 @@
   "id": "0a61dd824a5aecb4",
   "title": "外婆的澎湖湾+光阴的故事 (live)",
   "artists": [
-    "齐豫"
+    "齐豫",
+    "Chyi Yu"
   ],
   "album": "歌手2026 第12期",
   "albums": [
-    "歌手2026 第12期"
+    "歌手2026 第12期",
+    "歌手2026 第12期 (Live)",
+    "歌手2026 (第12期 Live)"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
   "aliases": [
-    "外婆的澎湖湾 + 光阴的故事 (Live)"
+    "外婆的澎湖湾 + 光阴的故事 (Live)",
+    "外婆的澎湖湾+光阴的故事 (Live)"
   ],
   "sourceIds": {
-    "qqMusicId": "004JAZzs2yuDRo",
-    "ncmMusicId": "3417798470"
+    "qqMusicId": [
+      "004JAZzs2yuDRo"
+    ],
+    "ncmMusicId": [
+      "3417798470"
+    ],
+    "appleMusicId": [
+      "6801286375",
+      "6800233085"
+    ],
+    "isrc": [
+      "HKD012940143",
+      "FRX452658183"
+    ]
   },
   "author": {
     "githubId": "76586484",
