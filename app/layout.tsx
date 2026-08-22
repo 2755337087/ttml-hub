@@ -8,19 +8,19 @@ const socialImage = new URL(`${basePath}/og.png`, siteOrigin).toString();
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteOrigin),
-  title: "TTML Hub · 开放歌词索引",
-  description: "为公开 TTML 歌词仓库提供自动索引、搜索与增量更新检测。",
+  title: "LunaBeat TTML 歌词站",
+  description: "LunaBeat 的开放 TTML 歌词目录，支持搜索、下载与增量更新。",
   icons: { icon: `${basePath}/favicon.svg`, shortcut: `${basePath}/favicon.svg` },
   openGraph: {
-    title: "TTML Hub · 开放歌词索引",
-    description: "搜索、更新、开放协作。为软件而生的 TTML 歌词仓库。",
+    title: "LunaBeat TTML 歌词站",
+    description: "搜索、下载并接入开放 TTML 歌词。",
     type: "website",
-    images: [{ url: socialImage, width: 1730, height: 909, alt: "TTML Hub 开放歌词索引" }],
+    images: [{ url: socialImage, width: 1730, height: 909, alt: "LunaBeat TTML 歌词站" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "TTML Hub · 开放歌词索引",
-    description: "搜索、更新、开放协作。为软件而生的 TTML 歌词仓库。",
+    title: "LunaBeat TTML 歌词站",
+    description: "搜索、下载并接入开放 TTML 歌词。",
     images: [socialImage],
   },
 };

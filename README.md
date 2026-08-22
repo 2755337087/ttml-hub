@@ -1,8 +1,15 @@
-# TTML 歌词站
+# LunaBeat TTML 歌词站
 
-这是一个汇集 TTML 歌词的网站，以华语音乐为主。你可以在这里搜索歌词并下载：
+LunaBeat TTML 歌词站是一个面向 LunaBeat 及其他播放器的开放歌词目录，收集并发布可下载的 TTML 歌词，支持按歌曲名称、艺术家或专辑搜索。
 
 [搜索并下载 TTML 歌词](https://2755337087.github.io/ttml-hub/)
+
+## 项目特点
+
+- 静态发布，直接下载 TTML 歌词文件。
+- 使用稳定歌词 ID 和 SHA-256 校验，便于本地缓存与增量更新。
+- 支持一份歌词关联多个 Apple Music ID。
+- 提供公开 JSON 索引，方便播放器和歌词工具接入。
 
 ## 接口与多平台 ID
 
@@ -20,4 +27,4 @@ Apple Music ID 必须按字符串比较。TTML 文件中可重复写入 `<amll:m
 
 ## 相关项目
 
-我的播放器、歌词编辑器：[2755337087/LunaBeat](https://github.com/2755337087/LunaBeat)
+配套播放器与歌词编辑器：[2755337087/LunaBeat](https://github.com/2755337087/LunaBeat)

@@ -3,17 +3,17 @@ import { LunaBeatDownload } from "./lunabeat-download";
 import { LyricsSearch } from "./lyrics-search";
 
 export const metadata: Metadata = {
-  title: "TTML Hub · 搜索歌词",
-  description: "按歌曲名称或艺术家搜索并下载 TTML 歌词。",
+  title: "LunaBeat TTML 歌词站 · 搜索歌词",
+  description: "按歌曲名称、艺术家或专辑搜索并下载 TTML 歌词。",
 };
 
 export default function Home() {
   return (
     <main className="search-page">
       <header className="search-header">
-        <div className="brand" aria-label="TTML Hub">
+        <div className="brand" aria-label="LunaBeat TTML 歌词站">
           <span className="brand-mark" aria-hidden="true">T</span>
-          <span>TTML Hub</span>
+          <span>LunaBeat TTML 歌词站</span>
         </div>
         <span className="catalog-label">OPEN TTML CATALOG</span>
       </header>
