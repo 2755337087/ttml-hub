@@ -1,0 +1,42 @@
+{
+  "id": "32c090e0056d2be6",
+  "title": "过家家 (RPG)",
+  "artists": [
+    "门尼",
+    "門尼",
+    "Menny"
+  ],
+  "album": "门尼Ⅱ:剧场",
+  "albums": [
+    "门尼Ⅱ:剧场",
+    "门尼Ⅱ：剧场",
+    "門尼Ⅱ:劇場"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": true,
+  "hasTransliteration": false,
+  "aliases": [
+    "过家家",
+    "過家家 (RPG)"
+  ],
+  "sourceIds": {
+    "qqMusicId": [
+      "004TCzon2Y51uz"
+    ],
+    "ncmMusicId": [
+      "2601613351"
+    ],
+    "appleMusicId": [
+      "1769381568"
+    ],
+    "isrc": [
+      "DGA062407909"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

@@ -1,0 +1,44 @@
+{
+  "id": "556366d2785c2630",
+  "title": "飞飞",
+  "artists": [
+    "门尼",
+    "門尼",
+    "Menny"
+  ],
+  "album": "门尼",
+  "albums": [
+    "门尼",
+    "门尼 (MONEY)",
+    "門尼",
+    "MONEY"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "飞飞 (Fancifully)",
+    "飛飛",
+    "Fancifully"
+  ],
+  "sourceIds": {
+    "qqMusicId": [
+      "000qOjzm1oGMIT"
+    ],
+    "ncmMusicId": [
+      "2082326623"
+    ],
+    "appleMusicId": [
+      "1706801059"
+    ],
+    "isrc": [
+      "CNUM72300263"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

@@ -1,0 +1,42 @@
+{
+  "id": "30968f5e7345af7c",
+  "title": "窗内窗外 (Passerby)",
+  "artists": [
+    "门尼",
+    "門尼",
+    "Menny"
+  ],
+  "album": "门尼Ⅱ:剧场",
+  "albums": [
+    "门尼Ⅱ:剧场",
+    "门尼Ⅱ：剧场",
+    "門尼Ⅱ:劇場"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "窗内窗外",
+    "窗內窗外 (Passerby)"
+  ],
+  "sourceIds": {
+    "qqMusicId": [
+      "002avBsS0FXtK1"
+    ],
+    "ncmMusicId": [
+      "2608793924"
+    ],
+    "appleMusicId": [
+      "1769381757"
+    ],
+    "isrc": [
+      "DGA072467283"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

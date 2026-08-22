@@ -1,0 +1,44 @@
+{
+  "id": "ce6a05f0cdf5c932",
+  "title": "自愈",
+  "artists": [
+    "门尼",
+    "門尼",
+    "Menny"
+  ],
+  "album": "门尼",
+  "albums": [
+    "门尼",
+    "门尼 (MONEY)",
+    "門尼",
+    "MONEY"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "自愈 (I'm ok)",
+    "自癒",
+    "I'm ok"
+  ],
+  "sourceIds": {
+    "qqMusicId": [
+      "003v4Zo23tmWCt"
+    ],
+    "ncmMusicId": [
+      "2082329064"
+    ],
+    "appleMusicId": [
+      "1706800649"
+    ],
+    "isrc": [
+      "CNUM72300257"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

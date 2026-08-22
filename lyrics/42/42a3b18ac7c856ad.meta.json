@@ -1,0 +1,43 @@
+{
+  "id": "42a3b18ac7c856ad",
+  "title": "豁达下午茶 (Pastime)",
+  "artists": [
+    "门尼",
+    "門尼",
+    "Menny"
+  ],
+  "album": "门尼Ⅲ:贵族",
+  "albums": [
+    "门尼Ⅲ:贵族",
+    "门尼Ⅲ：贵族",
+    "門尼Ⅲ:貴族"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "豁达下午茶（Pastime）",
+    "豁达下午茶",
+    "豁達下午茶 (Pastime)"
+  ],
+  "sourceIds": {
+    "qqMusicId": [
+      "0000mSYl1skZPs"
+    ],
+    "ncmMusicId": [
+      "3346456318"
+    ],
+    "appleMusicId": [
+      "1889323710"
+    ],
+    "isrc": [
+      "FR10S2681380"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

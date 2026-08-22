@@ -1,0 +1,49 @@
+{
+  "id": "75149c09c51adc74",
+  "title": "毒药 (Live)",
+  "artists": [
+    "吉克隽逸",
+    "黄子弘凡",
+    "吉克雋逸",
+    "黃子弘凡",
+    "Summer Jike",
+    "Lars Huang"
+  ],
+  "album": "天赐的声音第五季 第8期",
+  "albums": [
+    "天赐的声音第五季 第8期",
+    "天賜的聲音第五季 第8期 (Live)",
+    "天赐的声音第五季 第8期 (Live)"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "毒药 (Live版)",
+    "毒藥 (Live)",
+    "毒藥 (Live版伴奏)",
+    "毒药 (Live版伴奏)"
+  ],
+  "sourceIds": {
+    "qqMusicId": [
+      "000HYRW924iGId"
+    ],
+    "ncmMusicId": [
+      "2166118641"
+    ],
+    "appleMusicId": [
+      "1757406391",
+      "1757406401"
+    ],
+    "isrc": [
+      "HKG732429630",
+      "HKG732429631"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

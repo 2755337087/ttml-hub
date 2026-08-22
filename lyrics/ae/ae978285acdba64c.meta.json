@@ -8,22 +8,40 @@
     "LSGCsikoriot肖懿文",
     "王齐铭WatchMe",
     "LSGCsikoriot",
-    "朴鲨VPS"
+    "朴鲨VPS",
+    "王鶴棣",
+    "王齊銘",
+    "朴鯊",
+    "Dylan Wang"
   ],
   "album": "湖边迪斯科 - Single",
   "albums": [
     "湖边迪斯科 - Single",
-    "湖边迪斯科"
+    "湖边迪斯科",
+    "湖邊迪斯科 - Single",
+    "Disco By The Lake - Single"
   ],
   "language": "zh-Hans",
-  "hasTranslation": false,
+  "hasTranslation": true,
   "hasTransliteration": false,
-  "aliases": [],
+  "aliases": [
+    "湖邊迪斯科",
+    "Disco By The Lake"
+  ],
   "sourceIds": {
-    "qqMusicId": "003WgjoK1ZbQ66",
-    "ncmMusicId": "2639943324",
-    "appleMusicId": "1775595991",
-    "isrc": "CNUM72400495"
+    "qqMusicId": [
+      "003WgjoK1ZbQ66"
+    ],
+    "ncmMusicId": [
+      "2639943324"
+    ],
+    "appleMusicId": [
+      "1775595991",
+      "1775597095"
+    ],
+    "isrc": [
+      "CNUM72400495"
+    ]
   },
   "author": {
     "githubId": "76586484",

@@ -1,0 +1,42 @@
+{
+  "id": "1b58667748dbd3d4",
+  "title": "生来孤独 (Enjoy)",
+  "artists": [
+    "门尼",
+    "門尼",
+    "Menny"
+  ],
+  "album": "门尼Ⅱ:剧场",
+  "albums": [
+    "门尼Ⅱ:剧场",
+    "门尼Ⅱ：剧场",
+    "門尼Ⅱ:劇場"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "生来孤独",
+    "生來孤獨 (Enjoy)"
+  ],
+  "sourceIds": {
+    "qqMusicId": [
+      "0022uRvZ0CpjHr"
+    ],
+    "ncmMusicId": [
+      "2628734522"
+    ],
+    "appleMusicId": [
+      "1769382538"
+    ],
+    "isrc": [
+      "DGA0L2422299"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

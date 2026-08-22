@@ -1,0 +1,42 @@
+{
+  "id": "6ba92a1a6cc7ac42",
+  "title": "预制分手 (Best Before)",
+  "artists": [
+    "门尼",
+    "門尼",
+    "Menny"
+  ],
+  "album": "门尼Ⅲ:贵族",
+  "albums": [
+    "门尼Ⅲ:贵族",
+    "门尼Ⅲ：贵族",
+    "門尼Ⅲ:貴族"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "预制分手（Best Before）",
+    "預製分手 (Best Before)"
+  ],
+  "sourceIds": {
+    "qqMusicId": [
+      "000bZIaO2EXWNW"
+    ],
+    "ncmMusicId": [
+      "3372741891"
+    ],
+    "appleMusicId": [
+      "1889323931"
+    ],
+    "isrc": [
+      "FR59R2614235"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

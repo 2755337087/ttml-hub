@@ -2,20 +2,45 @@
   "id": "4e2c93b920101162",
   "title": "无想",
   "artists": [
-    "黄子弘凡"
+    "黄子弘凡",
+    "黃子弘凡",
+    "Lars Huang"
   ],
   "album": "晚一点绿灯 - EP",
   "albums": [
     "晚一点绿灯 - EP",
-    "晚一点绿灯"
+    "晚一点绿灯",
+    "无想",
+    "無想 - Single",
+    "晚一點綠燈 - EP",
+    "无想 - Single",
+    "Hold This Moment - EP",
+    "Carefree - Single"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
-  "aliases": [],
+  "aliases": [
+    "無想",
+    "Carefree"
+  ],
   "sourceIds": {
-    "ncmMusicId": "3325104197",
-    "appleMusicId": "1858772854"
+    "qqMusicId": [
+      "0025h5ZH1D246k"
+    ],
+    "ncmMusicId": [
+      "3325104197",
+      "3317169375"
+    ],
+    "appleMusicId": [
+      "1858772854",
+      "1852418918",
+      "1852403231",
+      "1858766166"
+    ],
+    "isrc": [
+      "CNZ632500275"
+    ]
   },
   "author": {
     "githubId": "76586484",

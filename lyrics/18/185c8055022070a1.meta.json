@@ -3,21 +3,41 @@
   "title": "感谢你曾来过 (Live)",
   "artists": [
     "陈冰",
-    "张远"
+    "张远",
+    "陳冰",
+    "張遠",
+    "Bing Chen",
+    "Zhang Yuan"
   ],
   "album": "天赐的声音第六季 第8期",
   "albums": [
     "天赐的声音第六季 第8期",
-    "天赐的声音第六季 第8期 (Live)"
+    "天赐的声音第六季 第8期 (Live)",
+    "天賜的聲音第六季 第8期 (Live)"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
-  "aliases": [],
+  "aliases": [
+    "感谢你曾来过 (Live版)",
+    "感謝你曾來過 (Live)",
+    "感谢你曾来过 (Live版伴奏)"
+  ],
   "sourceIds": {
-    "qqMusicId": "001ZMtxw11fKjp",
-    "ncmMusicId": "2711879249",
-    "appleMusicId": "1819219299"
+    "qqMusicId": [
+      "001ZMtxw11fKjp"
+    ],
+    "ncmMusicId": [
+      "2711879249"
+    ],
+    "appleMusicId": [
+      "1819219299",
+      "1819219305"
+    ],
+    "isrc": [
+      "HKD012503169",
+      "HKD012503174"
+    ]
   },
   "author": {
     "githubId": "76586484",

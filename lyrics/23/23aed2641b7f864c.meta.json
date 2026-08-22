@@ -1,0 +1,43 @@
+{
+  "id": "23aed2641b7f864c",
+  "title": "无名指 (The Rust)",
+  "artists": [
+    "门尼",
+    "門尼",
+    "Menny"
+  ],
+  "album": "门尼Ⅲ:贵族",
+  "albums": [
+    "门尼Ⅲ:贵族",
+    "门尼Ⅲ：贵族",
+    "門尼Ⅲ:貴族"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "无名指（The Rust）",
+    "无名指",
+    "無名指 (The Rust)"
+  ],
+  "sourceIds": {
+    "qqMusicId": [
+      "002ZlBh93nbpsE"
+    ],
+    "ncmMusicId": [
+      "3365242577"
+    ],
+    "appleMusicId": [
+      "1889323937"
+    ],
+    "isrc": [
+      "FR59R2667459"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

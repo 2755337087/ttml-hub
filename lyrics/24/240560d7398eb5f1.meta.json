@@ -3,21 +3,38 @@
   "title": "城北的花 (Live)",
   "artists": [
     "王源",
-    "王宇宙Leto"
+    "王宇宙Leto",
+    "Roy Wang",
+    "Yuzhou Wang Leto"
   ],
   "album": "天赐的声音第六季 第4期",
   "albums": [
     "天赐的声音第六季 第4期",
-    "天赐的声音第六季 第4期 (Live)"
+    "天赐的声音第六季 第4期 (Live)",
+    "天賜的聲音第六季 第4期 (Live)"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
-  "aliases": [],
+  "aliases": [
+    "城北的花 (Live版)",
+    "城北的花 (Live版伴奏)"
+  ],
   "sourceIds": {
-    "qqMusicId": "004KdciZ1NKT2c",
-    "ncmMusicId": "2702711900",
-    "appleMusicId": "1813692079"
+    "qqMusicId": [
+      "004KdciZ1NKT2c"
+    ],
+    "ncmMusicId": [
+      "2702711900"
+    ],
+    "appleMusicId": [
+      "1813692079",
+      "1813692300"
+    ],
+    "isrc": [
+      "HKD012489874",
+      "HKD012489876"
+    ]
   },
   "author": {
     "githubId": "76586484",
