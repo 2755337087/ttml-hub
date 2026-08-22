@@ -14,11 +14,26 @@
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
-  "aliases": [],
+  "aliases": [
+    "太陽與地球 (Live)",
+    "太陽與地球 (Live版伴奏)",
+    "太阳与地球 (Live版伴奏)"
+  ],
   "sourceIds": {
-    "qqMusicId": "000qQ1lK1ZWRVc",
-    "ncmMusicId": "3376682238",
-    "appleMusicId": "6765952953"
+    "qqMusicId": [
+      "000qQ1lK1ZWRVc"
+    ],
+    "ncmMusicId": [
+      "3376682238"
+    ],
+    "appleMusicId": [
+      "6765952953",
+      "6765953118"
+    ],
+    "isrc": [
+      "HKD012828680",
+      "HKD012828671"
+    ]
   },
   "author": {
     "githubId": "76586484",

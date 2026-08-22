@@ -1,0 +1,48 @@
+{
+  "id": "bdb67947ea5358d5",
+  "title": "冬眠",
+  "artists": [
+    "阿YueYue",
+    "刘兆宇"
+  ],
+  "album": "冬眠·2023",
+  "albums": [
+    "冬眠·2023",
+    "冬眠·2023 - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "冬眠·2023 (伴奏)",
+    "冬眠·2023",
+    "冬眠·2023 (伴奏版)",
+    "冬眠·2023 - 伴奏版"
+  ],
+  "sourceIds": {
+    "qqMusicId": [
+      "001FBAyc32w4EJ",
+      "001h3YoM30gQtE",
+      "458927670",
+      "458927671"
+    ],
+    "ncmMusicId": [
+      "2110700883",
+      "2110700886"
+    ],
+    "appleMusicId": [
+      "1725265276",
+      "1725265487"
+    ],
+    "isrc": [
+      "HKG731680175",
+      "HKG731680176"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

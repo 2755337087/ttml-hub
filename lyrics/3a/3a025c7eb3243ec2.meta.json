@@ -1,0 +1,47 @@
+{
+  "id": "3a025c7eb3243ec2",
+  "title": "骂醒我 (Live)",
+  "artists": [
+    "颜人中",
+    "王赫野",
+    "顏人中",
+    "Ele Yan",
+    "Wang Heye"
+  ],
+  "album": "声生不息·华流季 第5期",
+  "albums": [
+    "声生不息·华流季 第5期",
+    "聲生不息·華流季 (第5期 Live) - EP",
+    "声生不息·华流季 第5期 (Live) - EP",
+    "声生不息·华流季 (第5期 Live) - EP"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "骂醒我 (live)",
+    "罵醒我 (Live)"
+  ],
+  "sourceIds": {
+    "qqMusicId": [
+      "001Jbels2qpw0G"
+    ],
+    "ncmMusicId": [
+      "3330453730"
+    ],
+    "appleMusicId": [
+      "1862684594",
+      "1872061369"
+    ],
+    "isrc": [
+      "DGA082560609",
+      "CN2DY2600922"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}
