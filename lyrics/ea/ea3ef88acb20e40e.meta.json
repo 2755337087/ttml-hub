@@ -3,7 +3,9 @@
   "title": "南山南 (Live)",
   "artists": [
     "陈楚生",
-    "张碧晨"
+    "张碧晨",
+    "Chen Chu Sheng",
+    "Diamond Zhang"
   ],
   "album": "声生不息.家年华 (第十期 live)",
   "albums": [
@@ -13,11 +15,22 @@
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
-  "aliases": [],
+  "aliases": [
+    "南山南 (live)"
+  ],
   "sourceIds": {
-    "qqMusicId": "004KzVmW43dDzb",
-    "ncmMusicId": "2123195337",
-    "appleMusicId": "1762651528"
+    "qqMusicId": [
+      "004KzVmW43dDzb"
+    ],
+    "ncmMusicId": [
+      "2123195337"
+    ],
+    "appleMusicId": [
+      "1762651528"
+    ],
+    "isrc": [
+      "DGA092463823"
+    ]
   },
   "author": {
     "githubId": "76586484",

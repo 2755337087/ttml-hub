@@ -4,7 +4,8 @@
   "artists": [
     "GAI周延",
     "陈冰",
-    "GAI"
+    "GAI",
+    "Chen Bing"
   ],
   "album": "天赐的声音第五季 第9期",
   "albums": [
@@ -15,12 +16,24 @@
   "hasTranslation": false,
   "hasTransliteration": false,
   "aliases": [
-    "诺言 (Live版)"
+    "诺言 (Live版)",
+    "诺言 (Live伴奏)"
   ],
   "sourceIds": {
-    "qqMusicId": "000IbRpF1VQRgn",
-    "ncmMusicId": "2600433756",
-    "appleMusicId": "1753645328"
+    "qqMusicId": [
+      "000IbRpF1VQRgn"
+    ],
+    "ncmMusicId": [
+      "2600433756"
+    ],
+    "appleMusicId": [
+      "1753645328",
+      "1753645333"
+    ],
+    "isrc": [
+      "HKG732426067",
+      "HKG732426071"
+    ]
   },
   "author": {
     "githubId": "76586484",

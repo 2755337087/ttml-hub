@@ -6,22 +6,42 @@
     "陈楚生",
     "董宝石",
     "王栎鑫",
-    "宝石Gem"
+    "宝石Gem",
+    "陳楚生",
+    "董寶石",
+    "王櫟鑫",
+    "Nicky Lee",
+    "Chen Chu Sheng",
+    "Gem",
+    "K.A"
   ],
   "album": "《披荆斩棘3》 (五公 live) - EP",
   "albums": [
     "《披荆斩棘3》 (五公 live) - EP",
     "披荆斩棘第三季 第10期",
-    "披荆斩棘3 第10期"
+    "披荆斩棘3 第10期",
+    "《披荊斬棘3》 (五公 live) - EP"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
-  "aliases": [],
+  "aliases": [
+    "他不爱我 (Live版)",
+    "他不愛我 (Live)"
+  ],
   "sourceIds": {
-    "qqMusicId": "004OFqbK0QgfkF",
-    "ncmMusicId": "2094467344",
-    "appleMusicId": "1733587646"
+    "qqMusicId": [
+      "004OFqbK0QgfkF"
+    ],
+    "ncmMusicId": [
+      "2094467344"
+    ],
+    "appleMusicId": [
+      "1733587646"
+    ],
+    "isrc": [
+      "FR96X2416291"
+    ]
   },
   "author": {
     "githubId": "76586484",

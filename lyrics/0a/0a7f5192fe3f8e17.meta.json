@@ -4,7 +4,9 @@
   "artists": [
     "杨丞琳",
     "黄霄雲",
-    "黄霄云"
+    "黄霄云",
+    "Rainie Yang",
+    "黃霄雲"
   ],
   "album": "天赐的声音第七季 第7期",
   "albums": [
@@ -14,11 +16,25 @@
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
-  "aliases": [],
+  "aliases": [
+    "野心家 (Live版)",
+    "野心家 (Live伴奏)"
+  ],
   "sourceIds": {
-    "qqMusicId": "000h856j4boYlf",
-    "ncmMusicId": "3410661564",
-    "appleMusicId": "6794415402"
+    "qqMusicId": [
+      "000h856j4boYlf"
+    ],
+    "ncmMusicId": [
+      "3410661564"
+    ],
+    "appleMusicId": [
+      "6794415402",
+      "6794415414"
+    ],
+    "isrc": [
+      "HKD012914889",
+      "HKD012914891"
+    ]
   },
   "author": {
     "githubId": "76586484",

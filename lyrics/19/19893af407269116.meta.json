@@ -3,21 +3,37 @@
   "title": "飘向北方 (Live)",
   "artists": [
     "尤长靖",
-    "那吾克热-NW"
+    "那吾克热-NW",
+    "那吾克熱-NW",
+    "尤長靖",
+    "LIL-NW",
+    "Azora Chin"
   ],
   "album": "中国新说唱 第10期",
   "albums": [
     "中国新说唱 第10期",
-    "中国新说唱 第10期 (Live) - EP"
+    "中国新说唱 第10期 (Live) - EP",
+    "中國新說唱 第10期 (Live) - EP"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
-  "aliases": [],
+  "aliases": [
+    "飄向北方 (Live)"
+  ],
   "sourceIds": {
-    "qqMusicId": "004EdNow2J7hJi",
-    "ncmMusicId": "1308818967",
-    "appleMusicId": "1852296027"
+    "qqMusicId": [
+      "004EdNow2J7hJi"
+    ],
+    "ncmMusicId": [
+      "1308818967"
+    ],
+    "appleMusicId": [
+      "1852296027"
+    ],
+    "isrc": [
+      "HKG732579572"
+    ]
   },
   "author": {
     "githubId": "76586484",

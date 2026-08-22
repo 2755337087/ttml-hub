@@ -3,23 +3,42 @@
   "title": "他不懂 (Live)",
   "artists": [
     "杨宗纬",
-    "张碧晨"
+    "张碧晨",
+    "Aska Yang",
+    "Diamond Zhang",
+    "楊宗緯",
+    "張碧晨"
   ],
   "album": "天赐的声音第五季 第1期",
   "albums": [
     "天赐的声音第五季 第1期",
-    "天赐的声音第五季 第1期 (Live) - EP"
+    "天赐的声音第五季 第1期 (Live) - EP",
+    "天賜的聲音第五季 第1期 (Live) - EP"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
   "aliases": [
-    "他不懂 (Live版)"
+    "他不懂 (Live版)",
+    "他不懂 (伴奏)",
+    "他不懂 (Live伴奏)"
   ],
   "sourceIds": {
-    "qqMusicId": "000MFyBr1zFYYN",
-    "ncmMusicId": "2149816865",
-    "appleMusicId": "1757783122"
+    "qqMusicId": [
+      "000MFyBr1zFYYN"
+    ],
+    "ncmMusicId": [
+      "2149816865",
+      "2149816860"
+    ],
+    "appleMusicId": [
+      "1757783122",
+      "1757783130"
+    ],
+    "isrc": [
+      "HKG732429977",
+      "HKG732429980"
+    ]
   },
   "author": {
     "githubId": "76586484",

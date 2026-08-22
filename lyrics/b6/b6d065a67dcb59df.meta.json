@@ -3,19 +3,37 @@
   "title": "爱错 (Live)",
   "artists": [
     "王铮亮",
-    "黄子弘凡"
+    "黄子弘凡",
+    "Reno Wang",
+    "Lars Huang"
   ],
   "album": "天赐的声音第七季 第6期",
   "albums": [
-    "天赐的声音第七季 第6期"
+    "天赐的声音第七季 第6期",
+    "天赐的声音第七季 第6期 (Live)"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
-  "aliases": [],
+  "aliases": [
+    "爱错 (Live版)",
+    "爱错 (Live伴奏)"
+  ],
   "sourceIds": {
-    "qqMusicId": "001yWNY04ExQJf",
-    "ncmMusicId": "3407803502"
+    "qqMusicId": [
+      "001yWNY04ExQJf"
+    ],
+    "ncmMusicId": [
+      "3407803502"
+    ],
+    "appleMusicId": [
+      "6792381206",
+      "6792381213"
+    ],
+    "isrc": [
+      "HKD012912783",
+      "HKD012912776"
+    ]
   },
   "author": {
     "githubId": "76586484",

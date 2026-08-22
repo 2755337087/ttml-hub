@@ -4,21 +4,32 @@
   "artists": [
     "周深",
     "GAI周延",
-    "GAI"
+    "GAI",
+    "Zhou Shen"
   ],
   "album": "天赐的声音第三季 第3期",
   "albums": [
     "天赐的声音第三季 第3期",
-    "天赐的声音第三季 第3期 (Live) - EP"
+    "天赐的声音第三季 第3期 (Live) - EP",
+    "天賜的聲音第三季 第3期 (Live) - EP"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
   "aliases": [],
   "sourceIds": {
-    "qqMusicId": "000hBf9000XCGz",
-    "ncmMusicId": "1945878289",
-    "appleMusicId": "1783982549"
+    "qqMusicId": [
+      "000hBf9000XCGz"
+    ],
+    "ncmMusicId": [
+      "1945878289"
+    ],
+    "appleMusicId": [
+      "1783982549"
+    ],
+    "isrc": [
+      "HKG732488775"
+    ]
   },
   "author": {
     "githubId": "76586484",

@@ -3,7 +3,9 @@
   "title": "小半 (Live)",
   "artists": [
     "张碧晨",
-    "张震岳"
+    "张震岳",
+    "Diamond Zhang",
+    "A-Yue Chang"
   ],
   "album": "音你而来第二季 第12期 (Live)",
   "albums": [
@@ -14,11 +16,24 @@
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
-  "aliases": [],
+  "aliases": [
+    "小半 (伴奏)"
+  ],
   "sourceIds": {
-    "qqMusicId": "001JbcUS2Z9iux",
-    "ncmMusicId": "2716800023",
-    "appleMusicId": "1867430260"
+    "qqMusicId": [
+      "001JbcUS2Z9iux"
+    ],
+    "ncmMusicId": [
+      "2716800023"
+    ],
+    "appleMusicId": [
+      "1867430260",
+      "1867430367"
+    ],
+    "isrc": [
+      "CN2DY2502481",
+      "CN2DY2502490"
+    ]
   },
   "author": {
     "githubId": "76586484",

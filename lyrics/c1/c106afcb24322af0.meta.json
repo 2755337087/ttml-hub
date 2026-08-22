@@ -7,20 +7,43 @@
     "王晓赟子",
     "谢可寅",
     "袁一琦",
-    "欧阳娣娣 (Didi Ouyang)"
+    "欧阳娣娣 (Didi Ouyang)",
+    "欧阳娣娣（Didi Ouyang）",
+    "歐陽娣娣",
+    "王曉贇子",
+    "謝可寅",
+    "Curley G",
+    "Didi Ouyang",
+    "Shaking Chloe"
   ],
   "album": "超燃青春的合唱 第3期 (Live)",
   "albums": [
     "超燃青春的合唱 第3期 (Live)",
-    "超燃青春的合唱 第3期"
+    "超燃青春的合唱 第3期",
+    "《超燃青春的合唱》第3期"
   ],
   "language": "zh-Hans",
-  "hasTranslation": true,
+  "hasTranslation": false,
   "hasTransliteration": false,
-  "aliases": [],
+  "aliases": [
+    "一半一半（Live）",
+    "一半一半 (Live版伴奏)"
+  ],
   "sourceIds": {
-    "qqMusicId": "000rxEA33M4oaJ",
-    "appleMusicId": "6768744862"
+    "qqMusicId": [
+      "000rxEA33M4oaJ"
+    ],
+    "ncmMusicId": [
+      "3379223573"
+    ],
+    "appleMusicId": [
+      "6768744862",
+      "6768745277"
+    ],
+    "isrc": [
+      "HKD012832816",
+      "HKD012832819"
+    ]
   },
   "author": {
     "githubId": "76586484",

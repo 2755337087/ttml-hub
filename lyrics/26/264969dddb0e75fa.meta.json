@@ -4,21 +4,36 @@
   "artists": [
     "黄丽玲",
     "王赫野",
-    "A-Lin"
+    "A-Lin",
+    "Wang Heye"
   ],
   "album": "声生不息·华流季 第2期",
   "albums": [
     "声生不息·华流季 第2期",
-    "声生不息·华流季 (第2期 Live) - EP"
+    "声生不息·华流季 (第2期 Live) - EP",
+    "声生不息·华流季第2期 (Live) - EP"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
-  "aliases": [],
+  "aliases": [
+    "爱错 (Live)"
+  ],
   "sourceIds": {
-    "qqMusicId": "001w6NXY4BPcSe",
-    "ncmMusicId": "3322655244",
-    "appleMusicId": "1856820575"
+    "qqMusicId": [
+      "001w6NXY4BPcSe"
+    ],
+    "ncmMusicId": [
+      "3322655244"
+    ],
+    "appleMusicId": [
+      "1856820575",
+      "1872934247"
+    ],
+    "isrc": [
+      "DGA072592918",
+      "CN2DY2601115"
+    ]
   },
   "author": {
     "githubId": "76586484",

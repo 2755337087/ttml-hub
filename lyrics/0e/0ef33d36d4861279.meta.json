@@ -3,20 +3,33 @@
   "title": "她说 (Live)",
   "artists": [
     "杨丞琳",
-    "周深"
+    "周深",
+    "Rainie Yang",
+    "Zhou Shen"
   ],
   "album": "蒙面唱将猜猜猜 第5期",
   "albums": [
     "蒙面唱将猜猜猜 第5期",
-    "蒙面唱将猜猜猜 第5期 (Live) - Single"
+    "蒙面唱将猜猜猜 第5期 (Live) - Single",
+    "蒙面唱将猜猜猜第一季 第5期 (Live)"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
   "aliases": [],
   "sourceIds": {
-    "qqMusicId": "000crX531EVwJK",
-    "appleMusicId": "1600307189"
+    "qqMusicId": [
+      "000crX531EVwJK"
+    ],
+    "appleMusicId": [
+      "1600307189",
+      "1607710910",
+      "1653356976"
+    ],
+    "isrc": [
+      "TWCG52180628",
+      "HKG731713475"
+    ]
   },
   "author": {
     "githubId": "76586484",

@@ -4,7 +4,9 @@
   "artists": [
     "杨宗纬",
     "欢子",
-    "喻言"
+    "喻言",
+    "Aska Yang",
+    "Fandy Su"
   ],
   "album": "天赐的声音第七季 第7期",
   "albums": [
@@ -14,11 +16,25 @@
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
-  "aliases": [],
+  "aliases": [
+    "月光与吻痕 (Live版)",
+    "月光与吻痕 (Live伴奏)"
+  ],
   "sourceIds": {
-    "qqMusicId": "0016zo2207YG3u",
-    "ncmMusicId": "3410661551",
-    "appleMusicId": "6794415411"
+    "qqMusicId": [
+      "0016zo2207YG3u"
+    ],
+    "ncmMusicId": [
+      "3410661551"
+    ],
+    "appleMusicId": [
+      "6794415411",
+      "6794415605"
+    ],
+    "isrc": [
+      "HKD012914883",
+      "HKD012914882"
+    ]
   },
   "author": {
     "githubId": "76586484",

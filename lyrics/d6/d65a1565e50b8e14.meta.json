@@ -3,17 +3,22 @@
   "title": "甲乙丙丁 [你我怎么两清] (Live版)",
   "artists": [
     "张碧晨",
-    "侯明昊"
+    "侯明昊",
+    "Diamond Zhang",
+    "Neo"
   ],
   "album": "天赐的声音第七季 第11期",
   "albums": [
-    "天赐的声音第七季 第11期"
+    "天赐的声音第七季 第11期",
+    "天赐的声音第七季 第11期 (Live)"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
   "aliases": [
-    "甲乙丙丁 (你我怎么两清) (Live)"
+    "甲乙丙丁 (你我怎么两清) (Live)",
+    "甲乙丙丁 (你我怎么两清) [Live]",
+    "甲乙丙丁 (你我怎么两清) [Live伴奏]"
   ],
   "sourceIds": {
     "qqMusicId": [
@@ -21,6 +26,14 @@
     ],
     "ncmMusicId": [
       "3424231854"
+    ],
+    "appleMusicId": [
+      "6804051161",
+      "6804051420"
+    ],
+    "isrc": [
+      "HKD012948530",
+      "HKD012948527"
     ]
   },
   "author": {

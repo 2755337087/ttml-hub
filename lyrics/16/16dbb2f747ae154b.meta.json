@@ -4,21 +4,36 @@
   "artists": [
     "周兴哲",
     "姚晓棠",
-    "Eric周兴哲"
+    "Eric周兴哲",
+    "Xiaotang Yao"
   ],
   "album": "声生不息·华流季 (第9期 Live)",
   "albums": [
     "声生不息·华流季 (第9期 Live)",
-    "声生不息·华流季 第9期"
+    "声生不息·华流季 第9期",
+    "声生不息·华流季 第9期 (Live)"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
-  "aliases": [],
+  "aliases": [
+    "屋顶 (live)"
+  ],
   "sourceIds": {
-    "qqMusicId": "000UjF292Vm9cJ",
-    "ncmMusicId": "3339755259",
-    "appleMusicId": "1869544375"
+    "qqMusicId": [
+      "000UjF292Vm9cJ"
+    ],
+    "ncmMusicId": [
+      "3339755259"
+    ],
+    "appleMusicId": [
+      "1869544375",
+      "1872138679"
+    ],
+    "isrc": [
+      "FR10S2639699",
+      "CN2DY2600943"
+    ]
   },
   "author": {
     "githubId": "76586484",

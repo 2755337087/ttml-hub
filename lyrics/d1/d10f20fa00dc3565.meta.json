@@ -4,7 +4,9 @@
   "artists": [
     "罗云熙",
     "黄霄雲",
-    "黄霄云"
+    "黄霄云",
+    "Yunxi Luo",
+    "黃霄雲"
   ],
   "album": "天赐的声音第七季 第4期",
   "albums": [
@@ -14,10 +16,25 @@
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
-  "aliases": [],
+  "aliases": [
+    "桃花诺 (Live版)",
+    "桃花诺 (Live伴奏)"
+  ],
   "sourceIds": {
-    "qqMusicId": "0049rJdY2hoYOr",
-    "appleMusicId": "6787895617"
+    "qqMusicId": [
+      "0049rJdY2hoYOr"
+    ],
+    "ncmMusicId": [
+      "3401100936"
+    ],
+    "appleMusicId": [
+      "6787895617",
+      "6787895688"
+    ],
+    "isrc": [
+      "HKD012878294",
+      "HKD012878282"
+    ]
   },
   "author": {
     "githubId": "76586484",

@@ -3,21 +3,38 @@
   "title": "借过一下 (live │ 典藏)",
   "artists": [
     "胡彦斌",
-    "Jony J"
+    "Jony J",
+    "Tiger Hu"
   ],
   "album": "歌手2026 第3期",
   "albums": [
     "歌手2026 第3期",
-    "歌手2026 第3期 (Live)"
+    "歌手2026 第3期 (Live)",
+    "歌手2026 (第3期 Live典藏版) - EP"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
-  "aliases": [],
+  "aliases": [
+    "借过一下 (Live典藏)",
+    "借过一下 (Live|典藏)",
+    "借过一下 (Live 典藏版)"
+  ],
   "sourceIds": {
-    "qqMusicId": "004QWa4H3Xm9JH",
-    "ncmMusicId": "3390085647",
-    "appleMusicId": "6779140282"
+    "qqMusicId": [
+      "004QWa4H3Xm9JH"
+    ],
+    "ncmMusicId": [
+      "3390085647"
+    ],
+    "appleMusicId": [
+      "6779140282",
+      "6779190097"
+    ],
+    "isrc": [
+      "HKD012855806",
+      "FRX202693560"
+    ]
   },
   "author": {
     "githubId": "76586484",
