@@ -1,36 +1,36 @@
 {
-  "id": "6ba92a1a6cc7ac42",
-  "title": "预制分手 (Best Before)",
+  "id": "1f3120a7a91d65ee",
+  "title": "乱七八糟 (Spring Dream)",
   "artists": [
     "门尼",
     "門尼",
     "Menny"
   ],
-  "album": "门尼Ⅲ:贵族",
+  "album": "门尼Ⅱ:剧场",
   "albums": [
-    "门尼Ⅲ:贵族",
-    "门尼Ⅲ：贵族",
-    "門尼Ⅲ:貴族"
+    "门尼Ⅱ:剧场",
+    "门尼Ⅱ：剧场",
+    "門尼Ⅱ:劇場"
   ],
   "language": "zh-Hans",
-  "hasTranslation": true,
+  "hasTranslation": false,
   "hasTransliteration": false,
   "aliases": [
-    "预制分手（Best Before）",
-    "預製分手 (Best Before)"
+    "乱七八糟",
+    "亂七八糟 (Spring Dream)"
   ],
   "sourceIds": {
     "qqMusicId": [
-      "000bZIaO2EXWNW"
+      "004fXJVb2pEIXR"
     ],
     "ncmMusicId": [
-      "3372741891"
+      "2628735286"
     ],
     "appleMusicId": [
-      "1889323931"
+      "1769382273"
     ],
     "isrc": [
-      "FR59R2614235"
+      "DGA0L2422297"
     ]
   },
   "author": {

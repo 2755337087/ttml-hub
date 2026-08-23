@@ -1,36 +1,38 @@
 {
-  "id": "6ba92a1a6cc7ac42",
-  "title": "预制分手 (Best Before)",
+  "id": "42f0b8d4b7fb27b3",
+  "title": "酒吧里的所见所闻",
   "artists": [
     "门尼",
     "門尼",
     "Menny"
   ],
-  "album": "门尼Ⅲ:贵族",
+  "album": "门尼",
   "albums": [
-    "门尼Ⅲ:贵族",
-    "门尼Ⅲ：贵族",
-    "門尼Ⅲ:貴族"
+    "门尼",
+    "门尼 (MONEY)",
+    "門尼",
+    "MONEY"
   ],
   "language": "zh-Hans",
-  "hasTranslation": true,
+  "hasTranslation": false,
   "hasTransliteration": false,
   "aliases": [
-    "预制分手（Best Before）",
-    "預製分手 (Best Before)"
+    "酒吧里的所见所闻 (Last night)",
+    "酒吧裡的所見所聞",
+    "Last night"
   ],
   "sourceIds": {
     "qqMusicId": [
-      "000bZIaO2EXWNW"
+      "002SyRZQ2pQ03U"
     ],
     "ncmMusicId": [
-      "3372741891"
+      "2082329070"
     ],
     "appleMusicId": [
-      "1889323931"
+      "1706801062"
     ],
     "isrc": [
-      "FR59R2614235"
+      "CNUM72300264"
     ]
   },
   "author": {

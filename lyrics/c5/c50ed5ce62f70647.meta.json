@@ -1,36 +1,37 @@
 {
-  "id": "6ba92a1a6cc7ac42",
-  "title": "预制分手 (Best Before)",
+  "id": "c50ed5ce62f70647",
+  "title": "红绣花 (live版)",
   "artists": [
     "门尼",
     "門尼",
     "Menny"
   ],
-  "album": "门尼Ⅲ:贵族",
+  "album": "The Key2025 (live版) - Single",
   "albums": [
-    "门尼Ⅲ:贵族",
-    "门尼Ⅲ：贵族",
-    "門尼Ⅲ:貴族"
+    "The Key2025 (live版) - Single",
+    "The Key2025 (live版)",
+    "The Key2025"
   ],
   "language": "zh-Hans",
-  "hasTranslation": true,
+  "hasTranslation": false,
   "hasTransliteration": false,
   "aliases": [
-    "预制分手（Best Before）",
-    "預製分手 (Best Before)"
+    "红绣花（开门live版）",
+    "红绣花 (开门live版)",
+    "紅繡花 (live版)"
   ],
   "sourceIds": {
     "qqMusicId": [
-      "000bZIaO2EXWNW"
+      "002jH8Rk1wFUjg"
     ],
     "ncmMusicId": [
-      "3372741891"
+      "3334024277"
     ],
     "appleMusicId": [
-      "1889323931"
+      "1864855167"
     ],
     "isrc": [
-      "FR59R2614235"
+      "DGA082590394"
     ]
   },
   "author": {

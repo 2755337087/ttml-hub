@@ -3,21 +3,36 @@
   "title": "最好的伴",
   "artists": [
     "宝石Gem",
-    "董宝石"
+    "董宝石",
+    "董寶石",
+    "Gem"
   ],
   "album": "最好的伴",
   "albums": [
     "最好的伴",
-    "最好的伴(综艺《哈哈哈哈哈》第六季温暖宣传曲) - Single"
+    "最好的伴(综艺《哈哈哈哈哈》第六季温暖宣传曲) - Single",
+    "最好的伴(綜藝《哈哈哈哈哈》第六季溫暖宣傳曲) - Single"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
-  "aliases": [],
+  "aliases": [
+    "最好的伴(综艺《哈哈哈哈哈》第六季温暖宣传曲)",
+    "最好的伴(綜藝《哈哈哈哈哈》第六季溫暖宣傳曲)"
+  ],
   "sourceIds": {
-    "qqMusicId": "004D9b6511yPHT",
-    "ncmMusicId": "3397024989",
-    "appleMusicId": "6783318756"
+    "qqMusicId": [
+      "004D9b6511yPHT"
+    ],
+    "ncmMusicId": [
+      "3397024989"
+    ],
+    "appleMusicId": [
+      "6783318756"
+    ],
+    "isrc": [
+      "HKG732659723"
+    ]
   },
   "author": {
     "githubId": "76586484",

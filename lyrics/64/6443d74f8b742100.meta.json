@@ -3,19 +3,38 @@
   "title": "最后一页",
   "artists": [
     "en (王翊恩)",
-    "en（王翊恩）"
+    "en（王翊恩）",
+    "en"
   ],
   "album": "最后一页",
   "albums": [
-    "最后一页"
+    "最后一页",
+    "最後一頁 - Single",
+    "最后一页 - Single"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
-  "aliases": [],
+  "aliases": [
+    "最後一頁",
+    "最後一頁 (伴奏)",
+    "最后一页 (伴奏)"
+  ],
   "sourceIds": {
-    "qqMusicId": "003VfAFW4ALQ83",
-    "ncmMusicId": "2156905050"
+    "qqMusicId": [
+      "003VfAFW4ALQ83"
+    ],
+    "ncmMusicId": [
+      "2156905050"
+    ],
+    "appleMusicId": [
+      "1776283786",
+      "1776283787"
+    ],
+    "isrc": [
+      "QNSM12400790",
+      "QNSM12401426"
+    ]
   },
   "author": {
     "githubId": "76586484",

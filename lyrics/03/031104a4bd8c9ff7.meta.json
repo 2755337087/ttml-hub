@@ -1,32 +1,38 @@
 {
-  "id": "65da2c6499037c1e",
-  "title": "阿刁",
+  "id": "031104a4bd8c9ff7",
+  "title": "风华正茂",
   "artists": [
-    "赵雷",
-    "趙雷",
-    "Lei Zhao"
+    "门尼",
+    "門尼",
+    "Menny"
   ],
-  "album": "无法长大",
+  "album": "门尼",
   "albums": [
-    "无法长大",
-    "無法長大"
+    "门尼",
+    "门尼 (MONEY)",
+    "門尼",
+    "MONEY"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
-  "aliases": [],
+  "aliases": [
+    "风华正茂 (Gone)",
+    "風華正茂",
+    "Gone"
+  ],
   "sourceIds": {
     "qqMusicId": [
-      "003fV3uf1b2Lba"
+      "002NpjSX2lvHAT"
     ],
     "ncmMusicId": [
-      "447925059"
+      "2082326625"
     ],
     "appleMusicId": [
-      "1722409910"
+      "1706800662"
     ],
     "isrc": [
-      "CNZ882302242"
+      "CNUM72300262"
     ]
   },
   "author": {
