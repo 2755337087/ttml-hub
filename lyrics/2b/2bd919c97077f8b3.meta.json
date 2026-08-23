@@ -1,0 +1,39 @@
+{
+  "id": "2bd919c97077f8b3",
+  "title": "樱花草",
+  "artists": [
+    "Sweety"
+  ],
+  "album": "花言乔语 (精装版)",
+  "albums": [
+    "花言乔语 (精装版)",
+    "花言乔语",
+    "花言喬語",
+    "Hua Yan Qiao Yu"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "櫻花草",
+    "Ying Hua Cao"
+  ],
+  "sourceIds": {
+    "qqMusicId": [
+      "000Tx0ZM2xaBhM"
+    ],
+    "ncmMusicId": [
+      "376971",
+      "2131035285"
+    ],
+    "appleMusicId": [
+      "1854817916"
+    ],
+    "isrc": [
+      "TWB510643704"
+    ]
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

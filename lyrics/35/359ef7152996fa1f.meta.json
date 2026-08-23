@@ -1,0 +1,49 @@
+{
+  "id": "359ef7152996fa1f",
+  "title": "樱花草 (Live)",
+  "artists": [
+    "黄子弘凡",
+    "姚晓棠",
+    "黃子弘凡",
+    "姚曉棠",
+    "Lars Huang",
+    "Xiaotang Yao"
+  ],
+  "album": "天赐的声音第七季 第11期",
+  "albums": [
+    "天赐的声音第七季 第11期",
+    "天賜的聲音第七季 第11期 (Live)",
+    "天赐的声音第七季 第11期 (Live)"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "樱花草 (Live版)",
+    "櫻花草 (Live)",
+    "櫻花草 (Live伴奏)",
+    "樱花草 (Live伴奏)"
+  ],
+  "sourceIds": {
+    "qqMusicId": [
+      "004UQqKK1huYWy"
+    ],
+    "ncmMusicId": [
+      "3424231936"
+    ],
+    "appleMusicId": [
+      "6804051174",
+      "6804051437"
+    ],
+    "isrc": [
+      "HKD012948537",
+      "HKD012948524"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

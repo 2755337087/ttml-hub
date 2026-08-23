@@ -2,19 +2,36 @@
   "id": "e95ac400e81957ac",
   "title": "是你",
   "artists": [
-    "林俊杰"
+    "林俊杰",
+    "林俊傑",
+    "JJ Lin"
   ],
   "album": "JJ's Bloom n' Tunes, Vol. 2 - EP",
   "albums": [
     "JJ's Bloom n' Tunes, Vol. 2 - EP",
-    "JJ's Bloom n' Tunes, Vol. 2"
+    "JJ's Bloom n' Tunes, Vol. 2",
+    "JJ的咖啡调调, Vol. 2",
+    "JJ的咖啡调调, Vol. 2 - EP",
+    "JJ的咖啡調調, Vol. 2 - EP"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
   "aliases": [],
   "sourceIds": {
-    "appleMusicId": "1669406725"
+    "qqMusicId": [
+      "004G2J4E0Brm4O"
+    ],
+    "ncmMusicId": [
+      "2019573475"
+    ],
+    "appleMusicId": [
+      "1669406725",
+      "1669406283"
+    ],
+    "isrc": [
+      "TWU712300223"
+    ]
   },
   "author": {},
   "license": "",

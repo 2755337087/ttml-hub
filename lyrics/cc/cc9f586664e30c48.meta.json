@@ -5,34 +5,49 @@
     "窦靖童",
     "欧阳娜娜",
     "Leah Dou",
-    "Nana Ou-Yang"
+    "Nana Ou-Yang",
+    "竇靖童",
+    "歐陽娜娜"
   ],
   "album": "歌手2026 第12期",
   "albums": [
     "歌手2026 第12期",
     "歌手2026 第12期 (Live)",
-    "歌手2026 (第12期 Live)"
+    "歌手2026 (第12期 Live)",
+    "歌手2026 (第12期 Live典藏版)"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
   "aliases": [
-    "被驯服的象 (Live)"
+    "被驯服的象 (Live)",
+    "被驯服的象 (live │ 典藏)",
+    "被驯服的象 (Live|典藏)",
+    "被馴服的象 (Live典藏)",
+    "被馴服的象 (Live)",
+    "被驯服的象 (Live 典藏版)",
+    "被驯服的象 (Live典藏)"
   ],
   "sourceIds": {
     "qqMusicId": [
-      "0044a7vb0uXF6U"
+      "0044a7vb0uXF6U",
+      "001MDL7X32nOxd"
     ],
     "ncmMusicId": [
-      "3417798190"
+      "3417798190",
+      "3417798838"
     ],
     "appleMusicId": [
       "6801286181",
-      "6800233058"
+      "6800233058",
+      "6801286526",
+      "6802238193"
     ],
     "isrc": [
       "HKD012940158",
-      "FRX452658177"
+      "FRX452658177",
+      "HKD012940152",
+      "FRX452672240"
     ]
   },
   "author": {

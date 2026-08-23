@@ -5,34 +5,46 @@
     "齐豫",
     "毛阿敏",
     "Chyi Yu",
-    "Mao A Min"
+    "Mao A Min",
+    "齊豫"
   ],
   "album": "歌手2026 第12期",
   "albums": [
     "歌手2026 第12期",
     "歌手2026 第12期 (Live)",
-    "歌手2026 (第12期 Live)"
+    "歌手2026 (第12期 Live)",
+    "歌手2026 (第12期 Live典藏版)"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
   "aliases": [
-    "相思 (Live)"
+    "相思 (Live)",
+    "相思 (Live|典藏)",
+    "相思 (live │ 典藏)",
+    "相思 (Live典藏)",
+    "相思 (Live 典藏版)"
   ],
   "sourceIds": {
     "qqMusicId": [
-      "000ajigw3PLjrn"
+      "000ajigw3PLjrn",
+      "000ktkzr0216Nn"
     ],
     "ncmMusicId": [
-      "3417798201"
+      "3417798201",
+      "3417798865"
     ],
     "appleMusicId": [
       "6801286179",
-      "6800232872"
+      "6800232872",
+      "6801286524",
+      "6802238190"
     ],
     "isrc": [
       "HKD012940153",
-      "FRX452658176"
+      "FRX452658176",
+      "HKD012940140",
+      "FRX452672239"
     ]
   },
   "author": {

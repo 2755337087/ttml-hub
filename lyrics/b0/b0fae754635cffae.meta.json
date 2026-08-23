@@ -6,34 +6,48 @@
     "吴碧霞",
     "万妮达",
     "Vinida Weng",
-    "吳碧霞"
+    "吳碧霞",
+    "万妮達"
   ],
   "album": "歌手2026 第12期",
   "albums": [
     "歌手2026 第12期",
     "歌手2026 第12期 (Live)",
-    "歌手2026 (第12期 Live)"
+    "歌手2026 (第12期 Live)",
+    "歌手2026 (第12期 Live典藏版)"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
   "aliases": [
-    "花田错 (live)"
+    "花田错 (live)",
+    "花田错 (Live|典藏)",
+    "花田错 (live │ 典藏)",
+    "花田錯 (Live)",
+    "花田錯 (Live典藏)",
+    "花田错 (Live 典藏版)",
+    "花田错 (Live典藏)"
   ],
   "sourceIds": {
     "qqMusicId": [
-      "004YrVHE44F5kD"
+      "004YrVHE44F5kD",
+      "0029yKnY3k4k2M"
     ],
     "ncmMusicId": [
-      "3417798101"
+      "3417798101",
+      "3417798627"
     ],
     "appleMusicId": [
       "6801286184",
-      "6800233063"
+      "6800233063",
+      "6801286530",
+      "6802238475"
     ],
     "isrc": [
       "HKD012940149",
-      "FRX452658178"
+      "FRX452658178",
+      "HKD012940137",
+      "FRX452672241"
     ]
   },
   "author": {

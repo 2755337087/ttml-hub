@@ -1,0 +1,37 @@
+{
+  "id": "63a0b292b91e99f2",
+  "title": "北京东路的日子",
+  "artists": [
+    "汪源",
+    "刘千楚",
+    "徐逸昊",
+    "鲁天舒",
+    "姜玮珉",
+    "胡梦原",
+    "张鎏依",
+    "梁竞元",
+    "游彧涵",
+    "金书援",
+    "许一璇",
+    "张夙西"
+  ],
+  "album": "北京东路的日子",
+  "albums": [
+    "北京东路的日子"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "ncmMusicId": [
+      "5240550"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

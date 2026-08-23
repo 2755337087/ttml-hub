@@ -1,0 +1,44 @@
+{
+  "id": "6a953b9659688717",
+  "title": "忽然间长大的我们",
+  "artists": [
+    "花粥",
+    "Huazhou"
+  ],
+  "album": "亲爱的麻洋街 电视原声带",
+  "albums": [
+    "亲爱的麻洋街 电视原声带",
+    "《親愛的麻洋街》電視原聲帶",
+    "《亲爱的麻洋街》电视原声带"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "忽然間長大的我們",
+    "忽然間長大的我們 (伴奏)",
+    "忽然间长大的我们 (伴奏)"
+  ],
+  "sourceIds": {
+    "qqMusicId": [
+      "003k1PKH2qoi4r"
+    ],
+    "ncmMusicId": [
+      "1488786712"
+    ],
+    "appleMusicId": [
+      "1695063565",
+      "1695063566"
+    ],
+    "isrc": [
+      "TWDK52021017",
+      "TWDK52021018"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}
