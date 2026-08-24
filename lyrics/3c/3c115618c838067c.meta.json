@@ -1,0 +1,45 @@
+{
+  "id": "3c115618c838067c",
+  "title": "但拓说",
+  "artists": [
+    "新鲜仔",
+    "新鮮仔"
+  ],
+  "album": "但拓说",
+  "albums": [
+    "但拓说",
+    "但拓說 (劇集《邊水往事》片尾三部曲 三) - Single",
+    "《邊水往事》劇集原聲帶",
+    "但拓说 (剧集《边水往事》片尾三部曲 三) - Single",
+    "《边水往事》剧集原声带"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "但拓說 (劇集《邊水往事》片尾三部曲 三)",
+    "但拓說 (影集《邊水往事》片尾三部曲 三)",
+    "但拓说 (剧集《边水往事》片尾三部曲 三)"
+  ],
+  "sourceIds": {
+    "qqMusicId": [
+      "001oLSJs35XtFV"
+    ],
+    "ncmMusicId": [
+      "2623535333"
+    ],
+    "appleMusicId": [
+      "1766423409",
+      "1780929417"
+    ],
+    "isrc": [
+      "DGA0H2415345"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}
