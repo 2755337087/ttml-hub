@@ -3,21 +3,42 @@
   "title": "同花顺 (Live)",
   "artists": [
     "张碧晨",
-    "徐佳莹"
+    "徐佳莹",
+    "張碧晨",
+    "徐佳瑩",
+    "Diamond Zhang",
+    "Lala Hsu"
   ],
   "album": "天赐的声音第六季 第5期",
   "albums": [
     "天赐的声音第六季 第5期",
-    "天赐的声音第六季 第5期 (Live)"
+    "天赐的声音第六季 第5期 (Live)",
+    "天賜的聲音第六季 第5期 (Live)"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
-  "aliases": [],
+  "aliases": [
+    "同花顺 (Live版)",
+    "同花順 (Live)",
+    "同花順 (Live版伴奏)",
+    "同花顺 (Live版伴奏)"
+  ],
   "sourceIds": {
-    "qqMusicId": "001sXzXH1eO0Tt",
-    "ncmMusicId": "2704605112",
-    "appleMusicId": "1816775841"
+    "qqMusicId": [
+      "001sXzXH1eO0Tt"
+    ],
+    "ncmMusicId": [
+      "2704605112"
+    ],
+    "appleMusicId": [
+      "1816775841",
+      "1816775862"
+    ],
+    "isrc": [
+      "HKD012493924",
+      "HKD012493925"
+    ]
   },
   "author": {
     "githubId": "76586484",

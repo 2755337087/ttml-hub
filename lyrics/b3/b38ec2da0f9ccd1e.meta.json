@@ -10,40 +10,27 @@
   "albums": [
     "歌手2026 第11期",
     "歌手2026 第11期 (Live)",
-    "歌手2026 (第11期 Live)",
-    "歌手2026 (第11期 Live典藏版)"
+    "歌手2026 (第11期 Live)"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
   "aliases": [
     "别怕我伤心 (Live)",
-    "别怕我伤心 (Live|典藏)",
-    "别怕我伤心 (live │ 典藏)",
-    "別怕我傷心 (Live)",
-    "别怕我伤心 (Live 典藏版)",
-    "别怕我伤心 (Live典藏)"
+    "別怕我傷心 (Live)"
   ],
   "sourceIds": {
-    "qqMusicId": [
-      "000xUiAt0Fanko"
-    ],
     "ncmMusicId": [
-      "3414340156",
-      "3414341983"
+      "3414340156"
     ],
     "appleMusicId": [
       "6797084306",
       "6797404098",
-      "6798571279",
-      "6799912997",
-      "6798571513"
+      "6798571279"
     ],
     "isrc": [
       "HKD012920970",
-      "FRX452634167",
-      "FRX452652879",
-      "HKD012936830"
+      "FRX452634167"
     ]
   },
   "author": {
