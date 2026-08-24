@@ -3,21 +3,41 @@
   "title": "转身即心痛 (Live)",
   "artists": [
     "谭维维",
-    "黄子弘凡"
+    "黄子弘凡",
+    "譚維維",
+    "黃子弘凡",
+    "Tan Wei Wei",
+    "Lars Huang"
   ],
   "album": "天赐的声音第六季 第1期",
   "albums": [
     "天赐的声音第六季 第1期",
-    "天赐的声音第六季 第1期 (Live)"
+    "天赐的声音第六季 第1期 (Live)",
+    "天賜的聲音第六季 第1期 (Live)"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
-  "aliases": [],
+  "aliases": [
+    "轉身即心痛 (Live)",
+    "轉身即心痛 (伴奏) [Live]",
+    "转身即心痛 (伴奏) [Live]"
+  ],
   "sourceIds": {
-    "qqMusicId": "000eKroS0Q7M3b",
-    "ncmMusicId": "3369738199",
-    "appleMusicId": "1813099185"
+    "qqMusicId": [
+      "000eKroS0Q7M3b"
+    ],
+    "ncmMusicId": [
+      "3369738199"
+    ],
+    "appleMusicId": [
+      "1813099185",
+      "1813099493"
+    ],
+    "isrc": [
+      "HKD012487334",
+      "HKD012487296"
+    ]
   },
   "author": {
     "githubId": "76586484",

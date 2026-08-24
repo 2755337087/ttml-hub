@@ -3,20 +3,36 @@
   "title": "连名带姓 (Live)",
   "artists": [
     "A-Lin",
-    "张碧晨"
+    "张碧晨",
+    "張碧晨",
+    "Diamond Zhang"
   ],
   "album": "天赐的声音第五季 第8期 (Live)",
   "albums": [
     "天赐的声音第五季 第8期 (Live)",
-    "天赐的声音第五季 第8期"
+    "天赐的声音第五季 第8期",
+    "天賜的聲音第五季 第8期 (Live)"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
-  "aliases": [],
+  "aliases": [
+    "連名帶姓 (Live)",
+    "連名帶姓 (Live版伴奏)",
+    "连名带姓 (Live版伴奏)"
+  ],
   "sourceIds": {
-    "qqMusicId": "002dtfti4UvF2k",
-    "appleMusicId": "1757406099"
+    "qqMusicId": [
+      "002dtfti4UvF2k"
+    ],
+    "appleMusicId": [
+      "1757406099",
+      "1757406394"
+    ],
+    "isrc": [
+      "HKG732429624",
+      "HKG732429625"
+    ]
   },
   "author": {
     "githubId": "76586484",

@@ -1,0 +1,43 @@
+{
+  "id": "8275b647372305b9",
+  "title": "21克博物馆",
+  "artists": [
+    "门尼",
+    "門尼",
+    "Menny"
+  ],
+  "album": "门尼Ⅲ：贵族",
+  "albums": [
+    "门尼Ⅲ：贵族",
+    "門尼Ⅲ:貴族",
+    "门尼Ⅲ:贵族"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "21克博物馆（Full of Empty）",
+    "21克博物館 (Full Of Empty)",
+    "21克博物馆 (Full Of Empty)"
+  ],
+  "sourceIds": {
+    "qqMusicId": [
+      "000Z1ewm22zo68"
+    ],
+    "ncmMusicId": [
+      "3346456319"
+    ],
+    "appleMusicId": [
+      "1889323924"
+    ],
+    "isrc": [
+      "FR10S2681383"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

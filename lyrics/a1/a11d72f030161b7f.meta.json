@@ -3,21 +3,40 @@
   "title": "追光者 (Live)",
   "artists": [
     "张碧晨",
-    "黄子弘凡"
+    "黄子弘凡",
+    "張碧晨",
+    "黃子弘凡",
+    "Diamond Zhang",
+    "Lars Huang"
   ],
   "album": "天赐的声音第六季 第9期",
   "albums": [
     "天赐的声音第六季 第9期",
-    "天赐的声音第六季 第9期 (Live)"
+    "天赐的声音第六季 第9期 (Live)",
+    "天賜的聲音第六季 第9期 (Live)"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
-  "aliases": [],
+  "aliases": [
+    "追光者 (Live版)",
+    "追光者 (Live版伴奏)"
+  ],
   "sourceIds": {
-    "qqMusicId": "000EGGzX4QZaam",
-    "ncmMusicId": "2714740963",
-    "appleMusicId": "1824717449"
+    "qqMusicId": [
+      "000EGGzX4QZaam"
+    ],
+    "ncmMusicId": [
+      "2714740963"
+    ],
+    "appleMusicId": [
+      "1824717449",
+      "1824717772"
+    ],
+    "isrc": [
+      "HKD012512720",
+      "HKD012512719"
+    ]
   },
   "author": {
     "githubId": "76586484",

@@ -1,0 +1,44 @@
+{
+  "id": "566fa9cacc32f618",
+  "title": "返老还童 (feat. Jony J)",
+  "artists": [
+    "胡彦斌",
+    "Jony J",
+    "胡彥斌",
+    "Tiger Hu"
+  ],
+  "album": "覅忒好",
+  "albums": [
+    "覅忒好",
+    "返老還童 (feat. Jony J) - Single",
+    "返老还童 (feat. Jony J) - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "返老还童",
+    "返老還童 (feat. Jony J)"
+  ],
+  "sourceIds": {
+    "qqMusicId": [
+      "002I0kAS3FZzfy"
+    ],
+    "ncmMusicId": [
+      "530986052"
+    ],
+    "appleMusicId": [
+      "1338725300",
+      "1335928322"
+    ],
+    "isrc": [
+      "CNZ501800026"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

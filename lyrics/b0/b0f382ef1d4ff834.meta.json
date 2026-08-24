@@ -1,35 +1,35 @@
 {
-  "id": "32170fdceb8bad64",
-  "title": "假装没变过",
+  "id": "b0f382ef1d4ff834",
+  "title": "合唱 (Beautiful Ending)",
   "artists": [
-    "颜人中",
-    "顏人中",
-    "Ele Yan"
+    "门尼",
+    "門尼",
+    "Menny"
   ],
-  "album": "失眠症候群",
+  "album": "门尼Ⅱ:剧场",
   "albums": [
-    "失眠症候群",
-    "失眠症候群 - EP"
+    "门尼Ⅱ:剧场",
+    "门尼Ⅱ：剧场",
+    "門尼Ⅱ:劇場"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
   "aliases": [
-    "假裝沒變過"
+    "合唱"
   ],
   "sourceIds": {
     "qqMusicId": [
-      "000LQCcn32QmWP"
+      "000EqsY63GfwJl"
     ],
     "ncmMusicId": [
-      "1406648891"
+      "2628735288"
     ],
     "appleMusicId": [
-      "1861117577",
-      "1861245875"
+      "1769382542"
     ],
     "isrc": [
-      "FR59R2051090"
+      "DGA0L2422300"
     ]
   },
   "author": {

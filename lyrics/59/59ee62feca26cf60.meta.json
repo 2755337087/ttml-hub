@@ -3,21 +3,42 @@
   "title": "我们的明天 (Live)",
   "artists": [
     "张靓颖",
-    "张新成"
+    "张新成",
+    "張靚穎",
+    "張新成",
+    "Jane Zhang",
+    "Steven Zhang"
   ],
   "album": "天赐的声音第六季 第5期 (Live)",
   "albums": [
     "天赐的声音第六季 第5期 (Live)",
-    "天赐的声音第六季 第5期"
+    "天赐的声音第六季 第5期",
+    "天賜的聲音第六季 第5期 (Live)"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
-  "aliases": [],
+  "aliases": [
+    "我们的明天 (Live版)",
+    "我們的明天 (Live)",
+    "我們的明天 (Live版伴奏)",
+    "我们的明天 (Live版伴奏)"
+  ],
   "sourceIds": {
-    "qqMusicId": "004GPr0L2B35ky",
-    "ncmMusicId": "2704605359",
-    "appleMusicId": "1816775840"
+    "qqMusicId": [
+      "004GPr0L2B35ky"
+    ],
+    "ncmMusicId": [
+      "2704605359"
+    ],
+    "appleMusicId": [
+      "1816775840",
+      "1816775861"
+    ],
+    "isrc": [
+      "HKD012493915",
+      "HKD012493923"
+    ]
   },
   "author": {
     "githubId": "76586484",

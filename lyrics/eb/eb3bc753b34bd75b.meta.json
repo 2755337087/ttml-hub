@@ -3,21 +3,41 @@
   "title": "下一个天亮 (Live)",
   "artists": [
     "王源",
-    "姚晓棠"
+    "姚晓棠",
+    "姚曉棠",
+    "Roy Wang",
+    "Xiaotang Yao"
   ],
   "album": "天赐的声音第六季 第1期",
   "albums": [
     "天赐的声音第六季 第1期",
-    "天赐的声音第六季 第1期 (Live)"
+    "天赐的声音第六季 第1期 (Live)",
+    "天賜的聲音第六季 第1期 (Live)"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
-  "aliases": [],
+  "aliases": [
+    "下一个天亮 (Live版)",
+    "下一個天亮 (Live)",
+    "下一個天亮 (伴奏) [Live]",
+    "下一个天亮 (伴奏) [Live]"
+  ],
   "sourceIds": {
-    "qqMusicId": "003KuHYH0EcLAE",
-    "ncmMusicId": "2695944957",
-    "appleMusicId": "1813099443"
+    "qqMusicId": [
+      "003KuHYH0EcLAE"
+    ],
+    "ncmMusicId": [
+      "2695944957"
+    ],
+    "appleMusicId": [
+      "1813099443",
+      "1813099511"
+    ],
+    "isrc": [
+      "HKD012487337",
+      "HKD012487312"
+    ]
   },
   "author": {
     "githubId": "76586484",

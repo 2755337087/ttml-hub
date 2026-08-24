@@ -1,0 +1,45 @@
+{
+  "id": "39ca5a3ea8d2759a",
+  "title": "只为你着迷 (Live版)",
+  "artists": [
+    "张靓颖",
+    "黄子弘凡",
+    "張靚穎",
+    "黃子弘凡",
+    "Jane Zhang",
+    "Lars Huang"
+  ],
+  "album": "天赐的声音第六季 第3期",
+  "albums": [
+    "天赐的声音第六季 第3期",
+    "天賜的聲音第六季 第3期 (Live)",
+    "天赐的声音第六季 第3期 (Live)"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "只为你着迷 (Live)",
+    "只爲你着迷 (Live)"
+  ],
+  "sourceIds": {
+    "qqMusicId": [
+      "001570SP000nPV"
+    ],
+    "ncmMusicId": [
+      "2699873733"
+    ],
+    "appleMusicId": [
+      "1813100325"
+    ],
+    "isrc": [
+      "HKD012487332"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

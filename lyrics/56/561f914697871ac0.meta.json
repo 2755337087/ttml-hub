@@ -1,0 +1,47 @@
+{
+  "id": "561f914697871ac0",
+  "title": "遇见 (Live)",
+  "artists": [
+    "张碧晨",
+    "王源",
+    "張碧晨",
+    "Diamond Zhang",
+    "Roy Wang"
+  ],
+  "album": "天赐的声音第六季 第2期 (Live)",
+  "albums": [
+    "天赐的声音第六季 第2期 (Live)",
+    "天赐的声音第六季 第2期",
+    "天賜的聲音第六季 第2期 (Live)"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "遇见 (Live版)",
+    "遇見 (Live)",
+    "遇见 (伴奏) [Live]"
+  ],
+  "sourceIds": {
+    "qqMusicId": [
+      "001OhKNg4GHfGV"
+    ],
+    "ncmMusicId": [
+      "2697934897"
+    ],
+    "appleMusicId": [
+      "1813101885",
+      "1813102453"
+    ],
+    "isrc": [
+      "HKD012487310",
+      "HKD012487335"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

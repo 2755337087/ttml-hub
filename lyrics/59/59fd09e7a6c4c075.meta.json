@@ -1,35 +1,37 @@
 {
-  "id": "32170fdceb8bad64",
-  "title": "假装没变过",
+  "id": "59fd09e7a6c4c075",
+  "title": "你在哪片星空",
   "artists": [
-    "颜人中",
-    "顏人中",
-    "Ele Yan"
+    "门尼",
+    "門尼",
+    "Menny"
   ],
-  "album": "失眠症候群",
+  "album": "门尼",
   "albums": [
-    "失眠症候群",
-    "失眠症候群 - EP"
+    "门尼",
+    "门尼 (MONEY)",
+    "門尼",
+    "MONEY"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
   "aliases": [
-    "假裝沒變過"
+    "你在哪片星空 (Bless)",
+    "Bless"
   ],
   "sourceIds": {
     "qqMusicId": [
-      "000LQCcn32QmWP"
+      "003dHQ0D3ZZtyP"
     ],
     "ncmMusicId": [
-      "1406648891"
+      "2082329067"
     ],
     "appleMusicId": [
-      "1861117577",
-      "1861245875"
+      "1706800642"
     ],
     "isrc": [
-      "FR59R2051090"
+      "CNUM72300256"
     ]
   },
   "author": {

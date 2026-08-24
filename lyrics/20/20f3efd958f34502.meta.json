@@ -4,19 +4,42 @@
   "artists": [
     "杨坤",
     "Ella陈嘉桦",
-    "陈嘉桦"
+    "陈嘉桦",
+    "楊坤",
+    "陳嘉樺",
+    "Yang Kun",
+    "Ella Chen"
   ],
   "album": "天赐的声音第六季 第4期",
   "albums": [
-    "天赐的声音第六季 第4期"
+    "天赐的声音第六季 第4期",
+    "天賜的聲音第六季 第4期 (Live)",
+    "天赐的声音第六季 第4期 (Live)"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
-  "aliases": [],
+  "aliases": [
+    "四点的海棠花未眠 (Live版)",
+    "四點的海棠花未眠 (Live)",
+    "四點的海棠花未眠 (Live版伴奏)",
+    "四点的海棠花未眠 (Live版伴奏)"
+  ],
   "sourceIds": {
-    "qqMusicId": "003NaW7q2BX7Xp",
-    "ncmMusicId": "2702711921"
+    "qqMusicId": [
+      "003NaW7q2BX7Xp"
+    ],
+    "ncmMusicId": [
+      "2702711921"
+    ],
+    "appleMusicId": [
+      "1813692071",
+      "1813692269"
+    ],
+    "isrc": [
+      "HKD012489879",
+      "HKD012489883"
+    ]
   },
   "author": {
     "githubId": "76586484",

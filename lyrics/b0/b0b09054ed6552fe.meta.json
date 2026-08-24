@@ -1,35 +1,36 @@
 {
-  "id": "32170fdceb8bad64",
-  "title": "假装没变过",
+  "id": "b0b09054ed6552fe",
+  "title": "了不起（Foresight）",
   "artists": [
-    "颜人中",
-    "顏人中",
-    "Ele Yan"
+    "门尼",
+    "門尼",
+    "Menny"
   ],
-  "album": "失眠症候群",
+  "album": "门尼Ⅲ：贵族",
   "albums": [
-    "失眠症候群",
-    "失眠症候群 - EP"
+    "门尼Ⅲ：贵族",
+    "門尼Ⅲ:貴族",
+    "门尼Ⅲ:贵族"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
   "aliases": [
-    "假裝沒變過"
+    "了不起",
+    "了不起 (Foresight)"
   ],
   "sourceIds": {
     "qqMusicId": [
-      "000LQCcn32QmWP"
+      "000WW0Gj336kar"
     ],
     "ncmMusicId": [
-      "1406648891"
+      "3346455554"
     ],
     "appleMusicId": [
-      "1861117577",
-      "1861245875"
+      "1889323712"
     ],
     "isrc": [
-      "FR59R2051090"
+      "FR10S2681381"
     ]
   },
   "author": {
