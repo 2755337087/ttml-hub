@@ -2,7 +2,9 @@
   "id": "7f7a20ed04088376",
   "title": "一个人",
   "artists": [
-    "颜人中"
+    "颜人中",
+    "顏人中",
+    "Ele Yan"
   ],
   "album": "失眠症候群",
   "albums": [
@@ -12,11 +14,23 @@
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
-  "aliases": [],
+  "aliases": [
+    "一個人"
+  ],
   "sourceIds": {
-    "qqMusicId": "000CPVEU4K66Jw",
-    "ncmMusicId": "1406648893",
-    "appleMusicId": "1861117579"
+    "qqMusicId": [
+      "000CPVEU4K66Jw"
+    ],
+    "ncmMusicId": [
+      "1406648893"
+    ],
+    "appleMusicId": [
+      "1861117579",
+      "1861245876"
+    ],
+    "isrc": [
+      "FR59R2051091"
+    ]
   },
   "author": {
     "githubId": "76586484",

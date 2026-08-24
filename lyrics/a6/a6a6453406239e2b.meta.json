@@ -1,0 +1,46 @@
+{
+  "id": "a6a6453406239e2b",
+  "title": "风华正茂 (Live)",
+  "artists": [
+    "袁娅维TIA RAY",
+    "门尼",
+    "門尼",
+    "袁婭維",
+    "袁娅维",
+    "Menny",
+    "TIA RAY"
+  ],
+  "album": "音你而来第二季 第9期",
+  "albums": [
+    "音你而来第二季 第9期",
+    "音你而来2 第9期",
+    "音你而來2 第9期 - EP",
+    "音你而来2 第9期 - EP"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "風華正茂 (Live)"
+  ],
+  "sourceIds": {
+    "qqMusicId": [
+      "001HuURp2lEBgS"
+    ],
+    "ncmMusicId": [
+      "2709468168"
+    ],
+    "appleMusicId": [
+      "1817371104"
+    ],
+    "isrc": [
+      "FRX282576649"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

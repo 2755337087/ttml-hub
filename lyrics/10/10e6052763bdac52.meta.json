@@ -1,37 +1,37 @@
 {
-  "id": "42a3b18ac7c856ad",
-  "title": "豁达下午茶（Pastime）",
+  "id": "10e6052763bdac52",
+  "title": "呜 (The Ember)",
   "artists": [
     "门尼",
     "門尼",
     "Menny"
   ],
-  "album": "门尼Ⅲ：贵族",
+  "album": "门尼Ⅲ:贵族",
   "albums": [
+    "门尼Ⅲ:贵族",
     "门尼Ⅲ：贵族",
-    "門尼Ⅲ:貴族",
-    "门尼Ⅲ:贵族"
+    "門尼Ⅲ:貴族"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
   "aliases": [
-    "豁达下午茶",
-    "豁達下午茶 (Pastime)",
-    "豁达下午茶 (Pastime)"
+    "呜（The Ember）",
+    "呜",
+    "嗚 (The Ember)"
   ],
   "sourceIds": {
     "qqMusicId": [
-      "0000mSYl1skZPs"
+      "000fOnTQ0eHNgg"
     ],
     "ncmMusicId": [
-      "3346456318"
+      "3358785280"
     ],
     "appleMusicId": [
-      "1889323710"
+      "1889323935"
     ],
     "isrc": [
-      "FR10S2681380"
+      "FR59R2630889"
     ]
   },
   "author": {
