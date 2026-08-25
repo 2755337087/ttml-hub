@@ -24,15 +24,34 @@ export default function Home() {
           <div className="search-intro-head">
             <h1>搜索歌词</h1>
             <div className="search-actions">
-              <a
-                className="feedback-link"
-                href="https://github.com/2755337087/ttml-hub/issues/new?template=lyric-request.yml"
-                target="_blank"
-                rel="noreferrer"
-              >
-                提交歌词
-                <span aria-hidden="true">↗</span>
-              </a>
+              <div className="feedback-item">
+                <a
+                  className="feedback-link"
+                  href="https://github.com/2755337087/ttml-hub/issues/new?template=lyric-request.yml"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  提交歌词
+                  <span aria-hidden="true">↗</span>
+                </a>
+                <p className="feedback-hint">
+                  推荐使用 LunaBeat 编辑歌词并写入对应元数据信息。若歌曲存在较小问题，会被人工修复后发布。
+                </p>
+              </div>
+              <div className="feedback-item">
+                <a
+                  className="feedback-link"
+                  href="https://github.com/2755337087/ttml-hub/issues/new?template=lyric-wish.yml"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  求歌词
+                  <span aria-hidden="true">↗</span>
+                </a>
+                <p className="feedback-hint">
+                  歌词为人工制作，仅支持以普通话为主要语言的音乐。
+                </p>
+              </div>
               <a
                 className="feedback-link"
                 href="https://github.com/2755337087/ttml-hub/issues/new?template=lyric-feedback.yml"

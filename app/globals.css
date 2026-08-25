@@ -259,10 +259,23 @@ button { color: inherit; }
   flex: 0 0 auto;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: flex-start;
   justify-content: flex-end;
-  gap: 10px;
+  gap: 14px 10px;
   margin-bottom: 8px;
+}
+.feedback-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 280px;
+}
+.feedback-hint {
+  margin: 0;
+  padding: 0 4px;
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.55;
 }
 .feedback-link {
   flex: 0 0 auto;

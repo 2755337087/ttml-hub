@@ -9,7 +9,7 @@ permissions:
 
 jobs:
   format-title:
-    if: startsWith(github.event.issue.title, '[歌词提交]') || startsWith(github.event.issue.title, '[歌词反馈]')
+    if: startsWith(github.event.issue.title, '[歌词提交]') || startsWith(github.event.issue.title, '[歌词反馈]') || startsWith(github.event.issue.title, '[求歌词]')
     runs-on: ubuntu-latest
     steps:
       - name: 使用表单首字段设置标题
@@ -18,20 +18,29 @@ jobs:
           script: |
             const issue = context.payload.issue;
             const body = issue.body || "";
-            const fields = [
-              { label: "歌曲标题 - 艺术家 - 专辑名称", prefix: "[歌词提交] " },
-              { label: "歌曲标题 - 艺术家 - 专辑", prefix: "[歌词反馈] " },
-            ];
+            const fieldsByPrefix = {
+              "[歌词提交] ": { label: "歌曲标题 - 艺术家 - 专辑名称" },
+              "[求歌词] ":   { label: "歌曲标题 - 艺术家 - 专辑名称" },
+              "[歌词反馈] ": { label: "歌曲标题 - 艺术家 - 专辑" },
+            };
 
-            const escapeRegExp = (value) => value.replace(/[\^$.*+?()[\]{}|]/g, "\\$&");
-            const field = fields.find(({ label }) => body.includes("### " + label));
-            if (!field) {
-              core.warning("未找到歌词表单的首字段，保留原 Issue 标题。");
+            const prefix = Object.keys(fieldsByPrefix).find((p) =>
+              issue.title.startsWith(p),
+            );
+            if (!prefix) {
+              core.warning("未匹配到受支持的标题前缀，保留原 Issue 标题。");
+              return;
+            }
+            const { label } = fieldsByPrefix[prefix];
+
+            if (!body.includes("### " + label)) {
+              core.warning("未找到对应表单的首字段，保留原 Issue 标题。");
               return;
             }
 
+            const escapeRegExp = (value) => value.replace(/[\^$.*+?()[\]{}|]/g, "\\$&");
             const pattern = new RegExp(
-              "### " + escapeRegExp(field.label) + "\\s*\\n+([\\s\\S]*?)(?=\\n### |$)",
+              "### " + escapeRegExp(label) + "\\s*\\n+([\\s\\S]*?)(?=\\n### |$)",
               "i",
             );
             const match = body.match(pattern);
@@ -41,7 +50,7 @@ jobs:
               return;
             }
 
-            const title = field.prefix + value;
+            const title = prefix + value;
             if (title === issue.title) return;
 
             await github.rest.issues.update({
