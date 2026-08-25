@@ -255,13 +255,22 @@ button { color: inherit; }
   font: 400 clamp(52px, 8vw, 88px)/1 Georgia, "Songti SC", serif;
   letter-spacing: -.055em;
 }
+.search-actions {
+  flex: 0 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-bottom: 8px;
+}
 .feedback-link {
   flex: 0 0 auto;
   display: inline-flex;
   align-items: center;
   gap: 14px;
   min-height: 44px;
-  margin-bottom: 8px;
+  margin-bottom: 0;
   padding: 0 15px;
   border: 1px solid var(--ink);
   background: var(--white);
@@ -453,7 +462,7 @@ kbd {
     gap: 20px;
   }
   .search-intro h1 { font-size: 54px; }
-  .feedback-link { margin-bottom: 0; }
+  .search-actions { justify-content: flex-start; margin-bottom: 0; }
   .search-shell { margin-top: 34px; }
   .search-box { min-height: 68px; padding: 0 18px; box-shadow: 6px 6px 0 var(--blue); }
   .search-box input { font-size: 19px; }

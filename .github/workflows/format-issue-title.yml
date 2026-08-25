@@ -1,0 +1,52 @@
+name: 格式化 Issue 标题
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  issues: write
+
+jobs:
+  format-title:
+    if: startsWith(github.event.issue.title, '[歌词提交]') || startsWith(github.event.issue.title, '[歌词反馈]')
+    runs-on: ubuntu-latest
+    steps:
+      - name: 使用表单首字段设置标题
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issue = context.payload.issue;
+            const body = issue.body || "";
+            const fields = [
+              { label: "歌曲标题 - 艺术家 - 专辑名称", prefix: "[歌词提交] " },
+              { label: "歌曲标题 - 艺术家 - 专辑", prefix: "[歌词反馈] " },
+            ];
+
+            const escapeRegExp = (value) => value.replace(/[\^$.*+?()[\]{}|]/g, "\\$&");
+            const field = fields.find(({ label }) => body.includes("### " + label));
+            if (!field) {
+              core.warning("未找到歌词表单的首字段，保留原 Issue 标题。");
+              return;
+            }
+
+            const pattern = new RegExp(
+              "### " + escapeRegExp(field.label) + "\\s*\\n+([\\s\\S]*?)(?=\\n### |$)",
+              "i",
+            );
+            const match = body.match(pattern);
+            const value = match?.[1]?.trim();
+            if (!value) {
+              core.warning("歌词表单的首字段为空，保留原 Issue 标题。");
+              return;
+            }
+
+            const title = field.prefix + value;
+            if (title === issue.title) return;
+
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issue.number,
+              title,
+            });

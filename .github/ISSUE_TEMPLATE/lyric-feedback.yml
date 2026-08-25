@@ -1,0 +1,35 @@
+name: 反馈错误
+description: 反馈已收录歌词的错误或需要更新的内容
+title: "[歌词反馈] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请准确描述歌词问题。提交前请确认反馈对应的歌曲和歌词文件。
+
+  - type: input
+    id: song-info
+    attributes:
+      label: 歌曲标题 - 艺术家 - 专辑
+      description: 请按“歌曲标题 - 艺术家 - 专辑”的格式填写。
+      placeholder: 例如：左转灯 (1000 Times+1) - 派伟俊, mac ova seas - 左转灯 (1000 Times+1)
+    validations:
+      required: true
+
+  - type: textarea
+    id: error-description
+    attributes:
+      label: 错误描述
+      description: 请说明歌词中具体存在的问题。
+      placeholder: 例如：第二句歌词的时间戳提前了约 2 秒。
+    validations:
+      required: true
+
+  - type: input
+    id: lyric-url
+    attributes:
+      label: 新歌词直链（如果有）
+      description: 如果有修正后的 TTML 歌词文件，请提供可以直接下载的链接。
+      placeholder: https://example.com/lyrics.ttml
+    validations:
+      required: false
