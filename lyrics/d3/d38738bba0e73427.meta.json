@@ -1,33 +1,35 @@
 {
-  "id": "0a3d00606eb030e9",
-  "title": "流着泪的你的脸",
+  "id": "d38738bba0e73427",
+  "title": "如春 (Run)",
   "artists": [
-    "任贤齐",
-    "任賢齊",
-    "Richie Jen"
+    "门尼",
+    "門尼",
+    "Menny"
   ],
-  "album": "为爱走天涯",
+  "album": "门尼Ⅱ:剧场",
   "albums": [
-    "为爱走天涯",
-    "為愛走天涯"
+    "门尼Ⅱ:剧场",
+    "门尼Ⅱ：剧场",
+    "門尼Ⅱ:劇場"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
   "aliases": [
-    "流著淚的妳的臉",
-    "流着泪的妳的脸"
+    "如春"
   ],
   "sourceIds": {
     "qqMusicId": [
-      "003raPiu1L5Waa"
+      "001JOLTf4UlH6q"
+    ],
+    "ncmMusicId": [
+      "2628735285"
     ],
     "appleMusicId": [
-      "1484449896",
-      "1071373882"
+      "1769382270"
     ],
     "isrc": [
-      "TWA450063802"
+      "DGA0L2422296"
     ]
   },
   "author": {

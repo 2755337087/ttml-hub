@@ -1,0 +1,41 @@
+{
+  "id": "5f1074273b43ed11",
+  "title": "爱的飞行日记 (Live)",
+  "artists": [
+    "杨瑞代",
+    "楊瑞代",
+    "Gary Yang"
+  ],
+  "album": "周杰伦地表最强世界巡回演唱会",
+  "albums": [
+    "周杰伦地表最强世界巡回演唱会",
+    "周杰倫地表最強世界巡迴演唱會",
+    "周杰伦地表最强世界巡回演唱会 (Live)",
+    "Jay Chou The Invincible Concert Tour"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "愛的飛行日記 (Live)",
+    "Diary of Love (Live)"
+  ],
+  "sourceIds": {
+    "qqMusicId": [
+      "003wOR0i3RNoQg"
+    ],
+    "appleMusicId": [
+      "1721464872",
+      "1485220320"
+    ],
+    "isrc": [
+      "TWK971901213"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

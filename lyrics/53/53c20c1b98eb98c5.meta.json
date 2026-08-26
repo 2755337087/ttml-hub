@@ -1,33 +1,36 @@
 {
-  "id": "0a3d00606eb030e9",
-  "title": "流着泪的你的脸",
+  "id": "53c20c1b98eb98c5",
+  "title": "礼貌 (Gentle)",
   "artists": [
-    "任贤齐",
-    "任賢齊",
-    "Richie Jen"
+    "门尼",
+    "門尼",
+    "Menny"
   ],
-  "album": "为爱走天涯",
+  "album": "门尼Ⅱ:剧场",
   "albums": [
-    "为爱走天涯",
-    "為愛走天涯"
+    "门尼Ⅱ:剧场",
+    "门尼Ⅱ：剧场",
+    "門尼Ⅱ:劇場"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
   "aliases": [
-    "流著淚的妳的臉",
-    "流着泪的妳的脸"
+    "礼貌",
+    "禮貌 (Gentle)"
   ],
   "sourceIds": {
     "qqMusicId": [
-      "003raPiu1L5Waa"
+      "002lIUC33sENkJ"
+    ],
+    "ncmMusicId": [
+      "2628734521"
     ],
     "appleMusicId": [
-      "1484449896",
-      "1071373882"
+      "1769382260"
     ],
     "isrc": [
-      "TWA450063802"
+      "DGA0L2422295"
     ]
   },
   "author": {

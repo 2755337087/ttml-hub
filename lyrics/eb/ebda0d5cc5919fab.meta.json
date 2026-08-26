@@ -1,33 +1,37 @@
 {
-  "id": "0a3d00606eb030e9",
-  "title": "流着泪的你的脸",
+  "id": "ebda0d5cc5919fab",
+  "title": "六年",
   "artists": [
-    "任贤齐",
-    "任賢齊",
-    "Richie Jen"
+    "门尼",
+    "門尼",
+    "Menny"
   ],
-  "album": "为爱走天涯",
+  "album": "门尼",
   "albums": [
-    "为爱走天涯",
-    "為愛走天涯"
+    "门尼",
+    "门尼 (MONEY)",
+    "門尼",
+    "MONEY"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
   "aliases": [
-    "流著淚的妳的臉",
-    "流着泪的妳的脸"
+    "六年 (Us)",
+    "Us"
   ],
   "sourceIds": {
     "qqMusicId": [
-      "003raPiu1L5Waa"
+      "0030NgXe0poLTG"
+    ],
+    "ncmMusicId": [
+      "2082329066"
     ],
     "appleMusicId": [
-      "1484449896",
-      "1071373882"
+      "1706800661"
     ],
     "isrc": [
-      "TWA450063802"
+      "CNUM72300261"
     ]
   },
   "author": {
