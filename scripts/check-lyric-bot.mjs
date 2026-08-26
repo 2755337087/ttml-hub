@@ -69,22 +69,43 @@ function checkWellFormed(xml) {
   return errors;
 }
 
+/**
+ * 递归展平嵌套 <span>，只返回叶子 span（无子 span 的最内层）
+ * 背景和声常用外层 span 包裹整组内层逐字 span，外层只作分组不能当作"字"
+ */
+function extractSpans(fragment) {
+  const spans = [];
+  const stack = [];
+  const tagRe = /<span\b([^>]*?)(\/)?>|<\/span\s*>/giu;
+  let match;
+  while ((match = tagRe.exec(fragment))) {
+    if (match[0].startsWith("</")) {
+      const open = stack.pop();
+      if (!open) continue;
+      if (!open.hasChild) {
+        const text = fragment.slice(open.contentStart, match.index);
+        spans.push({ attrs: open.attrs, text: decodeXml(text.replace(/<[^>]*>/gu, "")) });
+      }
+    } else if (match[2]) {
+      // 自闭合 span（无文本）
+      if (stack.length) stack[stack.length - 1].hasChild = true;
+      spans.push({ attrs: attributes(match[1]), text: "" });
+    } else {
+      if (stack.length) stack[stack.length - 1].hasChild = true;
+      stack.push({ attrs: attributes(match[1]), contentStart: match.index + match[0].length, hasChild: false });
+    }
+  }
+  return spans;
+}
+
 /** 提取所有 <p> 行及其内部 <span> 逐字信息 */
 function extractLines(xml) {
   const lines = [];
   for (const pMatch of xml.matchAll(/<p\b([^>]*)>([\s\S]*?)<\/p>/giu)) {
     const pAttrs = attributes(pMatch[1]);
-    const spans = [];
-    const spanRe = /<span\b([^>]*?)\/>|<span\b([^>]*?)>([\s\S]*?)<\/span>/giu;
-    let spanMatch;
-    while ((spanMatch = spanRe.exec(pMatch[2]))) {
-      const spanAttrs = attributes(spanMatch[1] ?? spanMatch[2] ?? "");
-      const text = spanMatch[3] !== undefined ? decodeXml(spanMatch[3].replace(/<[^>]*>/gu, "")) : "";
-      spans.push({ attrs: spanAttrs, text });
-    }
     lines.push({
       attrs: pAttrs,
-      spans,
+      spans: extractSpans(pMatch[2]),
       text: decodeXml(pMatch[2].replace(/<[^>]*>/gu, "")),
       begin: parseTime(pAttrs.begin),
       end: parseTime(pAttrs.end),
@@ -237,12 +258,14 @@ export function validateTtml(xml, options = {}) {
       }
       if (end !== null) prevSpanEnd[track] = end;
 
-      // #17 行覆盖字（警告）
-      if (line.begin !== null && begin !== null && begin < line.begin) {
-        warnings.push(`${spanLabel}开始时间早于所在行的开始时间`);
-      }
-      if (line.end !== null && end !== null && end > line.end) {
-        warnings.push(`${spanLabel}结束时间晚于所在行的结束时间`);
+      // #17 行覆盖字（警告，仅主唱轨：行级时间轴只描述主唱，背景和声可超出）
+      if (track === "main") {
+        if (line.begin !== null && begin !== null && begin < line.begin) {
+          warnings.push(`${spanLabel}开始时间早于所在行的开始时间`);
+        }
+        if (line.end !== null && end !== null && end > line.end) {
+          warnings.push(`${spanLabel}结束时间晚于所在行的结束时间`);
+        }
       }
     }
   }
