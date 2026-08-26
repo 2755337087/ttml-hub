@@ -7,16 +7,9 @@ body:
       value: |
         歌词为人工制作，仅支持以普通话为主要语言的音乐。请确认目录中尚未收录该歌曲后再提交。
 
-        > 标题栏保持默认（`[求歌词] `）即可，无需手动填写，提交后会自动按歌曲信息生成完整标题。
-
-  - type: input
-    id: song-info
-    attributes:
-      label: 歌曲标题 - 艺术家 - 专辑名称
-      description: 请按"歌曲标题 - 艺术家 - 专辑名称"的格式填写。
-      placeholder: 例如：左转灯 (1000 Times+1) - 派伟俊, mac ova seas - 左转灯 (1000 Times+1)
-    validations:
-      required: true
+        > **标题栏**：请在 `[求歌词] ` 后面接着输入「歌曲标题 - 艺术家 - 专辑名称」，
+        > **禁止删除 `[求歌词]` 前缀**。
+        > 示例：`[求歌词] 左转灯 (1000 Times+1) - 派伟俊, mac ova seas - 左转灯 (1000 Times+1)`
 
   - type: input
     id: stream-link

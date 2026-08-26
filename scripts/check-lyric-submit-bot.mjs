@@ -2,10 +2,13 @@
 // 歌词提交 Issue 校验机器人
 // 在 GitHub Actions 中由环境变量驱动:
 //   GITHUB_TOKEN / GITHUB_REPOSITORY / ISSUE_NUMBER / ISSUE_TITLE / ISSUE_BODY / INDEX_FILE
-//   COMMENT_ACTION (可选): 设为 "close" 时处理 issue_comment 触发的「即将入库」关闭指令
-// 流程: 解析 Issue（直链或手动输入）-> 获取歌词 -> 校验 -> 评论结果并打标签
-//   校验失败: 打「待修改」标签，issue 保持开启，用户编辑后自动重新校验（删旧评论重发）
-//   校验通过: 打「待人工审核」标签，等管理员回复「即将入库」开头评论后自动关闭
+//   ISSUE_COMMENT_BODY (issue_comment 触发时提供)
+//   COMMENT_ACTION (可选):
+//     "close"  -> 管理员「即将入库」开头评论，自动关闭 issue
+//     "update" -> 用户「/update 直链」评论，删除旧检测结果并重新校验
+// 流程: 解析 Issue 直链 -> 下载 -> 校验 -> 评论结果并打标签
+//   校验失败: 打「待修改」标签，issue 保持开启，用户回复 /update 直链 重新校验
+//   校验通过: 打「待人工审核」标签，管理员回复「即将入库」开头评论后自动关闭
 import { readFile } from "node:fs/promises";
 import { validateTtml, MAX_FILE_SIZE } from "./check-lyric-bot.mjs";
 
@@ -105,6 +108,8 @@ function archiveSection(content) {
   return `\n<details>\n<summary>歌词文件原文存档</summary>\n\n\`\`\`xml\n${trimmed}\n\`\`\`\n\n</details>\n`;
 }
 
+const RESUBMIT_HINT = "请修正歌词文件后，直接回复本 Issue：`/update 新直链`（示例：`/update https://example.com/lyrics.ttml`），机器人会自动删除旧检测结果并重新校验。";
+
 function buildFailureComment(errors, warnings, content) {
   const parts = [BOT_MARK, "", "**歌词提交校验未通过**", "", "以下问题需要修正：", ""];
   for (const error of errors) parts.push(`- ❌ ${error}`);
@@ -112,7 +117,7 @@ function buildFailureComment(errors, warnings, content) {
     parts.push("", "以下提示不阻塞提交，供参考：");
     for (const warning of warnings) parts.push(`- ⚠️ ${warning}`);
   }
-  parts.push("", "请修正歌词文件后**编辑本 Issue 更新直链或歌词内容**，机器人会自动重新校验。");
+  parts.push("", RESUBMIT_HINT);
   return parts.join("\n") + archiveSection(content);
 }
 
@@ -131,65 +136,14 @@ function buildSuccessComment(warnings, content, retried) {
   return parts.join("\n") + archiveSection(content);
 }
 
-/** 清理表单空值哨兵与代码块围栏（render: xml 的 textarea 会被 GitHub 包上 ```xml 围栏） */
-function cleanFieldValue(value) {
-  const cleaned = (value ?? "").trim();
-  if (!cleaned || cleaned === "_No response_") return "";
-  return cleaned
-    .replace(/^```[a-zA-Z]*\s*\n?/u, "")
-    .replace(/\n?```\s*$/u, "")
-    .trim();
-}
-
-/** issue_comment 触发：管理员以「即将入库」开头的评论 -> 自动关闭 issue */
+/** 管理员以「即将入库」开头的评论 -> 自动关闭 issue */
 async function handleCloseCommand(issueNumber) {
   await githubApi(`issues/${issueNumber}`, "PATCH", { state: "closed" });
   console.log(`Issue #${issueNumber} 已根据「即将入库」评论自动关闭。`);
 }
 
-/** issues 触发：校验歌词提交 */
-async function handleCheck(issueNumber, issueTitle, issueBody) {
-  const retried = await deleteBotComments(issueNumber);
-
-  const fields = parseIssueBody(issueBody);
-  const url = cleanFieldValue(fields["歌词文件直链"]).split("\n")[0];
-  const inlineContent = cleanFieldValue(fields["歌词内容"]);
-
-  const fail = async (errors, warnings = [], content = "") => {
-    await githubApi(`issues/${issueNumber}/comments`, "POST", { body: buildFailureComment(errors, warnings, content) });
-    await syncLabel(issueNumber, NEED_FIX_LABEL, REVIEW_LABEL);
-    console.log("校验失败，已评论并打上「待修改」标签（issue 保持开启）。");
-  };
-
-  // 两种提交方式均未填写
-  if (!url && !inlineContent) {
-    await fail(["请填写「歌词文件直链」或「歌词内容」其中一项"]);
-    return;
-  }
-
-  let content = "";
-  if (inlineContent) {
-    // 手动输入优先（两者都填时以手动输入为准）
-    content = inlineContent;
-    if (Buffer.byteLength(content, "utf8") > MAX_FILE_SIZE) {
-      await fail([`歌词内容超过 1MB 大小限制，请改用直链提交`]);
-      return;
-    }
-    console.log(`使用手动输入的歌词内容（${(Buffer.byteLength(content, "utf8") / 1024).toFixed(1)}KB）`);
-  } else {
-    if (!/^https?:\/\//iu.test(url)) {
-      await fail([`直链协议不受支持（仅 http/https）: ${url.slice(0, 100)}`]);
-      return;
-    }
-    try {
-      console.log(`下载歌词: ${url}`);
-      content = await downloadLyrics(url);
-    } catch (error) {
-      await fail([`歌词直链无法访问: ${error.message}`]);
-      return;
-    }
-  }
-
+/** 校验歌词内容并输出评论 + 标签（供首次提交与 /update 复用） */
+async function checkAndReport(issueNumber, issueTitle, content, retried) {
   let indexSongs = [];
   try {
     const index = JSON.parse(await readFile(env("INDEX_FILE"), "utf8"));
@@ -202,7 +156,9 @@ async function handleCheck(issueNumber, issueTitle, issueBody) {
   console.log(`校验完成: errors=${errors.length} warnings=${warnings.length}`);
 
   if (errors.length) {
-    await fail(errors, warnings, content);
+    await githubApi(`issues/${issueNumber}/comments`, "POST", { body: buildFailureComment(errors, warnings, content) });
+    await syncLabel(issueNumber, NEED_FIX_LABEL, REVIEW_LABEL);
+    console.log("校验失败，已评论并打上「待修改」标签（issue 保持开启）。");
   } else {
     await githubApi(`issues/${issueNumber}/comments`, "POST", { body: buildSuccessComment(warnings, content, retried) });
     await syncLabel(issueNumber, REVIEW_LABEL, NEED_FIX_LABEL);
@@ -210,11 +166,83 @@ async function handleCheck(issueNumber, issueTitle, issueBody) {
   }
 }
 
+/** issues 触发：解析 Issue 表单直链并校验 */
+async function handleCheck(issueNumber, issueTitle, issueBody) {
+  const retried = await deleteBotComments(issueNumber);
+  if (retried) console.log("检测到已有检测结果，已删除旧评论。");
+
+  const fields = parseIssueBody(issueBody);
+  const rawUrl = (fields["歌词文件直链"] ?? "").trim();
+  // 兼容空值哨兵与多行输入
+  const url = rawUrl === "_No response_" ? "" : rawUrl.split("\n")[0].trim();
+
+  const fail = async (errors) => {
+    await githubApi(`issues/${issueNumber}/comments`, "POST", { body: buildFailureComment(errors, [], "") });
+    await syncLabel(issueNumber, NEED_FIX_LABEL, REVIEW_LABEL);
+    console.log("已评论失败原因并打上「待修改」标签。");
+  };
+
+  if (!url) {
+    await fail(["未在表单中找到「歌词文件直链」，请检查后重新填写"]);
+    return;
+  }
+  if (!/^https?:\/\//iu.test(url)) {
+    await fail([`直链协议不受支持（仅 http/https）: ${url.slice(0, 100)}`]);
+    return;
+  }
+
+  let content;
+  try {
+    console.log(`下载歌词: ${url}`);
+    content = await downloadLyrics(url);
+  } catch (error) {
+    await fail([`歌词直链无法访问: ${error.message}`]);
+    return;
+  }
+
+  await checkAndReport(issueNumber, issueTitle, content, retried);
+}
+
+/** issue_comment 触发：用户回复 /update 直链 -> 删除旧检测结果并重新校验 */
+async function handleUpdateCommand(issueNumber, issueTitle, commentBody) {
+  const retried = await deleteBotComments(issueNumber);
+
+  // 从评论中提取第一个 http(s) 链接
+  const urlMatch = commentBody.match(/https?:\/\/\S+/iu);
+  const url = urlMatch?.[0]?.replace(/[)\]}>.,;!?]+$/u, "");
+  if (!url) {
+    await githubApi(`issues/${issueNumber}/comments`, "POST", {
+      body: buildFailureComment(["未从 `/update` 评论中解析出直链，请按格式回复：`/update https://example.com/lyrics.ttml`"], [], ""),
+    });
+    await syncLabel(issueNumber, NEED_FIX_LABEL, REVIEW_LABEL);
+    return;
+  }
+
+  let content;
+  try {
+    console.log(`[update] 下载歌词: ${url}`);
+    content = await downloadLyrics(url);
+  } catch (error) {
+    await githubApi(`issues/${issueNumber}/comments`, "POST", {
+      body: buildFailureComment([`新歌词直链无法访问: ${error.message}`], [], ""),
+    });
+    await syncLabel(issueNumber, NEED_FIX_LABEL, REVIEW_LABEL);
+    return;
+  }
+
+  await checkAndReport(issueNumber, issueTitle, content, retried);
+}
+
 async function main() {
   const issueNumber = Number(env("ISSUE_NUMBER"));
+  const action = process.env.COMMENT_ACTION;
 
-  if (process.env.COMMENT_ACTION === "close") {
+  if (action === "close") {
     await handleCloseCommand(issueNumber);
+    return;
+  }
+  if (action === "update") {
+    await handleUpdateCommand(issueNumber, env("ISSUE_TITLE"), env("ISSUE_COMMENT_BODY"));
     return;
   }
 

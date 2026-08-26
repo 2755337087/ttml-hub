@@ -6,6 +6,7 @@ LunaBeat TTML 歌词站是一个面向 LunaBeat 及其他播放器的开放歌�
 
 [提交歌词](https://github.com/2755337087/ttml-hub/issues/new?template=lyric-request.yml)
 
+> 提交时请在 Issue 标题 `[歌词提交] ` 后补充「歌曲标题 - 艺术家 - 专辑名称」，禁止删除前缀。校验未通过时，回复 `/update 新直链` 即可重新提交。
 > 推荐使用 [LunaBeat](https://github.com/2755337087/LunaBeat) 编辑歌词并写入对应的元数据信息。若提交的歌词存在较小问题，会被人工修复后再发布。
 
 [求歌词](https://github.com/2755337087/ttml-hub/issues/new?template=lyric-wish.yml)

@@ -5,48 +5,19 @@ body:
   - type: markdown
     attributes:
       value: |
-        请先搜索歌词站，确认目录中尚未收录该歌曲，再提交准确的歌曲信息和歌词。
+        请先搜索歌词站，确认目录中尚未收录该歌曲，再提交准确的歌词文件直链。
 
-        > 标题栏保持默认（`[歌词提交] `）即可，无需手动填写，提交后会自动按歌曲信息生成完整标题。
-
-  - type: input
-    id: song-info
-    attributes:
-      label: 歌曲标题 - 艺术家 - 专辑名称
-      description: 请按“歌曲标题 - 艺术家 - 专辑名称”的格式填写。
-      placeholder: 例如：左转灯 (1000 Times+1) - 派伟俊, mac ova seas - 左转灯 (1000 Times+1)
-    validations:
-      required: true
-
-  - type: dropdown
-    id: submit-method
-    attributes:
-      label: 提交方式
-      description: 歌词内容较长（约超过 60KB）时建议使用直链。
-      options:
-        - 歌词文件直链
-        - 手动输入歌词内容
-    validations:
-      required: true
+        > **标题栏**：请在 `[歌词提交] ` 后面接着输入「歌曲标题 - 艺术家 - 专辑名称」，
+        > **禁止删除 `[歌词提交]` 前缀**，否则无法自动校验。
+        > 示例：`[歌词提交] 左转灯 (1000 Times+1) - 派伟俊, mac ova seas - 左转灯 (1000 Times+1)`
+        >
+        > 校验未通过时，直接在本 Issue 下回复 `/update 新直链` 即可重新提交，机器人会自动重新校验。
 
   - type: input
     id: lyric-url
     attributes:
       label: 歌词文件直链
-      description: 选择「歌词文件直链」时必填，链接需可直接下载 TTML 文件。
+      description: 请提供可以直接下载 TTML 歌词文件的链接。
       placeholder: https://example.com/lyrics.ttml
     validations:
-      required: false
-
-  - type: textarea
-    id: lyric-content
-    attributes:
-      label: 歌词内容
-      description: 选择「手动输入歌词内容」时必填，将 TTML 文件全文粘贴到此处。
-      placeholder: |
-        <tt xmlns="http://www.w3.org/ns/ttml" ...>
-          ...
-        </tt>
-      render: xml
-    validations:
-      required: false
+      required: true
