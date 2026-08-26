@@ -16,9 +16,12 @@ concurrency:
 
 jobs:
   check:
-    # issues 事件: [歌词提交] 标题触发校验; issue_comment 事件: 管理员「即将入库」开头评论触发关闭
+    # issues 事件: [歌词提交] 标题触发校验（仅标题变更的编辑跳过，避免标题自动格式化触发重复校验）
+    # issue_comment 事件: 管理员「即将入库」开头评论触发关闭
     if: >
-      (github.event_name == 'issues' && startsWith(github.event.issue.title, '[歌词提交]')) ||
+      (github.event_name == 'issues' &&
+       startsWith(github.event.issue.title, '[歌词提交]') &&
+       (github.event.action != 'edited' || !github.event.changes.title || github.event.changes.body)) ||
       (github.event_name == 'issue_comment' &&
        !github.event.issue.pull_request &&
        github.event.comment.user.login == github.repository_owner &&
