@@ -6,6 +6,8 @@ LunaBeat TTML 歌词站是一个面向 LunaBeat 及其他播放器的开放歌�
 
 [提交歌词](https://github.com/2755337087/ttml-hub/issues/new?template=lyric-request.yml)
 
+[TTML 歌词格式说明](docs/TTML歌词格式规范.md)
+
 
 [求歌词](https://github.com/2755337087/ttml-hub/issues/new?template=lyric-wish.yml)
 
