@@ -173,7 +173,6 @@ export function validateTtml(xml, options = {}) {
   }
 
   let hasNonZeroTime = false;
-  let prevLineBegin = null;
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i];
     const lineLabel = `第 ${i + 1} 行`;
@@ -204,12 +203,6 @@ export function validateTtml(xml, options = {}) {
 
     if (line.begin !== null && line.begin > 0) hasNonZeroTime = true;
     if (line.end !== null && line.end > 0) hasNonZeroTime = true;
-
-    // #18 行间时间倒退（警告）
-    if (prevLineBegin !== null && line.begin !== null && line.begin < prevLineBegin) {
-      warnings.push(`${lineLabel}开始时间早于上一行，请确认时间轴顺序`);
-    }
-    if (line.begin !== null) prevLineBegin = line.begin;
 
     // 逐字时间轴（主唱与背景和声分轨检测：括号标注归背景轨，两轨各自独立比较）
     let inBackground = false;
