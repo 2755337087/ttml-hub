@@ -1,0 +1,35 @@
+name: 歌词提交校验机器人
+
+on:
+  issues:
+    types: [opened, edited]
+
+permissions:
+  issues: write
+  contents: read
+
+concurrency:
+  group: check-lyric-${{ github.event.issue.number }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    if: startsWith(github.event.issue.title, '[歌词提交]')
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: 签出代码
+        uses: actions/checkout@v4
+
+      - name: 构建歌词索引（用于平台 ID 查重）
+        run: node scripts/build-index.mjs
+
+      - name: 运行歌词校验机器人
+        run: node scripts/check-lyric-submit-bot.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          INDEX_FILE: public/api/v1/songs.json
