@@ -15,6 +15,7 @@ import { validateTtml, MAX_FILE_SIZE } from "./check-lyric-bot.mjs";
 const BOT_MARK = "<!-- TTML-HUB-BOT-CHECKED -->";
 const REVIEW_LABEL = "待人工审核";
 const NEED_FIX_LABEL = "待修改";
+const NEED_UPDATE_LABEL = "待更新";
 const DOWNLOAD_TIMEOUT_MS = 30_000;
 
 function env(name) {
@@ -142,6 +143,12 @@ async function handleCloseCommand(issueNumber) {
   console.log(`Issue #${issueNumber} 已根据「即将入库」评论自动关闭。`);
 }
 
+/** 管理员以「审核未通过」开头的评论 -> 标签改为「待更新」 */
+async function handleRejectCommand(issueNumber) {
+  await syncLabel(issueNumber, NEED_UPDATE_LABEL, REVIEW_LABEL);
+  console.log(`Issue #${issueNumber} 已根据「审核未通过」评论打上「待更新」标签。`);
+}
+
 /** 校验歌词内容并输出评论 + 标签（供首次提交与 /update 复用） */
 async function checkAndReport(issueNumber, issueTitle, content, retried) {
   let indexSongs = [];
@@ -239,6 +246,10 @@ async function main() {
 
   if (action === "close") {
     await handleCloseCommand(issueNumber);
+    return;
+  }
+  if (action === "reject") {
+    await handleRejectCommand(issueNumber);
     return;
   }
   if (action === "update") {
