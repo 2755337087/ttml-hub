@@ -16,6 +16,7 @@ const BOT_MARK = "<!-- TTML-HUB-BOT-CHECKED -->";
 const REVIEW_LABEL = "待人工审核";
 const NEED_FIX_LABEL = "待修改";
 const NEED_UPDATE_LABEL = "待更新";
+const REVIEWED_LABEL = "已审核";
 const DOWNLOAD_TIMEOUT_MS = 30_000;
 
 function env(name) {
@@ -137,10 +138,11 @@ function buildSuccessComment(warnings, content, retried) {
   return parts.join("\n") + archiveSection(content);
 }
 
-/** 管理员以「即将入库」开头的评论 -> 自动关闭 issue */
+/** 管理员以「即将入库」开头的评论 -> 移除审核标签、打上「已审核」并自动关闭 issue */
 async function handleCloseCommand(issueNumber) {
+  await syncLabel(issueNumber, REVIEWED_LABEL, REVIEW_LABEL);
   await githubApi(`issues/${issueNumber}`, "PATCH", { state: "closed" });
-  console.log(`Issue #${issueNumber} 已根据「即将入库」评论自动关闭。`);
+  console.log(`Issue #${issueNumber} 已打上「已审核」标签并自动关闭。`);
 }
 
 /** 管理员以「审核未通过」开头的评论 -> 标签改为「待更新」 */
