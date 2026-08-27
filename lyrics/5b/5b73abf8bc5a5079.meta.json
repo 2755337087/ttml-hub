@@ -1,0 +1,39 @@
+{
+  "id": "5b73abf8bc5a5079",
+  "title": "凌晨三点",
+  "artists": [
+    "陈硕子",
+    "陳碩子"
+  ],
+  "album": "凌晨三点",
+  "albums": [
+    "凌晨三点",
+    "凌晨三點 - Single",
+    "凌晨三点 - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "凌晨三點"
+  ],
+  "sourceIds": {
+    "qqMusicId": [
+      "003FHIfD1BOxqF"
+    ],
+    "appleMusicId": [
+      "1676887479",
+      "1872911086"
+    ],
+    "isrc": [
+      "HKG731558391",
+      "HKG731676625"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

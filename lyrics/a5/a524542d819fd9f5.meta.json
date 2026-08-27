@@ -1,0 +1,40 @@
+{
+  "id": "a524542d819fd9f5",
+  "title": "听见下雨的声音",
+  "artists": [
+    "周杰伦",
+    "周杰倫",
+    "Jay Chou"
+  ],
+  "album": "哎呦,不错哦",
+  "albums": [
+    "哎呦,不错哦",
+    "哎呦，不错哦",
+    "哎呦,不錯哦",
+    "Aiyo, Not Bad"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "聽見下雨的聲音",
+    "Rhythm of the Rain"
+  ],
+  "sourceIds": {
+    "qqMusicId": [
+      "0026N9sT4aBGcV"
+    ],
+    "appleMusicId": [
+      "1721458367"
+    ],
+    "isrc": [
+      "TWK971401112"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "Shishou1215"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

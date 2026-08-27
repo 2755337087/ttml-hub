@@ -1,0 +1,42 @@
+{
+  "id": "ae46df5ec74219a6",
+  "title": "龙卷风 (Live)",
+  "artists": [
+    "周杰伦",
+    "周杰倫",
+    "Jay Chou"
+  ],
+  "album": "The One 演唱会 (Live)",
+  "albums": [
+    "The One 演唱会 (Live)",
+    "The One演唱会",
+    "The One 演唱會 (Live)",
+    "The One 周杰伦演唱会",
+    "The One Concert (Live)"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "龍捲風 (Live)",
+    "Tornado (Live)"
+  ],
+  "sourceIds": {
+    "qqMusicId": [
+      "002RY0aC4612wn"
+    ],
+    "appleMusicId": [
+      "1721450835",
+      "536686979"
+    ],
+    "isrc": [
+      "TWK970204013"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

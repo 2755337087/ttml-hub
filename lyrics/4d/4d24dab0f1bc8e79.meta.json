@@ -1,0 +1,39 @@
+{
+  "id": "4d24dab0f1bc8e79",
+  "title": "夜曲",
+  "artists": [
+    "周杰伦",
+    "周杰倫",
+    "Jay Chou"
+  ],
+  "album": "11月的萧邦",
+  "albums": [
+    "11月的萧邦",
+    "十一月的萧邦",
+    "11月的蕭邦",
+    "November's Chopin"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "Nocturne"
+  ],
+  "sourceIds": {
+    "qqMusicId": [
+      "001zMQr71F1Qo8"
+    ],
+    "appleMusicId": [
+      "1721454108"
+    ],
+    "isrc": [
+      "TWK970500903"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "Shishou1215"
+  },
+  "license": "",
+  "sourceUrl": ""
+}
