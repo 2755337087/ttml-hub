@@ -66,7 +66,9 @@ async function deleteBotComments(issueNumber) {
     const comments = await githubApi(`issues/${issueNumber}/comments?per_page=100&page=${page}`);
     if (!comments.length) break;
     for (const comment of comments) {
-      if (comment.body?.includes(BOT_MARK)) {
+      // 仅删除 bot 自己的评论；用户引用回复中可能带出隐藏标记，不能误删
+      const isBot = comment.user?.type === "Bot" || comment.user?.login === "github-actions[bot]";
+      if (isBot && comment.body?.includes(BOT_MARK)) {
         found = true;
         await githubApi(`issues/comments/${comment.id}`, "DELETE");
         console.log(`已删除旧评论 ${comment.id}`);
@@ -214,10 +216,20 @@ async function handleCheck(issueNumber, issueTitle, issueBody) {
 
 /** issue_comment 触发：用户回复 /update 直链 -> 删除旧检测结果并重新校验 */
 async function handleUpdateCommand(issueNumber, issueTitle, commentBody) {
+  // 按行解析：任意一行以 /update 开头即视为指令（兼容引用回复场景），取最后一条
+  const lines = (commentBody ?? "").split("\n").map((line) => line.trim());
+  const cmdLines = lines.filter((line) => line.startsWith("/update"));
+  if (!cmdLines.length) {
+    // 评论中仅是引用了含 /update 的提示文案，并非指令，静默忽略
+    console.log("评论中没有行首 /update 指令，忽略。");
+    return;
+  }
+  const cmdLine = cmdLines[cmdLines.length - 1];
+
   const retried = await deleteBotComments(issueNumber);
 
-  // 从评论中提取第一个 http(s) 链接
-  const urlMatch = commentBody.match(/https?:\/\/\S+/iu);
+  // 从指令行中提取第一个 http(s) 链接
+  const urlMatch = cmdLine.match(/https?:\/\/\S+/iu);
   const url = urlMatch?.[0]?.replace(/[)\]}>.,;!?]+$/u, "");
   if (!url) {
     await githubApi(`issues/${issueNumber}/comments`, "POST", {
