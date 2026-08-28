@@ -1,0 +1,41 @@
+{
+  "id": "d5957186808f183c",
+  "title": "手写的从前",
+  "artists": [
+    "周杰伦",
+    "周杰倫",
+    "Jay Chou"
+  ],
+  "album": "哎呦,不错哦",
+  "albums": [
+    "哎呦,不错哦",
+    "哎呦，不错哦",
+    "哎呦,不錯哦",
+    "哎呦, 不错哦",
+    "Aiyo, Not Bad"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "手寫的從前",
+    "Handwritten Past"
+  ],
+  "sourceIds": {
+    "qqMusicId": [
+      "002u8ZOM4C7QF4"
+    ],
+    "appleMusicId": [
+      "1721458221",
+      "944321446"
+    ],
+    "isrc": [
+      "TWK971401108"
+    ]
+  },
+  "author": {
+    "githubLogin": "Shishou1215"
+  },
+  "license": "",
+  "sourceUrl": ""
+}
