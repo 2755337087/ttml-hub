@@ -112,14 +112,19 @@ function archiveSection(content) {
   return `\n<details>\n<summary>歌词文件原文存档</summary>\n\n\`\`\`xml\n${trimmed}\n\`\`\`\n\n</details>\n`;
 }
 
-const RESUBMIT_HINT = "请修正歌词文件后，直接回复本 Issue：`/update 新直链`（示例：`/update https://example.com/lyrics.ttml`），机器人会自动删除旧检测结果并重新校验。";
+const RESUBMIT_HINT = "请修正歌词文件后，直接回复本 Issue：`/update 新直链`（示例：`/update https://example.com/lyric.ttml`），机器人会自动删除旧检测结果并重新校验。";
+
+/** 转义校验文本中的尖括号，避免 GitHub Markdown 把 <head>/<span> 等当作 HTML 标签吞掉 */
+function escapeAngleBrackets(text) {
+  return text.replace(/</gu, "&lt;").replace(/>/gu, "&gt;");
+}
 
 function buildFailureComment(errors, warnings, content) {
   const parts = [BOT_MARK, "", "**歌词提交校验未通过**", "", "以下问题需要修正：", ""];
-  for (const error of errors) parts.push(`- ❌ ${error}`);
+  for (const error of errors) parts.push(`- ❌ ${escapeAngleBrackets(error)}`);
   if (warnings.length) {
     parts.push("", "以下提示不阻塞提交，供参考：");
-    for (const warning of warnings) parts.push(`- ⚠️ ${warning}`);
+    for (const warning of warnings) parts.push(`- ⚠️ ${escapeAngleBrackets(warning)}`);
   }
   parts.push("", RESUBMIT_HINT);
   return parts.join("\n") + archiveSection(content);
@@ -135,7 +140,7 @@ function buildSuccessComment(warnings, content, retried) {
   ];
   if (warnings.length) {
     parts.push("", "以下提示不影响提交，供人工审核参考：");
-    for (const warning of warnings) parts.push(`- ⚠️ ${warning}`);
+    for (const warning of warnings) parts.push(`- ⚠️ ${escapeAngleBrackets(warning)}`);
   }
   return parts.join("\n") + archiveSection(content);
 }
