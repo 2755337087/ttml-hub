@@ -1,0 +1,35 @@
+{
+  "id": "c40f6a52d3cb2fe0",
+  "title": "老男孩",
+  "artists": [
+    "筷子兄弟",
+    "Chopsticks Brothers"
+  ],
+  "album": "父亲",
+  "albums": [
+    "父亲",
+    "父亲 - EP",
+    "父親 - EP",
+    "Father - EP"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "Old Boy"
+  ],
+  "sourceIds": {
+    "qqMusicId": [
+      "001xXUin4eaeA4"
+    ],
+    "appleMusicId": [
+      "1723353202"
+    ],
+    "isrc": [
+      "TWU711400205"
+    ]
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

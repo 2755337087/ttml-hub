@@ -1,0 +1,42 @@
+{
+  "id": "52f110b438b7c5b5",
+  "title": "天涯过客",
+  "artists": [
+    "周杰伦",
+    "周杰倫",
+    "Jay Chou"
+  ],
+  "album": "哎呦,不错哦",
+  "albums": [
+    "哎呦,不错哦",
+    "哎呦，不错哦",
+    "哎呦,不錯哦",
+    "哎呦, 不错哦",
+    "Aiyo, Not Bad"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "天涯過客",
+    "Passer-by"
+  ],
+  "sourceIds": {
+    "qqMusicId": [
+      "00162TQ12285h4"
+    ],
+    "appleMusicId": [
+      "1721457643",
+      "944321442"
+    ],
+    "isrc": [
+      "TWK971401104"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "Shishou1215"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

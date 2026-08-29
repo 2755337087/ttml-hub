@@ -1,32 +1,34 @@
 {
-  "id": "aec9c561e1b84f7c",
-  "title": "一路生花 (Live)",
+  "id": "4c4e3f95b5d2ce91",
+  "title": "淋雨一直走",
   "artists": [
     "张韶涵",
-    "周深",
     "張韶涵",
-    "Angela Chang",
-    "Zhou Shen"
+    "Angela Chang"
   ],
-  "album": "天赐的声音第三季 第12期",
+  "album": "有形的翅膀",
   "albums": [
-    "天赐的声音第三季 第12期",
-    "天賜的聲音第三季 第12期",
-    "天赐的声音第三季 (第12期Live)"
+    "有形的翅膀",
+    "Visible Wings"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
-  "aliases": [],
+  "aliases": [
+    "Keep Walking"
+  ],
   "sourceIds": {
     "qqMusicId": [
-      "002jliuw1LM7YT"
+      "000jgeta4Havfd"
+    ],
+    "ncmMusicId": [
+      "25640392"
     ],
     "appleMusicId": [
-      "1723821537"
+      "1732197371"
     ],
     "isrc": [
-      "HKD012263193"
+      "TWR031202003"
     ]
   },
   "author": {

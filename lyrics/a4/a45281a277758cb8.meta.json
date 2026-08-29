@@ -1,0 +1,41 @@
+{
+  "id": "a45281a277758cb8",
+  "title": "怎么了",
+  "artists": [
+    "周杰伦",
+    "袁咏琳",
+    "周杰倫",
+    "袁詠琳",
+    "Jay Chou",
+    "Cindy Yen"
+  ],
+  "album": "哎呦,不错哦",
+  "albums": [
+    "哎呦,不错哦",
+    "哎呦,不錯哦",
+    "哎呦, 不错哦",
+    "Aiyo, Not Bad"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "怎麼了",
+    "怎么了 (feat. 袁咏琳)",
+    "What's Wrong"
+  ],
+  "sourceIds": {
+    "appleMusicId": [
+      "1721457646",
+      "944321443"
+    ],
+    "isrc": [
+      "TWK971401105"
+    ]
+  },
+  "author": {
+    "githubLogin": "Shishou1215"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

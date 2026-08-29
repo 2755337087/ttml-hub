@@ -1,0 +1,43 @@
+{
+  "id": "ccab013ca779c325",
+  "title": "爱情悬崖 (Live)",
+  "artists": [
+    "周杰伦",
+    "周杰倫",
+    "Jay Chou"
+  ],
+  "album": "2004无与伦比演唱会 (Live)",
+  "albums": [
+    "2004无与伦比演唱会 (Live)",
+    "周杰伦 2004 无与伦比 演唱会 Live CD",
+    "2004無與倫比演唱會 (Live)",
+    "2004 无与伦比演唱会 (Live)",
+    "Jay Incomparable Concert Live 2004 (Live)"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "愛情懸崖 (Live)",
+    "Cliff (Live)"
+  ],
+  "sourceIds": {
+    "qqMusicId": [
+      "003KO7cD0FkDFH"
+    ],
+    "appleMusicId": [
+      "1721459573",
+      "1724936571",
+      "535913723"
+    ],
+    "isrc": [
+      "TWK970400813"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

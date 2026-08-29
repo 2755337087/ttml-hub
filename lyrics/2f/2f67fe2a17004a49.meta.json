@@ -1,0 +1,43 @@
+{
+  "id": "2f67fe2a17004a49",
+  "title": "安静 (Live)",
+  "artists": [
+    "周杰伦",
+    "Jay Chou"
+  ],
+  "album": "The One 演唱会 (Live)",
+  "albums": [
+    "The One 演唱会 (Live)",
+    "The One 周杰伦演唱会",
+    "The One演唱会",
+    "The One Concert (Live)"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "安静(Live)",
+    "Silence (Live)"
+  ],
+  "sourceIds": {
+    "qqMusicId": [
+      "001BDaVn1mJ9PE"
+    ],
+    "ncmMusicId": [
+      "186034"
+    ],
+    "appleMusicId": [
+      "1721450810",
+      "536686975"
+    ],
+    "isrc": [
+      "TWK970204010"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

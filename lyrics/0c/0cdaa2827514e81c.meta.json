@@ -1,0 +1,44 @@
+{
+  "id": "0cdaa2827514e81c",
+  "title": "爱的飞行日记",
+  "artists": [
+    "周杰伦",
+    "杨瑞代",
+    "周杰倫",
+    "Jay Chou"
+  ],
+  "album": "超时代演唱会",
+  "albums": [
+    "超时代演唱会",
+    "The Era 2010 超时代演唱会",
+    "超時代演唱會",
+    "The Era 2010 World Tour"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "爱的飞行日记 (Live)",
+    "愛的飛行日記",
+    "爱的飞行日记 (with 杨瑞代) [Live]",
+    "Diary of Love"
+  ],
+  "sourceIds": {
+    "qqMusicId": [
+      "0025RwoI3LsRe2"
+    ],
+    "appleMusicId": [
+      "1721466864",
+      "536637951"
+    ],
+    "isrc": [
+      "TWK971001821"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}
