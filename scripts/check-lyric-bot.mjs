@@ -114,6 +114,35 @@ function extractLines(xml) {
   return lines;
 }
 
+/** 检测歌词行内嵌翻译：span 或 p 带翻译角色标注（翻译应位于 <head> 的 translations 结构中） */
+function checkInlineTranslations(xml, lines, errors) {
+  const TRANSLATION_ROLE = "x-translation";
+  // 1) <p ttm:role="x-translation"> 独立翻译行
+  for (let i = 0; i < lines.length; i++) {
+    if (lines[i].attrs["ttm:role"] === TRANSLATION_ROLE) {
+      errors.push(`第 ${i + 1} 行是内嵌翻译行（ttm:role="x-translation"），翻译应位于 <head> 的 <translations> 结构中，请勿放在 <body> 歌词行内`);
+    }
+  }
+  // 2) 行内 span 带翻译角色标注（如 <span ttm:role="x-translation">翻译文本</span>）
+  for (let i = 0; i < lines.length; i++) {
+    for (const span of lines[i].spans) {
+      if (span.attrs["ttm:role"] === TRANSLATION_ROLE || (span.attrs["xml:lang"] && !span.attrs.begin && !span.attrs.end && span.text.trim() && /[\u4e00-\u9fff]/u.test(span.text))) {
+        errors.push(`第 ${i + 1} 行内含翻译文本「${span.text.trim().slice(0, 20)}」，翻译应位于 <head> 的 <translations> 结构中，请勿放在歌词行的 <span> 内`);
+        break; // 每行只报一次
+      }
+    }
+  }
+  // 3) body 内直接出现带翻译角色的原始标签（p/span 之外的兜底）
+  const bodyMatch = xml.match(/<body\b[^>]*>([\s\S]*?)<\/body>/iu);
+  if (bodyMatch && new RegExp(`ttm:role\\s*=\\s*["']${TRANSLATION_ROLE}["']`, "iu").test(bodyMatch[1])) {
+    const alreadyReported = lines.some((line) => line.attrs["ttm:role"] === TRANSLATION_ROLE) ||
+      lines.some((line) => line.spans.some((span) => span.attrs["ttm:role"] === TRANSLATION_ROLE));
+    if (!alreadyReported) {
+      errors.push("歌词正文 <body> 中包含翻译内容（ttm:role=\"x-translation\"），翻译应位于 <head> 的 <translations> 结构中");
+    }
+  }
+}
+
 /**
  * 校验 TTML 歌词内容
  * @param {string} xml TTML 文档全文
@@ -192,6 +221,9 @@ export function validateTtml(xml, options = {}) {
   if (!lines.length) {
     errors.push("歌词正文为空（没有 <p> 歌词行）");
   }
+
+  // 翻译字段不得位于歌词行 span 中（应位于 <head> 的 <translations> 结构）
+  checkInlineTranslations(xml, lines, errors);
 
   let hasNonZeroTime = false;
   for (let i = 0; i < lines.length; i++) {
