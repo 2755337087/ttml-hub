@@ -1,0 +1,33 @@
+{
+  "id": "fd318b45624a81c7",
+  "title": "可能",
+  "artists": [
+    "程响",
+    "程響",
+    "Echo"
+  ],
+  "album": "可能",
+  "albums": [
+    "可能",
+    "可能 - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": [
+      "002i54Mn1oJnjw"
+    ],
+    "appleMusicId": [
+      "1626779159",
+      "1814584175"
+    ],
+    "isrc": [
+      "FRX202213432"
+    ]
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

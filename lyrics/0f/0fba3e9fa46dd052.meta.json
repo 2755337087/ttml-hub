@@ -1,33 +1,33 @@
 {
-  "id": "2fc14ce7de823a86",
-  "title": "记念",
+  "id": "0fba3e9fa46dd052",
+  "title": "茫",
   "artists": [
-    "RAiNBOW计划",
-    "雷雨心",
-    "RAiNBOW計劃",
-    "Yuxin Lei"
+    "李润祺",
+    "李潤祺"
   ],
-  "album": "记念",
+  "album": "茫",
   "albums": [
-    "记念",
-    "記念 - Single",
-    "记念 - Single"
+    "茫",
+    "茫 - Single",
+    "Before.19 - EP"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
-  "aliases": [
-    "記念"
-  ],
+  "aliases": [],
   "sourceIds": {
     "qqMusicId": [
-      "002sjslo1VzTgG"
+      "003sT9Ng1OB04J"
+    ],
+    "ncmMusicId": [
+      "1495058484"
     ],
     "appleMusicId": [
-      "1814848985"
+      "6774661583",
+      "6774736639"
     ],
     "isrc": [
-      "SE62M2186989"
+      "HKG732027942"
     ]
   },
   "author": {

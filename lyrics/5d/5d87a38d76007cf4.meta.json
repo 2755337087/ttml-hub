@@ -1,0 +1,26 @@
+{
+  "id": "5d87a38d76007cf4",
+  "title": "大眠",
+  "artists": [
+    "en (王翊恩)"
+  ],
+  "album": "大眠",
+  "albums": [
+    "大眠"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": [
+      "001NUs764HakBH"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

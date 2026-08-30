@@ -1,0 +1,41 @@
+{
+  "id": "e7475f5561cb9dae",
+  "title": "最好的我",
+  "artists": [
+    "房祖名",
+    "龚芝怡",
+    "Jaycee Chan"
+  ],
+  "album": "乱",
+  "albums": [
+    "乱",
+    "亂"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": true,
+  "aliases": [
+    "最好的我 (feat. 龚芝怡)",
+    "最好的我 (feat. 龔芝怡)"
+  ],
+  "sourceIds": {
+    "qqMusicId": [
+      "003L3pwn1k2nzr"
+    ],
+    "ncmMusicId": [
+      "82532"
+    ],
+    "appleMusicId": [
+      "1522656142"
+    ],
+    "isrc": [
+      "TWJ511000009"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

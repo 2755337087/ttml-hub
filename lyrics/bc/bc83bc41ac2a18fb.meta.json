@@ -1,0 +1,40 @@
+{
+  "id": "bc83bc41ac2a18fb",
+  "title": "连名带姓",
+  "artists": [
+    "en (王翊恩)",
+    "en（王翊恩）",
+    "en"
+  ],
+  "album": "连名带姓",
+  "albums": [
+    "连名带姓",
+    "連名帶姓 - Single",
+    "连名带姓 - Single",
+    "Lian Ming Dai Xing - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "連名帶姓",
+    "Lian Ming Dai Xing"
+  ],
+  "sourceIds": {
+    "qqMusicId": [
+      "002TuN1q2I2kqs"
+    ],
+    "ncmMusicId": [
+      "2603172898"
+    ],
+    "appleMusicId": [
+      "1754491078"
+    ],
+    "isrc": [
+      "HKE672400721"
+    ]
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

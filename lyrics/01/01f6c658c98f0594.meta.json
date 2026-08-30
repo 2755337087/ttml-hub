@@ -1,33 +1,36 @@
 {
-  "id": "2fc14ce7de823a86",
-  "title": "记念",
+  "id": "01f6c658c98f0594",
+  "title": "烂花",
   "artists": [
-    "RAiNBOW计划",
-    "雷雨心",
-    "RAiNBOW計劃",
-    "Yuxin Lei"
+    "王赫野",
+    "Wang Heye"
   ],
-  "album": "记念",
+  "album": "珍宝 Starlight",
   "albums": [
-    "记念",
-    "記念 - Single",
-    "记念 - Single"
+    "珍宝 Starlight",
+    "爛花 - Single",
+    "珍寶 Starlight",
+    "烂花 - Single"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
   "aliases": [
-    "記念"
+    "爛花"
   ],
   "sourceIds": {
     "qqMusicId": [
-      "002sjslo1VzTgG"
+      "004AUabE1EwMCY"
+    ],
+    "ncmMusicId": [
+      "3334364872"
     ],
     "appleMusicId": [
-      "1814848985"
+      "1865075271",
+      "6792710764"
     ],
     "isrc": [
-      "SE62M2186989"
+      "CN2DY2510296"
     ]
   },
   "author": {

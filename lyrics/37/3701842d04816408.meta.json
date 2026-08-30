@@ -2,19 +2,41 @@
   "id": "3701842d04816408",
   "title": "如果这就是爱情",
   "artists": [
+    "en (王翊恩)",
+    "en（王翊恩）",
     "en"
   ],
-  "album": "如果这就是爱情 - Single",
+  "album": "如果这就是爱情",
   "albums": [
+    "如果这就是爱情",
+    "如果這就是愛情 - Single",
     "如果这就是爱情 - Single",
-    "如果这就是爱情"
+    "If This Is Love - Single",
+    "If this is love - Single"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
-  "aliases": [],
+  "aliases": [
+    "如果這就是愛情",
+    "If This Is Love",
+    "If this is love"
+  ],
   "sourceIds": {
-    "appleMusicId": "1722193020"
+    "qqMusicId": [
+      "0040inP21R5Teh"
+    ],
+    "ncmMusicId": [
+      "2097531989"
+    ],
+    "appleMusicId": [
+      "1722193020",
+      "1736642797"
+    ],
+    "isrc": [
+      "CNZ781904629",
+      "CNZ632301404"
+    ]
   },
   "author": {},
   "license": "",

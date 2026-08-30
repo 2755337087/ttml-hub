@@ -2,18 +2,37 @@
   "id": "e9cffca425f68c70",
   "title": "好久不见",
   "artists": [
-    "陈奕迅"
+    "陈奕迅",
+    "陳奕迅",
+    "Eason Chan"
   ],
   "album": "认了吧 (台湾版)",
   "albums": [
-    "认了吧 (台湾版)"
+    "认了吧 (台湾版)",
+    "认了吧",
+    "認了吧 (Hong Kong Version)",
+    "認了吧 (台灣版)"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
-  "aliases": [],
+  "aliases": [
+    "好久不見"
+  ],
   "sourceIds": {
-    "appleMusicId": "1443352467"
+    "qqMusicId": [
+      "004M3yRr3kOfnS"
+    ],
+    "ncmMusicId": [
+      "65538"
+    ],
+    "appleMusicId": [
+      "1443352467",
+      "1443817004"
+    ],
+    "isrc": [
+      "HKUM70700735"
+    ]
   },
   "author": {},
   "license": "",

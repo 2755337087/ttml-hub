@@ -1,0 +1,43 @@
+{
+  "id": "c514b09a9d2cfcb7",
+  "title": "北京东路的日子 (十年荣耀版)",
+  "artists": [
+    "汪源",
+    "刘千楚",
+    "徐逸昊",
+    "鲁天舒",
+    "姜玮珉",
+    "胡梦原",
+    "张鎏依",
+    "梁竞元",
+    "游彧涵",
+    "金书援",
+    "许一璇",
+    "张夙西"
+  ],
+  "album": "北京东路的日子 十年荣耀版",
+  "albums": [
+    "北京东路的日子 十年荣耀版",
+    "《北京东路的日子》十年荣耀版"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "《北京东路的日子》十年荣耀版"
+  ],
+  "sourceIds": {
+    "qqMusicId": [
+      "003jxZ4g3qSifj"
+    ],
+    "ncmMusicId": [
+      "1804721006"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

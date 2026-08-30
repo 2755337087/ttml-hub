@@ -1,33 +1,34 @@
 {
-  "id": "2fc14ce7de823a86",
-  "title": "记念",
+  "id": "c0870924a82fdb3e",
+  "title": "海若有因",
   "artists": [
-    "RAiNBOW计划",
-    "雷雨心",
-    "RAiNBOW計劃",
-    "Yuxin Lei"
+    "许魏洲",
+    "黄景瑜",
+    "許魏洲",
+    "Timmy Xu"
   ],
-  "album": "记念",
+  "album": "光",
   "albums": [
-    "记念",
-    "記念 - Single",
-    "记念 - Single"
+    "光"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
   "aliases": [
-    "記念"
+    "海若有因 (feat. 黃景瑜)",
+    "海若有因 (feat. 黄景瑜)"
   ],
   "sourceIds": {
     "qqMusicId": [
-      "002sjslo1VzTgG"
+      "002iwWxJ0t9XJG"
     ],
     "appleMusicId": [
-      "1814848985"
+      "1661936227",
+      "1764004362"
     ],
     "isrc": [
-      "SE62M2186989"
+      "HKG732294965",
+      "HKD012319959"
     ]
   },
   "author": {
