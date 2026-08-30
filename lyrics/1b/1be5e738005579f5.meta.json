@@ -1,0 +1,33 @@
+{
+  "id": "1be5e738005579f5",
+  "title": "飘向北方 (feat. 王力宏)",
+  "artists": [
+    "黄明志",
+    "王力宏"
+  ],
+  "album": "亚洲通车",
+  "albums": [
+    "亚洲通车",
+    "漂向北方 (feat. 王力宏) - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "飘向北方",
+    "漂向北方 (feat. 王力宏)"
+  ],
+  "sourceIds": {
+    "appleMusicId": [
+      "1446369359",
+      "1584044509"
+    ],
+    "isrc": [
+      "MYNW11600915",
+      "MYNW11600015"
+    ]
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}
