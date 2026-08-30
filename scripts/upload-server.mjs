@@ -1,10 +1,10 @@
 import { execFile } from "node:child_process";
-import { mkdir, readFile, readdir, writeFile } from "node:fs/promises";
+import { mkdir, readFile, readdir, rm, writeFile } from "node:fs/promises";
 import { createServer } from "node:http";
 import { extname, join, relative, resolve, sep } from "node:path";
 import { fileURLToPath } from "node:url";
 import { promisify } from "node:util";
-import { createTtmlHubId, insertTtmlHubId, matchingSourceIds, parseTtmlMetadata, sourceIdValues, stableSongId } from "./ttml-metadata.mjs";
+import { createTtmlHubId, insertTtmlHubId, parseTtmlMetadata, sourceIdValues, stableSongId } from "./ttml-metadata.mjs";
 
 const exec = promisify(execFile);
 const root = fileURLToPath(new URL("../", import.meta.url));
@@ -59,25 +59,67 @@ async function walkMeta(directory) {
   return paths.flat();
 }
 
-async function existingSong(sourceIds) {
-  if (!Object.keys(sourceIds).length) return null;
-  const matches = [];
-  for (const path of await walkMeta(lyricsRoot)) {
+/** 已入库歌词目录的内存缓存：启动时加载一次，保存/删除时增量维护，查重为内存查找 */
+const catalog = new Map(); // metaPath -> { id, metaPath, ttmlPath, meta }
+const catalogIndex = new Map(); // "key:value" -> Set<catalog entry>
+
+function indexKey(key, value) {
+  return `${key}:${value}`;
+}
+
+function addToCatalog(metaPath, meta) {
+  const entry = {
+    id: meta.id ?? metaPath.split(sep).at(-1).replace(".meta.json", ""),
+    metaPath,
+    ttmlPath: metaPath.replace(/\.meta\.json$/u, ".ttml"),
+    meta,
+  };
+  catalog.set(metaPath, entry);
+  for (const [key, values] of Object.entries(meta.sourceIds ?? {})) {
+    for (const value of sourceIdValues(values)) {
+      const bucket = catalogIndex.get(indexKey(key, value)) ?? new Set();
+      bucket.add(entry);
+      catalogIndex.set(indexKey(key, value), bucket);
+    }
+  }
+  return entry;
+}
+
+function removeFromCatalog(metaPath) {
+  const entry = catalog.get(metaPath);
+  if (!entry) return;
+  catalog.delete(metaPath);
+  for (const [key, values] of Object.entries(entry.meta.sourceIds ?? {})) {
+    for (const value of sourceIdValues(values)) {
+      catalogIndex.get(indexKey(key, value))?.delete(entry);
+    }
+  }
+}
+
+async function loadCatalog() {
+  for (const metaPath of await walkMeta(lyricsRoot)) {
     try {
-      const meta = JSON.parse(await readFile(path, "utf8"));
-      const matchedIds = matchingSourceIds(sourceIds, meta.sourceIds);
-      if (matchedIds.length) matches.push({ id: meta.id ?? path.split(sep).at(-1).replace(".meta.json", ""), metaPath: path, meta, matchedIds });
+      addToCatalog(metaPath, JSON.parse(await readFile(metaPath, "utf8")));
     } catch {
       // The catalog validator reports malformed sidecars with a clearer path.
     }
   }
-  if (matches.length > 1) {
-    const titles = matches.map((match) => match.meta.title ?? match.id).join("、");
-    const error = new Error(`平台 ID 分别命中了多首已有歌曲：${titles}，请先修复仓库中的 ID 冲突`);
-    error.status = 409;
-    throw error;
+  console.log(`已加载歌词库目录缓存：${catalog.size} 首。`);
+}
+
+/** 按平台 ID 查找已入库歌词，返回全部命中项（含每项命中的具体 ID） */
+function findExisting(sourceIds) {
+  const seen = new Map();
+  for (const [key, values] of Object.entries(sourceIds ?? {})) {
+    for (const value of sourceIdValues(values)) {
+      for (const entry of catalogIndex.get(indexKey(key, value)) ?? []) {
+        const matchedIds = seen.get(entry) ?? [];
+        matchedIds.push({ key, value });
+        seen.set(entry, matchedIds);
+      }
+    }
   }
-  return matches[0] ?? null;
+  return [...seen.entries()].map(([entry, matchedIds]) => ({ ...entry, matchedIds }));
 }
 
 function identity(sourceIds, requestedHubId) {
@@ -92,6 +134,7 @@ function publicExisting(existing) {
     id: existing.id,
     title: existing.meta.title,
     path: slash(relative(root, existing.metaPath)).replace(".meta.json", ".ttml"),
+    metaPath: slash(relative(root, existing.metaPath)),
     matchedIds: existing.matchedIds,
   } : null;
 }
@@ -99,23 +142,58 @@ function publicExisting(existing) {
 async function inspect(content) {
   const parsed = parseTtmlMetadata(content);
   const assigned = identity(parsed.sourceIds);
-  const existing = await existingSong(assigned.sourceIds);
-  const id = existing?.id ?? stableSongId(assigned.sourceIds);
+  const matches = findExisting(assigned.sourceIds);
+  const id = matches[0]?.id ?? stableSongId(assigned.sourceIds);
   return {
     ...parsed,
     sourceIds: assigned.sourceIds,
     generatedHubId: assigned.generatedHubId,
     id,
     suggestedPath: `lyrics/${id.slice(0, 2)}/${id}.ttml`,
-    existing: publicExisting(existing),
+    existing: matches.length === 1 ? publicExisting(matches[0]) : null,
+    conflicts: matches.length > 1 ? matches.map(publicExisting) : null,
   };
+}
+
+/** 删除选中的冲突文件（仅限本次命中列表内的路径），返回被删除的标题 */
+async function deleteConflicts(matches, requestedPaths) {
+  const byPath = new Map(matches.map((match) => [slash(relative(root, match.metaPath)), match]));
+  const titles = [];
+  for (const path of requestedPaths) {
+    const target = byPath.get(path);
+    if (!target) throw new Error(`删除目标不在本次冲突列表中：${path}`);
+    await rm(target.ttmlPath, { force: true });
+    await rm(target.metaPath, { force: true });
+    removeFromCatalog(target.metaPath);
+    savedFiles.add(target.ttmlPath);
+    savedFiles.add(target.metaPath);
+    titles.push(target.meta.title ?? target.id);
+  }
+  return titles;
 }
 
 async function saveSong(body) {
   const parsed = parseTtmlMetadata(body.content);
   const fields = validateOverride(body, parsed);
   const assigned = identity(parsed.sourceIds, body.id);
-  const existing = await existingSong(assigned.sourceIds);
+  let matches = findExisting(assigned.sourceIds);
+
+  // 与多份已入库歌词冲突：允许删除所选冲突文件后写入新文件
+  let replacedTitles = [];
+  if (matches.length > 1) {
+    const requested = [...new Set([body.deletePaths ?? []].flat().map((path) => String(path).trim()).filter(Boolean))];
+    if (!requested.length) {
+      const titles = matches.map((match) => match.meta.title ?? match.id).join("、");
+      const error = new Error(`平台 ID 命中了多首已有歌曲：${titles}，请勾选要删除替换的冲突文件`);
+      error.status = 409;
+      error.conflicts = matches.map(publicExisting);
+      throw error;
+    }
+    replacedTitles = await deleteConflicts(matches, requested);
+    matches = findExisting(assigned.sourceIds);
+  }
+
+  const existing = matches[0] ?? null;
   if (existing && !body.overwrite) {
     const ids = existing.matchedIds.map(({ key, value }) => `${key}: ${value}`).join("、");
     const error = new Error(`ID 已存在（${ids}）：${existing.meta.title ?? existing.id}`);
@@ -145,19 +223,28 @@ async function saveSong(body) {
     sourceUrl: String(body.sourceUrl ?? "").trim(),
   };
 
+  if (existing) removeFromCatalog(existing.metaPath);
   await mkdir(directory, { recursive: true });
   await writeFile(ttmlPath, storedContent, existing ? undefined : { flag: "wx" });
   await writeFile(metaPath, `${JSON.stringify(meta, null, 2)}\n`, existing ? undefined : { flag: "wx" });
-  await exec(process.execPath, [join(root, "scripts", "build-index.mjs")], { cwd: root });
+  addToCatalog(metaPath, meta);
 
   savedFiles.add(ttmlPath);
   savedFiles.add(metaPath);
   savedTitles.add(fields.title);
-  return { id, title: fields.title, path: slash(relative(root, ttmlPath)), overwritten: Boolean(existing) };
+  return {
+    id,
+    title: fields.title,
+    path: slash(relative(root, ttmlPath)),
+    overwritten: Boolean(existing),
+    replaced: replacedTitles,
+  };
 }
 
 async function publish() {
   if (!savedFiles.size) throw new Error("本次还没有保存任何歌词");
+  // 索引重建挪到这里：批量写入完成后只构建一次，而不是每首歌词都全库重建
+  await exec(process.execPath, [join(root, "scripts", "build-index.mjs")], { cwd: root });
   const paths = [...savedFiles].map((path) => relative(root, path));
   await exec("git", ["add", "--", ...paths], { cwd: root });
   const title = [...savedTitles].slice(0, 2).join("、");
@@ -204,10 +291,11 @@ const server = createServer(async (request, response) => {
     if (request.method === "GET" && await serveStatic(url.pathname, response)) return;
     json(response, 404, { error: "Not found" });
   } catch (error) {
-    json(response, error.status ?? 400, { error: error.message, existing: error.existing ?? null });
+    json(response, error.status ?? 400, { error: error.message, existing: error.existing ?? null, conflicts: error.conflicts ?? null });
   }
 });
 
+await loadCatalog();
 server.listen(port, "127.0.0.1", () => {
   console.log(`TTML 本地入库台：http://127.0.0.1:${port}`);
   console.log("此服务只监听本机，按 Ctrl+C 停止。任何保存或推送都需要你在页面中确认。");

@@ -92,7 +92,7 @@ function updateCount() {
 
 function duplicateOverwrites() {
   return items
-    .filter((item) => item.inspection?.existing && item.fields?.overwrite)
+    .filter((item) => (item.inspection?.existing || item.inspection?.conflicts?.length) && item.fields?.overwrite)
     .map((item) => item.fields.overwrite);
 }
 
@@ -192,7 +192,7 @@ function renderItem(item) {
   card.append(features);
 
   const details = element("details", "item-details");
-  details.open = Boolean(item.inspection.existing || item.inspection.missing.length);
+  details.open = Boolean(item.inspection.existing || item.inspection.conflicts?.length || item.inspection.missing.length);
   details.append(element("summary", "", "检查和编辑元数据"));
   const fields = element("div", "item-fields");
   const titleField = makeField("歌曲名称", item.inspection.title, { required: true });
@@ -223,7 +223,39 @@ function renderItem(item) {
   details.append(identity);
 
   let overwrite = null;
-  if (item.inspection.existing) {
+  if (item.inspection.conflicts?.length) {
+    // 与多份已入库歌词冲突：勾选要删除替换的冲突文件
+    const wrapper = element("div", "conflict-control");
+    const master = element("label", "overwrite-control");
+    overwrite = document.createElement("input");
+    overwrite.type = "checkbox";
+    master.append(overwrite, element("span", "", `ID 命中了 ${item.inspection.conflicts.length} 份已入库歌词，勾选后删除下列勾选的冲突文件并写入新文件：`));
+    const fileList = element("div", "conflict-files");
+    item.conflictChecks = item.inspection.conflicts.map((conflict) => {
+      const row = element("label", "conflict-file");
+      const check = document.createElement("input");
+      check.type = "checkbox";
+      check.checked = true;
+      const matchedIds = conflict.matchedIds
+        .map(({ key, value }) => `${sourceIdNames[key] || key}: ${value}`)
+        .join("、");
+      row.append(check, element("span", "", `${conflict.title ?? conflict.id}（${conflict.path} · 命中 ${matchedIds}）`));
+      fileList.append(row);
+      return check;
+    });
+    overwrite.addEventListener("change", () => {
+      const selected = item.conflictChecks.filter((check) => check.checked).length;
+      setState(
+        item,
+        overwrite.checked ? (selected ? "ready" : "warning") : "duplicate",
+        overwrite.checked
+          ? (selected ? `写入时将删除 ${selected} 个勾选的冲突文件。` : "已勾选替换但未选择任何冲突文件，请至少勾选一个。")
+          : "未确认处理冲突，默认跳过。",
+      );
+    });
+    wrapper.append(master, fileList);
+    details.append(wrapper);
+  } else if (item.inspection.existing) {
     const duplicate = element("label", "overwrite-control");
     overwrite = document.createElement("input");
     overwrite.type = "checkbox";
@@ -299,7 +331,9 @@ async function addFiles(fileList) {
       item.inspection = await request("/api/inspect", { content: item.content });
       item.detail = "";
       renderItem(item);
-      if (item.inspection.existing) {
+      if (item.inspection.conflicts?.length) {
+        setState(item, "duplicate", `与 ${item.inspection.conflicts.length} 份已入库歌词冲突，请在详情中确认要删除替换的文件。`);
+      } else if (item.inspection.existing) {
         setState(item, "duplicate", "默认不会覆盖；勾选后才会写入。");
       } else if (item.inspection.missing.length) {
         setState(item, "warning", `头部缺少：${item.inspection.missing.join("、")}，请补充后再写入。`);
@@ -334,9 +368,21 @@ async function saveAll() {
   for (let index = 0; index < candidates.length; index += 1) {
     const item = candidates[index];
     const overwrite = Boolean(item.fields.overwrite?.checked);
-    if (item.inspection.existing && !overwrite) {
+    if ((item.inspection.existing || item.inspection.conflicts?.length) && !overwrite) {
       skipped += 1;
-      setState(item, "skipped", "检测到重复，未勾选覆盖，因此已跳过。 ");
+      setState(item, "skipped", "检测到重复/冲突，未勾选处理，因此已跳过。 ");
+      continue;
+    }
+
+    const deletePaths = item.conflictChecks
+      ? item.conflictChecks
+          .map((check, i) => (check.checked ? item.inspection.conflicts[i].metaPath : null))
+          .filter(Boolean)
+      : undefined;
+    if (item.inspection.conflicts?.length && !deletePaths.length) {
+      failed += 1;
+      setState(item, "error", "已勾选替换但未勾选任何冲突文件，请至少选择一个。 ");
+      item.card.querySelector("details").open = true;
       continue;
     }
 
@@ -364,9 +410,11 @@ async function saveAll() {
         license: item.fields.license.value.trim(),
         sourceUrl: item.fields.sourceUrl.value.trim(),
         overwrite,
+        deletePaths,
       });
       saved += 1;
-      setState(item, "saved", `${result.overwritten ? "已更新" : "已写入"}：${result.path}`);
+      const replacedNote = result.replaced?.length ? `（替换冲突：${result.replaced.join("、")}）` : "";
+      setState(item, "saved", `${result.overwritten ? "已更新" : "已写入"}：${result.path}${replacedNote}`);
     } catch (error) {
       failed += 1;
       setState(item, error.status === 409 ? "duplicate" : "error", error.message);

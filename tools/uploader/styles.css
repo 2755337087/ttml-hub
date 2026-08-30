@@ -67,6 +67,12 @@ h1 em { color:var(--blue); font-weight:400; }
 .item-identity code { color:var(--acid); overflow-wrap:anywhere; font-size:11px; }
 .overwrite-control { display:flex; align-items:flex-start; gap:10px; margin:0 18px 18px; padding:13px 15px; background:#fff0d5; color:#75480f; font-size:12px; cursor:pointer; }
 .overwrite-control input { margin-top:2px; accent-color:var(--blue); }
+.conflict-control { margin:0 18px 18px; }
+.conflict-control .overwrite-control { margin:0; }
+.conflict-files { margin-top:8px; padding:10px 15px; background:#f6f3ec; }
+.conflict-file { display:flex; align-items:flex-start; gap:9px; padding:5px 0; color:#5c4a28; font-size:11.5px; cursor:pointer; }
+.conflict-file + .conflict-file { border-top:1px dashed #d8cfb8; }
+.conflict-file input { margin-top:2px; accent-color:#c63f3f; }
 .actions { display:flex; justify-content:flex-end; gap:12px; padding-top:26px; }
 .actions button { min-height:48px; border:1px solid var(--ink); padding:0 22px; font-size:12px; font-weight:900; cursor:pointer; }
 .primary { background:var(--ink); color:white; }
