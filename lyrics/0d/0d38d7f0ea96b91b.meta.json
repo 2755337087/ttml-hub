@@ -1,0 +1,43 @@
+{
+  "id": "0d38d7f0ea96b91b",
+  "title": "哀人i (Live)",
+  "artists": [
+    "余文乐",
+    "艾热AIR",
+    "王以太",
+    "艾热 AIR",
+    "Shawn Yue",
+    "AIR",
+    "Yitai Wang"
+  ],
+  "album": "披荆斩棘2026  一公",
+  "albums": [
+    "披荆斩棘2026  一公",
+    "《披荆斩棘2026》一公",
+    "披荆斩棘2026 (第2期 Live)"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": [
+      "000t0bMC1Iirsa"
+    ],
+    "ncmMusicId": [
+      "3424357533"
+    ],
+    "appleMusicId": [
+      "6804734032"
+    ],
+    "isrc": [
+      "FRX452696350"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

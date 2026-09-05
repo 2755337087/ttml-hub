@@ -1,0 +1,41 @@
+{
+  "id": "f50112a0e1b56773",
+  "title": "失忆 (Live)",
+  "artists": [
+    "李佳薇",
+    "庄心妍",
+    "Jess Lee",
+    "Ada Zhuang"
+  ],
+  "album": "天赐的声音第七季 第12期",
+  "albums": [
+    "天赐的声音第七季 第12期",
+    "天赐的声音第七季 第12期 (Live)"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "失忆 (Live版)"
+  ],
+  "sourceIds": {
+    "qqMusicId": [
+      "001RqypQ0f40S8"
+    ],
+    "ncmMusicId": [
+      "3431614646"
+    ],
+    "appleMusicId": [
+      "6808765194"
+    ],
+    "isrc": [
+      "HKD012955358"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}
