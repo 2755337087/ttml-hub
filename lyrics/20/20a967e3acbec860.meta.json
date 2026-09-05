@@ -1,0 +1,41 @@
+{
+  "id": "20a967e3acbec860",
+  "title": "亲爱的你啊",
+  "artists": [
+    "任素汐",
+    "Suxi Ren"
+  ],
+  "album": "亲爱的你啊",
+  "albums": [
+    "亲爱的你啊",
+    "親愛的你啊(電視劇《無盡的盡頭》主題曲) - Single",
+    "亲爱的你啊(电视剧《无尽的尽头》主题曲) - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "親愛的你啊(電視劇《無盡的盡頭》主題曲)",
+    "亲爱的你啊(电视剧《无尽的尽头》主题曲)"
+  ],
+  "sourceIds": {
+    "qqMusicId": [
+      "003tVOQf29pSu7"
+    ],
+    "ncmMusicId": [
+      "2697656415"
+    ],
+    "appleMusicId": [
+      "1809936414"
+    ],
+    "isrc": [
+      "HKG732527554"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

@@ -1,0 +1,53 @@
+{
+  "id": "d4c316dc84ec466e",
+  "title": "尘曦",
+  "artists": [
+    "陈洁丽",
+    "李培斌",
+    "李培斌l",
+    "陳潔麗",
+    "Lily Chen"
+  ],
+  "album": "尘曦",
+  "albums": [
+    "尘曦",
+    "超兽武装 动漫原声带",
+    "超獸武裝 動畫原聲帶 - Single",
+    "塵曦 - Single",
+    "超兽武装 动画原声带 - Single",
+    "尘曦 - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "塵曦 (《超獸武裝》動畫片尾曲)",
+    "塵曦",
+    "尘曦 (《超兽武装》动画片尾曲)"
+  ],
+  "sourceIds": {
+    "qqMusicId": [
+      "003uIK9L2Nmhsn"
+    ],
+    "ncmMusicId": [
+      "1478190870",
+      "31838335"
+    ],
+    "appleMusicId": [
+      "1843720843",
+      "1843714460",
+      "1843720411"
+    ],
+    "isrc": [
+      "HKD012610401",
+      "CNYX22104644",
+      "DEHY12002863"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}
