@@ -2,20 +2,40 @@
   "id": "da77514c4d773c10",
   "title": "我只能离开",
   "artists": [
-    "颜人中"
+    "颜人中",
+    "顏人中",
+    "Ele Yan"
   ],
   "album": "初恋那件小事 电视剧原声带",
   "albums": [
     "初恋那件小事 电视剧原声带",
-    "我只能离开"
+    "我只能离开",
+    "我只能離開",
+    "初戀那件小事 - EP",
+    "初恋那件小事 - EP",
+    "我只能离开 - Single",
+    "我只能離開 - Single"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
-  "aliases": [],
+  "aliases": [
+    "我只能離開"
+  ],
   "sourceIds": {
-    "ncmMusicId": "1398283847",
-    "appleMusicId": "1799023385"
+    "ncmMusicId": [
+      "1398283847"
+    ],
+    "appleMusicId": [
+      "1799023385",
+      "1863375498",
+      "1873382533"
+    ],
+    "isrc": [
+      "QT2VB2503011",
+      "FR96X2051623",
+      "HKG732507271"
+    ]
   },
   "author": {
     "githubId": "76586484",

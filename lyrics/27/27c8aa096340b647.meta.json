@@ -2,18 +2,32 @@
   "id": "27c8aa096340b647",
   "title": "慢半拍",
   "artists": [
-    "薛之谦"
+    "薛之谦",
+    "薛之謙",
+    "Joker Xue"
   ],
   "album": "尘",
   "albums": [
-    "尘"
+    "尘",
+    "塵"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
   "aliases": [],
   "sourceIds": {
-    "appleMusicId": "1787447773"
+    "qqMusicId": [
+      "002qpjAV2lYx81"
+    ],
+    "ncmMusicId": [
+      "1374061028"
+    ],
+    "appleMusicId": [
+      "1787447773"
+    ],
+    "isrc": [
+      "CNZ501900451"
+    ]
   },
   "author": {},
   "license": "",
