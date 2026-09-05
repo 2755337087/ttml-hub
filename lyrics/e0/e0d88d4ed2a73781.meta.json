@@ -1,0 +1,45 @@
+{
+  "id": "e0d88d4ed2a73781",
+  "title": "我恨我爱你 (Live)",
+  "artists": [
+    "张碧晨",
+    "余佳运",
+    "張碧晨",
+    "余佳運",
+    "Diamond Zhang",
+    "Jiayun Yu"
+  ],
+  "album": "天赐的声音第七季 第12期",
+  "albums": [
+    "天赐的声音第七季 第12期",
+    "天賜的聲音第七季 第12期 (Live)",
+    "天赐的声音第七季 第12期 (Live)"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "我恨我爱你 (Live版)",
+    "我恨我愛你 (Live)"
+  ],
+  "sourceIds": {
+    "qqMusicId": [
+      "0007HP3n3eHanX"
+    ],
+    "ncmMusicId": [
+      "3431614943"
+    ],
+    "appleMusicId": [
+      "6808764700"
+    ],
+    "isrc": [
+      "HKD012955342"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

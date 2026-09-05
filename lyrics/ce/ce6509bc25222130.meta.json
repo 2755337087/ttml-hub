@@ -1,0 +1,38 @@
+{
+  "id": "ce6509bc25222130",
+  "title": "看着我的眼睛说",
+  "artists": [
+    "张远",
+    "張遠",
+    "Zhang Yuan"
+  ],
+  "album": "看着我的眼睛说",
+  "albums": [
+    "看着我的眼睛说",
+    "看著我的眼睛說 - Single",
+    "看着我的眼睛说 - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "看著我的眼睛說"
+  ],
+  "sourceIds": {
+    "qqMusicId": [
+      "0019JtJu1erghh"
+    ],
+    "ncmMusicId": [
+      "2689097846"
+    ],
+    "appleMusicId": [
+      "1815583986"
+    ],
+    "isrc": [
+      "FRX282518055"
+    ]
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

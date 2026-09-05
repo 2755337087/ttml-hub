@@ -1,0 +1,45 @@
+{
+  "id": "b0aa227b64d3b228",
+  "title": "读心术 (Live)",
+  "artists": [
+    "欧阳娜娜",
+    "姚晓棠",
+    "歐陽娜娜",
+    "姚曉棠",
+    "Nana Ou-Yang",
+    "Xiaotang Yao"
+  ],
+  "album": "天赐的声音第七季 第12期",
+  "albums": [
+    "天赐的声音第七季 第12期",
+    "天賜的聲音第七季 第12期 (Live)",
+    "天赐的声音第七季 第12期 (Live)"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "读心术 (Live版)",
+    "讀心術 (Live)"
+  ],
+  "sourceIds": {
+    "qqMusicId": [
+      "0020E3rn1tCnnF"
+    ],
+    "ncmMusicId": [
+      "3431614397"
+    ],
+    "appleMusicId": [
+      "6808765009"
+    ],
+    "isrc": [
+      "HKD012955351"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}
