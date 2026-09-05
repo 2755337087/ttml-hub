@@ -1,0 +1,48 @@
+{
+  "id": "f0503aac47beb3f3",
+  "title": "若月亮没来 (Live)",
+  "artists": [
+    "赵磊",
+    "小阿七",
+    "黄旭",
+    "陈悦",
+    "黄旭BooM",
+    "趙磊",
+    "黃旭",
+    "Aqi Xiao",
+    "BooM"
+  ],
+  "album": "天赐的声音第七季 第12期",
+  "albums": [
+    "天赐的声音第七季 第12期",
+    "天賜的聲音第七季 第12期 (Live)",
+    "天赐的声音第七季 第12期 (Live)"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "若月亮没来 (Live版)",
+    "若月亮沒來 (Live)"
+  ],
+  "sourceIds": {
+    "qqMusicId": [
+      "002MRROm1cF6dI"
+    ],
+    "ncmMusicId": [
+      "3431612784"
+    ],
+    "appleMusicId": [
+      "6808765175"
+    ],
+    "isrc": [
+      "HKD012955356"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

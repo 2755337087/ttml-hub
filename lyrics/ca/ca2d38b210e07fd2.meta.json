@@ -1,0 +1,44 @@
+{
+  "id": "ca2d38b210e07fd2",
+  "title": "侧脸 (Live)",
+  "artists": [
+    "黄霄雲",
+    "刘端端",
+    "黃霄雲",
+    "劉端端",
+    "Duanduan Liu"
+  ],
+  "album": "天赐的声音第七季 第12期",
+  "albums": [
+    "天赐的声音第七季 第12期",
+    "天賜的聲音第七季 第12期 (Live)",
+    "天赐的声音第七季 第12期 (Live)"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "侧脸 (Live版)",
+    "側臉 (Live)"
+  ],
+  "sourceIds": {
+    "qqMusicId": [
+      "004RDaL83R2a1H"
+    ],
+    "ncmMusicId": [
+      "3431614417"
+    ],
+    "appleMusicId": [
+      "6808764999"
+    ],
+    "isrc": [
+      "HKD012955350"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}
