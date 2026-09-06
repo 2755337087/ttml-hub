@@ -3,7 +3,6 @@
   "title": "周旋 (Live)",
   "artists": [
     "艾热AIR",
-    "王以太",
     "艾热 AIR",
     "AIR"
   ],
@@ -18,17 +17,14 @@
   "hasTransliteration": false,
   "aliases": [
     "周旋(艾热AIR)(Live)",
-    "周旋(王以太)(Live)",
     "周旋(艾热AIR) [Live]"
   ],
   "sourceIds": {
     "qqMusicId": [
-      "001UK5j82irbPR",
-      "000aEhoL14tyQr"
+      "001UK5j82irbPR"
     ],
     "ncmMusicId": [
-      "3422302492",
-      "3422304899"
+      "3422302492"
     ],
     "appleMusicId": [
       "6804736380"
