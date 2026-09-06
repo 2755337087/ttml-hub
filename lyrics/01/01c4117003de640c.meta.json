@@ -1,19 +1,36 @@
 {
   "id": "01c4117003de640c",
-  "title": "看不见的人 (Secret)",
+  "title": "看不见的人",
   "artists": [
-    "门尼"
+    "门尼",
+    "Menny"
   ],
-  "album": "门尼Ⅱ:剧场",
+  "album": "门尼Ⅱ：剧场",
   "albums": [
-    "门尼Ⅱ:剧场"
+    "门尼Ⅱ：剧场",
+    "门尼Ⅱ:剧场",
+    "門尼Ⅱ:劇場"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
-  "aliases": [],
+  "aliases": [
+    "看不见的人 (Secret)",
+    "看不見的人 (Secret)"
+  ],
   "sourceIds": {
-    "appleMusicId": "1769381770"
+    "qqMusicId": [
+      "004bwwbg4TXmZ3"
+    ],
+    "ncmMusicId": [
+      "2615475594"
+    ],
+    "appleMusicId": [
+      "1769381770"
+    ],
+    "isrc": [
+      "DGA092424243"
+    ]
   },
   "author": {},
   "license": "",

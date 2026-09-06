@@ -1,0 +1,41 @@
+{
+  "id": "c38eb9d46ffd3f08",
+  "title": "别错过 (Live版)",
+  "artists": [
+    "杨宗纬",
+    "姚晓棠",
+    "Aska Yang",
+    "Xiaotang Yao"
+  ],
+  "album": "天赐的声音第七季 第6期",
+  "albums": [
+    "天赐的声音第七季 第6期",
+    "天赐的声音第七季 第6期 (Live)"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "别错过 (Live)"
+  ],
+  "sourceIds": {
+    "qqMusicId": [
+      "000vFMte49TRy4"
+    ],
+    "ncmMusicId": [
+      "3407803347"
+    ],
+    "appleMusicId": [
+      "6792381200"
+    ],
+    "isrc": [
+      "HKD012912787"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

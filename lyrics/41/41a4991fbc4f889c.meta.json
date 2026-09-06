@@ -1,0 +1,36 @@
+{
+  "id": "41a4991fbc4f889c",
+  "title": "不想长大的人",
+  "artists": [
+    "罗森涛",
+    "Sentao Luo"
+  ],
+  "album": "不想长大的人",
+  "albums": [
+    "不想长大的人"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": [
+      "000pFmFe3htm7B"
+    ],
+    "ncmMusicId": [
+      "3384697035"
+    ],
+    "appleMusicId": [
+      "6771990623"
+    ],
+    "isrc": [
+      "QNSM12602092"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

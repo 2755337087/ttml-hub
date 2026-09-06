@@ -5,7 +5,10 @@
     "李玖哲",
     "陈楚生",
     "董宝石",
-    "宝石Gem"
+    "宝石Gem",
+    "Nicky Lee",
+    "Chen Chu Sheng",
+    "Gem"
   ],
   "album": "《披荆斩棘3》 (二公 live)",
   "albums": [
@@ -15,10 +18,19 @@
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
-  "aliases": [],
+  "aliases": [
+    "行走的鱼 (Live)"
+  ],
   "sourceIds": {
-    "qqMusicId": "0012s6MH0hEGp6",
-    "appleMusicId": "1732634715"
+    "qqMusicId": [
+      "0012s6MH0hEGp6"
+    ],
+    "appleMusicId": [
+      "1732634715"
+    ],
+    "isrc": [
+      "FR59R2469698"
+    ]
   },
   "author": {
     "githubId": "76586484",
