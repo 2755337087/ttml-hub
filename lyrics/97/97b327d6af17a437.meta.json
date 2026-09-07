@@ -1,0 +1,40 @@
+{
+  "id": "97b327d6af17a437",
+  "title": "已经有我啦 (GotChu)",
+  "artists": [
+    "姚晓棠",
+    "黑糖",
+    "姚曉棠",
+    "Xiaotang Yao"
+  ],
+  "album": "已经有我啦 (GotChu)",
+  "albums": [
+    "已经有我啦 (GotChu)",
+    "已经有我啦 (GotChu) - Single",
+    "已經有我啦 (GotChu) - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "已经有我啦 (Gotchu)",
+    "已經有我啦 (Gotchu)"
+  ],
+  "sourceIds": {
+    "qqMusicId": [
+      "000GQO5p2QF0FI"
+    ],
+    "appleMusicId": [
+      "1689452826"
+    ],
+    "isrc": [
+      "FRX762361980"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

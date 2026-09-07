@@ -1,0 +1,47 @@
+{
+  "id": "68bac3a39ba6981b",
+  "title": "爱的恰恰",
+  "artists": [
+    "宝石Gem",
+    "俞天时KOZAY",
+    "艾维斯Evis",
+    "董宝石",
+    "Kozay",
+    "Evis Wy",
+    "董寶石",
+    "俞天时",
+    "Gem"
+  ],
+  "album": "爱的恰恰",
+  "albums": [
+    "爱的恰恰",
+    "爱的恰恰 - Single",
+    "愛的恰恰 - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "愛的恰恰"
+  ],
+  "sourceIds": {
+    "qqMusicId": [
+      "00458j4J2kJCxm"
+    ],
+    "ncmMusicId": [
+      "3355964440"
+    ],
+    "appleMusicId": [
+      "1548676046"
+    ],
+    "isrc": [
+      "TWFC12007901"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}
