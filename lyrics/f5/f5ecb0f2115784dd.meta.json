@@ -1,0 +1,41 @@
+{
+  "id": "f5ecb0f2115784dd",
+  "title": "合唱 (开门live版)",
+  "artists": [
+    "门尼",
+    "門尼",
+    "Menny"
+  ],
+  "album": "The Key2025",
+  "albums": [
+    "The Key2025",
+    "The Key2025 (live版) - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "合唱（开门live版）",
+    "合唱 (live版)"
+  ],
+  "sourceIds": {
+    "qqMusicId": [
+      "003epV1j0s3CMR"
+    ],
+    "ncmMusicId": [
+      "3334024278"
+    ],
+    "appleMusicId": [
+      "1864855168"
+    ],
+    "isrc": [
+      "DGA082590395"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

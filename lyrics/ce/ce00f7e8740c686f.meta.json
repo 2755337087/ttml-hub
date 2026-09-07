@@ -1,0 +1,47 @@
+{
+  "id": "ce00f7e8740c686f",
+  "title": "种种可是 (Anyway)",
+  "artists": [
+    "门尼",
+    "银河快递 (Galaxy Express)",
+    "银河快递",
+    "門尼",
+    "銀河快遞",
+    "Menny",
+    "Galaxy Express"
+  ],
+  "album": "种种可是 (Anyway)",
+  "albums": [
+    "种种可是 (Anyway)",
+    "种种可是",
+    "种种可是 (Anyway) - Single",
+    "種種可是 (Anyway) - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "种种可是",
+    "種種可是 (Anyway)"
+  ],
+  "sourceIds": {
+    "qqMusicId": [
+      "002zsRe01PUife"
+    ],
+    "ncmMusicId": [
+      "2123852954"
+    ],
+    "appleMusicId": [
+      "1733630107"
+    ],
+    "isrc": [
+      "FR59R2473423"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}
