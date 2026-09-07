@@ -1,0 +1,39 @@
+{
+  "id": "9882dbdecc25cc59",
+  "title": "读心术",
+  "artists": [
+    "卓文萱",
+    "Genie Chuo"
+  ],
+  "album": "幸福氧气",
+  "albums": [
+    "幸福氧气",
+    "幸福氧氣"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "讀心術"
+  ],
+  "sourceIds": {
+    "qqMusicId": [
+      "000Ohkb52ZUMTE"
+    ],
+    "ncmMusicId": [
+      "327721"
+    ],
+    "appleMusicId": [
+      "277125662"
+    ],
+    "isrc": [
+      "TWA450790807"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}
