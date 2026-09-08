@@ -1,0 +1,36 @@
+{
+  "id": "011aa864b9978b35",
+  "title": "Summer Rain",
+  "artists": [
+    "宝石Gem",
+    "董宝石",
+    "董寶石",
+    "Gem"
+  ],
+  "album": "Summer Rain",
+  "albums": [
+    "Summer Rain",
+    "Summer Rain - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": [
+      "000obfEL4dGeA9"
+    ],
+    "appleMusicId": [
+      "6780499501"
+    ],
+    "isrc": [
+      "FRX282603760"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}
