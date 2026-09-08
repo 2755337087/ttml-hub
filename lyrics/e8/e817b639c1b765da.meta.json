@@ -1,0 +1,45 @@
+{
+  "id": "e817b639c1b765da",
+  "title": "星星点灯 (Live)",
+  "artists": [
+    "胡彦斌",
+    "宝石Gem",
+    "董宝石",
+    "胡彥斌",
+    "董寶石",
+    "Tiger Hu",
+    "Gem"
+  ],
+  "album": "天赐的声音第三季 第4期",
+  "albums": [
+    "天赐的声音第三季 第4期",
+    "天赐的声音第三季 (第4期Live) - Single",
+    "天賜的聲音第三季 (第4期Live) - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "星星點燈 (Live)"
+  ],
+  "sourceIds": {
+    "qqMusicId": [
+      "000I3G4b41hSfE"
+    ],
+    "ncmMusicId": [
+      "1945875437"
+    ],
+    "appleMusicId": [
+      "1747844620"
+    ],
+    "isrc": [
+      "HKD012301138"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

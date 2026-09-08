@@ -1,0 +1,42 @@
+{
+  "id": "c0c58c94119e8103",
+  "title": "Waving At Cars",
+  "artists": [
+    "Isac Elliot"
+  ],
+  "album": "Waving At Cars - Single",
+  "albums": [
+    "Waving At Cars - Single",
+    "Waving At Cars",
+    "Today's Hits 1",
+    "Feel Good Summer 2023 by Digster Pop",
+    "Throwback Jams: Classic Hit Songs"
+  ],
+  "language": "en",
+  "hasTranslation": true,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": [
+      "0024r4Vv2EJZGS"
+    ],
+    "ncmMusicId": [
+      "1815892497"
+    ],
+    "appleMusicId": [
+      "1549087162",
+      "1703121614",
+      "1688247866",
+      "1693416071"
+    ],
+    "isrc": [
+      "DEUM72006830"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}
