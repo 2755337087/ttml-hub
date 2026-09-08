@@ -1,0 +1,40 @@
+{
+  "id": "141472f380e7205d",
+  "title": "Wish u never",
+  "artists": [
+    "TF_ING张子墨",
+    "Top Barry",
+    "张子墨z!mooo",
+    "张子墨",
+    "張子墨"
+  ],
+  "album": "Wish u never",
+  "albums": [
+    "Wish u never",
+    "Wish u never - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": [
+      "002ojvPn2szrGn"
+    ],
+    "ncmMusicId": [
+      "3380592652"
+    ],
+    "appleMusicId": [
+      "6768280670"
+    ],
+    "isrc": [
+      "FR96X2691042"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

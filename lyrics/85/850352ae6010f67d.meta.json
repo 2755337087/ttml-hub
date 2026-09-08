@@ -1,0 +1,39 @@
+{
+  "id": "850352ae6010f67d",
+  "title": "Whatever U Want (feat. Max Aidan)",
+  "artists": [
+    "派伟俊",
+    "Max Aidan",
+    "派偉俊",
+    "Patrick Brasca"
+  ],
+  "album": "BAD IDEA",
+  "albums": [
+    "BAD IDEA"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": [
+      "0021LpHZ2sfiYR"
+    ],
+    "ncmMusicId": [
+      "3413209719"
+    ],
+    "appleMusicId": [
+      "6791041806",
+      "6791618543"
+    ],
+    "isrc": [
+      "TWL252607509"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}
