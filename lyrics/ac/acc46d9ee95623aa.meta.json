@@ -13,11 +13,19 @@
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
-  "aliases": [],
+  "aliases": [
+    "在你的身边 (Live版)"
+  ],
   "sourceIds": {
-    "qqMusicId": "0029AQ1f37mI54",
-    "ncmMusicId": "2704605274",
-    "appleMusicId": "1816775855"
+    "qqMusicId": [
+      "0029AQ1f37mI54"
+    ],
+    "ncmMusicId": [
+      "2704605274"
+    ],
+    "appleMusicId": [
+      "1816775855"
+    ]
   },
   "author": {
     "githubId": "76586484",

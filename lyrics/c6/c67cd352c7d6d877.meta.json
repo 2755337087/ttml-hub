@@ -2,19 +2,35 @@
   "id": "c67cd352c7d6d877",
   "title": "起风了",
   "artists": [
-    "周深"
+    "周深",
+    "Zhou Shen"
   ],
-  "album": "起风了 - Single",
+  "album": "起风了",
   "albums": [
+    "起风了",
     "起风了 - Single",
-    "起风了"
+    "起风了 (Live) - Single",
+    "起風了 - Single"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
-  "aliases": [],
+  "aliases": [
+    "起风了 (Live)",
+    "起風了"
+  ],
   "sourceIds": {
-    "appleMusicId": "1857545617"
+    "qqMusicId": [
+      "002w57E00BGzXn"
+    ],
+    "appleMusicId": [
+      "1857545617",
+      "1732982310"
+    ],
+    "isrc": [
+      "FR10S2236506",
+      "QZDA52447952"
+    ]
   },
   "author": {},
   "license": "",

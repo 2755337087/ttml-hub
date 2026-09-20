@@ -2,18 +2,36 @@
   "id": "120dc242d07a8708",
   "title": "今日休业中",
   "artists": [
-    "王铮亮"
+    "王铮亮",
+    "Reno Wang"
   ],
   "album": "慢人理论",
   "albums": [
-    "慢人理论"
+    "慢人理论",
+    "今日休业中 - Single",
+    "慢人理論",
+    "今日休業中 - Single"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
-  "aliases": [],
+  "aliases": [
+    "今日休業中"
+  ],
   "sourceIds": {
-    "appleMusicId": "1757660597"
+    "qqMusicId": [
+      "002KV9Ai230ue9"
+    ],
+    "ncmMusicId": [
+      "2606350644"
+    ],
+    "appleMusicId": [
+      "1757660597",
+      "1755871397"
+    ],
+    "isrc": [
+      "QM7282406153"
+    ]
   },
   "author": {},
   "license": "",

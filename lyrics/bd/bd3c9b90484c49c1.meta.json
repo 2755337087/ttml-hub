@@ -1,33 +1,35 @@
 {
-  "id": "30968f5e7345af7c",
-  "title": "窗内窗外 (Passerby)",
+  "id": "bd3c9b90484c49c1",
+  "title": "用情 (深情版)",
   "artists": [
-    "门尼",
-    "Menny"
+    "en (王翊恩)",
+    "en（王翊恩）",
+    "en"
   ],
-  "album": "门尼Ⅱ:剧场",
+  "album": "用情（深情版）",
   "albums": [
-    "门尼Ⅱ:剧场",
-    "门尼Ⅱ：剧场"
+    "用情（深情版）",
+    "用情 (深情版)",
+    "用情(深情版) - EP"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
   "aliases": [
-    "窗内窗外"
+    "用情(深情版)"
   ],
   "sourceIds": {
     "qqMusicId": [
-      "002avBsS0FXtK1"
+      "001Y6M0G21I30h"
     ],
     "ncmMusicId": [
-      "2608793924"
+      "2082424013"
     ],
     "appleMusicId": [
-      "1769381757"
+      "1795862853"
     ],
     "isrc": [
-      "DGA072467283"
+      "HKD012366964"
     ]
   },
   "author": {

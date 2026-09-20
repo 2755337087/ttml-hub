@@ -2,8 +2,8 @@
   "id": "b3ca0cbda84b4b67",
   "title": "聊表心意",
   "artists": [
-    "刘惜君",
-    "薛之谦"
+    "薛之谦",
+    "刘惜君"
   ],
   "album": "尘",
   "albums": [
@@ -14,7 +14,18 @@
   "hasTransliteration": false,
   "aliases": [],
   "sourceIds": {
-    "appleMusicId": "1787447980"
+    "qqMusicId": [
+      "000J5T6B1GySI5"
+    ],
+    "ncmMusicId": [
+      "1374061043"
+    ],
+    "appleMusicId": [
+      "1787447980"
+    ],
+    "isrc": [
+      "CNZ501901613"
+    ]
   },
   "author": {},
   "license": "",
