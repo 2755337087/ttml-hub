@@ -1,0 +1,40 @@
+{
+  "id": "38506d4931106964",
+  "title": "乌梅子酱",
+  "artists": [
+    "李荣浩",
+    "李榮浩",
+    "Li Ronghao"
+  ],
+  "album": "纵横四海",
+  "albums": [
+    "纵横四海",
+    "乌梅子酱 - Single",
+    "縱橫四海",
+    "烏梅子醬 - Single",
+    "The Dark Plum Sauce - Single",
+    "Free Soul"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "烏梅子醬",
+    "The Dark Plum Sauce"
+  ],
+  "sourceIds": {
+    "ncmMusicId": [
+      "1997438791"
+    ],
+    "appleMusicId": [
+      "1655821629",
+      "1655076139"
+    ],
+    "isrc": [
+      "TWA532220209"
+    ]
+  },
+  "author": {},
+  "license": "",
+  "sourceUrl": ""
+}

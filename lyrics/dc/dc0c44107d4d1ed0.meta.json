@@ -2,18 +2,31 @@
   "id": "dc0c44107d4d1ed0",
   "title": "耳朵",
   "artists": [
-    "李荣浩"
+    "李荣浩",
+    "Li Ronghao"
   ],
   "album": "耳朵",
   "albums": [
-    "耳朵"
+    "耳朵",
+    "Ear"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
-  "aliases": [],
+  "aliases": [
+    "Ear"
+  ],
   "sourceIds": {
-    "appleMusicId": "1438536439"
+    "ncmMusicId": [
+      "1318235595"
+    ],
+    "appleMusicId": [
+      "1438536439",
+      "1438735302"
+    ],
+    "isrc": [
+      "TWA531802452"
+    ]
   },
   "author": {},
   "license": "",

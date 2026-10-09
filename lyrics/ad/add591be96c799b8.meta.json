@@ -14,9 +14,15 @@
   "hasTransliteration": false,
   "aliases": [],
   "sourceIds": {
-    "qqMusicId": "003QDnvP3ygUkH",
-    "appleMusicId": "1828351076",
-    "isrc": "HKD012520352"
+    "qqMusicId": [
+      "003QDnvP3ygUkH"
+    ],
+    "appleMusicId": [
+      "1828351076"
+    ],
+    "isrc": [
+      "HKD012520352"
+    ]
   },
   "author": {
     "githubId": "76586484",

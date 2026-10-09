@@ -1,20 +1,21 @@
 {
   "id": "2660bed0151af4c0",
-  "title": "11 (feat. 黄礼格)",
+  "title": "11",
   "artists": [
     "队长",
-    "黄礼格"
+    "黄礼格",
+    "Young Captain"
   ],
-  "album": "11 - Single",
+  "album": "11",
   "albums": [
-    "11 - Single",
-    "11"
+    "11",
+    "11 - Single"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
   "aliases": [
-    "11"
+    "11 (feat. 黃禮格)"
   ],
   "sourceIds": {
     "qqMusicId": [
@@ -25,6 +26,9 @@
     ],
     "appleMusicId": [
       "1604377833"
+    ],
+    "isrc": [
+      "CNZ632101126"
     ]
   },
   "author": {},

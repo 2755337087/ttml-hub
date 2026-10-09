@@ -16,9 +16,15 @@
   "hasTransliteration": false,
   "aliases": [],
   "sourceIds": {
-    "qqMusicId": "000O8u993oAHDk",
-    "ncmMusicId": "1498563622",
-    "appleMusicId": "6785456678"
+    "qqMusicId": [
+      "000O8u993oAHDk"
+    ],
+    "ncmMusicId": [
+      "1498563622"
+    ],
+    "appleMusicId": [
+      "6785456678"
+    ]
   },
   "author": {},
   "license": "",

@@ -12,10 +12,16 @@
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
-  "aliases": [],
+  "aliases": [
+    "可我只是海 (Live版)"
+  ],
   "sourceIds": {
-    "qqMusicId": "003AFzLQ2MO0FP",
-    "ncmMusicId": "2709756644"
+    "qqMusicId": [
+      "003AFzLQ2MO0FP"
+    ],
+    "ncmMusicId": [
+      "2709756644"
+    ]
   },
   "author": {
     "githubId": "76586484",
