@@ -1,0 +1,42 @@
+{
+  "id": "ce616e6a1f1f5001",
+  "title": "剎那芳華",
+  "artists": [
+    "洛天依",
+    "樂正綾",
+    "裘丹莉",
+    "哔哩哔哩拜年纪",
+    "洛天依Official",
+    "乐正绫",
+    "Luotianyi",
+    "Zhengling Le"
+  ],
+  "album": "2026嗶哩嗶哩拜年紀",
+  "albums": [
+    "2026嗶哩嗶哩拜年紀",
+    "2026哔哩哔哩拜年纪"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "刹那芳华"
+  ],
+  "sourceIds": {
+    "ncmMusicId": [
+      "3348915450"
+    ],
+    "appleMusicId": [
+      "1885454314"
+    ],
+    "isrc": [
+      "HKE022355163"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}
