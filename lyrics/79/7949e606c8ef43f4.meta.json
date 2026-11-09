@@ -1,0 +1,43 @@
+{
+  "id": "7949e606c8ef43f4",
+  "title": "DA DA DA",
+  "artists": [
+    "王心凌",
+    "Cyndi Wang"
+  ],
+  "album": "闪耀2005",
+  "albums": [
+    "闪耀2005",
+    "闪耀2005新歌加节奏精选",
+    "閃耀2005新歌加節奏精選",
+    "Shan Yao2005 Xin Ge Jia Jie Zou Jing Xuan",
+    "闪耀 2005（新歌+节奏精选）"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "DA  DA  DA",
+    "Da Da Da"
+  ],
+  "sourceIds": {
+    "qqMusicId": [
+      "0027MbC60rdJwE"
+    ],
+    "ncmMusicId": [
+      "297795"
+    ],
+    "appleMusicId": [
+      "1847594173"
+    ],
+    "isrc": [
+      "TWEP10500011"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}
