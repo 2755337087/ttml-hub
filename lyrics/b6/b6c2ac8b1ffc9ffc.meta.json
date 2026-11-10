@@ -6,15 +6,16 @@
   ],
   "album": "忽然之间",
   "albums": [
-    "忽然之间",
-    "忽然之间 - Single"
+    "忽然之间"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
   "aliases": [],
   "sourceIds": {
-    "appleMusicId": "1075792178"
+    "appleMusicId": [
+      "1075792178"
+    ]
   },
   "author": {},
   "license": "",

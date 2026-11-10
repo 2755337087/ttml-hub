@@ -14,7 +14,9 @@
   "hasTransliteration": false,
   "aliases": [],
   "sourceIds": {
-    "appleMusicId": "1038091183"
+    "appleMusicId": [
+      "1038091183"
+    ]
   },
   "author": {},
   "license": "",

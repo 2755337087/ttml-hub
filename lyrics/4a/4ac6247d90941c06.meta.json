@@ -6,15 +6,16 @@
   ],
   "album": "On a SunnyDay",
   "albums": [
-    "On a SunnyDay",
-    "On a SunnyDay - Single"
+    "On a SunnyDay"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
-  "hasTransliteration": true,
+  "hasTransliteration": false,
   "aliases": [],
   "sourceIds": {
-    "appleMusicId": "1811299462"
+    "appleMusicId": [
+      "1811299462"
+    ]
   },
   "author": {},
   "license": "",

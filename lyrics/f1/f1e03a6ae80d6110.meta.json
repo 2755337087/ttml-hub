@@ -7,15 +7,16 @@
   ],
   "album": "请勿客气",
   "albums": [
-    "请勿客气",
-    "请勿客气 - Single"
+    "请勿客气"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
-  "hasTransliteration": true,
+  "hasTransliteration": false,
   "aliases": [],
   "sourceIds": {
-    "appleMusicId": "1443296226"
+    "appleMusicId": [
+      "1443296226"
+    ]
   },
   "author": {},
   "license": "",

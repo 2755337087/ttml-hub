@@ -6,18 +6,14 @@
   ],
   "album": "耳朵",
   "albums": [
-    "耳朵",
-    "年少有为 - Single"
+    "耳朵"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
   "aliases": [],
   "sourceIds": {
-    "qqMusicId": "004DXFlC0nsTCZ",
-    "ncmMusicId": "1293886117",
     "appleMusicId": [
-      "1411387590",
       "1438536444"
     ]
   },

@@ -6,15 +6,16 @@
   ],
   "album": "为什么难过一直在重播",
   "albums": [
-    "为什么难过一直在重播",
-    "为什么难过一直在重播 - Single"
+    "为什么难过一直在重播"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
   "aliases": [],
   "sourceIds": {
-    "appleMusicId": "6774645778"
+    "appleMusicId": [
+      "6774645778"
+    ]
   },
   "author": {},
   "license": "",

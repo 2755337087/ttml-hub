@@ -6,15 +6,16 @@
   ],
   "album": "脱胎换骨",
   "albums": [
-    "脱胎换骨",
-    "脱胎换骨 - Single"
+    "脱胎换骨"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
   "aliases": [],
   "sourceIds": {
-    "appleMusicId": "1612844373"
+    "appleMusicId": [
+      "1612844373"
+    ]
   },
   "author": {},
   "license": "",

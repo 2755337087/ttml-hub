@@ -10,10 +10,12 @@
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
-  "hasTransliteration": true,
+  "hasTransliteration": false,
   "aliases": [],
   "sourceIds": {
-    "appleMusicId": "892745294"
+    "appleMusicId": [
+      "892745294"
+    ]
   },
   "author": {},
   "license": "",

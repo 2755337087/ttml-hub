@@ -6,15 +6,16 @@
   ],
   "album": "变成陌生人",
   "albums": [
-    "变成陌生人",
-    "变成陌生人 - Single"
+    "变成陌生人"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
   "aliases": [],
   "sourceIds": {
-    "appleMusicId": "1705380883"
+    "appleMusicId": [
+      "1705380883"
+    ]
   },
   "author": {},
   "license": "",

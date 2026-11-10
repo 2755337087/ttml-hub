@@ -6,15 +6,16 @@
   ],
   "album": "你成为了谁的幸福",
   "albums": [
-    "你成为了谁的幸福",
-    "你成为了谁的幸福 - Single"
+    "你成为了谁的幸福"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
   "aliases": [],
   "sourceIds": {
-    "appleMusicId": "1714752295"
+    "appleMusicId": [
+      "1714752295"
+    ]
   },
   "author": {},
   "license": "",
