@@ -1,20 +1,36 @@
 {
   "id": "6edc1cc1fe392e7e",
-  "title": "巴拉莱卡 (The Rod)",
+  "title": "巴拉莱卡",
   "artists": [
-    "门尼"
+    "门尼",
+    "門尼"
   ],
-  "album": "门尼Ⅲ:贵族",
+  "album": "门尼Ⅲ：贵族",
   "albums": [
-    "门尼Ⅲ:贵族"
+    "门尼Ⅲ：贵族",
+    "门尼Ⅲ:贵族",
+    "門尼Ⅲ:貴族"
   ],
   "language": "zh-Hans",
   "hasTranslation": false,
   "hasTransliteration": false,
-  "aliases": [],
+  "aliases": [
+    "巴拉莱卡 (The Rod)",
+    "巴拉萊卡 (The Rod)",
+    "巴拉莱卡（The Rod）"
+  ],
   "sourceIds": {
+    "qqMusicId": [
+      "004cIIT23E42Bi"
+    ],
+    "ncmMusicId": [
+      "3346455555"
+    ],
     "appleMusicId": [
       "1889323713"
+    ],
+    "isrc": [
+      "FR10S2681382"
     ]
   },
   "author": {},

@@ -14,8 +14,12 @@
   "hasTransliteration": false,
   "aliases": [],
   "sourceIds": {
-    "qqMusicId": "003NbMHZ0nu9eI",
-    "ncmMusicId": "1943043408"
+    "qqMusicId": [
+      "003NbMHZ0nu9eI"
+    ],
+    "ncmMusicId": [
+      "1943043408"
+    ]
   },
   "author": {
     "githubId": "76586484",

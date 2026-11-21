@@ -17,9 +17,15 @@
   "hasTransliteration": false,
   "aliases": [],
   "sourceIds": {
-    "qqMusicId": "001aYuPZ0RxbiM",
-    "ncmMusicId": "2701932053",
-    "appleMusicId": "1813826436"
+    "qqMusicId": [
+      "001aYuPZ0RxbiM"
+    ],
+    "ncmMusicId": [
+      "2701932053"
+    ],
+    "appleMusicId": [
+      "1813826436"
+    ]
   },
   "author": {
     "githubId": "76586484",
