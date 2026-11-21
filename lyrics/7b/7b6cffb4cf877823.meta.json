@@ -1,0 +1,38 @@
+{
+  "id": "7b6cffb4cf877823",
+  "title": "水色",
+  "artists": [
+    "莫文蔚",
+    "Karen Mok"
+  ],
+  "album": "恋上莫文蔚",
+  "albums": [
+    "恋上莫文蔚",
+    "戀上莫文蔚",
+    "Love Karen"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": [
+      "001dQXbR13UZcv"
+    ],
+    "ncmMusicId": [
+      "277446"
+    ],
+    "appleMusicId": [
+      "1087287538"
+    ],
+    "isrc": [
+      "HKB620001013"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}
