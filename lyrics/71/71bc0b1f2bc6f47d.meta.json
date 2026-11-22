@@ -1,0 +1,35 @@
+{
+  "id": "71bc0b1f2bc6f47d",
+  "title": "梦哑 (说唱版)",
+  "artists": [
+    "任然",
+    "刘兆宇",
+    "劉兆宇",
+    "Renran"
+  ],
+  "album": "梦哑 (说唱版) - Single",
+  "albums": [
+    "梦哑 (说唱版) - Single",
+    "夢啞 (說唱版) - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "夢啞 (說唱版)"
+  ],
+  "sourceIds": {
+    "appleMusicId": [
+      "6810372452"
+    ],
+    "isrc": [
+      "HKD012956798"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}
