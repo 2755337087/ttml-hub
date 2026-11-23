@@ -1,0 +1,46 @@
+{
+  "id": "987e578016e93b60",
+  "title": "一样的我们",
+  "artists": [
+    "颜人中",
+    "顏人中",
+    "Ele Yan"
+  ],
+  "album": "一样的我们",
+  "albums": [
+    "一样的我们",
+    "一样的我们 - Single",
+    "一樣的我們 - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": true,
+  "hasTransliteration": false,
+  "aliases": [
+    "一样的我们 (伴奏)",
+    "一樣的我們",
+    "一樣的我們 (伴奏)"
+  ],
+  "sourceIds": {
+    "qqMusicId": [
+      "001wOaEU3BOaar"
+    ],
+    "ncmMusicId": [
+      "3439412532",
+      "3439412533"
+    ],
+    "appleMusicId": [
+      "6814701349",
+      "6814701350"
+    ],
+    "isrc": [
+      "GB2DY2611952",
+      "GB2DY2611953"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

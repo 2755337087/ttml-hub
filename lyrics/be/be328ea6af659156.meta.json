@@ -1,0 +1,43 @@
+{
+  "id": "be328ea6af659156",
+  "title": "生僻字",
+  "artists": [
+    "陈柯宇",
+    "陳柯宇",
+    "K-KO",
+    "Chen"
+  ],
+  "album": "生僻字",
+  "albums": [
+    "生僻字",
+    "生僻字 - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": true,
+  "aliases": [
+    "生僻字(伴奏)"
+  ],
+  "sourceIds": {
+    "qqMusicId": [
+      "001KxFBr3ZrMIk"
+    ],
+    "ncmMusicId": [
+      "518781004",
+      "1331406463"
+    ],
+    "appleMusicId": [
+      "1475541851",
+      "1801111924"
+    ],
+    "isrc": [
+      "TWCC31901821"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}
