@@ -1,0 +1,37 @@
+{
+  "id": "f1c25f3307124ae6",
+  "title": "Keep Your Head Up Princess",
+  "artists": [
+    "Anson Seabra"
+  ],
+  "album": "Keep Your Head Up Princess",
+  "albums": [
+    "Keep Your Head Up Princess",
+    "Feeling For My Life"
+  ],
+  "language": "en",
+  "hasTranslation": true,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": [
+      "000eIf0B3wYgUl"
+    ],
+    "ncmMusicId": [
+      "1886345442",
+      "1887203178"
+    ],
+    "appleMusicId": [
+      "1587967182"
+    ],
+    "isrc": [
+      "QZPY62100040"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

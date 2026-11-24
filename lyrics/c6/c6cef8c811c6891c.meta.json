@@ -1,0 +1,45 @@
+{
+  "id": "c6cef8c811c6891c",
+  "title": "人间星河",
+  "artists": [
+    "周深",
+    "Zhou Shen"
+  ],
+  "album": "人间星河",
+  "albums": [
+    "人间星河",
+    "人间星河(《破晓东方》电视剧主题曲) - Single",
+    "人間星河(《破曉東方》電視劇主題曲) - Single"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "人间星河(《破晓东方》电视剧主题曲)",
+    "人間星河(《破曉東方》電視劇主題曲)",
+    "人间星河 (和声伴奏)",
+    "人间星河 (伴奏)",
+    "人间星河(《破晓东方》电视剧主题曲) [和声伴奏版]"
+  ],
+  "sourceIds": {
+    "ncmMusicId": [
+      "2009003471",
+      "2009003473",
+      "2009003472"
+    ],
+    "appleMusicId": [
+      "1661271769",
+      "1661271770"
+    ],
+    "isrc": [
+      "HKG732293973",
+      "HKG732293974"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

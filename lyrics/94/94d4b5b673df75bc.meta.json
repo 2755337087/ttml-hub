@@ -1,0 +1,35 @@
+{
+  "id": "94d4b5b673df75bc",
+  "title": "回家",
+  "artists": [
+    "莫文蔚",
+    "Karen Mok"
+  ],
+  "album": "恋上莫文蔚",
+  "albums": [
+    "恋上莫文蔚",
+    "戀上莫文蔚",
+    "Love Karen"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "ncmMusicId": [
+      "277459"
+    ],
+    "appleMusicId": [
+      "1087287542"
+    ],
+    "isrc": [
+      "HKB620001017"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}
