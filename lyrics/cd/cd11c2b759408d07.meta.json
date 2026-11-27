@@ -1,0 +1,29 @@
+{
+  "id": "cd11c2b759408d07",
+  "title": "遇见你的时候所有星星都落到我头上",
+  "artists": [
+    "高姗"
+  ],
+  "album": "遇见你的时候所有星星都落到我头上",
+  "albums": [
+    "遇见你的时候所有星星都落到我头上"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [],
+  "sourceIds": {
+    "qqMusicId": [
+      "00315asD1bu4FE"
+    ],
+    "ncmMusicId": [
+      "30089063"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}

@@ -1,0 +1,32 @@
+{
+  "id": "03e8451d1fd7f130",
+  "title": "爱丽斯永远住在这里",
+  "artists": [
+    "莫文蔚",
+    "Karen Mok"
+  ],
+  "album": "全身莫文蔚",
+  "albums": [
+    "全身莫文蔚"
+  ],
+  "language": "zh-Hans",
+  "hasTranslation": false,
+  "hasTransliteration": false,
+  "aliases": [
+    "愛麗斯永遠住在這裡"
+  ],
+  "sourceIds": {
+    "appleMusicId": [
+      "1084686708"
+    ],
+    "isrc": [
+      "HKB629600077"
+    ]
+  },
+  "author": {
+    "githubId": "76586484",
+    "githubLogin": "2755337087"
+  },
+  "license": "",
+  "sourceUrl": ""
+}
